@@ -1,0 +1,60 @@
+# 表示する指数・為替・海外指標・金利。
+# source: yfinance | treasury（米財務省 Daily Treasury Par Yield Curve、ticker=列名）
+# is_proxy: true の場合は画面に「ETF代用」と表示する
+# category: us_index（上部のタイル）| futures_vol | fx | global | commodity | rates
+quotes:
+  - key: sp500
+    name: S&P500
+    ticker: "^GSPC"
+    category: us_index
+    links: {"株探": "https://us.kabutan.jp/indexes/%5EGSPC", "Yahoo! Finance": "https://finance.yahoo.com/quote/%5EGSPC/", "TradingView": "https://www.tradingview.com/chart/?symbol=SP%3ASPX"}
+  - key: nasdaq
+    name: NASDAQ総合
+    ticker: "^IXIC"
+    category: us_index
+    links: {"株探": "https://us.kabutan.jp/indexes/%5EIXIC", "Yahoo! Finance": "https://finance.yahoo.com/quote/%5EIXIC/", "TradingView": "https://www.tradingview.com/chart/?symbol=NASDAQ%3AIXIC"}
+  - key: dow
+    name: NYダウ
+    ticker: "^DJI"
+    category: us_index
+    links: {"株探": "https://us.kabutan.jp/indexes/%5EDJI", "Yahoo! Finance": "https://finance.yahoo.com/quote/%5EDJI/", "TradingView": "https://www.tradingview.com/chart/?symbol=DJ%3ADJI"}
+  - {key: nasdaq100, name: NASDAQ100, ticker: "^NDX", category: us_index}
+  - {key: russell2000, name: ラッセル2000, ticker: "^RUT", category: us_index}
+  - {key: sox, name: SOX指数, ticker: "^SOX", category: us_index}
+  - {key: vix, name: VIX, ticker: "^VIX", category: futures_vol}
+  - {key: es_futures, name: S&P500先物, ticker: "ES=F", category: futures_vol}
+  - {key: nq_futures, name: NASDAQ100先物, ticker: "NQ=F", category: futures_vol}
+  - {key: usdjpy, name: ドル円, ticker: "USDJPY=X", category: fx, unit: 円}
+  - {key: eurusd, name: ユーロドル, ticker: "EURUSD=X", category: fx}
+  - {key: dxy, name: ドル指数, ticker: "DX-Y.NYB", category: fx}
+  - {key: nikkei225, name: 日経平均, ticker: "^N225", category: global}
+  - {key: stoxx600, name: 欧州STOXX600, ticker: "^STOXX", category: global}
+  - {key: dax, name: 独DAX, ticker: "^GDAXI", category: global}
+  - {key: ftse, name: 英FTSE100, ticker: "^FTSE", category: global}
+  - {key: hsi, name: 香港ハンセン, ticker: "^HSI", category: global}
+  - {key: shanghai, name: 上海総合, ticker: "000001.SS", category: global}
+  - {key: ust3m, name: 米国 3ヶ月, ticker: "^IRX", category: rates, unit: "%"}
+  - {key: ust2y, name: 米国 2年, ticker: "2 Yr", category: rates, source: treasury, unit: "%"}
+  - {key: ust5y, name: 米国 5年, ticker: "^FVX", category: rates, unit: "%"}
+  - {key: us10y, name: 米国 10年, ticker: "^TNX", category: rates, unit: "%"}
+  - {key: ust30y, name: 米国 30年, ticker: "^TYX", category: rates, unit: "%"}
+  - {key: wti, name: WTI原油, ticker: "CL=F", category: commodity}
+  - {key: gold, name: 金, ticker: "GC=F", category: commodity}
+  - {key: copper, name: 銅, ticker: "HG=F", category: commodity}
+  - {key: natgas, name: 天然ガス, ticker: "NG=F", category: commodity}
+  - {key: bitcoin, name: ビットコイン, ticker: "BTC-USD", category: commodity}
+
+# GICS 11セクター。key は Wikipedia「List of S&P 500 companies」の GICS Sector 列の表記。
+# etf は Select Sector SPDR（公式のセクター指数に連動。補助指標として表示）
+sectors:
+  - {key: Information Technology, name: 情報技術, etf: XLK}
+  - {key: Health Care, name: ヘルスケア, etf: XLV}
+  - {key: Financials, name: 金融, etf: XLF}
+  - {key: Consumer Discretionary, name: 一般消費財, etf: XLY}
+  - {key: Communication Services, name: コミュニケーション, etf: XLC}
+  - {key: Industrials, name: 資本財, etf: XLI}
+  - {key: Consumer Staples, name: 生活必需品, etf: XLP}
+  - {key: Energy, name: エネルギー, etf: XLE}
+  - {key: Utilities, name: 公益, etf: XLU}
+  - {key: Real Estate, name: 不動産, etf: XLRE}
+  - {key: Materials, name: 素材, etf: XLB}

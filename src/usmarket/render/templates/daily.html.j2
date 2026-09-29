@@ -1,0 +1,217 @@
+{% import "macros.html.j2" as m %}
+{% if standalone %}
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex, nofollow">
+{% endif %}
+<title>NY引けノート {{ s.date.isoformat() }}</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=BIZ+UDPGothic:wght@400;700&family=IBM+Plex+Mono:wght@400;500;600&family=Zen+Kaku+Gothic+New:wght@700;900&display=swap">
+<style>
+{{ css | safe }}
+</style>
+{% if standalone %}
+</head>
+<body>
+{% endif %}
+<header class="topbar">
+  <div class="wrap topbar-in">
+    <a class="brand" href="{{ base_url }}/">NY引けノート</a>
+    <nav class="daynav" aria-label="日付移動">
+      {% if prev_date %}<a href="{{ base_url }}/{{ prev_date.isoformat() }}/">← 前営業日</a>{% else %}<span class="dis">← 前営業日</span>{% endif %}
+      <a href="{{ base_url }}/archive/">アーカイブ</a>
+      <a href="{{ base_url }}/trends/">トレンド</a>
+      {% if next_date %}<a href="{{ base_url }}/{{ next_date.isoformat() }}/">翌営業日 →</a>{% else %}<span class="dis">翌営業日 →</span>{% endif %}
+    </nav>
+    {{ m.colorpref() }}
+  </div>
+</header>
+
+<main class="wrap" data-charts-url="{{ charts_url }}">
+  <section class="hero" aria-labelledby="h-date">
+    <p class="eyebrow">NY市場 引け ・ {{ close_et }} ET（日本時間 {{ close_jst }}）確定値</p>
+    <h1 id="h-date">{{ s.date | jdate }}</h1>
+    {% for w in s.warnings %}<p class="warn">{{ w }}</p>{% endfor %}
+    {% if s.comment %}<p class="comment">{{ s.comment }}</p>{% endif %}
+
+    <div class="tiles">
+      {% for q in s.quotes if q.category == QuoteCategory.US_INDEX %}
+        {{ m.tile(q) }}
+      {% endfor %}
+    </div>
+
+    {% if s.breadth %}{{ m.breadth(s.breadth) }}{% endif %}
+  </section>
+
+  <section class="block" id="sectors" aria-labelledby="h-sectors">
+    <div class="block-head">
+      <h2 id="h-sectors">セクター <span class="sub">S&amp;P500・GICS 11セクター</span></h2>
+      <span class="badge" data-tip="S&amp;P500構成銘柄の騰落率を指数ウエイト（SPDR S&amp;P 500 ETFの保有比率）で加重した推計値です。公式のセクター指数とはわずかに異なります。右端はセクターETF（Select Sector SPDR）の騰落率です。">推計値</span>
+    </div>
+    {% set smax = nice_max(s.sectors | map(attribute="change_pct") | list) %}
+    <div class="divbars" style="--max: {{ smax }}">
+      <div class="axis" aria-hidden="true"><span>{{ pct(-smax, 0) }}</span><span>0</span><span>{{ pct(smax, 0) }}</span></div>
+      {% for sec in s.sectors %}
+        {% set tipt %}{{ sec.name }}（{{ sec.key }}）｜加重 {{ sec.change_pct | pct }}・中央値 {{ sec.median_pct | pct }}｜上昇 {{ sec.advancers }} / 下落 {{ sec.decliners }}（{{ sec.count }}銘柄）｜S&P500比率 {{ '%.1f' % sec.index_weight_pct }}%{% if sec.etf_change_pct is not none %}｜{{ sec.etf }} {{ sec.etf_change_pct | pct }}{% endif %}{% if sec.leaders %}｜牽引: {% for l in sec.leaders %}{{ l.code }} {{ l.change_pct | pct }}{% if not loop.last %}、{% endif %}{% endfor %}{% endif %}{% if sec.laggards %}｜重荷: {% for l in sec.laggards %}{{ l.code }} {{ l.change_pct | pct }}{% if not loop.last %}、{% endif %}{% endfor %}{% endif %}{% endset %}
+        <div class="drow" data-tip="{{ tipt }}" data-chart="s:{{ sec.name }}" role="button" tabindex="0" aria-label="{{ sec.name }}のチャートを開く">
+          <span class="dlabel">{{ sec.name }}</span>
+          <span class="dtrack"><span class="dbar {{ sec.change_pct | tone }}" style="--v: {{ sec.change_pct }}"></span></span>
+          <span class="dval {{ sec.change_pct | tone }}">{{ sec.change_pct | pct }}</span>
+        </div>
+      {% endfor %}
+    </div>
+
+    <details class="more">
+      <summary>セクターごとの牽引銘柄とセクターETF</summary>
+      <div class="tablewrap">
+        <table class="sectable">
+          <thead><tr><th>セクター</th><th class="r">ETF</th><th class="r">ETF騰落率</th><th>牽引（寄与度上位）</th><th class="hide-sm">重荷（寄与度下位）</th></tr></thead>
+          <tbody>
+          {% for sec in s.sectors %}
+            <tr>
+              <th scope="row">{{ sec.name }}</th>
+              <td class="r mono"><button type="button" class="linkish" data-chart="{{ sec.etf }}">{{ sec.etf }}</button></td>
+              <td class="r mono {{ sec.etf_change_pct | tone }}">{{ sec.etf_change_pct | pct }}</td>
+              <td>{% for l in sec.leaders %}<button type="button" class="chip mini" data-chart="{{ l.code }}"><span class="mono">{{ l.code }}</span> <b class="{{ l.change_pct | tone }}">{{ l.change_pct | pct(1) }}</b></button>{% endfor %}</td>
+              <td class="hide-sm">{% for l in sec.laggards %}<button type="button" class="chip mini" data-chart="{{ l.code }}"><span class="mono">{{ l.code }}</span> <b class="{{ l.change_pct | tone }}">{{ l.change_pct | pct(1) }}</b></button>{% endfor %}</td>
+            </tr>
+          {% endfor %}
+          </tbody>
+        </table>
+      </div>
+    </details>
+  </section>
+
+  <section class="block" id="themes" aria-labelledby="h-themes">
+    <div class="block-head">
+      <h2 id="h-themes">テーマ <span class="sub">構成銘柄の単純平均</span></h2>
+    </div>
+    {% set tmax = nice_max(s.themes | map(attribute="change_pct") | list) %}
+    <ol class="themes" style="--max: {{ tmax }}">
+      {% for t in s.themes %}
+      <li>
+        <details class="theme">
+          <summary>
+            <span class="rank mono">{{ loop.index }}</span>
+            <span class="tname">{{ t.name }}{% if t.news_count %}<span class="newsdot" title="関連ニュース {{ t.news_count }}件">{{ t.news_count }}</span>{% endif %}</span>
+            <span class="dtrack"><span class="dbar {{ t.change_pct | tone }}" style="--v: {{ t.change_pct }}"></span></span>
+            <span class="dval {{ t.change_pct | tone }}">{{ t.change_pct | pct }}</span>
+            <span class="ratio" title="上昇銘柄の比率">上昇 {{ (t.advancers_ratio * t.count) | round | int }}/{{ t.count }}</span>
+          </summary>
+          <ul class="chips">
+            <li><button type="button" class="chartbtn" data-chart="t:{{ t.key }}">テーマ指数のチャート</button></li>
+            {% for mv in t.members %}
+            <li><button type="button" class="chip" data-chart="{{ mv.code }}"{% if mv.disclosures %} title="{% for d in mv.disclosures %}📄 8-K {{ d.tags | join('・') }}{% if not loop.last %} / {% endif %}{% endfor %}"{% endif %}><span class="mono">{{ mv.code }}</span> {{ mv.name }} <b class="{{ mv.change_pct | tone }}">{{ mv.change_pct | pct(1) }}</b>{% if mv.disclosures %} <span class="disc-mark {{ mv.disclosures[0].tone }}">📄{{ mv.disclosures[0].tags[0] if mv.disclosures[0].tags else "" }}</span>{% endif %}</button></li>
+            {% endfor %}
+          </ul>
+        </details>
+      </li>
+      {% endfor %}
+    </ol>
+  </section>
+
+  <section class="block" id="heatmap" aria-labelledby="h-heat">
+    <div class="block-head">
+      <h2 id="h-heat">20営業日の推移 <span class="sub">日次騰落率</span></h2>
+      <div class="tabs" role="tablist">
+        <button type="button" role="tab" id="tab-hs" aria-selected="true" data-panel="heat-sec">セクター</button>
+        <button type="button" role="tab" id="tab-ht" aria-selected="false" data-panel="heat-thm">テーマ</button>
+      </div>
+    </div>
+    <div id="heat-sec" role="tabpanel">{{ m.heatmap(s.sector_history, s.sectors | map(attribute="name") | list, {}, "s:") }}</div>
+    <div id="heat-thm" role="tabpanel" hidden>
+      {% set tnames = {} %}{% for t in s.themes %}{% set _ = tnames.update({t.key: t.name}) %}{% endfor %}
+      {{ m.heatmap(s.theme_history, s.themes | map(attribute="key") | list, tnames, "t:") }}
+    </div>
+    <div class="legend" aria-hidden="true">
+      <span>下落</span>
+      <i class="hc dn3"></i><i class="hc dn2"></i><i class="hc dn1"></i><i class="hc z"></i><i class="hc up1"></i><i class="hc up2"></i><i class="hc up3"></i>
+      <span>上昇</span><span class="legend-note">±0.25% / ±1% / ±2%</span>
+    </div>
+  </section>
+
+  <section class="block" id="rankings" aria-labelledby="h-rank">
+    <div class="block-head"><h2 id="h-rank">個別銘柄ランキング <span class="sub">S&amp;P500構成銘柄・値上がり/値下がり率と出来高急増は売買代金1億ドル以上</span></h2></div>
+    <div class="rankgrid">
+      {{ m.ranktable("値上がり率", s.rankings.gainers, "pct") }}
+      {{ m.ranktable("値下がり率", s.rankings.losers, "pct") }}
+      {{ m.ranktable("売買代金", s.rankings.turnover, "turnover") }}
+      {% if s.rankings.volume_surge %}{{ m.ranktable("出来高急増", s.rankings.volume_surge, "surge") }}{% endif %}
+    </div>
+  </section>
+
+  {% if s.disclosures_session or s.disclosures_after %}
+  <section class="block" id="disclosures" aria-labelledby="h-disc">
+    <div class="block-head">
+      <h2 id="h-disc">決算・重要開示 <span class="sub">SEC 8-K・注目の項目のみ・時価総額の大きい順</span></h2>
+      <div class="tabs" role="tablist">
+        <button type="button" role="tab" id="tab-da" aria-selected="{{ 'true' if s.disclosures_after else 'false' }}" data-panel="disc-after">引け後（{{ s.disclosures_after | length }}）</button>
+        <button type="button" role="tab" id="tab-ds" aria-selected="{{ 'false' if s.disclosures_after else 'true' }}" data-panel="disc-session">前日引け後〜引け（{{ s.disclosures_session | length }}）</button>
+      </div>
+    </div>
+    <div id="disc-after" role="tabpanel"{% if not s.disclosures_after %} hidden{% endif %}>
+      {% if s.disclosures_after %}{{ m.disc_table(s.disclosures_after) }}{% else %}<p class="muted">生成時点では、引け後の注目開示はまだありません。</p>{% endif %}
+      <p class="note">NY市場の引け（{{ close_et }} ET）以降、このページの更新時点（{{ s.generated_at | jst("%m/%d %H:%M") }} JST）までの開示です（対象銘柄の8-K 全{{ s.disclosure_counts.get("after", 0) }}件）。「反応」は時間外取引（〜20:00 ET）の直近価格と当日終値の比較です（出典: yfinance）。{% if s.disclosure_counts.get("ah_unavailable") %}<br><strong>今回は時間外取引の価格を取得できませんでした。</strong>{% endif %}日本時間の朝に時間外取引の終了後（10時前後）にも更新し、反応を反映します。</p>
+    </div>
+    <div id="disc-session" role="tabpanel"{% if s.disclosures_after %} hidden{% endif %}>
+      {% if s.disclosures_session %}{{ m.disc_table(s.disclosures_session) }}{% else %}<p class="muted">該当する開示はありません。</p>{% endif %}
+      <p class="note">前営業日の引け〜当日の引けまでの開示で、当日の値動きの材料になったものです（対象銘柄の8-K 全{{ s.disclosure_counts.get("session", 0) }}件）。「反応」は当日の終値ベースの騰落率で、場中の開示の場合は開示前の値動きも含みます。</p>
+    </div>
+    <p class="note">対象はS&amp;P500構成銘柄とテーマ銘柄です。分類は8-Kの項目番号（Item 2.02＝決算など）から機械的に付けたもので、内容の良し悪しを判断したものではありません。時刻は日本時間（カーソルを合わせると米東部時間）。原文は <a href="https://www.sec.gov/edgar/search/" target="_blank" rel="noopener">SEC EDGAR</a> でご確認ください。</p>
+  </section>
+  {% endif %}
+
+  <section class="block" id="global" aria-labelledby="h-global">
+    <div class="block-head"><h2 id="h-global">先物・為替・世界の株価・商品</h2></div>
+    {{ m.quotetable(s.quotes | selectattr("category", "in", [QuoteCategory.FUTURES_VOL, QuoteCategory.FX, QuoteCategory.GLOBAL, QuoteCategory.COMMODITY]) | list, "終値") }}
+    <p class="note">日本・アジア・欧州の指数や為替・ビットコインは、基準日の列の日付の値です（米国の引けより前・後に取引が終わる市場があります）。</p>
+  </section>
+
+  {% set rate_quotes = s.quotes | selectattr("category", "equalto", QuoteCategory.RATES) | list %}
+  {% if rate_quotes %}
+  <section class="block" id="rates" aria-labelledby="h-rates">
+    <div class="block-head">
+      <h2 id="h-rates">金利 <span class="sub">米国債利回り・変化幅はbp（0.01%）</span></h2>
+      <span class="badge" data-tip="3ヶ月・5年・10年・30年はCBOEの利回り指数（yfinance）、2年は米財務省の公表値です。財務省の値は引け後に公表されるため、早い時間の生成では前営業日の値になることがあります。基準日の列を確認してください。">基準日に注意</span>
+    </div>
+    {{ m.quotetable(rate_quotes, "利回り") }}
+  </section>
+  {% endif %}
+
+  <section class="block" id="news" aria-labelledby="h-news">
+    <div class="block-head"><h2 id="h-news">ニュース <span class="sub">見出しのみ・各社サイトへリンク</span></h2></div>
+    {% set tnames = {} %}{% for t in s.themes %}{% set _ = tnames.update({t.key: t.name}) %}{% endfor %}
+    <ul class="news">
+      {% for n in s.news %}
+      <li>
+        <a href="{{ n.url }}" target="_blank" rel="noopener">{{ n.title }}</a>
+        <div class="meta">
+          <span>{{ n.source }}</span>
+          {% if n.published_at %}<span class="mono">{{ n.published_at | jst("%m/%d %H:%M") }}</span>{% endif %}
+          {% for tag in n.tags %}<span class="tag">{{ tnames.get(tag, tag) }}</span>{% endfor %}
+        </div>
+      </li>
+      {% endfor %}
+    </ul>
+  </section>
+</main>
+
+<footer class="foot">
+  <div class="wrap">
+    <p>データ: {{ s.sources | join("、") }}。生成 {{ s.generated_at | jst("%Y-%m-%d %H:%M") }} JST。</p>
+    <p>このページは情報提供のみを目的としており、投資助言ではありません。数値は無料データから算出しており、誤差や欠損を含む場合があります。</p>
+  </div>
+</footer>
+<div id="tip" class="tip" role="tooltip" hidden></div>
+{{ m.chart_dialog() }}
+<script>
+{{ js | safe }}
+</script>
+{% if standalone %}
+</body>
+</html>
+{% endif %}

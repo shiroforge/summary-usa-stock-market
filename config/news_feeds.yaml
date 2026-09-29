@@ -1,0 +1,12 @@
+# ニュースRSS。見出しとリンクのみ保存し、本文は保存・転載しない。
+# filter: 指定した場合、見出しにいずれかの語を含むものだけ採用
+feeds:
+  - {name: Google News 米国株, url: "https://news.google.com/rss/search?q=%E7%B1%B3%E5%9B%BD%E6%A0%AA+OR+NY%E3%83%80%E3%82%A6+OR+%E3%83%8A%E3%82%B9%E3%83%80%E3%83%83%E3%82%AF+OR+S%26P500+when:1d&hl=ja&gl=JP&ceid=JP:ja"}
+  - {name: 日経速報, url: "https://assets.wor.jp/rss/rdf/nikkei/news.rdf", filter: [米, NY, ダウ, ナスダック, FRB, ドル, エヌビディア, アップル, テスラ, マイクロソフト, アマゾン, メタ, グーグル]}
+  - {name: Bloomberg Markets, url: "https://feeds.bloomberg.com/markets/news.rss"}
+  - {name: CNBC Markets, url: "https://www.cnbc.com/id/15839069/device/rss/rss.html"}
+  - {name: CNBC Top News, url: "https://www.cnbc.com/id/100003114/device/rss/rss.html"}
+  - {name: MarketWatch, url: "https://feeds.content.dowjones.io/public/rss/mw_topstories"}
+  - {name: Yahoo Finance, url: "https://finance.yahoo.com/news/rssindex"}
+  - {name: Google News Markets, url: "https://news.google.com/rss/search?q=stock+market+OR+%22S%26P+500%22+OR+Nasdaq+when:1d&hl=en-US&gl=US&ceid=US:en"}
+max_items: 40

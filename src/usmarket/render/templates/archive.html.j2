@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex, nofollow">
+<title>NY引けノート アーカイブ</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=BIZ+UDPGothic:wght@400;700&family=IBM+Plex+Mono:wght@400;500;600&family=Zen+Kaku+Gothic+New:wght@700;900&display=swap">
+<style>
+{{ css | safe }}
+.arch { width: 100%; font-size: 13.5px; }
+.arch th, .arch td { padding: 7px 8px; border-bottom: 1px solid var(--line); white-space: nowrap; }
+.arch thead th { font-weight: 400; font-size: 12px; color: var(--muted); text-align: left; }
+.arch a { font-weight: 700; text-decoration: none; }
+</style>
+</head>
+<body>
+{% import "macros.html.j2" as m %}
+{{ m.topbar("..", "archive") }}
+<main class="wrap">
+  <section class="hero"><h1>アーカイブ</h1></section>
+  {% for (y, mth), days in months.items() %}
+  <section class="block">
+    <div class="block-head"><h2>{{ y }}年{{ mth }}月</h2></div>
+    <div class="tablewrap">
+      <table class="arch">
+        <thead><tr><th>日付</th><th class="r">S&amp;P500</th><th class="r">NASDAQ</th><th class="r hide-sm">NYダウ</th><th class="hide-sm">首位セクター</th><th class="hide-sm">首位テーマ</th></tr></thead>
+        <tbody>
+        {% for d in days %}
+          <tr>
+            <td><a href="../{{ d.date.isoformat() }}/">{{ d.date | jdate }}</a></td>
+            <td class="r mono {{ d.sp | tone }}">{{ d.sp | pct }}</td>
+            <td class="r mono {{ d.nq | tone }}">{{ d.nq | pct }}</td>
+            <td class="r mono hide-sm {{ d.dj | tone }}">{{ d.dj | pct }}</td>
+            <td class="hide-sm">{{ d.top_sector }}</td>
+            <td class="hide-sm">{{ d.top_theme }}</td>
+          </tr>
+        {% endfor %}
+        </tbody>
+      </table>
+    </div>
+  </section>
+  {% else %}
+  <p>まだデータがありません。</p>
+  {% endfor %}
+</main>
+<div id="tip" class="tip" role="tooltip" hidden></div>
+<script>
+{{ js | safe }}
+</script>
+</body>
+</html>

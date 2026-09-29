@@ -1,0 +1,511 @@
+# テーマ株の定義。ユーザーが自由に編集してよい。
+# members: ティッカー（yfinance の表記。クラス株は BRK-B のようにハイフン）: 表示名
+#   S&P500 以外の銘柄や ADR も指定できる。1銘柄が複数テーマに属してよい。
+# keywords: ニュース見出しをこのテーマにタグ付けするためのキーワード。
+#   英数字の語は単語単位で照合する（大文字だけの語は大文字小文字を区別する）。日本語は部分一致。
+themes:
+  - key: mag7
+    name: マグニフィセント7
+    keywords: [Magnificent Seven, Magnificent 7, Mag 7, マグニフィセント, ハイテク大手]
+    members:
+      AAPL: Apple
+      MSFT: Microsoft
+      NVDA: NVIDIA
+      AMZN: Amazon
+      GOOGL: Alphabet
+      META: Meta Platforms
+      TSLA: Tesla
+
+  - key: semiconductor
+    name: 半導体（主力）
+    keywords: [chip, chips, chipmaker, chipmakers, semiconductor, semiconductors, 半導体, エヌビディア, Nvidia, TSMC, Broadcom]
+    members:
+      NVDA: NVIDIA
+      AVGO: Broadcom
+      TSM: TSMC
+      AMD: AMD
+      QCOM: Qualcomm
+      INTC: Intel
+      MU: Micron
+      TXN: Texas Instruments
+      ADI: Analog Devices
+      MRVL: Marvell
+      ARM: Arm Holdings
+      NXPI: NXP
+      MCHP: Microchip
+      "ON": ON Semiconductor
+      MPWR: Monolithic Power
+
+  - key: semi_equipment
+    name: 半導体製造装置
+    keywords: [chip equipment, chipmaking equipment, lithography, ASML, Applied Materials, Lam Research, 半導体製造装置]
+    members:
+      ASML: ASML
+      AMAT: Applied Materials
+      LRCX: Lam Research
+      KLAC: KLA
+      TER: Teradyne
+      ENTG: Entegris
+      ONTO: Onto Innovation
+      NVMI: Nova
+      CAMT: Camtek
+      AMKR: Amkor
+      FORM: FormFactor
+      KLIC: Kulicke & Soffa
+      ACMR: ACM Research
+
+  - key: memory
+    name: メモリ・ストレージ
+    keywords: [memory, HBM, DRAM, NAND, Micron, SanDisk, Western Digital, Seagate, メモリ, マイクロン]
+    members:
+      MU: Micron
+      SNDK: SanDisk
+      WDC: Western Digital
+      STX: Seagate
+      NTAP: NetApp
+      SIMO: Silicon Motion
+
+  - key: ai_infra
+    name: AIインフラ・サーバー
+    keywords: [data center, data centers, datacenter, AI infrastructure, hyperscaler, hyperscalers, GPU, GPUs, データセンター, AIインフラ]
+    members:
+      NVDA: NVIDIA
+      AVGO: Broadcom
+      ANET: Arista Networks
+      SMCI: Super Micro
+      DELL: Dell
+      HPE: HPE
+      ORCL: Oracle
+      CRWV: CoreWeave
+      NBIS: Nebius
+      CLS: Celestica
+      ALAB: Astera Labs
+      CRDO: Credo
+      APLD: Applied Digital
+
+  - key: dc_power
+    name: データセンター電力・冷却
+    keywords: [power demand, electricity demand, grid, cooling, Vertiv, GE Vernova, 電力需要, 送電網]
+    members:
+      VRT: Vertiv
+      ETN: Eaton
+      GEV: GE Vernova
+      PWR: Quanta Services
+      NVT: nVent
+      HUBB: Hubbell
+      POWL: Powell Industries
+      MOD: Modine
+      BE: Bloom Energy
+      CEG: Constellation Energy
+      VST: Vistra
+      TLN: Talen Energy
+      NRG: NRG Energy
+
+  - key: optical
+    name: 光通信・ネットワーク
+    keywords: [optical, photonics, fiber, networking, Corning, Ciena, Coherent, Lumentum, 光通信, 光ファイバー]
+    members:
+      COHR: Coherent
+      LITE: Lumentum
+      CIEN: Ciena
+      FN: Fabrinet
+      AAOI: Applied Optoelectronics
+      GLW: Corning
+      ANET: Arista Networks
+      CSCO: Cisco
+      CRDO: Credo
+      ALAB: Astera Labs
+
+  - key: software
+    name: クラウド・SaaS
+    keywords: [software, SaaS, cloud, Salesforce, ServiceNow, Adobe, Workday, Snowflake, ソフトウェア, クラウド]
+    members:
+      MSFT: Microsoft
+      ORCL: Oracle
+      CRM: Salesforce
+      NOW: ServiceNow
+      ADBE: Adobe
+      INTU: Intuit
+      WDAY: Workday
+      SNOW: Snowflake
+      DDOG: Datadog
+      MDB: MongoDB
+      TEAM: Atlassian
+      HUBS: HubSpot
+      SHOP: Shopify
+      APP: AppLovin
+
+  - key: ai_software
+    name: AIソフトウェア・データ
+    keywords: [OpenAI, ChatGPT, Anthropic, generative AI, AI agents, AI agent, LLM, Palantir, 生成AI, AIエージェント]
+    members:
+      PLTR: Palantir
+      AI: C3.ai
+      SOUN: SoundHound
+      PATH: UiPath
+      TEM: Tempus AI
+      BBAI: BigBear.ai
+      IOT: Samsara
+      NOW: ServiceNow
+      CRM: Salesforce
+      APP: AppLovin
+
+  - key: cyber_security
+    name: サイバーセキュリティ
+    keywords: [cybersecurity, cyber, cyberattack, hack, hackers, ransomware, breach, CrowdStrike, Palo Alto Networks, サイバー, ランサムウェア]
+    members:
+      CRWD: CrowdStrike
+      PANW: Palo Alto Networks
+      FTNT: Fortinet
+      ZS: Zscaler
+      NET: Cloudflare
+      OKTA: Okta
+      S: SentinelOne
+      CHKP: Check Point
+      QLYS: Qualys
+      TENB: Tenable
+      VRNS: Varonis
+      RPD: Rapid7
+
+  - key: quantum
+    name: 量子コンピュータ
+    keywords: [quantum, 量子]
+    members:
+      IONQ: IonQ
+      RGTI: Rigetti
+      QBTS: D-Wave
+      QUBT: Quantum Computing Inc
+      QNT: Quantinuum
+      IBM: IBM
+      HON: Honeywell
+
+  - key: space
+    name: 宇宙
+    keywords: [space, rocket, satellite, satellites, SpaceX, Starlink, NASA, 宇宙, ロケット, 衛星]
+    members:
+      SPCX: SpaceX
+      RKLB: Rocket Lab
+      ASTS: AST SpaceMobile
+      LUNR: Intuitive Machines
+      PL: Planet Labs
+      RDW: Redwire
+      FLY: Firefly Aerospace
+      KRMN: Karman
+      YSS: York Space Systems
+      IRDM: Iridium
+      BKSY: BlackSky
+
+  - key: defense
+    name: 防衛
+    keywords: [defense, Pentagon, military, missile, missiles, drone, drones, Lockheed, Raytheon, 防衛, 国防総省, ミサイル, ドローン]
+    members:
+      LMT: Lockheed Martin
+      RTX: RTX
+      NOC: Northrop Grumman
+      GD: General Dynamics
+      LHX: L3Harris
+      HII: Huntington Ingalls
+      LDOS: Leidos
+      BAH: Booz Allen
+      KTOS: Kratos
+      AVAV: AeroVironment
+      AXON: Axon
+      PLTR: Palantir
+
+  - key: nuclear
+    name: 原子力・ウラン
+    keywords: [nuclear, uranium, reactor, reactors, SMR, 原子力, 原発, ウラン]
+    members:
+      CEG: Constellation Energy
+      VST: Vistra
+      CCJ: Cameco
+      OKLO: Oklo
+      SMR: NuScale
+      NNE: Nano Nuclear
+      BWXT: BWX Technologies
+      LEU: Centrus Energy
+      UEC: Uranium Energy
+      NXE: NexGen Energy
+      TLN: Talen Energy
+      XE: X-Energy
+
+  - key: clean_energy
+    name: 太陽光・クリーンエネルギー
+    keywords: [solar, renewable, renewables, clean energy, hydrogen, battery storage, 太陽光, 再生可能エネルギー, 再エネ, 水素]
+    members:
+      NEE: NextEra Energy
+      FSLR: First Solar
+      ENPH: Enphase
+      SEDG: SolarEdge
+      RUN: Sunrun
+      NXT: Nextracker
+      ARRY: Array Technologies
+      FLNC: Fluence
+      BE: Bloom Energy
+      PLUG: Plug Power
+
+  - key: ev_autonomy
+    name: EV・自動運転
+    keywords: [EV, EVs, electric vehicle, electric vehicles, robotaxi, self-driving, autonomous, Tesla, Waymo, 電気自動車, 自動運転]
+    members:
+      TSLA: Tesla
+      RIVN: Rivian
+      LCID: Lucid
+      GM: General Motors
+      F: Ford
+      UBER: Uber
+      MBLY: Mobileye
+      NIO: NIO
+      LI: Li Auto
+      XPEV: XPeng
+
+  - key: robotics
+    name: ロボティクス・自動化
+    keywords: [robot, robots, robotics, humanoid, automation, ロボット, ヒューマノイド]
+    members:
+      ISRG: Intuitive Surgical
+      ROK: Rockwell Automation
+      TER: Teradyne
+      SYM: Symbotic
+      SERV: Serve Robotics
+      ZBRA: Zebra
+      EMR: Emerson
+      CGNX: Cognex
+
+  - key: glp1
+    name: 肥満症薬（GLP-1）
+    keywords: [GLP-1, obesity, weight-loss, weight loss, Wegovy, Zepbound, Ozempic, Mounjaro, 肥満, 減量薬]
+    members:
+      LLY: Eli Lilly
+      NVO: Novo Nordisk
+      VKTX: Viking Therapeutics
+      AMGN: Amgen
+      HIMS: Hims & Hers
+      KLRA: Kailera Therapeutics
+
+  - key: big_pharma
+    name: 大手製薬
+    keywords: [drugmaker, drugmakers, pharma, pharmaceutical, FDA, drug prices, tariffs on drugs, 製薬, 薬価]
+    members:
+      LLY: Eli Lilly
+      JNJ: Johnson & Johnson
+      ABBV: AbbVie
+      MRK: Merck
+      PFE: Pfizer
+      BMY: Bristol-Myers Squibb
+      AMGN: Amgen
+      GILD: Gilead
+      NVO: Novo Nordisk
+      AZN: AstraZeneca
+      NVS: Novartis
+
+  - key: biotech
+    name: バイオテック
+    keywords: [biotech, biotechnology, clinical trial, trial data, FDA approval, バイオ, 治験]
+    members:
+      VRTX: Vertex
+      REGN: Regeneron
+      ALNY: Alnylam
+      ARGX: argenx
+      INSM: Insmed
+      BIIB: Biogen
+      MRNA: Moderna
+      BMRN: BioMarin
+      INCY: Incyte
+      EXEL: Exelixis
+      NTRA: Natera
+      UTHR: United Therapeutics
+      SRPT: Sarepta
+
+  - key: medtech
+    name: 医療機器
+    keywords: [medical device, medical devices, medtech, 医療機器]
+    members:
+      ISRG: Intuitive Surgical
+      BSX: Boston Scientific
+      SYK: Stryker
+      ABT: Abbott
+      MDT: Medtronic
+      EW: Edwards Lifesciences
+      DXCM: Dexcom
+      PODD: Insulet
+      GEHC: GE HealthCare
+      ZBH: Zimmer Biomet
+
+  - key: megabanks
+    name: 大手銀行・証券
+    keywords: [bank, banks, Wall Street, JPMorgan, Goldman, Morgan Stanley, Citigroup, Bank of America, Wells Fargo, 銀行, 金融大手]
+    members:
+      JPM: JPMorgan Chase
+      BAC: Bank of America
+      WFC: Wells Fargo
+      C: Citigroup
+      GS: Goldman Sachs
+      MS: Morgan Stanley
+      SCHW: Charles Schwab
+
+  - key: regional_banks
+    name: 地銀
+    keywords: [regional bank, regional banks, regional lender, regional lenders, 地銀, 地方銀行]
+    members:
+      USB: U.S. Bancorp
+      PNC: PNC
+      TFC: Truist
+      FITB: Fifth Third
+      MTB: M&T Bank
+      HBAN: Huntington
+      RF: Regions
+      CFG: Citizens
+      KEY: KeyCorp
+      ZION: Zions
+      WAL: Western Alliance
+      EWBC: East West
+      FHN: First Horizon
+
+  - key: fintech
+    name: 決済・フィンテック
+    keywords: [payments, fintech, Visa, Mastercard, PayPal, Robinhood, SoFi, 決済, フィンテック]
+    members:
+      V: Visa
+      MA: Mastercard
+      PYPL: PayPal
+      XYZ: Block
+      HOOD: Robinhood
+      SOFI: SoFi
+      AFRM: Affirm
+      TOST: Toast
+      COIN: Coinbase
+      NU: Nu Holdings
+      WLTH: Wealthfront
+
+  - key: crypto
+    name: 暗号資産関連
+    keywords: [bitcoin, Bitcoin, crypto, cryptocurrency, stablecoin, stablecoins, ether, Ethereum, ビットコイン, 暗号資産, 仮想通貨, ステーブルコイン]
+    members:
+      COIN: Coinbase
+      MSTR: Strategy
+      HOOD: Robinhood
+      CRCL: Circle
+      GLXY: Galaxy Digital
+      MARA: MARA Holdings
+      RIOT: Riot Platforms
+      CLSK: CleanSpark
+      IREN: IREN
+      CORZ: Core Scientific
+      HUT: Hut 8
+      BTGO: BitGo
+
+  - key: oil_gas
+    name: 石油・ガス
+    keywords: [oil, crude, OPEC, natural gas, LNG, Exxon, Chevron, 原油, 石油, 天然ガス]
+    members:
+      XOM: Exxon Mobil
+      CVX: Chevron
+      COP: ConocoPhillips
+      EOG: EOG Resources
+      OXY: Occidental
+      DVN: Devon
+      FANG: Diamondback
+      EQT: EQT
+      SLB: SLB
+      HAL: Halliburton
+      BKR: Baker Hughes
+      LNG: Cheniere
+
+  - key: metals_mining
+    name: 金・銅・鉱山
+    keywords: [gold, silver, copper, miner, miners, mining, rare earth, rare earths, 金価格, 銅, 鉱山, レアアース]
+    members:
+      NEM: Newmont
+      AEM: Agnico Eagle
+      B: Barrick
+      WPM: Wheaton Precious Metals
+      FNV: Franco-Nevada
+      KGC: Kinross
+      FCX: Freeport-McMoRan
+      SCCO: Southern Copper
+      MP: MP Materials
+      ALB: Albemarle
+
+  - key: homebuilders
+    name: 住宅・建材
+    keywords: [homebuilder, homebuilders, housing, mortgage rates, home sales, 住宅]
+    members:
+      DHI: D.R. Horton
+      LEN: Lennar
+      PHM: PulteGroup
+      NVR: NVR
+      TOL: Toll Brothers
+      KBH: KB Home
+      HD: Home Depot
+      LOW: Lowe's
+      BLDR: Builders FirstSource
+
+  - key: retail
+    name: 小売・消費
+    keywords: [retail, retailer, retailers, consumer spending, shoppers, Walmart, Costco, Target, 小売, 個人消費]
+    members:
+      WMT: Walmart
+      COST: Costco
+      AMZN: Amazon
+      TGT: Target
+      TJX: TJX
+      ROST: Ross Stores
+      DG: Dollar General
+      DLTR: Dollar Tree
+      BBY: Best Buy
+      LULU: Lululemon
+      NKE: Nike
+
+  - key: travel
+    name: 旅行・航空
+    keywords: [travel, airline, airlines, cruise, hotels, Boeing, 航空, 旅行]
+    members:
+      BKNG: Booking
+      ABNB: Airbnb
+      EXPE: Expedia
+      MAR: Marriott
+      HLT: Hilton
+      RCL: Royal Caribbean
+      CCL: Carnival
+      DAL: Delta
+      UAL: United Airlines
+      AAL: American Airlines
+      BA: Boeing
+
+  - key: internet_media
+    name: ネット・メディア
+    keywords: [streaming, social media, advertising, Netflix, YouTube, Reddit, Spotify, 動画配信, 広告]
+    members:
+      META: Meta Platforms
+      GOOGL: Alphabet
+      NFLX: Netflix
+      SPOT: Spotify
+      RDDT: Reddit
+      PINS: Pinterest
+      SNAP: Snap
+      DIS: Disney
+      TTD: Trade Desk
+      RBLX: Roblox
+
+  - key: china_adr
+    name: 中国ADR
+    keywords: [China, Chinese, Beijing, Alibaba, 中国]
+    members:
+      BABA: Alibaba
+      PDD: PDD Holdings
+      JD: JD.com
+      BIDU: Baidu
+      TCOM: Trip.com
+      NTES: NetEase
+      BILI: Bilibili
+      BEKE: KE Holdings
+      NIO: NIO
+      LI: Li Auto
+      XPEV: XPeng
+
+  - key: ipo
+    name: IPO（上場1年以内）
+    keywords: [IPO, IPOs, initial public offering, 新規上場, 上場]
+    dynamic: ipo
+    window_days: 365

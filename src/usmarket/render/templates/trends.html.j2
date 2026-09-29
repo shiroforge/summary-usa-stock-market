@@ -1,0 +1,120 @@
+{% import "macros.html.j2" as m %}
+{% if standalone %}
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex, nofollow">
+{% endif %}
+<title>NY引けノート トレンド</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=BIZ+UDPGothic:wght@400;700&family=IBM+Plex+Mono:wght@400;500;600&family=Zen+Kaku+Gothic+New:wght@700;900&display=swap">
+<style>
+{{ css | safe }}
+</style>
+{% if standalone %}
+</head>
+<body>
+{% endif %}
+{{ m.topbar(base_url, "trends") }}
+
+<main class="wrap trends" data-kind="s" data-charts-url="{{ charts_url }}">
+  <section class="hero" aria-labelledby="h-trends">
+    <p class="eyebrow">{{ asof | jdate }} NY引け時点</p>
+    <h1 id="h-trends">トレンド</h1>
+    <p class="comment">セクターとテーマの強弱を、期間を変えて見比べるページです。セクターはS&amp;P500構成銘柄の指数ウエイト加重による推計値、テーマは構成銘柄の単純平均です。</p>
+    <div class="tabs kindtabs" role="tablist" aria-label="対象">
+      <button type="button" role="tab" id="kind-s" data-kind="s" aria-selected="true">セクター</button>
+      <button type="button" role="tab" id="kind-t" data-kind="t" aria-selected="false">テーマ</button>
+    </div>
+  </section>
+
+  <section class="block" id="periods" aria-labelledby="h-periods">
+    <div class="block-head">
+      <h2 id="h-periods">期間別騰落率 <span class="sub">見出しをクリックで並べ替え・名前をクリックでチャート</span></h2>
+    </div>
+    {% for kind, rows in (("s", sectors), ("t", themes)) %}
+    <div class="tablewrap k-{{ kind }}">
+      <table class="ptable" data-sortable>
+        <thead><tr>
+          <th scope="col">{{ "セクター" if kind == "s" else "テーマ" }}</th>
+          {% for p in periods %}
+          <th scope="col" class="r"><button type="button" class="sortbtn" data-sort="{{ p.key }}"{% if p.key == "d20" %} aria-sort="descending"{% endif %}>{{ p.label }}</button></th>
+          {% endfor %}
+        </tr></thead>
+        <tbody>
+        {% for r in rows %}
+          <tr>
+            <th scope="row" data-chart="{{ r.id }}" role="button" tabindex="0">{{ r.name }}</th>
+            {% for p in periods %}
+            {% set v = r.periods[p.key] %}
+            <td class="r mono hc {{ (v / p.scale) | heat if v is not none else 'na' }}" data-v="{{ v if v is not none else '' }}">{{ v | pct(1) }}</td>
+            {% endfor %}
+          </tr>
+        {% endfor %}
+        </tbody>
+      </table>
+    </div>
+    {% endfor %}
+    <div class="legend" aria-hidden="true">
+      <span>下落</span>
+      <i class="hc dn3"></i><i class="hc dn2"></i><i class="hc dn1"></i><i class="hc z"></i><i class="hc up1"></i><i class="hc up2"></i><i class="hc up3"></i>
+      <span>上昇</span><span class="legend-note">色の濃さは期間の長さで調整（1日の±1%と20日の±4.5%が同じ濃さ）</span>
+    </div>
+  </section>
+
+  <section class="block" id="lines" aria-labelledby="h-lines">
+    <div class="block-head">
+      <h2 id="h-lines">累積推移 <span class="sub">期間の始まりを100として比較・最大6本</span></h2>
+      <div class="tabs" role="group" aria-label="期間">
+        <button type="button" data-lrange="20">20日</button>
+        <button type="button" data-lrange="60" aria-selected="true">60日</button>
+        <button type="button" data-lrange="120">120日</button>
+        <button type="button" data-lrange="ytd">年初来</button>
+      </div>
+    </div>
+    <div id="lc-chart" class="lc-chart" aria-label="累積推移チャート"></div>
+    <p id="lc-msg" class="cd-msg" hidden></p>
+    <div class="lc-picker">
+      {% for kind, rows in (("s", sectors), ("t", themes)) %}
+      <div class="k-{{ kind }} chiprow">
+        {% for r in rows %}
+        <button type="button" class="pick" data-id="{{ r.id }}" aria-pressed="false"><i class="sw"></i>{{ r.name }}<b class="mono pv"></b></button>
+        {% endfor %}
+      </div>
+      {% endfor %}
+    </div>
+  </section>
+
+  <section class="block" id="heat60" aria-labelledby="h-heat60">
+    <div class="block-head"><h2 id="h-heat60">60営業日の推移 <span class="sub">日次騰落率</span></h2></div>
+    <div class="k-s">{{ m.heatmap(heat_s, heat_s_order, {}, "s:") }}</div>
+    <div class="k-t">{{ m.heatmap(heat_t, heat_t_order, heat_t_labels, "t:") }}</div>
+    <div class="legend" aria-hidden="true">
+      <span>下落</span>
+      <i class="hc dn3"></i><i class="hc dn2"></i><i class="hc dn1"></i><i class="hc z"></i><i class="hc up1"></i><i class="hc up2"></i><i class="hc up3"></i>
+      <span>上昇</span><span class="legend-note">±0.25% / ±1% / ±2%</span>
+    </div>
+  </section>
+</main>
+
+<footer class="foot">
+  <div class="wrap">
+    <p>このページは情報提供のみを目的としており、投資助言ではありません。数値は無料データから算出した推計値で、誤差や欠損を含む場合があります。</p>
+  </div>
+</footer>
+<div id="tip" class="tip" role="tooltip" hidden></div>
+{{ m.chart_dialog() }}
+<script type="application/json" id="trends-data">{{ payload | safe }}</script>
+<script>
+{{ js | safe }}
+</script>
+<script>
+{{ trends_js | safe }}
+</script>
+{% if standalone %}
+</body>
+</html>
+{% endif %}

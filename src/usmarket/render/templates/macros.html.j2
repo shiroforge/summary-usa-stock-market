@@ -1,0 +1,203 @@
+{% macro spark(values, t, w=120, h=36) %}
+{% set p = spark_path(values, w, h) %}
+<svg class="spark {{ t }}" viewBox="0 0 {{ w }} {{ h }}" width="{{ w }}" height="{{ h }}" aria-hidden="true" focusable="false">
+  <path class="area" d="{{ p.area }}"/>
+  <path class="line" d="{{ p.line }}"/>
+  <circle class="end" cx="{{ '%.1f' % p.x }}" cy="{{ '%.1f' % p.y }}" r="2.5"/>
+</svg>
+{% endmacro %}
+
+{% macro tile(q) %}
+<article class="tile {{ q.change_pct | tone }}" data-chart="q:{{ q.key }}" role="button" tabindex="0" aria-label="{{ q.name }}のチャートを開く">
+  <header>
+    <h3>{{ q.name }}</h3>
+    {% if q.is_proxy %}<span class="proxy" data-tip="指数値を無料で取得できないため、連動ETF（{{ q.ticker }}）の値で代用しています">ETF代用</span>{% endif %}
+  </header>
+  <p class="price mono">{{ q.close | num }}</p>
+  <p class="chg"><span class="mono">{{ q.change | signed }}</span><span class="pill {{ q.change_pct | tone }} mono">{{ q.change_pct | pct }}</span></p>
+  {{ spark(q.spark, q.change_20d_pct | tone) }}
+  <dl class="periods">
+    <div><dt>5日</dt><dd class="mono {{ q.change_5d_pct | tone }}">{{ q.change_5d_pct | pct(1) }}</dd></div>
+    <div><dt>20日</dt><dd class="mono {{ q.change_20d_pct | tone }}">{{ q.change_20d_pct | pct(1) }}</dd></div>
+  </dl>
+</article>
+{% endmacro %}
+
+{% macro breadth(b) %}
+<div class="breadth" aria-label="騰落銘柄数（S&P500構成銘柄）">
+  <div class="bbar" role="img" aria-label="値上がり {{ b.advancers }}、変わらず {{ b.unchanged }}、値下がり {{ b.decliners }}">
+    <span class="seg up" style="flex: {{ b.advancers }}"></span>
+    <span class="seg flat" style="flex: {{ b.unchanged }}"></span>
+    <span class="seg down" style="flex: {{ b.decliners }}"></span>
+  </div>
+  <dl class="bstats">
+    <div><dt>値上がり</dt><dd class="mono up">{{ b.advancers }}</dd></div>
+    <div><dt>変わらず</dt><dd class="mono">{{ b.unchanged }}</dd></div>
+    <div><dt>値下がり</dt><dd class="mono down">{{ b.decliners }}</dd></div>
+    {% if b.adv_dec_ratio_25d is not none %}<div><dt data-tip="25日間の値上がり銘柄数合計÷値下がり銘柄数合計。120%超で過熱、70%未満で売られすぎの目安">騰落レシオ25日</dt><dd class="mono">{{ '%.1f' % b.adv_dec_ratio_25d }}%</dd></div>{% endif %}
+    {% if b.above_50dma_pct is not none %}<div><dt data-tip="終値が50日移動平均を上回っている銘柄の割合">50日線超え</dt><dd class="mono">{{ '%.0f' % b.above_50dma_pct }}%</dd></div>{% endif %}
+    {% if b.above_200dma_pct is not none %}<div><dt data-tip="終値が200日移動平均を上回っている銘柄の割合">200日線超え</dt><dd class="mono">{{ '%.0f' % b.above_200dma_pct }}%</dd></div>{% endif %}
+    {% if b.new_highs is not none %}<div><dt data-tip="終値ベースで過去52週の最高値を更新した銘柄数">52週高値</dt><dd class="mono">{{ b.new_highs }}</dd></div>{% endif %}
+    {% if b.new_lows is not none %}<div><dt data-tip="終値ベースで過去52週の最安値を更新した銘柄数">52週安値</dt><dd class="mono">{{ b.new_lows }}</dd></div>{% endif %}
+  </dl>
+</div>
+{% endmacro %}
+
+{% macro heatmap(hist, order, labels, prefix) %}
+<div class="tablewrap">
+  <table class="heat">
+    <thead>
+      <tr><th></th>{% for d in hist.dates %}<th class="mono" scope="col">{% if loop.first or d.day <= 7 and hist.dates[loop.index0 - 1].month != d.month %}{{ d.month }}/{% endif %}{{ d.day }}</th>{% endfor %}</tr>
+    </thead>
+    <tbody>
+      {% for key in order if key in hist.series %}
+      <tr>
+        <th scope="row" data-chart="{{ prefix }}{{ key }}" role="button" tabindex="0">{{ labels.get(key, key) }}</th>
+        {% for v in hist.series[key] %}
+        <td class="hc {{ v | heat }}" data-tip="{{ labels.get(key, key) }}｜{{ hist.dates[loop.index0].strftime('%m/%d') }} {{ v | pct }}"><span class="sr">{{ v | pct }}</span></td>
+        {% endfor %}
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</div>
+{% endmacro %}
+
+{% macro ranktable(title, rows, mode) %}
+<div class="rankcol">
+  <h3>{{ title }}</h3>
+  <table class="rtable">
+    <thead><tr><th colspan="2">銘柄</th>
+      {% if mode == "turnover" %}<th class="r">売買代金</th><th class="r">騰落率</th>
+      {% elif mode == "surge" %}<th class="r" data-tip="当日の出来高÷直近20営業日の平均出来高">平均比</th><th class="r">出来高</th><th class="r">騰落率</th>
+      {% else %}<th class="r">騰落率</th><th class="r">出来高</th>{% endif %}
+    </tr></thead>
+    <tbody>
+    {% for r in rows %}
+      <tr data-chart="{{ r.code }}" role="button" tabindex="0" aria-label="{{ r.name }}のチャートを開く">
+        <td class="mono tick">{{ r.code }}</td>
+        <th scope="row"><span class="rname">{{ r.name }}</span>{% if r.sector %}<span class="rsec">{{ r.sector }}</span>{% endif %}{{ disc_badges(r.disclosures) }}</th>
+        {% if mode == "turnover" %}
+        <td class="r mono">{{ r.turnover | usd }}</td>
+        <td class="r mono {{ r.change_pct | tone }}">{{ r.change_pct | pct(1) }}</td>
+        {% elif mode == "surge" %}
+        <td class="r mono"><b>{{ "%.1f" % r.volume_ratio }}倍</b></td>
+        <td class="r mono muted">{{ r.volume | shares }}</td>
+        <td class="r mono {{ r.change_pct | tone }}">{{ r.change_pct | pct(1) }}</td>
+        {% else %}
+        <td class="r mono {{ r.change_pct | tone }}">{{ r.change_pct | pct }}</td>
+        <td class="r mono muted">{{ r.volume | shares }}</td>
+        {% endif %}
+      </tr>
+    {% endfor %}
+    </tbody>
+  </table>
+</div>
+{% endmacro %}
+
+{% macro quotetable(quotes, value_label) %}
+<div class="tablewrap">
+  <table class="qtable">
+    <thead><tr><th>銘柄</th><th class="r">{{ value_label }}</th><th class="r">前日比</th><th class="r">5日</th><th class="r">20日</th><th class="r hide-sm">推移</th><th class="r hide-sm">基準日</th></tr></thead>
+    <tbody>
+    {% for q in quotes %}
+      <tr data-chart="q:{{ q.key }}" role="button" tabindex="0" aria-label="{{ q.name }}のチャートを開く">
+        <th scope="row">{{ q.name }}{% if q.is_proxy %} <span class="proxy">ETF代用</span>{% endif %}</th>
+        {% if q.unit == "%" %}
+        <td class="r mono">{{ "%.3f" % q.close }}%</td>
+        <td class="r mono {{ q.change | tone(0.00005) }}">{{ q.change | bp }}</td>
+        <td class="r mono {{ q.change_5d | tone(0.00005) }}">{{ q.change_5d | bp }}</td>
+        <td class="r mono {{ q.change_20d | tone(0.00005) }}">{{ q.change_20d | bp }}</td>
+        {% else %}
+        <td class="r mono">{{ "%.4f" % q.close if q.category == QuoteCategory.FX and q.close < 10 else q.close | num }}</td>
+        <td class="r mono {{ q.change_pct | tone }}">{{ q.change_pct | pct }}</td>
+        <td class="r mono {{ q.change_5d_pct | tone }}">{{ q.change_5d_pct | pct(1) }}</td>
+        <td class="r mono {{ q.change_20d_pct | tone }}">{{ q.change_20d_pct | pct(1) }}</td>
+        {% endif %}
+        <td class="r hide-sm">{{ spark(q.spark, (q.change_20d if q.unit == "%" else q.change_20d_pct) | tone(0.00005), 84, 22) }}</td>
+        <td class="r mono muted hide-sm">{{ q.as_of.strftime("%m/%d") }}</td>
+      </tr>
+    {% endfor %}
+    </tbody>
+  </table>
+</div>
+{% endmacro %}
+
+{% macro chart_dialog() %}
+<dialog id="chartdlg" class="chartdlg" aria-labelledby="cd-title">
+  <div class="cd-head">
+    <div class="cd-titles">
+      <h2 id="cd-title">チャート</h2>
+      <p id="cd-legend" class="cd-legend mono" aria-live="polite"></p>
+    </div>
+    <button type="button" class="cd-close" id="cd-close" aria-label="閉じる">×</button>
+  </div>
+  <div class="cd-tools">
+    <div class="tabs" role="group" aria-label="期間">
+      <button type="button" data-range="21">1ヶ月</button>
+      <button type="button" data-range="63" aria-selected="true">3ヶ月</button>
+      <button type="button" data-range="126">6ヶ月</button>
+      <button type="button" data-range="0">全期間</button>
+    </div>
+    <p class="cd-ma" id="cd-ma" hidden><i class="ma5"></i>5日 <i class="ma25"></i>25日 <i class="ma75"></i>75日移動平均</p>
+  </div>
+  <div id="cd-chart" class="cd-chart"></div>
+  <p id="cd-msg" class="cd-msg" hidden></p>
+  <div class="cd-foot">
+    <p id="cd-note" class="cd-note"></p>
+    <p id="cd-links" class="cd-links"></p>
+  </div>
+</dialog>
+{% endmacro %}
+
+{% macro topbar(base_url, active) %}
+<header class="topbar">
+  <div class="wrap topbar-in">
+    <a class="brand" href="{{ base_url }}/">NY引けノート</a>
+    <nav class="daynav" aria-label="ナビゲーション">
+      <a href="{{ base_url }}/"{% if active == "latest" %} aria-current="page"{% endif %}>最新</a>
+      <a href="{{ base_url }}/archive/"{% if active == "archive" %} aria-current="page"{% endif %}>アーカイブ</a>
+      <a href="{{ base_url }}/trends/"{% if active == "trends" %} aria-current="page"{% endif %}>トレンド</a>
+    </nav>
+    {{ colorpref() }}
+  </div>
+</header>
+{% endmacro %}
+
+{% macro disc_badges(items) %}
+{% if items %}<span class="discs">{% for d in items %}<a class="disc {{ d.tone }}" href="{{ d.url }}" target="_blank" rel="noopener" title="{{ d.time | jst('%m/%d %H:%M') }} JST　8-K {{ d.title }}">📄 {{ d.tags[0] if d.tags else "8-K" }}</a>{% endfor %}</span>{% endif %}
+{% endmacro %}
+
+{% macro disc_table(items) %}
+<div class="tablewrap">
+  <table class="dtable">
+    <tbody>
+    {% for d in items %}
+      <tr>
+        <td class="mono muted dtime" title="米東部時間 {{ d.time | et('%m/%d %H:%M') }}">{{ d.time | jst('%m/%d %H:%M') }}</td>
+        <th scope="row" data-chart="{{ d.code }}" role="button" tabindex="0"><span class="rname">{{ d.name }}</span><span class="rsec mono">{{ d.code }}</span></th>
+        <td class="r dmove">{{ disc_move(d) }}</td>
+        <td class="dtags"><div class="dtagwrap">{% for t in d.tags %}<span class="dtag {{ d.tone if loop.first else 'neutral' }}">{{ t }}</span>{% endfor %}</div></td>
+        <td class="dtitle"><a href="{{ d.url }}" target="_blank" rel="noopener">{{ d.title }}</a></td>
+      </tr>
+    {% endfor %}
+    </tbody>
+  </table>
+</div>
+{% endmacro %}
+
+{% macro disc_move(d) %}
+{% if d.move_basis == "ah" %}
+  {% if d.move_pct is not none %}<span class="mono {{ d.move_pct | tone }}"><b>{{ d.move_pct | pct }}</b></span><span class="dbasis" title="時間外 ${{ '{:,.2f}'.format(d.ah_price) }}（{{ d.ah_time | et('%m/%d %H:%M') }} ET）と当日終値の比較">時間外 {{ d.ah_time | et('%H:%M') }}</span>{% else %}<span class="dbasis">時間外 取引なし</span>{% endif %}
+{% elif d.move_basis == "day" and d.move_pct is not none %}
+  <span class="mono {{ d.move_pct | tone }}"><b>{{ d.move_pct | pct }}</b></span><span class="dbasis">当日</span>
+{% else %}<span class="muted">—</span>{% endif %}
+{% endmacro %}
+
+{% macro colorpref() %}
+<div class="colorpref" role="group" aria-label="上昇色">
+  <span class="lbl">上昇色</span>
+  <button type="button" id="pref-us" data-updown="us" aria-pressed="true"><i class="dot up-us"></i>緑</button>
+  <button type="button" id="pref-jp" data-updown="jp" aria-pressed="false"><i class="dot up-jp"></i>赤</button>
+</div>
+{% endmacro %}

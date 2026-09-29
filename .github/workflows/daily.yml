@@ -1,0 +1,152 @@
+name: daily
+# NY市場の引け（16:00 ET）後に実行する。cron は UTC 固定なので、夏時間・冬時間の両方で引け後になる時刻を選んだ（D-22）。
+#   20:47 UTC = 夏 16:47 ET / 05:47 JST（冬は引け前のため前営業日を見て「生成済み」で終わる）
+#   21:33 UTC = 夏 17:33 ET / 冬 16:33 ET（06:33 JST）
+#   22:33 UTC = 夏 18:33 ET / 冬 17:33 ET（07:33 JST）… 最終回。欠けがあっても警告付きで生成する
+#    1:17 UTC（火〜土）= 夏 21:17 ET / 冬 20:17 ET（10:17 JST）… 時間外取引の終了後に作り直す。通知なし（D-24）
+# データが未確定・不完全なら終了コード75で見送り、次の回で再試行する。
+# 毎時0分・30分は Actions の定時実行が混み、何時間も遅れるため、半端な分にずらしている（D-27）。
+on:
+  schedule:
+    - cron: "47 20 * * 1-5"  # early
+    - cron: "33 21 * * 1-5"  # early retry
+    - cron: "33 22 * * 1-5"  # final
+    - cron: "17 1 * * 2-6"  # after-hours refresh: late filings + after-hours reactions, page only
+  workflow_dispatch:
+    inputs:
+      date:
+        description: "対象日 YYYY-MM-DD（米国の営業日。空欄なら直近の引け済みの営業日）"
+        required: false
+      force:
+        description: "既に生成済みでも作り直す"
+        type: boolean
+        default: false
+      notify:
+        description: "Discordに通知する"
+        type: boolean
+        default: true
+
+concurrency:
+  group: daily
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+env:
+  EVENING: ${{ github.event.schedule == '17 1 * * 2-6' }}
+  SITE_BASE_URL: https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}
+  DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+  SEC_USER_AGENT: ${{ secrets.SEC_USER_AGENT }}
+  RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    outputs:
+      date: ${{ steps.plan.outputs.date }}
+      built: ${{ steps.run.outputs.built }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: astral-sh/setup-uv@v6
+        with:
+          enable-cache: true
+      - run: uv sync --locked
+
+      - id: plan
+        run: uv run usmarket plan ${{ inputs.date && format('--date {0}', inputs.date) || '' }}
+
+      - name: Skip (holiday or already built)
+        if: steps.plan.outputs.trading != 'true' || (steps.plan.outputs.exists == 'true' && inputs.force != true && env.EVENING != 'true')
+        run: echo "nothing to do for ${{ steps.plan.outputs.date }}"
+
+      - name: Restore price cache
+        if: steps.plan.outputs.trading == 'true' && (steps.plan.outputs.exists != 'true' || inputs.force == true || env.EVENING == 'true')
+        uses: actions/cache/restore@v4
+        with:
+          path: .cache
+          key: usmarket-cache-${{ github.run_id }}
+          restore-keys: usmarket-cache-
+
+      - id: run
+        name: Collect and build
+        if: steps.plan.outputs.trading == 'true' && (steps.plan.outputs.exists != 'true' || inputs.force == true || env.EVENING == 'true')
+        run: |
+          # scheduled runs before the final one wait for complete data; the last run and manual runs build regardless
+          mode=--final
+          if [ "${{ github.event_name }}" = "schedule" ] && [ "${{ github.event.schedule }}" != "33 22 * * 1-5" ] && [ "$EVENING" != "true" ]; then
+            mode=--early
+          fi
+          set +e
+          uv run usmarket -v run --date ${{ steps.plan.outputs.date }} --force $mode
+          code=$?
+          set -e
+          if [ $code -eq 0 ]; then
+            echo "built=true" >> "$GITHUB_OUTPUT"
+          elif [ $code -eq 75 ]; then
+            echo "built=false" >> "$GITHUB_OUTPUT"
+            echo "::warning::data for ${{ steps.plan.outputs.date }} not ready yet"
+            # the 22:33 UTC run is the last attempt of the day
+            if [ "${{ github.event.schedule }}" = "33 22 * * 1-5" ]; then
+              uv run usmarket notify-error "${{ steps.plan.outputs.date }} のデータが最終回（07:33 JST）でも未確定のため、生成を見送りました。" --run-url "$RUN_URL"
+            fi
+          else
+            exit $code
+          fi
+
+      - name: Save price cache
+        if: always() && steps.run.outcome != 'skipped'
+        uses: actions/cache/save@v4
+        with:
+          path: .cache
+          key: usmarket-cache-${{ github.run_id }}
+
+      - name: Commit daily JSON
+        if: steps.run.outputs.built == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898178+github-actions[bot]@users.noreply.github.com"
+          git add data/daily
+          git diff --cached --quiet || git commit -m "data: ${{ steps.plan.outputs.date }}${{ env.EVENING == 'true' && ' (evening)' || '' }}"
+          git push origin HEAD:main
+
+      - uses: actions/upload-pages-artifact@v3
+        if: steps.run.outputs.built == 'true'
+        with:
+          path: site
+
+      - name: Report failure
+        if: failure()
+        run: uv run usmarket notify-error "${{ steps.plan.outputs.date || '不明な日付' }} の生成中にエラーが発生しました。" --run-url "$RUN_URL" || true
+
+  deploy:
+    needs: build
+    if: needs.build.outputs.built == 'true'
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
+
+  notify:
+    needs: [build, deploy]
+    if: needs.build.outputs.built == 'true' && ((github.event_name == 'schedule' && github.event.schedule != '17 1 * * 2-6') || inputs.notify == true)
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: astral-sh/setup-uv@v6
+        with:
+          enable-cache: true
+      - run: uv sync --locked
+      - run: uv run usmarket notify --date ${{ needs.build.outputs.date }}
+      - if: failure()
+        run: uv run usmarket notify-error "Discordへの通知に失敗しました。" --run-url "$RUN_URL" || true
