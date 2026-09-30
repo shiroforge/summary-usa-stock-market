@@ -1,7 +1,7 @@
 {
  "schema_version": 1,
  "date": "2026-09-29",
- "generated_at": "2026-09-30T02:54:09.525016Z",
+ "generated_at": "2026-09-30T03:03:41.797156Z",
  "sources": [
   "yfinance",
   "S&P500構成銘柄のウエイト: SPDR S&P 500 ETF の保有比率（2026-09-28時点）",
@@ -283,13 +283,13 @@
    "name": "S&P500先物",
    "ticker": "ES=F",
    "category": "futures_vol",
-   "close": 7743.0,
-   "change": -3.75,
-   "change_pct": -0.05,
-   "change_5d_pct": -1.13,
-   "change_20d_pct": 0.57,
-   "change_5d": -88.75,
-   "change_20d": 44.0,
+   "close": 7745.75,
+   "change": -1.0,
+   "change_pct": -0.01,
+   "change_5d_pct": -1.1,
+   "change_20d_pct": 0.61,
+   "change_5d": -86.0,
+   "change_20d": 46.75,
    "spark": [
     7642.75,
     7676.5,
@@ -310,7 +310,7 @@
     7767.0,
     7803.75,
     7746.75,
-    7743.0
+    7745.75
    ],
    "as_of": "2026-09-29",
    "is_proxy": false,
@@ -321,13 +321,13 @@
    "name": "NASDAQ100先物",
    "ticker": "NQ=F",
    "category": "futures_vol",
-   "close": 30590.0,
-   "change": 23.75,
-   "change_pct": 0.08,
-   "change_5d_pct": -1.41,
-   "change_20d_pct": 3.65,
-   "change_5d": -438.5,
-   "change_20d": 1077.0,
+   "close": 30616.5,
+   "change": 50.25,
+   "change_pct": 0.16,
+   "change_5d_pct": -1.33,
+   "change_20d_pct": 3.74,
+   "change_5d": -412.0,
+   "change_20d": 1103.5,
    "spark": [
     29125.5,
     29186.25,
@@ -348,7 +348,7 @@
     30766.75,
     30889.25,
     30566.25,
-    30590.0
+    30616.5
    ],
    "as_of": "2026-09-29",
    "is_proxy": false,
@@ -436,12 +436,12 @@
    "ticker": "DX-Y.NYB",
    "category": "fx",
    "close": 101.34,
-   "change": 0.14,
+   "change": 0.137,
    "change_pct": 0.14,
-   "change_5d_pct": 0.74,
+   "change_5d_pct": 0.73,
    "change_20d_pct": 1.92,
-   "change_5d": 0.74,
-   "change_20d": 1.91,
+   "change_5d": 0.737,
+   "change_20d": 1.907,
    "spark": [
     99.67,
     99.56,
@@ -462,7 +462,7 @@
     101.29,
     100.97,
     101.2,
-    101.34
+    101.337
    ],
    "as_of": "2026-09-29",
    "is_proxy": false,
@@ -891,13 +891,13 @@
    "name": "WTI原油",
    "ticker": "CL=F",
    "category": "commodity",
-   "close": 89.46,
-   "change": -3.14,
-   "change_pct": -3.39,
-   "change_5d_pct": -5.42,
-   "change_20d_pct": 4.31,
-   "change_5d": -5.13,
-   "change_20d": 3.7,
+   "close": 89.53,
+   "change": -3.07,
+   "change_pct": -3.32,
+   "change_5d_pct": -5.35,
+   "change_20d_pct": 4.4,
+   "change_5d": -5.06,
+   "change_20d": 3.77,
    "spark": [
     90.22,
     91.01,
@@ -918,7 +918,7 @@
     94.61,
     92.41,
     92.6,
-    89.46
+    89.53
    ],
    "as_of": "2026-09-29",
    "is_proxy": false,
@@ -929,13 +929,13 @@
    "name": "金",
    "ticker": "GC=F",
    "category": "commodity",
-   "close": 4211.1,
-   "change": 42.7002,
-   "change_pct": 1.02,
-   "change_5d_pct": -3.78,
-   "change_20d_pct": -6.03,
-   "change_5d": -165.2998,
-   "change_20d": -270.3999,
+   "close": 4213.0,
+   "change": 44.6001,
+   "change_pct": 1.07,
+   "change_5d_pct": -3.73,
+   "change_20d_pct": -5.99,
+   "change_5d": -163.3999,
+   "change_20d": -268.5,
    "spark": [
     4396.3999,
     4414.6001,
@@ -956,7 +956,7 @@
     4298.0,
     4321.2002,
     4168.3999,
-    4211.1001
+    4213.0
    ],
    "as_of": "2026-09-29",
    "is_proxy": false,
@@ -967,13 +967,13 @@
    "name": "銅",
    "ticker": "HG=F",
    "category": "commodity",
-   "close": 6.643,
-   "change": 0.077,
-   "change_pct": 1.17,
-   "change_5d_pct": -1.72,
-   "change_20d_pct": 0.75,
-   "change_5d": -0.1165,
-   "change_20d": 0.0495,
+   "close": 6.6475,
+   "change": 0.0815,
+   "change_pct": 1.24,
+   "change_5d_pct": -1.66,
+   "change_20d_pct": 0.82,
+   "change_5d": -0.112,
+   "change_20d": 0.054,
    "spark": [
     6.5065,
     6.501,
@@ -994,7 +994,7 @@
     6.7185,
     6.6955,
     6.566,
-    6.643
+    6.6475
    ],
    "as_of": "2026-09-29",
    "is_proxy": false,
@@ -1005,13 +1005,13 @@
    "name": "天然ガス",
    "ticker": "NG=F",
    "category": "commodity",
-   "close": 3.021,
-   "change": 0.021,
-   "change_pct": 0.7,
-   "change_5d_pct": 1.89,
-   "change_20d_pct": 2.93,
-   "change_5d": 0.056,
-   "change_20d": 0.086,
+   "close": 3.022,
+   "change": 0.022,
+   "change_pct": 0.73,
+   "change_5d_pct": 1.92,
+   "change_20d_pct": 2.96,
+   "change_5d": 0.057,
+   "change_20d": 0.087,
    "spark": [
     2.904,
     2.956,
@@ -1032,7 +1032,7 @@
     3.297,
     3.196,
     3.0,
-    3.021
+    3.022
    ],
    "as_of": "2026-09-29",
    "is_proxy": false,
@@ -4421,7 +4421,7 @@
      "disclosures": []
     }
    ],
-   "news_count": 6
+   "news_count": 7
   },
   {
    "key": "fintech",
@@ -4858,7 +4858,7 @@
      "disclosures": []
     }
    ],
-   "news_count": 0
+   "news_count": 1
   },
   {
    "key": "metals_mining",
@@ -5785,7 +5785,7 @@
      "disclosures": []
     }
    ],
-   "news_count": 3
+   "news_count": 5
   },
   {
    "key": "defense",
@@ -6636,7 +6636,7 @@
      "disclosures": []
     }
    ],
-   "news_count": 1
+   "news_count": 0
   },
   {
    "key": "oil_gas",
@@ -6778,7 +6778,7 @@
      "disclosures": []
     }
    ],
-   "news_count": 9
+   "news_count": 8
   },
   {
    "key": "china_adr",
@@ -6909,7 +6909,7 @@
      "disclosures": []
     }
    ],
-   "news_count": 3
+   "news_count": 2
   },
   {
    "key": "space",
@@ -7535,13 +7535,13 @@
    ]
   },
   {
-   "title": "板挟みの米ビッグ3 中国車規制でも「提携継続」、EV出遅れに危機感",
-   "url": "https://www.nikkei.com/article/DGXZQOGN290GE0Z20C26A9000000/",
+   "title": "米国でIPO延期相次ぐ、オーラやOpenAIなど AI不安と金利上昇が逆風",
+   "url": "https://www.nikkei.com/article/DGXZQOGN29BGU0Z20C26A9000000/",
    "source": "日経速報",
-   "published_at": "2026-09-30T00:56:24Z",
+   "published_at": "2026-09-30T01:24:46Z",
    "tags": [
-    "ev_autonomy",
-    "china_adr"
+    "ai_software",
+    "ipo"
    ]
   },
   {
@@ -7656,7 +7656,7 @@
   {
    "title": "ナスダック100の振り返りと見通し：長期金利上昇の逆風も半導体関連株が指数を下支え(2026年9月30日)",
    "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5CZWZXbGI5T01hNjJoc1ZidUNvYkpkOFZTalpsc0dieU0yWDIyN1VfSUF6WUFBcFJBbThhUTI0d2hFdy1JNm0xeXpUR0FsY2hwWG9IV1pSVktRTENLeVg0T3UwTGw0RW5LWk9fR2xsV2NaUQ?oc=5",
-   "source": "OANDA証券",
+   "source": "OANDA Japan",
    "published_at": "2026-09-29T23:33:43Z",
    "tags": [
     "semiconductor"
@@ -7665,7 +7665,7 @@
   {
    "title": "２９日の米株式市場の概況、ＮＹダウ１３１ドル安 ナスダック小幅続落",
    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5qU2d4UHJCTjV6a2o3al9ubTFTRDExa1JpLTNlVzh4bnZMN1lTeTRyZVVPOFV1N0NhdWpGWTlQcENnajVxRXNhWXRGekJ2RWlNb3pMSjdDaU9obHY4d1RCXw?oc=5",
-   "source": "株探",
+   "source": "kabutan.jp",
    "published_at": "2026-09-29T23:17:00Z",
    "tags": []
   },
@@ -7720,13 +7720,6 @@
    ]
   },
   {
-   "title": "Nasdaq, S&P 500 Hold Firm Ahead Of Inflation Report: SharkNinja, Advantest, ASE Technology In Focus",
-   "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQZF9meTdsaEQ5eG9TeTByWHRDYnJUc1hFNENONkxCMWN3cVFWQ0FyYXNtQ2JnemZNdk11OU4wT0Q0NUZtQmFiT1pORUVGeS10NVJyT21uY2FiajZENk92N0liOVBSczVWVHdkcFVFRGdyajVQOHpGUGxWWkx4X1dBcmtR?oc=5",
-   "source": "Investor's Business Daily",
-   "published_at": "2026-09-29T20:40:00Z",
-   "tags": []
-  },
-  {
    "title": "NYダウ続落131ドル安 金融株や消費関連に売り、ナスダックは小幅安",
    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1faG01MEQ0U1FjZnJmVXRCeVVTbi01LWFQUkR1STVSSGViOXNKcy1LM04tWjVvOVlMRm5ER291c2JaT3pXWU5takZPWWxXU1FQOGV3czJFMlMwc2wtZHhodzJZeFR2SHlRZy1Ncg?oc=5",
    "source": "日本経済新聞",
@@ -7761,7 +7754,7 @@
   {
    "title": "米国株式の動向｜光通信関連銘柄が広く上昇、Lumentum（LITE.US）は4％超安",
    "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQMHdwRi1pczIyMERONVlYZ3RPN2stWlBLVFQtNUFLOTdmMC1TM1VMVmUzT0VUaVdPQW5fMml6Y08yMnQtVUVQQ2ExU1JuTjRjQ3Rld01CbzUxSHZrUC1QaHFxZG5BS0NxMXhyWmFtdDNaY3o5eURQZTZlN0JwblRBV3pudzd6TTkxY1EzNzVuTC1OMl9SLXctSzZzZHB1Y1NnVUNJdjdKZmt0WW9PdnFsOWdEZFM3bkk1SW9j?oc=5",
-   "source": "moomoo.com",
+   "source": "Moomoo",
    "published_at": "2026-09-29T16:51:42Z",
    "tags": [
     "optical"
@@ -7798,7 +7791,7 @@
   {
    "title": "Trump meets with AI execs, Treasury yields pressure stocks, Alaska's luxury push and more in Morning Squawk",
    "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNTU9XV1VlNDl6X2N5N1FCWVY4VG5Rby1ZbzRZRlhwRmh0czRNY0VJUy1VMUVZQWZWLXhqZjB4cjN1NlhFYUlyb2lFSDQ4ZXIzYldaQWxRSzUxQVVmUnpVTHlac1N5SWV3dzdxUl9EVUxvY3RwWmRtSmdwc1lnaERJTF8xOGZ3ang3UGQ0?oc=5",
-   "source": "CNBC",
+   "source": "cnbc.com",
    "published_at": "2026-09-29T12:28:45Z",
    "tags": []
   },
@@ -7830,20 +7823,29 @@
    ]
   },
   {
-   "title": "Indian shares extend losing run on elevated oil, bond yields",
-   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOMG5lWllfVDNRcEhXRTZMSTB4QnRraHlSN2NUaUJxMWN3dVlIeDJRbEx2aWVSa3JibXB6MVE1NVZPbGJTdkpBcnpzUHN2bjhMVTRPWFE1WGNuT25ESUNhYTNZRVpFZzhSQ2xnbUt5ZktKZWFSNWpjNG51NXNRWHNlM1dRNTZkUmZ2cC1hdDJYQjdIQ25keWstWGJ5T0VyUVpNNzBvQQ?oc=5",
-   "source": "reuters.com",
-   "published_at": "2026-09-29T10:16:37Z",
-   "tags": [
-    "oil_gas"
-   ]
-  },
-  {
    "title": "Don’t Let the S&P 500 Fool You: Stocks Are in a Stealth Bear Market",
    "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1PUDMwZXc5aG16ZFNLZkdFb1BsQjVBRnZ2MWxpQ1c1STdIQkVNclg1a0hPb29pc2VFSG80MTRuQlgxTGhtTlo4by14WHNxOFRTVDhsSTFKU2hjRG1JZDk5UVVweVBZcThCSTUwTHpfcDZFRnB2czdfU1IwbUI2dw?oc=5",
    "source": "Barron's",
    "published_at": "2026-09-29T09:43:00Z",
    "tags": []
+  },
+  {
+   "title": "米ナスダックが取引基盤「Calypso」にAIエージェント環境、MCP採用で金融業務を自動化",
+   "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1GRzFzWUJNN1NHMzlseGRCYWpfQnVVX2llUk4xZkRrTU1xU21wX1RFc3IwUERlV0NldE9KYnhmYnBSZ2toRTVJNVlXb3V2eWNRdnhr?oc=5",
+   "source": "ビジネス+IT",
+   "published_at": "2026-09-29T09:42:00Z",
+   "tags": [
+    "ai_software"
+   ]
+  },
+  {
+   "title": "【米国株】アリスタ・ネットワークス［ANET］：メガクラウドの巨額投資を吸収する超高速イーサネットのリーディングカンパニー",
+   "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5XcDR2UDJ5TTVSd0VFMVlDVE9MQVZsMFZyaEYxWHJqdEdFeXFEYWgyRWJqU1pFbU56RVNXdnE5ZlRMU2pkQWNISDNwVEw2TGFzbjZVVTVvb9IBV0FVX3lxTE5XcDR2UDJ5TTVSd0VFMVlDVE9MQVZsMFZyaEYxWHJqdEdFeXFEYWgyRWJqU1pFbU56RVNXdnE5ZlRMU2pkQWNISDNwVEw2TGFzbjZVVTVvbw?oc=5",
+   "source": "マネクリ",
+   "published_at": "2026-09-29T05:00:00Z",
+   "tags": [
+    "software"
+   ]
   }
  ],
  "disclosures_session": [],
