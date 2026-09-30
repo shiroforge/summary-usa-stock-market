@@ -67,6 +67,13 @@
 ## D-19 毎日の自動実行（GitHub Actions）と Discord 通知
 - 仕組みは日本版と同じ（plan → run → JSON のコミット → Pages へのデプロイ → 通知）。**cron の有効化・公開・Discord への送信はユーザーの承認後**（G3）。
 
+## D-20 GitHub Actions 上での取得結果（2026-09-30）
+- 手動実行（workflow_dispatch、対象 2026-09-29、キャッシュなしの状態から）: build 2分17秒、deploy 9秒で成功した。警告なし。
+- 到達を確認: yfinance（429 なし）、SPY 保有銘柄（State Street）、Wikipedia、米財務省、Nasdaq IPO カレンダー、全 RSS。
+- EDGAR は `SEC_USER_AGENT` 未設定のため未確認。
+- 公開URL: https://shiroforge.github.io/summary-usa-stock-market/
+- リポジトリ（public）はユーザーが作成・push した。daily.yml が既定ブランチに入ったため、定時実行（cron）もこの時点で有効になっている。Discord は Secret 未設定のため送信されない。
+
 ## D-22 実行時刻（米国の引け後、夏時間・冬時間の両対応）
 - cron は UTC 固定のため、夏時間（引け 20:00 UTC）と冬時間（引け 21:00 UTC）の両方で引け後になる時刻を選んだ: 20:47（夏時間のみ有効）→ 21:33 → 22:33 UTC（最終）。
 - 冬時間の 20:47 UTC は引け前なので、`plan` は前営業日を対象にして「生成済み」で何もしない。
