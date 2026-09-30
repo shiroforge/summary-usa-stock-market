@@ -23,7 +23,7 @@
 | ID | 状態 | タスク | 受け入れ条件 |
 |---|---|---|---|
 | U2-1 | done 🔒 | GitHub リポジトリの作成と push（公開範囲をユーザーが決める） | ユーザーが public で作成・push（2026-09-30） |
-| U2-2 | doing 🔒 | Secrets の設定（`DISCORD_WEBHOOK_URL`、`SEC_USER_AGENT`）と Pages の有効化 | Pages は有効化・手動実行で公開済み。Secrets は未設定 |
+| U2-2 | doing 🔒 | Secrets の設定（`DISCORD_WEBHOOK_URL`、`SEC_USER_AGENT`）と Pages の有効化 | Pages 有効化・公開済み。DISCORD_WEBHOOK_URL 設定済み（2026-09-30 に送信を確認）。SEC_USER_AGENT は未設定 |
 | U2-3 | doing | GitHub Actions 上での yfinance・EDGAR・Nasdaq・財務省の到達性の確認 | EDGAR 以外は確認済み（D-20）。EDGAR は Secret 設定後に確認 |
 | U2-4 | todo 🔒 | **G3**: 通知の文面と、公開・cron の有効化の承認 | |
 
