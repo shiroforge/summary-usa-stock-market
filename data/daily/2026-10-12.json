@@ -1,7 +1,7 @@
 {
  "schema_version": 1,
  "date": "2026-10-12",
- "generated_at": "2026-10-13T02:15:12.385710Z",
+ "generated_at": "2026-10-13T07:41:58.330768Z",
  "sources": [
   "yfinance",
   "S&P500構成銘柄のウエイト: SPDR S&P 500 ETF の保有比率（2026-10-06時点）",
@@ -59,12 +59,12 @@
    "ticker": "^IXIC",
    "category": "us_index",
    "close": 27245.9,
-   "change": -120.2676,
+   "change": -120.2695,
    "change_pct": -0.44,
    "change_5d_pct": -0.84,
    "change_20d_pct": 4.05,
-   "change_5d": -231.4082,
-   "change_20d": 1059.4922,
+   "change_5d": -231.4102,
+   "change_20d": 1059.4902,
    "spark": [
     25981.5703,
     25978.4297,
@@ -85,7 +85,7 @@
     27538.6895,
     27193.3398,
     27366.1699,
-    27245.9023
+    27245.9004
    ],
    "as_of": "2026-10-12",
    "is_proxy": false,
@@ -135,12 +135,12 @@
    "ticker": "^NDX",
    "category": "us_index",
    "close": 30664.7,
-   "change": -218.4531,
+   "change": -218.4512,
    "change_pct": -0.71,
    "change_5d_pct": -1.32,
    "change_20d_pct": 5.28,
-   "change_5d": -411.7422,
-   "change_20d": 1537.5371,
+   "change_5d": -411.7402,
+   "change_20d": 1537.5391,
    "spark": [
     28937.8398,
     28945.0605,
@@ -161,7 +161,7 @@
     31160.0801,
     30725.8105,
     30883.1504,
-    30664.6973
+    30664.6992
    ],
    "as_of": "2026-10-12",
    "is_proxy": false,
@@ -211,12 +211,12 @@
    "ticker": "^SOX",
    "category": "us_index",
    "close": 12236.79,
-   "change": -335.6318,
+   "change": -335.6299,
    "change_pct": -2.67,
    "change_5d_pct": -7.11,
    "change_20d_pct": 9.93,
-   "change_5d": -935.9521,
-   "change_20d": 1105.5078,
+   "change_5d": -935.9502,
+   "change_20d": 1105.5098,
    "spark": [
     11175.5498,
     11246.1104,
@@ -237,7 +237,7 @@
     13066.1504,
     12623.71,
     12572.4199,
-    12236.7881
+    12236.79
    ],
    "as_of": "2026-10-12",
    "is_proxy": false,
@@ -286,13 +286,13 @@
    "name": "S&P500先物",
    "ticker": "ES=F",
    "category": "futures_vol",
-   "close": 7840.5,
-   "change": -19.25,
-   "change_pct": -0.24,
-   "change_5d_pct": 0.18,
-   "change_20d_pct": 2.83,
-   "change_5d": 14.25,
-   "change_20d": 215.5,
+   "close": 7858.0,
+   "change": -1.75,
+   "change_pct": -0.02,
+   "change_5d_pct": 0.41,
+   "change_20d_pct": 3.06,
+   "change_5d": 31.75,
+   "change_20d": 233.0,
    "spark": [
     7589.25,
     7556.5,
@@ -313,7 +313,7 @@
     7852.75,
     7816.25,
     7859.75,
-    7840.5
+    7858.0
    ],
    "as_of": "2026-10-12",
    "is_proxy": false,
@@ -324,13 +324,13 @@
    "name": "NASDAQ100先物",
    "ticker": "NQ=F",
    "category": "futures_vol",
-   "close": 30657.25,
-   "change": -451.5,
-   "change_pct": -1.45,
-   "change_5d_pct": -2.11,
-   "change_20d_pct": 5.16,
-   "change_5d": -660.5,
-   "change_20d": 1505.0,
+   "close": 30898.25,
+   "change": -210.5,
+   "change_pct": -0.68,
+   "change_5d_pct": -1.34,
+   "change_20d_pct": 5.99,
+   "change_5d": -419.5,
+   "change_20d": 1746.0,
    "spark": [
     28955.0,
     28963.5,
@@ -351,7 +351,7 @@
     31402.25,
     30969.5,
     31108.75,
-    30657.25
+    30898.25
    ],
    "as_of": "2026-10-12",
    "is_proxy": false,
@@ -438,13 +438,13 @@
    "name": "ドル指数",
    "ticker": "DX-Y.NYB",
    "category": "fx",
-   "close": 102.44,
-   "change": 0.23,
-   "change_pct": 0.23,
-   "change_5d_pct": 0.26,
-   "change_20d_pct": 3.0,
-   "change_5d": 0.27,
-   "change_20d": 2.98,
+   "close": 102.58,
+   "change": 0.37,
+   "change_pct": 0.36,
+   "change_5d_pct": 0.4,
+   "change_20d_pct": 3.14,
+   "change_5d": 0.41,
+   "change_20d": 3.12,
    "spark": [
     99.65,
     100.31,
@@ -465,7 +465,7 @@
     102.24,
     102.14,
     102.21,
-    102.44
+    102.58
    ],
    "as_of": "2026-10-12",
    "is_proxy": false,
@@ -894,13 +894,13 @@
    "name": "WTI原油",
    "ticker": "CL=F",
    "category": "commodity",
-   "close": 92.73,
-   "change": 0.88,
-   "change_pct": 0.96,
-   "change_5d_pct": 3.69,
-   "change_20d_pct": -8.54,
-   "change_5d": 3.3,
-   "change_20d": -8.66,
+   "close": 93.74,
+   "change": 1.89,
+   "change_pct": 2.06,
+   "change_5d_pct": 4.82,
+   "change_20d_pct": -7.55,
+   "change_5d": 4.31,
+   "change_20d": -7.65,
    "spark": [
     105.83,
     102.43,
@@ -921,7 +921,7 @@
     88.28,
     91.49,
     91.85,
-    92.73
+    93.74
    ],
    "as_of": "2026-10-12",
    "is_proxy": false,
@@ -932,13 +932,13 @@
    "name": "金",
    "ticker": "GC=F",
    "category": "commodity",
-   "close": 4191.8,
-   "change": -24.5,
-   "change_pct": -0.58,
-   "change_5d_pct": 0.84,
-   "change_20d_pct": -3.68,
-   "change_5d": 35.0,
-   "change_20d": -160.1001,
+   "close": 4190.6,
+   "change": -25.6997,
+   "change_pct": -0.61,
+   "change_5d_pct": 0.81,
+   "change_20d_pct": -3.71,
+   "change_5d": 33.8003,
+   "change_20d": -161.2998,
    "spark": [
     4332.7998,
     4387.5,
@@ -959,7 +959,7 @@
     4140.7002,
     4157.0,
     4216.2998,
-    4191.7998
+    4190.6001
    ],
    "as_of": "2026-10-12",
    "is_proxy": false,
@@ -970,13 +970,13 @@
    "name": "銅",
    "ticker": "HG=F",
    "category": "commodity",
-   "close": 6.7205,
-   "change": 0.078,
-   "change_pct": 1.17,
-   "change_5d_pct": 2.05,
-   "change_20d_pct": 6.17,
-   "change_5d": 0.135,
-   "change_20d": 0.3905,
+   "close": 6.6985,
+   "change": 0.056,
+   "change_pct": 0.84,
+   "change_5d_pct": 1.72,
+   "change_20d_pct": 5.82,
+   "change_5d": 0.113,
+   "change_20d": 0.3685,
    "spark": [
     6.3685,
     6.4315,
@@ -997,7 +997,7 @@
     6.5965,
     6.519,
     6.6425,
-    6.7205
+    6.6985
    ],
    "as_of": "2026-10-12",
    "is_proxy": false,
@@ -1008,13 +1008,13 @@
    "name": "天然ガス",
    "ticker": "NG=F",
    "category": "commodity",
-   "close": 3.163,
-   "change": -0.057,
-   "change_pct": -1.77,
-   "change_5d_pct": 3.16,
-   "change_20d_pct": 9.22,
-   "change_5d": 0.097,
-   "change_20d": 0.267,
+   "close": 3.167,
+   "change": -0.053,
+   "change_pct": -1.65,
+   "change_5d_pct": 3.29,
+   "change_20d_pct": 9.36,
+   "change_5d": 0.101,
+   "change_20d": 0.271,
    "spark": [
     2.919,
     2.891,
@@ -1035,7 +1035,7 @@
     3.203,
     3.168,
     3.22,
-    3.163
+    3.167
    ],
    "as_of": "2026-10-12",
    "is_proxy": false,
@@ -1046,15 +1046,14 @@
    "name": "ビットコイン",
    "ticker": "BTC-USD",
    "category": "commodity",
-   "close": 83679.47,
-   "change": 767.2422,
-   "change_pct": 0.93,
-   "change_5d_pct": -2.2,
-   "change_20d_pct": -3.38,
-   "change_5d": -1878.0938,
-   "change_20d": -2923.4453,
+   "close": 81762.56,
+   "change": -1916.9062,
+   "change_pct": -2.29,
+   "change_5d_pct": -1.82,
+   "change_20d_pct": -5.12,
+   "change_5d": -1513.3672,
+   "change_20d": -4409.7188,
    "spark": [
-    86172.2812,
     84383.0078,
     84379.0625,
     84034.9219,
@@ -1073,9 +1072,10 @@
     81676.3359,
     82546.3203,
     82912.2266,
-    83679.4688
+    83679.4688,
+    81762.5625
    ],
-   "as_of": "2026-10-11",
+   "as_of": "2026-10-12",
    "is_proxy": false,
    "unit": ""
   }
@@ -2354,7 +2354,7 @@
      "disclosures": []
     }
    ],
-   "news_count": 12
+   "news_count": 9
   },
   {
    "key": "regional_banks",
@@ -2638,7 +2638,7 @@
      "disclosures": []
     }
    ],
-   "news_count": 1
+   "news_count": 0
   },
   {
    "key": "megabanks",
@@ -3380,7 +3380,7 @@
      "disclosures": []
     }
    ],
-   "news_count": 1
+   "news_count": 2
   },
   {
    "key": "glp1",
@@ -3740,7 +3740,7 @@
      "disclosures": []
     }
    ],
-   "news_count": 1
+   "news_count": 0
   },
   {
    "key": "china_adr",
@@ -3871,7 +3871,7 @@
      "disclosures": []
     }
    ],
-   "news_count": 3
+   "news_count": 5
   },
   {
    "key": "metals_mining",
@@ -4362,7 +4362,7 @@
      "disclosures": []
     }
    ],
-   "news_count": 2
+   "news_count": 1
   },
   {
    "key": "ipo",
@@ -4628,7 +4628,7 @@
      "close": 14.03,
      "change_pct": 0.21,
      "turnover": 3000000.0,
-     "volume": 188962.0,
+     "volume": 189000.0,
      "volume_ratio": null,
      "disclosures": []
     },
@@ -5381,7 +5381,7 @@
      "disclosures": []
     }
    ],
-   "news_count": 0
+   "news_count": 1
   },
   {
    "key": "semiconductor",
@@ -5556,7 +5556,7 @@
      "disclosures": []
     }
    ],
-   "news_count": 10
+   "news_count": 15
   },
   {
    "key": "dc_power",
@@ -6187,7 +6187,7 @@
      "disclosures": []
     }
    ],
-   "news_count": 0
+   "news_count": 1
   },
   {
    "key": "cyber_security",
@@ -6558,7 +6558,7 @@
      "disclosures": []
     }
    ],
-   "news_count": 7
+   "news_count": 5
   },
   {
    "key": "nuclear",
@@ -6853,7 +6853,7 @@
      "disclosures": []
     }
    ],
-   "news_count": 0
+   "news_count": 1
   },
   {
    "key": "quantum",
@@ -7556,6 +7556,17 @@
    ]
   },
   {
+   "title": "Tech stocks slide as Wall Street chip rout spreads. SK Hynix, SoftBank and ASML slump",
+   "url": "https://www.cnbc.com/2026/10/13/sk-hynix-softbank-samsung-electronics-shares-tech-stocks-fall.html",
+   "source": "CNBC Top News",
+   "published_at": "2026-10-13T07:22:07Z",
+   "tags": [
+    "semiconductor",
+    "semi_equipment",
+    "megabanks"
+   ]
+  },
+  {
    "title": "Nasdaq Slides As Big Bank Earnings Loom; Nvidia Slips, Visa Hits Highs",
    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPR1JVSFNYVmxOT1M5OS1UazlxS0dWMTdTRXRFT080QnYzVFA4LTUwcHItSEJKdWRsRTRFa3Z0TzdWeW9DM1ZTQWtwRU5UclFZQjF5MGo3bXZaaDlhWENQNE81MGNtM0M4cG9sV2d0aE9xV0RMNzJObC1XR1RDT01MRnhYUVRWOUQwRENRTGpaWTlKWllHamh4TGw3dWFBeTU3Nm1UME5HYTUzUGs0Vl9CVmt3dnI?oc=5",
    "source": "Investor's Business Daily",
@@ -7564,6 +7575,16 @@
     "semiconductor",
     "megabanks",
     "fintech"
+   ]
+  },
+  {
+   "title": "Oil rally pressures S&P, Nasdaq; Microsoft, Salesforce buoy Dow",
+   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNUXNuOWtzdlRZbE1CdVdfQ29WZC1PU0szdktxWExDSF9RQS1PN2lQZnB3YVJKZjFKOERrMTFjbW5iZTlReGxtdTNNOFJOMU0tbUZRUUVNRjJ6dkcwMXJBOU5Ma25ERnllUmc2LVAyUnVDakFnVV8zUnhDRXVpN1p3QlRXd0VDUDlORFhrcDlpT0JzcmhlZWpn?oc=5",
+   "source": "Yahoo Finance",
+   "published_at": "2026-10-12T16:00:02Z",
+   "tags": [
+    "software",
+    "oil_gas"
    ]
   },
   {
@@ -7577,22 +7598,62 @@
    ]
   },
   {
-   "title": "SK Hynix, SoftBank shares plunge as tech stocks in Asia track Wall Street chip sell-off",
-   "url": "https://www.cnbc.com/2026/10/13/sk-hynix-softbank-samsung-electronics-shares-tech-stocks-fall.html",
+   "title": "Visa gets Beijing's green light for bank card business after 40 years of working with China",
+   "url": "https://www.cnbc.com/2026/10/13/visa-china-green-light-bank-card-business-.html",
    "source": "CNBC Top News",
-   "published_at": "2026-10-13T02:11:41Z",
+   "published_at": "2026-10-13T06:20:55Z",
+   "tags": [
+    "megabanks",
+    "fintech",
+    "china_adr"
+   ]
+  },
+  {
+   "title": "Chip Slump Deepens Before Wall Street Earnings: Markets Wrap",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-12/stock-market-today-dow-s-p-live-updates",
+   "source": "Bloomberg Markets",
+   "published_at": "2026-10-12T22:04:35Z",
    "tags": [
     "semiconductor",
     "megabanks"
    ]
   },
   {
-   "title": "US Stock Market today: Reasons behind S&P 500, Nasdaq fall in Wall Street, top, worst performing sectors,",
-   "url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxOT0NSUjB6Qnlkb2hLSEdYOGd2eHgzS2hObWlDVklEbE9oOFctUld5WWpmQ2FWRVhQbkhtcFNoWDJzTm80aUtydTkyVWtOZXU1UEdIczdic3Bha29JMWtYQW9qdmZmdlJMSEYwTzlSSnU4Ykp4cElhdXpWRG55RHVSREZNZTJYZ2NvN3N2LXdhWkp4cjZ1TzlPVWZmYm5zb0JVekEzTDhZTEY4bVNWTzFuR1B3LWJwZUQ1UmM2UTBfcHl5OUFpY2RpV1ltWDBOUVFJQXpfaXpBbDN1ajhBQ2N4bXhyVVk2b3RGbU9ncFZzT2xESDFZdlIwT0psNU9sdk5iczlGb19DdTFxUGViUmdj0gGUAkFVX3lxTE1zX0RCUWllNXJPOEZrRGwtQWdhc2ZObEdCVHk5TUF4cUdKNGd4Y0VESlZuYXN0T1lfaHVUZEZ0c3JOU3VIclR2aGhMZzNpQ3RGdE4tU2p6LVZVcHd4X1AxVGlLNGROVDN4UFM1SXNLQlVwZnlLcWFLYm4zVkNxTmdwU3ZfUW1OWmFqdXVORnY1REhiQkVlV0FCUzZVLUpmUUJOYWZtczNUbldCZ3hPU1lIWXVCUlVPWUQyUEJkRGg5UDhQZjBiNkphMEw4cjRCbC1TbTBEODFUQUlZY25Jd3FNWUNHVmRWM1pYV3U5Tm4xcTZ4MUdObGpzS21ibXVxRXpWcVFiX1JOY3VnZ2NfaWk2WnJ6Sw?oc=5",
-   "source": "The Economic Times",
-   "published_at": "2026-10-13T00:01:02Z",
+   "title": "NYダウは続伸、半導体株の下落と米国株市場の明暗",
+   "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1oSnpTQ21kdkxzeUUzSGxfNm9BMXJNcnE2ZXhHNjltYU15Ny1FYTdlTFhBNTYtclF0X1FHLU9nN09peXFWVXNvN1VxZU1TRGlNcVE?oc=5",
+   "source": "EBC Financial Group",
+   "published_at": "2026-10-13T06:44:00Z",
    "tags": [
+    "semiconductor"
+   ]
+  },
+  {
+   "title": "Is SpaceX Stock Cheap? 1 Wall Street Analyst Thinks So.",
+   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOUzRyTWlRUWtSa1pPdEJMdlhDZ2hTR1pYeUx1WkRtbnllOHdCeWpDTnlVczVsSmRFdVNxNFRKN1pBVlJiQm1rMlptNXpDamFieWhaNE0xUWhsU1Rvbkdua3VTQTVkQkZYOXlaWGdySUpHcENSbDh6OUlHU0dNR0xEZmM5UHRmc0MyS0xrandtZngyMlZjM08xVQ?oc=5",
+   "source": "The Motley Fool",
+   "published_at": "2026-10-13T04:01:19Z",
+   "tags": [
+    "space",
     "megabanks"
+   ]
+  },
+  {
+   "title": "Nasdaq futures slide amid chip selloff; Q3 earnings, inflation data loom",
+   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNUmFUMkhCTURMRVpKS0tuUW1FbVNsX3RTSjlsMHRWVUFCaDlPcE1FTHdBVmdKNlF5aTUtSTBLU01GWFhsSEprQ3QwOGZ1dXQ0bWhXbzZrVllwM0lWV01iSFAwWHlhcGpsQVFoWmh0cTEyU2FCdjhrNUJ3VDZ3cUZzbDR4VVR3blhBSkpxVVI0eTRGaXNMb3BGZTVzcG56aVZTaWthX0VHYXowbGh0YkdDdFU3aHdRN2JI?oc=5",
+   "source": "Investing.com",
+   "published_at": "2026-10-13T03:40:29Z",
+   "tags": [
+    "semiconductor"
+   ]
+  },
+  {
+   "title": "Dow Jones Futures: Micron, Nvidia Lead AI Trade Lower; Apple, Meta Rally Near Buy Points",
+   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOSlk0RnVxb1Y1NnB2cDJ0R0FtVlBhZ1dUV3JsenBRSUNxNW5xNGJySFd3M2MzekJBaXlhRzlObnNmaUZ4UlZSOVdqazFnc2VVVDJmYWJ4Rm1ROTJUNXMybXRfRm5VZ0JIWEZVNEpDZXVZM2VqWkFQR0Q5aV9IbGwwSnA5QjZvdXFId1pDa18xektnbThpN2pRbFRtWW52dHg3aGcw?oc=5",
+   "source": "Investor's Business Daily",
+   "published_at": "2026-10-13T03:03:00Z",
+   "tags": [
+    "semiconductor",
+    "memory"
    ]
   },
   {
@@ -7602,16 +7663,6 @@
    "published_at": "2026-10-12T23:32:22Z",
    "tags": [
     "semiconductor"
-   ]
-  },
-  {
-   "title": "Dow Jones Futures: Micron, Nvidia Lead AI Trade Lower; Apple, Meta Rally Near Buy Points",
-   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOSlk0RnVxb1Y1NnB2cDJ0R0FtVlBhZ1dUV3JsenBRSUNxNW5xNGJySFd3M2MzekJBaXlhRzlObnNmaUZ4UlZSOVdqazFnc2VVVDJmYWJ4Rm1ROTJUNXMybXRfRm5VZ0JIWEZVNEpDZXVZM2VqWkFQR0Q5aV9IbGwwSnA5QjZvdXFId1pDa18xektnbThpN2pRbFRtWW52dHg3aGcw?oc=5",
-   "source": "Investor's Business Daily",
-   "published_at": "2026-10-12T23:16:00Z",
-   "tags": [
-    "semiconductor",
-    "memory"
    ]
   },
   {
@@ -7643,20 +7694,19 @@
    ]
   },
   {
-   "title": "Micron, Fannie Mae, eBay, IonQ, Salesforce, and More Stocks That Explain Today’s Market",
-   "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5KNU1xYXctd0RobmlBRGV4aXFJZ0dmbklNYlFjZm10aFJFakU1NW54YUQ4RDdwaHZ4cWJPbGRRZ3Uwc2Z5ZlBrNFI5RUc5SWRoWlFkYlVxVjJ1alhFNDVNMzgwV0Y?oc=5",
-   "source": "Barron's",
-   "published_at": "2026-10-12T20:24:00Z",
-   "tags": [
-    "memory",
-    "software"
-   ]
-  },
-  {
    "title": "米国株式市場＝ナスダック下落、原油高と決算を警戒",
    "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNNEdGUTVKUmF3dkpqUkZuVmlLa3RqQXM4ajFiYTVHWm53Qy1LSHBaN3BWbTNiLXV5YURCX1l6TjQ5TjBQVE93aXFRa0tTRllFbko1TWpKNEpCWWIyanlZOHp6cnJmbkR0R1B4UTFtQUlZYUhYWDluSDJ2dDBEY1NjNkpIcVo?oc=5",
    "source": "ロイター",
    "published_at": "2026-10-12T20:11:43Z",
+   "tags": [
+    "oil_gas"
+   ]
+  },
+  {
+   "title": "米国株式市場＝ナスダック下落、原油高や決算を警戒 (ロイター)",
+   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOeV8xaFdMa05NSWY5bm5uYVdCc05IdUtlcWdMZEVTZWxlc2NTT3J3Zzh4emZqOGFodFJ1ME5BcmZ3M2ZrREpDd0VUb2RvXy1Ja2VMWWx3NXJkV0YzUVZNQkw4Um9pN0M4QVpEMzdSbnBZTmgxbnF2MENsWWU2VnA5RHEtdmpUbkdaSDNqMk9R?oc=5",
+   "source": "Yahoo!ニュース",
+   "published_at": "2026-10-12T20:10:35Z",
    "tags": [
     "oil_gas"
    ]
@@ -7700,21 +7750,40 @@
    ]
   },
   {
-   "title": "U.S. stock futures steady as bank earnings, inflation data loom",
-   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNUmFUMkhCTURMRVpKS0tuUW1FbVNsX3RTSjlsMHRWVUFCaDlPcE1FTHdBVmdKNlF5aTUtSTBLU01GWFhsSEprQ3QwOGZ1dXQ0bWhXbzZrVllwM0lWV01iSFAwWHlhcGpsQVFoWmh0cTEyU2FCdjhrNUJ3VDZ3cUZzbDR4VVR3blhBSkpxVVI0eTRGaXNMb3BGZTVzcG56aVZTaWthX0VHYXowbGh0YkdDdFU3aHdRN2JI?oc=5",
+   "title": "Asian Chipmakers Fall on Breakthrough by China's CXMT",
+   "url": "https://www.bloomberg.com/news/videos/2026-10-13/the-china-show-10-13-2026-video",
+   "source": "Bloomberg Markets",
+   "published_at": "2026-10-13T06:27:48Z",
+   "tags": [
+    "semiconductor",
+    "china_adr"
+   ]
+  },
+  {
+   "title": "Nasdaq falls ahead of earnings, economic data while oil rallies By Reuters",
+   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOZml0OWdWVnlLS2c0Tk1ndk15RWpKbTZRd0xtVUxQbjd4ZmhIX1E3V3F4Z0VMaWs4UTBLXzZocHY5UldaNHVsQkYwVG14b2xWb29HYnU5aVdWOEVZeDcycENkbF8yRGpUSEtkNXBMLVUzaXlSUzhnNnoxQ2pVUC1MeXh6WFJPUWJRTnF6ZzRjUTVFWW51UXdRWlhOcUtuN0pRUWNZd0c4UlNSOV9iWVphN3Z5ajB2U0lMSjBSXw?oc=5",
    "source": "Investing.com",
-   "published_at": "2026-10-13T00:27:22Z",
+   "published_at": "2026-10-13T03:18:09Z",
+   "tags": [
+    "oil_gas"
+   ]
+  },
+  {
+   "title": "US stocks hover near their latest record in mixed trading on Wall Street",
+   "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxNU1BUd3NRZHFvd1o4dFhUTk9TZVdGeVBtNGpSVXNDd2ppVUtEclRLdTdzTDdidXotbzIzRVNVTERKM2xTaklqekZIMHJiUDhGTGlCRXhRYzlDSFFzUzFWa083VDBQM1FzMTRsWFVPVWlRd1pCQjlTVUdMU252cHZGeE5pR1lmWndERHRtVkRnMW8zRTB6YWxjV0E4c2xBRm1nNlhBSGExM25yWnJ4RlVsck5TVkpXU3diQjlGRzRLM09IR0puMVhSM2NQVmw2LUxDcEZwRmVJdlRkZWdaNWZqLVZYZjFYOXRPOHVjMTZld0J5ME9zMjFfNHl5N2lCU3Y4dnc?oc=5",
+   "source": "LancasterOnline",
+   "published_at": "2026-10-13T02:15:00Z",
    "tags": [
     "megabanks"
    ]
   },
   {
-   "title": "Nasdaq falls ahead of earnings, economic data while oil rallies",
-   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOck00LVRZX0lQNUw5SGlYU09FOWw1dUVTNjZTQ0p6YklVVUlRSms1eVZRcDd6VjRySF9rOEptM3Nrd19mSURMa1dmbTdIOE1VZjJKdThIR0tabGRTdjBiX0JCWkVndjJFNkZrT0w4NzZ2VWVibjlyeVZHRmszeXRraWRfT0p2SDhSQnFTY3QycG05eHpjQVVLYk9yRF9UYzZ0VmZ6Sw?oc=5",
-   "source": "Reuters",
-   "published_at": "2026-10-12T23:50:15Z",
+   "title": "ナスダック先物が下落、半導体売りと第3四半期決算・インフレ指標に注目 執筆 - Investing.com",
+   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE40MXRaOEdiWVpKQWpOV01wdEk4SXVYb3kyS2tMbFFRZThrSGwzd01oMlNZeHVpZnlpTGR4RUZsQTNQSENRSjFxOWNBYk4zcGc0M2F5eHFmcmRMOXNIQ011SE5KTDhEbERWNFNRUTEtTUw?oc=5",
+   "source": "FX",
+   "published_at": "2026-10-13T00:25:00Z",
    "tags": [
-    "oil_gas"
+    "semiconductor"
    ]
   },
   {
@@ -7738,31 +7807,12 @@
    ]
   },
   {
-   "title": "Fmr. Fed Governor Betsy Duke on CPI Amid Bank Results",
-   "url": "https://www.bloomberg.com/news/videos/2026-10-12/fmr-fed-governor-betsy-duke-on-cpi-amid-bank-results-video",
-   "source": "Bloomberg Markets",
-   "published_at": "2026-10-12T21:27:08Z",
-   "tags": [
-    "megabanks"
-   ]
-  },
-  {
    "title": "NY株式：NYダウは195.60ドル高、ハイテクや原油高が重し",
-   "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBTUlRoU3l3YjItUkYycjFKeVdtcnV6R0xNVGx4YmRPOVNyNlo3UU9fM0JrNFZodnI4ajVudGpqYkdHdG9DLS1jRU1TaTVuSW8xcXc?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBhOFNMRUpDSHRPbzNJOWV4NXdFdURLQVg1NEN0WEFSVDVKbnF2MlF2QjktRzVSVHdKU0QxcmRkVzNJbXFwbXdaSWVvYVljQlphcW9ERHNzcFRXX3JodVVfYg?oc=5",
    "source": "株探",
    "published_at": "2026-10-12T20:49:37Z",
    "tags": [
     "oil_gas"
-   ]
-  },
-  {
-   "title": "Nvidia (NVDA) vs. Broadcom (AVGO): Which AI Stock Is a Better Buy After the OpenAI Scare?",
-   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQaWFZZl9HS0NyR1M3ejBYZFFIcEo2UTl5UE9Fb0pVa3V1SmlwZ0M5V1EyY2MwVGxxTmprdE1pRjFwSXpyM0tyNTBOZWtpX1hvanZ2X3E1aE80X2N1cVpGblA5YzNBc01HWm0yM3c0TDl0RkZrRlVIdWE3bTVDRlNoY1V1NEhOZERndTZBem9yRlFjUU44N2l3aQ?oc=5",
-   "source": "Yahoo Finance",
-   "published_at": "2026-10-12T20:41:08Z",
-   "tags": [
-    "semiconductor",
-    "ai_software"
    ]
   },
   {
@@ -7789,15 +7839,6 @@
    "tags": []
   },
   {
-   "title": "US stocks hover near their latest record in mixed trading on Wall Street",
-   "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxNU1BUd3NRZHFvd1o4dFhUTk9TZVdGeVBtNGpSVXNDd2ppVUtEclRLdTdzTDdidXotbzIzRVNVTERKM2xTaklqekZIMHJiUDhGTGlCRXhRYzlDSFFzUzFWa083VDBQM1FzMTRsWFVPVWlRd1pCQjlTVUdMU252cHZGeE5pR1lmWndERHRtVkRnMW8zRTB6YWxjV0E4c2xBRm1nNlhBSGExM25yWnJ4RlVsck5TVkpXU3diQjlGRzRLM09IR0puMVhSM2NQVmw2LUxDcEZwRmVJdlRkZWdaNWZqLVZYZjFYOXRPOHVjMTZld0J5ME9zMjFfNHl5N2lCU3Y4dnc?oc=5",
-   "source": "LancasterOnline",
-   "published_at": "2026-10-12T20:12:25Z",
-   "tags": [
-    "megabanks"
-   ]
-  },
-  {
    "title": "Not Sandisk, Not Intel. This Stock Will Lead the S&P 500 Next Year",
    "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPYkYwblVOQ0trR0dvR1lfM2NPUWstSXJOWmUwdDhyRTlTbDlJajZYd1RRaVZ3aWZyU2VlTUF0ZmdWd1FhR0phNEFyMGRqalRiVEtWeHJKOXlfS2dHZ2NWd0tDdmd4ZHYyTGdMLWRKMmdnTkdFdWJHenpSXzNxUjc2VjQ5WTYwS3JPdE9pdzUxdzREUHh1LTBj?oc=5",
    "source": "The Motley Fool",
@@ -7816,15 +7857,6 @@
    ]
   },
   {
-   "title": "1 S&P 500 Stock to Target This Week and 2 We Question",
-   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxObXROdm5KM28tMHpjb0ZibE9ydjZ3REZkak9yMU1MZ0xGaGNiYmNnS2tXZXNmZUVqeW9QWm5tY2Y1TFBFV3hLeHB5T1hscTRWc0lwT1BBdmxjLW9KWWFZNXlHQWE4a1BXTUxpMDlIVDFESjdXVW5jc3RyR1U2VXlIZ3NtM1VSZ3RDSWRMLW53?oc=5",
-   "source": "Yahoo Finance",
-   "published_at": "2026-10-12T14:47:03Z",
-   "tags": [
-    "retail"
-   ]
-  },
-  {
    "title": "Top Wall Street analysts prefer these 3 dividend stocks for stable income",
    "url": "https://www.cnbc.com/2026/10/11/top-analysts-prefer-these-3-dividend-stocks-for-stable-income.html",
    "source": "CNBC Markets",
@@ -7834,80 +7866,49 @@
    ]
   },
   {
-   "title": "マイクロン・テクノロジー、セールスフォース 海外市場ビュー&米国株ピックアップ（10月13日）",
-   "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE95NUNEZU1FT0ZHZ181WW1Na1ZUMTVmSUZ6bUQ4THV0Tk1OVTVSaWpLamxQcDJjRkZVbU01VUVCWWJNQkNwZkpjekZkanZwVl81b1VkdDhEM2x4aDNvMnh6VDFyWFRlRWw1MGJVOFdGMllmeG9UWS1xLWg5eW9fdw?oc=5",
-   "source": "日本経済新聞",
-   "published_at": "2026-10-13T01:14:42Z",
-   "tags": [
-    "memory"
-   ]
-  },
-  {
-   "title": "米国株情報＞デルタ航空、第３四半期はＥＰＳが市場予想下回る―通期予想も修正(ウエルスアドバイザー)",
-   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPeEJVTWJnRVlFNG1fejRMR0dVcjZ4X1ZNWDMtOVYtTzBJTjdHZkVwUFBYazdQaHZMSHJoR1VPZGllYkZzb0daSUhyYlk0TG4yREhfSUJNOGZtc0UweFcwbkMxYXVRalV3SEYzOVl3T3VhM3lqRTdPTlNOS094cnd1VVRXeGQ2ckU?oc=5",
-   "source": "Yahoo!ファイナンス",
-   "published_at": "2026-10-13T01:03:35Z",
-   "tags": [
-    "travel"
-   ]
-  },
-  {
-   "title": "米国株式市場：ナスダック総合指数は決算発表シーズンを前に下落。",
-   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNaWVqcjQwT0RXeFhJNkY0ZllPTkphQkFIVEZfZk9paUtjTjJIYTdHOFBZeHZoRndwYklXd1ZlUDJKNlRMNDkxQkd4UGxIeEtzVkJtU1F6QlpucExVdVB3ZUltOVRsSnRtVm84ejdpdEl5UzA0cE1tdzBrOTVpREptLU5HVENBLWFfcGlxNVNOQUVEalZDOXpjVVBDOWF0Ul9oWllpNw?oc=5",
-   "source": "Vietnam.vn",
-   "published_at": "2026-10-13T00:59:32Z",
+   "title": "AI関連銘柄は不調だが…S&P500やナスダックの「最高値更新」が期待されるワケ【米国株の注目セクター】",
+   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFB5b1h2Q2NEN19Ib2V6NFhLY0c3NFJWdllHU29NZVJlQmFCUHp0NDN4NjFxaGYyTUxOZE5lbHRWSHpJM2ZLMXZtcC1ndW9jeThQWXdLYjI4VU0xUQ?oc=5",
+   "source": "トウシル",
+   "published_at": "2026-10-13T07:27:00Z",
    "tags": []
   },
   {
-   "title": "今日の株式見通し＝軟調、米ナスダック安と原油高を嫌気 バリュー系に流れも",
-   "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOMF9ycHJmTUJuRXJIbVZiUkRxU2o0N0NpX3ctVl9ESUV0dWtwaVU1bERlOVoyUDhZd285RVo2dm1wTElPamZ4Y256OU40cHB6WXN5M20tNWQ4dDBmUGZXNHdpT1FjRFhJZ29TMlZyeHRqLUE5NW5uLXJQbDhncmpIT2FEbUpMUQ?oc=5",
-   "source": "Reuters",
-   "published_at": "2026-10-12T23:51:52Z",
+   "title": "XRP保有企業エバーノースがナスダック上場、元コインベース幹部をCIOに（あたらしい経済）",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5PMG5WU3kwa0lQdXRwUHhnT1JvXzNxb1VUUkZxTF9KNjBjYWtWR012MUVSMUxVSXU3TTZOUWtyNHZlTC1fY1ZfSGRFZzlxdEJSNEdCa1k3QVJaT2V0eVpfWjJYTnVVRFhKM3JKRllHRTVYbHk4dFJveHhZTWJsNnc?oc=5",
+   "source": "Yahoo!ニュース",
+   "published_at": "2026-10-13T06:50:08Z",
    "tags": [
-    "oil_gas"
+    "ipo"
    ]
   },
   {
-   "title": "ナスダック100の振り返りと見通し：ハイテク売りが主導し軟調。中東緊迫化で原油高も重荷(2026年10月13日)",
-   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9RRjFObXVyTVFFY1ZMMjlzazBoVXJ6MkxsSVBaTmhnSGhmV3ZpOU9nQThSUkh6R212RzBiVklkRUJDMU5SRWhoZlN1M1RpVW9BQ3lFZXVDY2JTRmdteGk1TnRTd0lWbThRdGFLRDV4MXpudw?oc=5",
-   "source": "OANDA証券",
-   "published_at": "2026-10-12T23:37:06Z",
+   "title": "6 S&P 500 Stocks Hit 52-Week Lows On Monday",
+   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNR2hwSVpuRnRLRmVZckdWaUtGOS1hckxkTV8xZFp5c09kVFlwNEFXMDZsUnVxQzZsZEdGT2Z3d2l4bllsMjFYSFBhVlJQTzNSd3YyaU1ERDlGQjJnSk1wZzlCT0RCM3ZvOGNPRUxncE9HVzBVOXZMXzZpdzlOZ2J5VVVPSmlaUEN6ZWVXZ0hlUXd4ZlFaWHhRaVJPUGJYWVh2QkFzWg?oc=5",
+   "source": "Trefis",
+   "published_at": "2026-10-13T06:17:26Z",
+   "tags": []
+  },
+  {
+   "title": "Stock Market: Will S&P 500 Open Up or Down Today?",
+   "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQMmRkOW9UZHlmdTF6Z01ZQ3Z1N1E5SGpqX243Wk0ydXhoRzZQdkNmcjdCX2xNUUY0UG1icU8tNTdfWENpczBZTW9lU2VTWHcyS3Z1WFNtY1NjOTlORlRVS0J1bDl3RDc0Z2t6eEZLemQ5NlBKa0RkNk1XNlgwbVBWYkl6Z3dkVVg0R3FIY0dJdnRQZVhjaFRxRm9RejNhQXF4Y2NtV1hKODExdXZsT3VPekJ1NnFoWTQzVHFhUW4tR08wNmFvV0o0REhXMXdHSVVYWFNGNzRlZUM?oc=5",
+   "source": "Benzinga",
+   "published_at": "2026-10-13T05:48:41Z",
+   "tags": []
+  },
+  {
+   "title": "Chip stocks slide in wake of ‘casino’ comment by Broadcom boss",
+   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNUEdnZjlUNktHX2ViUVRqZHd4ZmhjaXdkd0NMR3BVLUp6akpVOUFabEljcHk4N0wzRDloZXhuQklwaVUwWjNYSFJnYkhzQ0RQNzZFZXh6VFh2U0hEZ1FybXhxNUQ0WTVLbXZydHM4REVRLXVVbHpsd2Rnc0M1MnVMMlVJTVc?oc=5",
+   "source": "Financial Times",
+   "published_at": "2026-10-13T02:58:54Z",
    "tags": [
-    "oil_gas"
+    "semiconductor"
    ]
   },
   {
-   "title": "Nasdaq Slips 0.2%, Oil Jumps 2% on Ukraine Strikes [2026] - https://tech-insider.org/",
-   "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBiNHY2M3phWmZEX0V6eng3WGdWMDFmNlFOSzFnN0dMdjBRMTEwZm40bm5sV043YUVjV05TbUg5WTIwWXVaLXh5R20tV1dRNFl0YnFnNS14MXpBeEdtVkxWMERtdEVqQ0NhcHVnVnA2cDRrTDJ2dFQ1cQ?oc=5",
-   "source": "Google News Markets",
-   "published_at": "2026-10-12T23:27:51Z",
-   "tags": [
-    "oil_gas"
-   ]
-  },
-  {
-   "title": "米国株式市場はまちまち、ハイテクや原油高が重し／海外市場動向(フィスコ)",
-   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNYU1xMFoySmRFd21hZkllS0IzSzV6azg3RXhSZ2QtRVZadVg2YWJOVFBEX05HdFlkVm9kSE1MeWQySXctYWNkVnJYSDlsTV9EanVMc3RDNE96S0loY3Jlb0taYkxraGx2RGFlYzdDR1lLanZPUUlOeE1SOUJfYjRtNVY5aWhmVWM?oc=5",
-   "source": "Yahoo!ファイナンス",
-   "published_at": "2026-10-12T23:13:21Z",
-   "tags": [
-    "oil_gas"
-   ]
-  },
-  {
-   "title": "米国株式市場はまちまち、ハイテクや原油高が重し",
-   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQV3BaemlHODVtVGwtZm9XcWZSZ25MZTRybkxicUpBbXlQT0JIeVg0TGZIR1o4RkI3a0Vnb082ckJjWDlJZjQ1aUlLQjV0UUJXRC1PdmNJX0stczl2MmhOQkJfN09Hb3RYRWNQTUd5WV9KU3RkOWxHSnF1QTM2SDdDYXg4R0duOEwyc095b9IBjAFBVV95cUxQV3BaemlHODVtVGwtZm9XcWZSZ25MZTRybkxicUpBbXlQT0JIeVg0TGZIR1o4RkI3a0Vnb082ckJjWDlJZjQ1aUlLQjV0UUJXRC1PdmNJX0stczl2MmhOQkJfN09Hb3RYRWNQTUd5WV9KU3RkOWxHSnF1QTM2SDdDYXg4R0duOEwyc095bw?oc=5",
-   "source": "ｄメニューニュース",
-   "published_at": "2026-10-12T23:13:00Z",
-   "tags": [
-    "oil_gas"
-   ]
-  },
-  {
-   "title": "米国株式市場、ＮＹダウ３日続伸、ナスダックは反落(ウエルスアドバイザー)",
-   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPZEM2MDJJTG9QaEk2Nk5lZy1OX0dvY1B6LXpqdUFhNnRqc0dhb1E5THZmX3B0VThKd1FjUDE1d0tWSHVvQkU3azFWZS02b0cySnpGRHNMeXdhQjBoLUVZNFFJYThzQlVSYndSV3BYdGVhbkZzdTNpR0hkU0REcEY0ZERQN1RraTg?oc=5",
-   "source": "Yahoo!ファイナンス",
-   "published_at": "2026-10-12T22:45:27Z",
+   "title": "【米国株】S&P500は高値圏を維持 AI投資の持続力と第3四半期企業決算に注目",
+   "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1sUHNCd3lHd2RncGc0VGcwcE5SaG94cGxnSUxkcEpaTUV2SlJTT08wbF83aXNaRWYwbjZXVjNVcGNQQnh1eVZYb0RGLW1PcUl2WGpNWFhCUdIBV0FVX3lxTE1sUHNCd3lHd2RncGc0VGcwcE5SaG94cGxnSUxkcEpaTUV2SlJTT08wbF83aXNaRWYwbjZXVjNVcGNQQnh1eVZYb0RGLW1PcUl2WGpNWFhCUQ?oc=5",
+   "source": "マネクリ",
+   "published_at": "2026-10-13T02:20:00Z",
    "tags": []
   }
  ],
