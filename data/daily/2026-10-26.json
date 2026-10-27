@@ -1,7 +1,7 @@
 {
  "schema_version": 1,
  "date": "2026-10-26",
- "generated_at": "2026-10-27T01:36:02.388083Z",
+ "generated_at": "2026-10-27T06:15:31.992861Z",
  "sources": [
   "yfinance",
   "S&P500構成銘柄のウエイト: SPDR S&P 500 ETF の保有比率（2026-10-21時点）",
@@ -135,12 +135,12 @@
    "ticker": "^NDX",
    "category": "us_index",
    "close": 29273.4,
-   "change": 315.875,
+   "change": 315.8711,
    "change_pct": 1.09,
    "change_5d_pct": -0.87,
    "change_20d_pct": -3.31,
-   "change_5d": -255.9453,
-   "change_20d": -1003.4062,
+   "change_5d": -255.9492,
+   "change_20d": -1003.4102,
    "spark": [
     30339.3301,
     30408.5,
@@ -161,7 +161,7 @@
     29822.5195,
     28958.6895,
     28957.5293,
-    29273.4043
+    29273.4004
    ],
    "as_of": "2026-10-26",
    "is_proxy": false,
@@ -173,12 +173,12 @@
    "ticker": "^RUT",
    "category": "us_index",
    "close": 2786.42,
-   "change": 10.5242,
+   "change": 10.52,
    "change_pct": 0.38,
    "change_5d_pct": 2.13,
    "change_20d_pct": -1.12,
-   "change_5d": 58.124,
-   "change_20d": -31.4858,
+   "change_5d": 58.1199,
+   "change_20d": -31.49,
    "spark": [
     2807.9199,
     2796.8601,
@@ -199,7 +199,7 @@
     2781.02,
     2784.03,
     2775.8999,
-    2786.4241
+    2786.4199
    ],
    "as_of": "2026-10-26",
    "is_proxy": false,
@@ -286,13 +286,13 @@
    "name": "S&P500先物",
    "ticker": "ES=F",
    "category": "futures_vol",
-   "close": 7722.5,
-   "change": 62.75,
-   "change_pct": 0.82,
-   "change_5d_pct": -0.16,
-   "change_20d_pct": -0.31,
-   "change_5d": -12.0,
-   "change_20d": -24.25,
+   "close": 7714.5,
+   "change": 54.75,
+   "change_pct": 0.71,
+   "change_5d_pct": -0.26,
+   "change_20d_pct": -0.42,
+   "change_5d": -20.0,
+   "change_20d": -32.25,
    "spark": [
     7732.0,
     7715.5,
@@ -313,7 +313,7 @@
     7800.25,
     7704.5,
     7659.75,
-    7722.5
+    7714.5
    ],
    "as_of": "2026-10-26",
    "is_proxy": false,
@@ -324,13 +324,13 @@
    "name": "NASDAQ100先物",
    "ticker": "NQ=F",
    "category": "futures_vol",
-   "close": 29480.5,
-   "change": 362.75,
-   "change_pct": 1.25,
-   "change_5d_pct": -0.81,
-   "change_20d_pct": -3.55,
-   "change_5d": -242.0,
-   "change_20d": -1085.75,
+   "close": 29437.25,
+   "change": 319.5,
+   "change_pct": 1.1,
+   "change_5d_pct": -0.96,
+   "change_20d_pct": -3.69,
+   "change_5d": -285.25,
+   "change_20d": -1129.0,
    "spark": [
     30613.25,
     30698.75,
@@ -351,7 +351,7 @@
     30007.0,
     29142.0,
     29117.75,
-    29480.5
+    29437.25
    ],
    "as_of": "2026-10-26",
    "is_proxy": false,
@@ -438,13 +438,13 @@
    "name": "ドル指数",
    "ticker": "DX-Y.NYB",
    "category": "fx",
-   "close": 102.06,
-   "change": 0.25,
-   "change_pct": 0.25,
-   "change_5d_pct": 0.08,
-   "change_20d_pct": 0.85,
-   "change_5d": 0.08,
-   "change_20d": 0.86,
+   "close": 101.96,
+   "change": 0.15,
+   "change_pct": 0.15,
+   "change_5d_pct": -0.02,
+   "change_20d_pct": 0.75,
+   "change_5d": -0.02,
+   "change_20d": 0.76,
    "spark": [
     101.37,
     101.45,
@@ -465,7 +465,7 @@
     101.78,
     101.61,
     101.81,
-    102.06
+    101.96
    ],
    "as_of": "2026-10-26",
    "is_proxy": false,
@@ -859,7 +859,7 @@
    "close": 5.301,
    "change": -0.014,
    "change_pct": -0.26,
-   "change_5d_pct": -3.13,
+   "change_5d_pct": -3.12,
    "change_20d_pct": -4.68,
    "change_5d": -0.171,
    "change_20d": -0.26,
@@ -894,13 +894,13 @@
    "name": "WTI原油",
    "ticker": "CL=F",
    "category": "commodity",
-   "close": 101.05,
-   "change": -2.22,
-   "change_pct": -2.15,
-   "change_5d_pct": -2.52,
-   "change_20d_pct": 9.13,
-   "change_5d": -2.61,
-   "change_20d": 8.45,
+   "close": 101.76,
+   "change": -1.51,
+   "change_pct": -1.46,
+   "change_5d_pct": -1.83,
+   "change_20d_pct": 9.89,
+   "change_5d": -1.9,
+   "change_20d": 9.16,
    "spark": [
     89.38,
     90.42,
@@ -921,7 +921,7 @@
     97.15,
     99.47,
     103.27,
-    101.05
+    101.76
    ],
    "as_of": "2026-10-26",
    "is_proxy": false,
@@ -932,13 +932,13 @@
    "name": "金",
    "ticker": "GC=F",
    "category": "commodity",
-   "close": 4021.9,
-   "change": 14.0,
-   "change_pct": 0.35,
-   "change_5d_pct": -3.32,
-   "change_20d_pct": -3.51,
-   "change_5d": -138.2002,
-   "change_20d": -146.5,
+   "close": 4038.4,
+   "change": 30.5,
+   "change_pct": 0.76,
+   "change_5d_pct": -2.93,
+   "change_20d_pct": -3.12,
+   "change_5d": -121.7002,
+   "change_20d": -130.0,
    "spark": [
     4179.7002,
     4186.7002,
@@ -959,7 +959,7 @@
     4150.0,
     4060.3999,
     4007.8999,
-    4021.8999
+    4038.3999
    ],
    "as_of": "2026-10-26",
    "is_proxy": false,
@@ -970,13 +970,13 @@
    "name": "銅",
    "ticker": "HG=F",
    "category": "commodity",
-   "close": 6.57,
-   "change": 0.094,
-   "change_pct": 1.45,
-   "change_5d_pct": 0.49,
-   "change_20d_pct": 0.06,
-   "change_5d": 0.032,
-   "change_20d": 0.004,
+   "close": 6.508,
+   "change": 0.032,
+   "change_pct": 0.49,
+   "change_5d_pct": -0.46,
+   "change_20d_pct": -0.88,
+   "change_5d": -0.03,
+   "change_20d": -0.058,
    "spark": [
     6.5435,
     6.559,
@@ -997,7 +997,7 @@
     6.543,
     6.3625,
     6.476,
-    6.57
+    6.508
    ],
    "as_of": "2026-10-26",
    "is_proxy": false,
@@ -1008,13 +1008,13 @@
    "name": "天然ガス",
    "ticker": "NG=F",
    "category": "commodity",
-   "close": 3.035,
-   "change": 0.395,
-   "change_pct": 14.96,
-   "change_5d_pct": -0.75,
-   "change_20d_pct": 1.17,
-   "change_5d": -0.023,
-   "change_20d": 0.035,
+   "close": 2.602,
+   "change": -0.038,
+   "change_pct": -1.44,
+   "change_5d_pct": -14.91,
+   "change_20d_pct": -13.27,
+   "change_5d": -0.456,
+   "change_20d": -0.398,
    "spark": [
     3.011,
     3.026,
@@ -1035,7 +1035,7 @@
     2.79,
     2.796,
     2.64,
-    3.035
+    2.602
    ],
    "as_of": "2026-10-26",
    "is_proxy": false,
@@ -1166,11 +1166,11 @@
   {
    "name": "資本財",
    "key": "Industrials",
-   "change_pct": 1.44,
-   "median_pct": 0.88,
-   "advancers": 59,
+   "change_pct": 1.45,
+   "median_pct": 0.89,
+   "advancers": 60,
    "decliners": 23,
-   "count": 82,
+   "count": 83,
    "index_weight_pct": 8.01,
    "etf": "XLI",
    "etf_change_pct": 1.42,
@@ -2462,7 +2462,7 @@
      "disclosures": []
     }
    ],
-   "news_count": 5
+   "news_count": 4
   },
   {
    "key": "defense",
@@ -2680,14 +2680,14 @@
      "disclosures": []
     }
    ],
-   "news_count": 1
+   "news_count": 0
   },
   {
    "key": "dc_power",
    "name": "データセンター電力・冷却",
-   "change_pct": 2.33,
-   "advancers_ratio": 0.83,
-   "count": 12,
+   "change_pct": 2.34,
+   "advancers_ratio": 0.85,
+   "count": 13,
    "members": [
     {
      "code": "BE",
@@ -2785,6 +2785,17 @@
        "ah_time": null
       }
      ]
+    },
+    {
+     "code": "HUBB",
+     "name": "Hubbell",
+     "sector": "資本財",
+     "close": 459.4,
+     "change_pct": 2.52,
+     "turnover": 362000000.0,
+     "volume": 788117.0,
+     "volume_ratio": 1.51,
+     "disclosures": []
     },
     {
      "code": "ETN",
@@ -3322,7 +3333,7 @@
      "disclosures": []
     }
    ],
-   "news_count": 4
+   "news_count": 6
   },
   {
    "key": "ai_infra",
@@ -4660,7 +4671,7 @@
      "disclosures": []
     }
    ],
-   "news_count": 0
+   "news_count": 1
   },
   {
    "key": "biotech",
@@ -5020,7 +5031,7 @@
      "disclosures": []
     }
    ],
-   "news_count": 1
+   "news_count": 2
   },
   {
    "key": "retail",
@@ -5151,7 +5162,7 @@
      "disclosures": []
     }
    ],
-   "news_count": 0
+   "news_count": 1
   },
   {
    "key": "ai_software",
@@ -5271,7 +5282,7 @@
      "disclosures": []
     }
    ],
-   "news_count": 14
+   "news_count": 15
   },
   {
    "key": "ev_autonomy",
@@ -5990,7 +6001,7 @@
      "close": 20.79,
      "change_pct": 0.1,
      "turnover": 3000000.0,
-     "volume": 136056.0,
+     "volume": 136100.0,
      "volume_ratio": null,
      "disclosures": []
     },
@@ -6328,7 +6339,7 @@
      "close": 28.85,
      "change_pct": -3.83,
      "turnover": 28000000.0,
-     "volume": 965385.0,
+     "volume": 965500.0,
      "volume_ratio": null,
      "disclosures": []
     },
@@ -6465,7 +6476,7 @@
      "disclosures": []
     }
    ],
-   "news_count": 20
+   "news_count": 21
   },
   {
    "key": "quantum",
@@ -6715,7 +6726,7 @@
      "disclosures": []
     }
    ],
-   "news_count": 0
+   "news_count": 1
   },
   {
    "key": "homebuilders",
@@ -7293,19 +7304,19 @@
      "disclosures": []
     }
    ],
-   "news_count": 0
+   "news_count": 1
   }
  ],
  "breadth": {
-  "advancers": 288,
+  "advancers": 289,
   "decliners": 211,
   "unchanged": 3,
-  "total": 502,
+  "total": 503,
   "adv_dec_ratio_25d": 108.4,
   "new_highs": 13,
   "new_lows": 6,
-  "above_50dma_pct": 59.5,
-  "above_200dma_pct": 57.9
+  "above_50dma_pct": 59.4,
+  "above_200dma_pct": 57.8
  },
  "rankings": {
   "gainers": [
@@ -7801,13 +7812,35 @@
  },
  "news": [
   {
+   "title": "Dow, S&P 500, Nasdaq Futures Climb As Tech Stocks Get A Boost From Anthropic IPO Listing: SOFI, BB, PYPL, CLS In Focus",
+   "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNU2lDZllmMXloaklnT0JJT05vNTJOeTdyYVc0bm8tUFBjUWZXVUlaVHNSYjYtRVNySGh2eHdCY2FHeEZPN3VmN1RUdzlITzliM3BuNlNSWlROWk1iZk1UeFl1eG9wR1o1clRwdFQ1bzA1ZGhrV29sYmh3TXhmMzhSZGV5UC10RFFaVWE3M0d1dnU2Y1k?oc=5",
+   "source": "Yahoo Finance",
+   "published_at": "2026-10-27T02:45:00Z",
+   "tags": [
+    "ai_software",
+    "fintech",
+    "ipo"
+   ]
+  },
+  {
    "title": "Stock market today: Dow, S&P 500, Nasdaq gain as Anthropic IPO Boosts AI trade, Oil Price Falls",
    "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOV3JmQ3pOaGZVQkREWGlPRHJrZ0JURUUwMVViQjBOU3hlNHM5MExnV0ZYMnBYSjhOWnlfTmtqdVBwajg1UUVIUFltODBuZ1VIQ1IzV3hGakNuSnFkZXhjenNwOG00WGRha05IclZfUUdDMkZRalM3SnVnZkZrWV9KdEtjazZpVHFmOEF6OE1MX1dlQVlyTVFsdUpsNlE5YWRSQkdUaU5JYW1RSTg3TzQzOUQzaVp6Rlk1ZGVHQ2ppWFFlaW1UNG55Z0NXSGtJbjQ?oc=5",
    "source": "Eurasia Business News",
-   "published_at": "2026-10-26T22:42:09Z",
+   "published_at": "2026-10-26T22:41:36Z",
    "tags": [
     "ai_software",
     "oil_gas",
+    "ipo"
+   ]
+  },
+  {
+   "title": "Asian stocks surge as Anthropic IPO lifts sentiment ahead of earnings, central banks",
+   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQdEdzTDdxbEtNX1l6VDJMdF9NTGpUNEJPYy1jaUo2SkllaGhJZnZvNzZOOTd5MkZHV3p5T2ZhcjlkcWduOXp5elFKREQ0bFBib0pXUzNKdGI2QmE3eWZxRlktZXhSZG0tQzQ4U1dXNWxOZktiZVZvc1pNUERsYUFLVUJYSQ?oc=5",
+   "source": "Reuters",
+   "published_at": "2026-10-27T01:46:00Z",
+   "tags": [
+    "ai_software",
+    "megabanks",
     "ipo"
    ]
   },
@@ -7822,10 +7855,10 @@
    ]
   },
   {
-   "title": "Asian Chip Stocks Rise as Anthropic IPO Filing Rekindles AI Bets",
-   "url": "https://www.bloomberg.com/news/articles/2026-10-27/asian-chip-stocks-rise-as-anthropic-ipo-filing-rekindles-ai-bets",
+   "title": "Asia Stocks Rally as Anthropic IPO Boosts Chip Shares",
+   "url": "https://www.bloomberg.com/news/videos/2026-10-27/the-asia-trade-10-27-2026-video",
    "source": "Bloomberg Markets",
-   "published_at": "2026-10-27T01:00:52Z",
+   "published_at": "2026-10-27T04:32:03Z",
    "tags": [
     "semiconductor",
     "ai_software",
@@ -7844,13 +7877,13 @@
    ]
   },
   {
-   "title": "Update: Nasdaq, S&P 500 Snap 2-Day Decline as Anthropic IPO Filing Lifts Mood",
-   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQTXNiaTZRMkdMWGhwaWNaWkZjX2R0RFBOYTJidkJsSWxlaXBZV0RoeXJTb2dSY0FfVEhVSjV5dWpvWGVTcGZ5RlFEVktTN1dDLTBxZzRPLThvRFRSdTc0UDJFeWpJMmpvZGZCVWtMSkU0SHRNR3BPd3psamxrQVB6VVB5VFVsYXBmb092Ng?oc=5",
-   "source": "Yahoo Finance",
-   "published_at": "2026-10-26T20:51:48Z",
+   "title": "Morgan Stanley declares the U.S. stock market correction is nearing its end! It maintains its year-end S&P 500 target of 8,000 points and identifies three key catalysts for a rebound.",
+   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNMnc3YmZkcnBUakVTWUgtS3dOdEVYVkVoeTNlWThrYTJlWS1EZVRYY2VfYm1YTmUxeEVDODA0YlQwSFAwMExILUFNa3I3d1NidGZobmNUeUViRzhYbWlUSDVSLWJnRjlEVnp5VXdNQ2tPeXFKbWFKS3UzTFFKWHlXX1BHSE9yZV85WURwX2VfZzJQVGk2aDRZN2dZTTUzYVFROHRULUlITlRzWEZiTnc?oc=5",
+   "source": "Moomoo",
+   "published_at": "2026-10-27T01:17:38Z",
    "tags": [
-    "ai_software",
-    "ipo"
+    "megabanks",
+    "retail"
    ]
   },
   {
@@ -7864,12 +7897,42 @@
    ]
   },
   {
+   "title": "China stocks could slide 15% before bottom, Morgan Stanley says",
+   "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNRDZTdjhVTDhkOEJ3c0RJdkVNYWprVmFqcG9FSkIzUDJNUlNjdXRZYzBzMlF0Y0lJb283VjNRNk9QcUtKX0tHQnRnODhBMnlIMWpGdlBCcnFlYlpSZ0VUZ0hPT1ZfSGVrRFVpYURxX2F3MzdDejlYbmdFTElvM1A5QkJWZFM4UnRNeE52VFVlUkNJcWpRS2dzcFRzVE9RRFV1enZVWUtVdTIwc21sTVJYMjRhMGgtY0xEa2JKclYydDZiVEt30gHEAUFVX3lxTFBoU2QyOHN0TFRMS2RsSy1OUVpqbm5qa3NCNUVUNmJ5MHl1OGhCdTdONWVjQWZsdFdvZ1hRLTBSZ3BQZkhpandOOU9wN1lEV2xhdUJmMTluRmg2by1MMk1WenI4UTVhd1hxTTRLMHpSbEVpbFF3bm1COFV2cTJZZG1lbzhhLTcxQU16WE13OE9xa0lBRFhnbTZhNkFJUXNFaU9ialpBUUhXWEwyUWFQWDkyVWpQbUVjMm05WVZaQVB6UGFtVko?oc=5",
+   "source": "South China Morning Post",
+   "published_at": "2026-10-27T06:00:06Z",
+   "tags": [
+    "megabanks",
+    "china_adr"
+   ]
+  },
+  {
    "title": "Asian Stocks to Gain as Anthropic Files for IPO: Markets Wrap",
    "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPYTFLZTJNckNaRFN0TG9fLXJTY3h3VkVRSnZfMDJfLVkxOTNsU01IbWtXbDZQUTFIOXJXWENhY2NIX0ZuLUdLSHJMemcyUkNEZklQdUQxZlpHUWNwaVE3WFp1dk1meVZwejRrSUF1dEhFdDBjNUp3WVdqVnNBamJfQjFrN2g5b3QwZFBUMHZjYVU2aGhK?oc=5",
    "source": "Bloomberg.com",
-   "published_at": "2026-10-27T00:47:00Z",
+   "published_at": "2026-10-27T04:57:00Z",
    "tags": [
     "ai_software",
+    "ipo"
+   ]
+  },
+  {
+   "title": "Asia chipmaking, AI stocks surge on Anthropic IPO cheer",
+   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOamUwcThjZnRGb2FYNzYwa25XMC1iMEJ4UUhlYVE0NmdUN1F0OXU2RXVUNmJ6cU95UkNoU3BSbVFBdEw0QWxON1Vxd1E0ZlVjYVdmNW9PTGhpUFlxMzZlVFpDc0p3MldrZkFuQmZnbGowY0hTZU9DQkxBQ1o2YXpkeEVKVDFvdTVFRF9CLUhuTDBTWllmelVyWlFWaw?oc=5",
+   "source": "Yahoo Finance",
+   "published_at": "2026-10-27T04:09:00Z",
+   "tags": [
+    "ai_software",
+    "ipo"
+   ]
+  },
+  {
+   "title": "アンソロピックがIPO申請、ナスダック上場目指す。暗号資産市場の先物で約1.9兆ドルの推定評価（あたらしい経済）",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9vb0MtYkRhMExjcHFKb195VUVaMmlvaV9KUHUtS2lPeko2MUZLUmE5cG1qRXcybUh2ZVFKS1lSLWFad2hSWGlwU0xMdW92QU1CdDVfOE54TW9TYUd3MkdLNWRsSXBkMUdFUjdpdUduTjBpZFJVN1BXRW5tamlXQmc?oc=5",
+   "source": "Yahoo!ニュース",
+   "published_at": "2026-10-27T03:48:04Z",
+   "tags": [
+    "crypto",
     "ipo"
    ]
   },
@@ -7893,21 +7956,51 @@
    ]
   },
   {
-   "title": "Dow Jones Futures: Elon Musk-Led Tesla Leads Market Higher; Amazon, Alphabet, Microsoft Earnings On Deck",
-   "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQYmluRnNVZjR4UlRKZ0gtbEh3NTc3Y1I1TVkxT2ZxUjBYX2ZiMThxbXhRVjFOWGt2VWdwZGw0YzFKM2VCU1BJS2NxMk1Ca0VscldVVDhIVHp6d2hiX29rdnRkUkVfSzFHd0JYTTFKbWItSzVfNHZBRjZubnFXeVFnU3ozWFJXUlZzUFpaOGk1MGJXMm4zNnI1N2xOQ21tbWx1YlNVQmxKazZNNEJSbDJ0b1JoSVFzVTZiWWZsb19SQy1lZEk5M3pNajZDM2VwSnlpOHVuTi1QTC04ZVk?oc=5",
-   "source": "Investor's Business Daily",
-   "published_at": "2026-10-26T23:51:00Z",
+   "title": "【市況】 ダウ先物は反発 原油が下落 今週はＦＯＭＣやＩＴ大手の決算も続く＝米国株",
+   "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE13dkpOTU1kWk1pRHh3MDRFc0p3Z1M2VEdtdjJpQkZWeE5jb05iVU1wdkk0UmtCd09WRG1YemFscVQ3VUtPaURQeENwdzYzS1FXMlc0WHJZcGphbGNiN1ZsQg?oc=5",
+   "source": "株探",
+   "published_at": "2026-10-26T12:57:00Z",
    "tags": [
-    "ev_autonomy"
+    "oil_gas"
    ]
   },
   {
-   "title": "Q2 earnings recap: Intel (NASDAQ:INTC) tops processors and graphics chips stocks",
-   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNNXAtU3VmY3lBcy1mTGFNZjBzaUdVWUNRUnhabzF0eUhvMlUwcVVIYk1DTHBHS1FYVzE1bmh4X2U4cXZocUpsV1VRZlZzZHZrcFVRNkZRSXR3Zjk5Ujh2aWZRTjctT0NBaEZaQ3lKcTdaRDRBbmZXaG9xQUQ1VkdfWk5zNlNhNGlRWEgtR2R2aXg0anJYRmcxMDEwcw?oc=5",
-   "source": "Yahoo Finance",
-   "published_at": "2026-10-26T23:34:47Z",
+   "title": "How China Is Setting the Pace on Nuclear Power",
+   "url": "https://www.bloomberg.com/news/videos/2026-10-27/how-china-is-setting-the-pace-on-nuclear-power-video",
+   "source": "Bloomberg Markets",
+   "published_at": "2026-10-27T06:08:02Z",
    "tags": [
-    "semiconductor"
+    "nuclear",
+    "china_adr"
+   ]
+  },
+  {
+   "title": "Anthropic IPO: Who Can Subscribe and What Are the Risks?",
+   "url": "https://www.bloomberg.com/news/videos/2026-10-27/anthropic-ipo-who-can-subscribe-and-what-are-the-risks-video",
+   "source": "Bloomberg Markets",
+   "published_at": "2026-10-27T05:12:42Z",
+   "tags": [
+    "ai_software",
+    "ipo"
+   ]
+  },
+  {
+   "title": "Elon Musk Predicts a Wave of Failures Among AI Cloud Companies. Is SpaceX Stock a Sell?",
+   "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOZzhmTG93VUpDM2l1eF8zRW81RFhaX213MENhdDRFU21oTDlGM25HY05RTmw4OWlXMUt1R2dzRml2Q3k3eHp6Y3NhdHQ1OURFRll2SVRNV2VCOUN5cVV1RGdENnZEdnRmMVBrTmtkcVRSWkhZbHc4bXF4X1NCZ2M0andvRTRhd19kUUtpYlFaNDRlYjUyZzB4NXhXcE1abHZyLUhNWTA2eEtNQUU2QUVDcHFSQTdNZDZSTkJCYTBXSHZtbHBIYVVJ?oc=5",
+   "source": "The Motley Fool",
+   "published_at": "2026-10-27T04:39:35Z",
+   "tags": [
+    "software",
+    "space"
+   ]
+  },
+  {
+   "title": "Dow Jones Futures: Elon Musk-Led Tesla Leads Market Higher; Amazon, Alphabet, Microsoft Earnings On Deck",
+   "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQYmluRnNVZjR4UlRKZ0gtbEh3NTc3Y1I1TVkxT2ZxUjBYX2ZiMThxbXhRVjFOWGt2VWdwZGw0YzFKM2VCU1BJS2NxMk1Ca0VscldVVDhIVHp6d2hiX29rdnRkUkVfSzFHd0JYTTFKbWItSzVfNHZBRjZubnFXeVFnU3ozWFJXUlZzUFpaOGk1MGJXMm4zNnI1N2xOQ21tbWx1YlNVQmxKazZNNEJSbDJ0b1JoSVFzVTZiWWZsb19SQy1lZEk5M3pNajZDM2VwSnlpOHVuTi1QTC04ZVk?oc=5",
+   "source": "Investor's Business Daily",
+   "published_at": "2026-10-27T02:39:00Z",
+   "tags": [
+    "ev_autonomy"
    ]
   },
   {
@@ -7916,26 +8009,6 @@
    "source": "OANDA証券",
    "published_at": "2026-10-26T23:25:41Z",
    "tags": [
-    "ipo"
-   ]
-  },
-  {
-   "title": "米金融大手、ブロードコム製半導体の購入資金調達を支援 9兆円規模",
-   "url": "https://www.nikkei.com/article/DGXZQOGN2705E0X21C26A0000000/",
-   "source": "日経速報",
-   "published_at": "2026-10-26T23:24:19Z",
-   "tags": [
-    "semiconductor",
-    "megabanks"
-   ]
-  },
-  {
-   "title": "Dave Lee: Anthropic Brings ‘Anti-Sell’ Strategy to Its IPO",
-   "url": "https://www.bloomberg.com/news/videos/2026-10-26/dave-lee-anthropic-brings-anti-sell-strategy-to-ipo-video",
-   "source": "Bloomberg Markets",
-   "published_at": "2026-10-26T22:26:18Z",
-   "tags": [
-    "ai_software",
     "ipo"
    ]
   },
@@ -7955,25 +8028,6 @@
    "published_at": "2026-10-26T22:09:50Z",
    "tags": [
     "ipo"
-   ]
-  },
-  {
-   "title": "Tech Rally Extends to Asia on Anthropic, Oil Falls: Markets Wrap",
-   "url": "https://www.bloomberg.com/news/articles/2026-10-26/stock-market-today-dow-s-p-live-updates",
-   "source": "Bloomberg Markets",
-   "published_at": "2026-10-26T22:03:56Z",
-   "tags": [
-    "ai_software",
-    "oil_gas"
-   ]
-  },
-  {
-   "title": "Wall Street rises as AI stocks keep swinging - Pittsburgh Post-Gazette",
-   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQWUYyeDZxR21ETDlNN3ZBNTJCeWRtWnJHemoydDN0ZDJrcXVUV0h3aGNFV2YxN3ZSZFZ3SXhPLV9VVXVPWW1hNUp3RUVxQ191eml0T0I3M3FWa1ZKNmlNSVgtR0xzVHpsRjIyV1U0T3dXNUxzWVUyTXFHY0N4Z3QxYnpQd2tObjZSNTdlV0tyZC1jcFdVOUFyZnNwNGhKc2J0OGdMR2MzWmh4MEJnWXNJ?oc=5",
-   "source": "Google News Markets",
-   "published_at": "2026-10-26T21:42:26Z",
-   "tags": [
-    "megabanks"
    ]
   },
   {
@@ -8035,9 +8089,9 @@
   },
   {
    "title": "IPO: Anthropic set to make stock market debut as questions swirl about safety of AI",
-   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQbmdjbXlQZFZ5QWNrM2ZxejdpaXl1Uzk2LWJQXzZ6eDZxV1pFb0V0TlZkS1ladll5SUpEN3lOeXhUdGYxbzZ5LVZhM2RZRE11VXpCT2VKcVRjMUx2R0t0dmNEX2FWWnNkVXp4Y1lBRWl4TThRcW1JV2FjaERYS1dETVlUSTdXOWd2OVBsTW5zajV1WVFmbUI1OFFiT3AweXVx0gGmAUFVX3lxTFBzQzlYVW8yNUxKUVRLV3ZWZXNtZzY5MlZTZWJjU2I5MWwzQjktamV3RGM3RUtWb2RxcGo2RGhPNXczaHl3cG1KMUlGdTRBUEZ6UEtFT2NZc3otNVhLeDhJUzJUSHdLLWdDM2pRel9mMFpfMy1rbmZBd0pEM1VhVmZPMjNLanpOUWtFZ0NocW1POEFwcDVKNmViMUtzbGhMbGZMVEV6TVE?oc=5",
-   "source": "ABC7 Bay Area",
-   "published_at": "2026-10-26T13:48:34Z",
+   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOd2VYTzJ0endnUEt5cnJ5M3VNWk5yTV9ibFhZcVBnVERWOTZLWXQ2WlkzblVtVjZDOUE5bDBFY1RqdVY0QnhlSmtBazQ1RjRwZ2ZFNGxaRW1XRHIzMU5XVVhZdUppb0NzbkJYOG13T1Z0VWpsalEycDY5VExqai1RVlIwS0dUMkplVzVIb1k1dm85NTJudGJCVmV5V2pFQdIBowFBVV95cUxNeExEQlY5S1B3R1ZvNEtKU1VRaFZfUWZndjNVNlZNWGR3UnlZS0dkNW9oTmx5MXlqQTM5cVUzblYyRFV0STRkcGpwdV9nSlNkX0dmWnZQbXlnUGJfNzRHUGptUlVLdGd2LXJ6X0ZBeE85RTZLc3ZRZ3UzTW1SNWVTbXJfNlY2U1JPdWZYVlN5V01BT016X0JSMlNhQ3pJQlVBYWlj?oc=5",
+   "source": "ABC7 New York",
+   "published_at": "2026-10-26T14:00:09Z",
    "tags": [
     "ai_software",
     "ipo"
@@ -8050,6 +8104,31 @@
    "published_at": "2026-10-26T13:41:13Z",
    "tags": [
     "megabanks"
+   ]
+  },
+  {
+   "title": "Stock Market: Will S&P 500 Open Up or Down Today?",
+   "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQaDhLdDZxUjVza2w0ZHNnVkp2c0o0WkJ2TnEwOVZ4Z1J2R19zUldKZkJ5aFdScWVVeWFJOTUyMlFwalQ1Wm5zcFA0VHhSNG1URko3eEZEdUtwdzdDM3o5cnl2TDQtTHZnR2VXdTloZ0lLZU1CS0JuX0FBVU5TZ2VlXzBEd1FBSWxra1BVc3c5N2NTVGg4TU9IM0xBMzE1N0FtUGNpc2JtaEZLNjJUNVJMZnFSY3ptUlk?oc=5",
+   "source": "Benzinga",
+   "published_at": "2026-10-27T06:04:37Z",
+   "tags": []
+  },
+  {
+   "title": "Goldman Sachs names top EU construction stocks amid market headwinds",
+   "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPc2dTSlZMYzU2dHZKLVQ4cF9QQXNQLTVMUHpDZTJjcTJMbHpOQk01b3pCeTBOSkFkaXlUMFo0STl4N2VlSVVCZ0M0ZEtlQzRWbTNEWTNiYmtzZFJ4Y01HYXhZeTM5VjdDQ1RCdjh6cng4eVYzMzJzMGIzbHd6TVB3TW5HdXo5N0Z3SXVON3U2UExDU05Rc0E?oc=5",
+   "source": "Yahoo Finance",
+   "published_at": "2026-10-27T05:20:00Z",
+   "tags": [
+    "megabanks"
+   ]
+  },
+  {
+   "title": "ウォン高で米国株に投資する韓国個人投資家が「二重苦」…為替差損15%に半導体ETFは半値",
+   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBtZnI3Q1MtUXVINHktb3Jna2lrX2lXUFVHMDRQZmxnby1oeVExdTZKOTBucnBmSFlfSVZFVEdJWVJEOGpQU2ppY05qMVNxc3c2dVIyS2t1UURHYjdjemMwczZhS01aeHhjdDl0eVdmQW1Gbkx5?oc=5",
+   "source": "BigGo ファイナンス",
+   "published_at": "2026-10-27T01:26:00Z",
+   "tags": [
+    "semiconductor"
    ]
   },
   {
@@ -8071,15 +8150,6 @@
    ]
   },
   {
-   "title": "Cloud monitoring stocks Q2 teardown: Nutanix (NASDAQ:NTNX) vs the rest",
-   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQZWFBaHlwOWt2REpJZnpLWEM3QkxiWGpqZmdIVEpCYTY2VUs1aUVtRTVQbkQ4TldlZG1Jd0FRdE9MWmxBMFpWVERkQ2lDWUVPTzFIRkd2YUJ1WF9XWTk2UDk3blJ0cjdzcmFWZFc3R3c4dm55cm1iWUZTZi1lTHJzY2RGbDNVdE9EOUV6Z3RjYjJDalJTRk5jMlMtbDVfSkVFc1E?oc=5",
-   "source": "Yahoo Finance",
-   "published_at": "2026-10-26T23:58:47Z",
-   "tags": [
-    "software"
-   ]
-  },
-  {
    "title": "原油価格と長期金利の低下が後押しとなり買い優勢の展開 - 海外マーケット解説＆米国株ピックアップ",
    "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9KOXJVaG81VHFYRzB4eFRkRzEyQnZHZjhKQUh1S3J0bzNfLUdqUkdXMEpmbVRYczRmeTg1bW1HLW54cWRkakRETWtTdnVveWEzOHdFQw?oc=5",
    "source": "日経CNBC online",
@@ -8095,15 +8165,6 @@
    "published_at": "2026-10-26T23:31:42Z",
    "tags": [
     "ipo"
-   ]
-  },
-  {
-   "title": "SpaceX's Adjusted Earnings Quadrupled in Q3. Is the Stock Heading Back to $200?",
-   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQdVozTHBJR3hIbE4zcXJyTC1xc2szSEVCTXVTVnhRR3Vqc0paWGt3Sk91MzQ3UEpYNGxIRDczV1NDczFqcmIzMjdKT3ZIV2RFdWItNm0zcjVVNWQ1QzFKWEhBdnE1N1p3Mk9Pc0JnUEYxenVnamRpeWlqUWVUTmVaOHZUTUp1dDRpTjhERlN0cHd1WTlxcGxmT3ItNG9CaDVheHpISVZxWnFydlp4MEZZaE9WeFhHNm9aYXBrNXdSMA?oc=5",
-   "source": "The Motley Fool",
-   "published_at": "2026-10-26T23:26:56Z",
-   "tags": [
-    "space"
    ]
   },
   {
@@ -8123,54 +8184,11 @@
    "tags": []
   },
   {
-   "title": "Stock Market: Nasdaq Charges Higher With Amazon, Microsoft Earnings Due; Fed Meeting Next",
-   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNZWwzcHBmUUN6QzV4Q0RnQnQzcVNmRktUUjlIdmtmUkt6RFdTd2pfOGVscEt3U3NRZmdqYlp2azluQkpZclNZUWtKY0dOZ095LUhUR3NxejJudk9vWXVZVllGbnlnRjBEYkZCTDhjYjBlc3V2SUNhMU5KUmRpckRGeURkakI2UXJQcm9YcEYtOXJnUWZMSm1sRW5zSm04YWFCTXZxVVk0SHBCV1lJN2RQRXIzcw?oc=5",
-   "source": "Investor's Business Daily",
-   "published_at": "2026-10-26T23:12:00Z",
-   "tags": []
-  },
-  {
    "title": "米国株式市場、ＮＹダウ反発、ナスダックは３日ぶり上昇(ウエルスアドバイザー)",
    "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNZ3dKYzh0X3lia3Z0eGVrRWN6YmpjTzl3VnBiNjNUOC1OOExBLUpRT1N6RTRVVnlMQW9VUjUzdVNqekwwaDJoQjB0cEpBdGFPQmFLMEh0UVY5UkNnM0VCR2J4elBzVWxoUkJMNnBDMXFUT0JBMjlWVTR1by1SSjRzdHp0cjYxalE?oc=5",
    "source": "Yahoo!ファイナンス",
    "published_at": "2026-10-26T22:55:44Z",
    "tags": []
-  },
-  {
-   "title": "日経平均株価、米株高が追い風 アンソロピックIPO申請（先読み株式相場）",
-   "url": "https://www.nikkei.com/article/DGXZQOFL2704O0X21C26A0000000/",
-   "source": "日経速報",
-   "published_at": "2026-10-26T22:30:00Z",
-   "tags": [
-    "ipo"
-   ]
-  },
-  {
-   "title": "米国株式市場＝反発、アンソロピック上場申請でＡＩ株に買い",
-   "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNVWVuUERXQ1ZGRUpDSEFqTFhJMkhQLUY2bDlMY0JhbW51emhGeU1MTHpTOXRxLWNyakI0dFY2NnJ3Ui01WVFtajc4ZVAxRi1kV3ZpcWlwajJvRWZxTkxwODdSenAzVTROU0p1RUg2VDRnTDVKZjN4Q2NxYzdQZnFHdHJacHlXZw?oc=5",
-   "source": "Reuters",
-   "published_at": "2026-10-26T21:16:55Z",
-   "tags": [
-    "ipo"
-   ]
-  },
-  {
-   "title": "Tech Earnings Are the Market’s Biggest Story This Week: Here’s Why Microsoft, Amazon, Intel, SanDisk, and Alphabet Will Drive the Stock Market’s Next Move",
-   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOTkIzdExDaG9RSm5Rek9FYnFFNkROM3pITFVGYXBsU1hzZUdESER5ZEFIdmVsU2gtSGJsZXExcjhFejJKYWItY0VRX1d3ZDdaUHFBVDFwSTZWQ0M5ejdOTU12QWNNMFFIaTZyUUtHZjBlZ1UyR0w3WWtrRTBQZzd4SjlMLVZibExs?oc=5",
-   "source": "Yahoo Finance",
-   "published_at": "2026-10-26T21:15:14Z",
-   "tags": [
-    "memory"
-   ]
-  },
-  {
-   "title": "Australian Stock Market Today: ASX Futures Edge Lower On China Policy And CPI Focus",
-   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPaUVBX2lwSUJ3RGdyeE5Xb3VGWWYwaE9RNm9FLU14NndoRW5YUnVabExka29HRlhKRzJfeVFwQlpxV2FocVZKNG9MN1lHQTZPbG4wU3p1Y3lDNzlGZklCdmlqcnJuVUY2ejFoR0V5b202bldfV1MyeXZRcU9TOE50RzFnOEJnbTRPdlRWdnFmYXRxWFlTbWgwdHc1aGo3NXM?oc=5",
-   "source": "Yahoo Finance",
-   "published_at": "2026-10-26T21:08:43Z",
-   "tags": [
-    "china_adr"
-   ]
   }
  ],
  "disclosures_session": [
@@ -9006,7 +9024,7 @@
     0.94,
     -0.91,
     -1.31,
-    1.44
+    1.45
    ],
    "生活必需品": [
     -0.54,
@@ -9274,7 +9292,7 @@
     3.3,
     -8.27,
     -1.7,
-    2.33
+    2.34
    ],
    "optical": [
     2.52,
