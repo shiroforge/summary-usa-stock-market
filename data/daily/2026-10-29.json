@@ -1,7 +1,7 @@
 {
  "schema_version": 1,
  "date": "2026-10-29",
- "generated_at": "2026-10-30T02:06:59.352726Z",
+ "generated_at": "2026-10-30T07:04:55.293818Z",
  "sources": [
   "yfinance",
   "S&P500構成銘柄のウエイト: SPDR S&P 500 ETF の保有比率（2026-10-28時点）",
@@ -59,12 +59,12 @@
    "ticker": "^IXIC",
    "category": "us_index",
    "close": 26184.72,
-   "change": -365.125,
+   "change": -365.1289,
    "change_pct": -1.38,
    "change_5d_pct": 0.68,
    "change_20d_pct": -2.56,
-   "change_5d": 175.8652,
-   "change_20d": -686.875,
+   "change_5d": 175.8613,
+   "change_20d": -686.8789,
    "spark": [
     27190.8594,
     27477.3105,
@@ -85,7 +85,7 @@
     26169.3809,
     26477.8105,
     26549.8496,
-    26184.7246
+    26184.7207
    ],
    "as_of": "2026-10-29",
    "is_proxy": false,
@@ -135,12 +135,12 @@
    "ticker": "^NDX",
    "category": "us_index",
    "close": 29402.51,
-   "change": -410.6523,
+   "change": -410.6504,
    "change_pct": -1.38,
    "change_5d_pct": 1.53,
    "change_20d_pct": -3.6,
-   "change_5d": 443.8184,
-   "change_20d": -1099.0527,
+   "change_5d": 443.8203,
+   "change_20d": -1099.0508,
    "spark": [
     30807.9297,
     31076.4395,
@@ -161,7 +161,7 @@
     29273.4004,
     29651.4395,
     29813.1602,
-    29402.5078
+    29402.5098
    ],
    "as_of": "2026-10-29",
    "is_proxy": false,
@@ -173,12 +173,12 @@
    "ticker": "^RUT",
    "category": "us_index",
    "close": 2859.22,
-   "change": 28.7065,
+   "change": 28.71,
    "change_pct": 1.01,
    "change_5d_pct": 2.7,
    "change_20d_pct": 1.87,
-   "change_5d": 75.1865,
-   "change_20d": 52.5867,
+   "change_5d": 75.1899,
+   "change_20d": 52.5901,
    "spark": [
     2832.8999,
     2847.1399,
@@ -199,7 +199,7 @@
     2786.4199,
     2818.8701,
     2830.51,
-    2859.2166
+    2859.22
    ],
    "as_of": "2026-10-29",
    "is_proxy": false,
@@ -211,12 +211,12 @@
    "ticker": "^SOX",
    "category": "us_index",
    "close": 11518.2,
-   "change": -165.8008,
+   "change": -165.7998,
    "change_pct": -1.42,
    "change_5d_pct": 7.33,
    "change_20d_pct": -10.22,
-   "change_5d": 786.2188,
-   "change_20d": -1310.8008,
+   "change_5d": 786.2197,
+   "change_20d": -1310.7998,
    "spark": [
     13136.6699,
     13172.7402,
@@ -237,7 +237,7 @@
     11083.4697,
     11482.5,
     11684.0,
-    11518.1992
+    11518.2002
    ],
    "as_of": "2026-10-29",
    "is_proxy": false,
@@ -286,13 +286,13 @@
    "name": "S&P500先物",
    "ticker": "ES=F",
    "category": "futures_vol",
-   "close": 7671.0,
-   "change": -112.25,
-   "change_pct": -1.44,
-   "change_5d_pct": -0.43,
-   "change_20d_pct": -0.69,
-   "change_5d": -33.5,
-   "change_20d": -53.0,
+   "close": 7754.25,
+   "change": -29.0,
+   "change_pct": -0.37,
+   "change_5d_pct": 0.65,
+   "change_20d_pct": 0.39,
+   "change_5d": 49.75,
+   "change_20d": 30.25,
    "spark": [
     7777.25,
     7826.25,
@@ -313,7 +313,7 @@
     7714.5,
     7758.25,
     7783.25,
-    7671.0
+    7754.25
    ],
    "as_of": "2026-10-29",
    "is_proxy": false,
@@ -324,13 +324,13 @@
    "name": "NASDAQ100先物",
    "ticker": "NQ=F",
    "category": "futures_vol",
-   "close": 28861.25,
-   "change": -1118.25,
-   "change_pct": -3.73,
-   "change_5d_pct": -0.96,
-   "change_20d_pct": -6.17,
-   "change_5d": -280.75,
-   "change_20d": -1899.25,
+   "close": 29562.0,
+   "change": -417.5,
+   "change_pct": -1.39,
+   "change_5d_pct": 1.44,
+   "change_20d_pct": -3.9,
+   "change_5d": 420.0,
+   "change_20d": -1198.5,
    "spark": [
     31061.75,
     31317.75,
@@ -351,7 +351,7 @@
     29437.25,
     29812.0,
     29979.5,
-    28861.25
+    29562.0
    ],
    "as_of": "2026-10-29",
    "is_proxy": false,
@@ -438,13 +438,13 @@
    "name": "ドル指数",
    "ticker": "DX-Y.NYB",
    "category": "fx",
-   "close": 101.73,
-   "change": -0.456,
-   "change_pct": -0.45,
-   "change_5d_pct": 0.12,
-   "change_20d_pct": -0.36,
-   "change_5d": 0.124,
-   "change_20d": -0.366,
+   "close": 102.04,
+   "change": -0.15,
+   "change_pct": -0.15,
+   "change_5d_pct": 0.42,
+   "change_20d_pct": -0.06,
+   "change_5d": 0.43,
+   "change_20d": -0.06,
    "spark": [
     101.93,
     102.17,
@@ -465,7 +465,7 @@
     101.96,
     102.32,
     102.19,
-    101.734
+    102.04
    ],
    "as_of": "2026-10-29",
    "is_proxy": false,
@@ -894,13 +894,13 @@
    "name": "WTI原油",
    "ticker": "CL=F",
    "category": "commodity",
-   "close": 104.4,
-   "change": 1.62,
-   "change_pct": 1.58,
-   "change_5d_pct": 4.96,
-   "change_20d_pct": 12.42,
-   "change_5d": 4.93,
-   "change_20d": 11.53,
+   "close": 102.0,
+   "change": -0.78,
+   "change_pct": -0.76,
+   "change_5d_pct": 2.54,
+   "change_20d_pct": 9.83,
+   "change_5d": 2.53,
+   "change_20d": 9.13,
    "spark": [
     91.11,
     89.43,
@@ -921,7 +921,7 @@
     101.76,
     99.9,
     102.78,
-    104.4
+    102.0
    ],
    "as_of": "2026-10-29",
    "is_proxy": false,
@@ -932,13 +932,13 @@
    "name": "金",
    "ticker": "GC=F",
    "category": "commodity",
-   "close": 4015.4,
-   "change": -36.2002,
-   "change_pct": -0.89,
-   "change_5d_pct": -1.11,
-   "change_20d_pct": -4.45,
-   "change_5d": -45.0,
-   "change_20d": -186.8999,
+   "close": 4031.4,
+   "change": -20.2002,
+   "change_pct": -0.5,
+   "change_5d_pct": -0.71,
+   "change_20d_pct": -4.07,
+   "change_5d": -29.0,
+   "change_20d": -170.8999,
    "spark": [
     4162.2998,
     4156.7998,
@@ -959,7 +959,7 @@
     4038.3999,
     4074.6001,
     4051.6001,
-    4015.3999
+    4031.3999
    ],
    "as_of": "2026-10-29",
    "is_proxy": false,
@@ -970,13 +970,13 @@
    "name": "銅",
    "ticker": "HG=F",
    "category": "commodity",
-   "close": 6.572,
-   "change": -0.0695,
-   "change_pct": -1.05,
-   "change_5d_pct": 3.29,
-   "change_20d_pct": 1.39,
-   "change_5d": 0.2095,
-   "change_20d": 0.09,
+   "close": 6.581,
+   "change": -0.0605,
+   "change_pct": -0.91,
+   "change_5d_pct": 3.43,
+   "change_20d_pct": 1.53,
+   "change_5d": 0.2185,
+   "change_20d": 0.099,
    "spark": [
     6.492,
     6.5855,
@@ -997,7 +997,7 @@
     6.508,
     6.622,
     6.6415,
-    6.572
+    6.581
    ],
    "as_of": "2026-10-29",
    "is_proxy": false,
@@ -1008,13 +1008,13 @@
    "name": "天然ガス",
    "ticker": "NG=F",
    "category": "commodity",
-   "close": 2.9,
-   "change": 0.083,
-   "change_pct": 2.95,
-   "change_5d_pct": 3.72,
-   "change_20d_pct": -2.26,
-   "change_5d": 0.104,
-   "change_20d": -0.067,
+   "close": 2.952,
+   "change": 0.135,
+   "change_pct": 4.79,
+   "change_5d_pct": 5.58,
+   "change_20d_pct": -0.51,
+   "change_5d": 0.156,
+   "change_20d": -0.015,
    "spark": [
     3.035,
     3.066,
@@ -1035,7 +1035,7 @@
     2.602,
     2.697,
     2.817,
-    2.9
+    2.952
    ],
    "as_of": "2026-10-29",
    "is_proxy": false,
@@ -1595,10 +1595,10 @@
    "name": "資本財",
    "key": "Industrials",
    "change_pct": 1.0,
-   "median_pct": 1.6,
-   "advancers": 71,
+   "median_pct": 1.59,
+   "advancers": 72,
    "decliners": 11,
-   "count": 82,
+   "count": 83,
    "index_weight_pct": 8.02,
    "etf": "XLI",
    "etf_change_pct": 0.97,
@@ -2936,7 +2936,7 @@
      "disclosures": []
     }
    ],
-   "news_count": 1
+   "news_count": 2
   },
   {
    "key": "travel",
@@ -3198,7 +3198,7 @@
      "disclosures": []
     }
    ],
-   "news_count": 0
+   "news_count": 1
   },
   {
    "key": "medtech",
@@ -3999,7 +3999,7 @@
      "close": 22.14,
      "change_pct": 2.26,
      "turnover": 3000000.0,
-     "volume": 130916.0,
+     "volume": 130900.0,
      "volume_ratio": null,
      "disclosures": []
     },
@@ -4773,7 +4773,7 @@
      "disclosures": []
     }
    ],
-   "news_count": 4
+   "news_count": 3
   },
   {
    "key": "oil_gas",
@@ -4937,7 +4937,7 @@
      "disclosures": []
     }
    ],
-   "news_count": 2
+   "news_count": 1
   },
   {
    "key": "biotech",
@@ -5276,8 +5276,8 @@
    "key": "dc_power",
    "name": "データセンター電力・冷却",
    "change_pct": 0.2,
-   "advancers_ratio": 0.67,
-   "count": 12,
+   "advancers_ratio": 0.69,
+   "count": 13,
    "members": [
     {
      "code": "PWR",
@@ -5387,6 +5387,17 @@
      "turnover": 862000000.0,
      "volume": 2190100.0,
      "volume_ratio": 0.9,
+     "disclosures": []
+    },
+    {
+     "code": "HUBB",
+     "name": "Hubbell",
+     "sector": "資本財",
+     "close": 438.23,
+     "change_pct": 0.21,
+     "turnover": 318000000.0,
+     "volume": 725858.0,
+     "volume_ratio": 1.13,
      "disclosures": []
     },
     {
@@ -5727,7 +5738,7 @@
      "disclosures": []
     }
    ],
-   "news_count": 2
+   "news_count": 3
   },
   {
    "key": "quantum",
@@ -5954,7 +5965,7 @@
      ]
     }
    ],
-   "news_count": 0
+   "news_count": 1
   },
   {
    "key": "semiconductor",
@@ -6825,7 +6836,7 @@
      "disclosures": []
     }
    ],
-   "news_count": 0
+   "news_count": 1
   },
   {
    "key": "metals_mining",
@@ -6945,7 +6956,7 @@
      "disclosures": []
     }
    ],
-   "news_count": 0
+   "news_count": 1
   },
   {
    "key": "optical",
@@ -7644,19 +7655,19 @@
      "disclosures": []
     }
    ],
-   "news_count": 3
+   "news_count": 2
   }
  ],
  "breadth": {
-  "advancers": 405,
+  "advancers": 406,
   "decliners": 97,
   "unchanged": 0,
-  "total": 502,
+  "total": 503,
   "adv_dec_ratio_25d": 119.4,
   "new_highs": 31,
   "new_lows": 2,
-  "above_50dma_pct": 65.1,
-  "above_200dma_pct": 63.7
+  "above_50dma_pct": 64.9,
+  "above_200dma_pct": 63.6
  },
  "rankings": {
   "gainers": [
@@ -8376,6 +8387,13 @@
  },
  "news": [
   {
+   "title": "Dow, S&P 500, Nasdaq Futures Fall As Weak Tech Earnings Trigger Selloff: INTC, IOVA, SLS, AMZN Stocks In Focus",
+   "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQc1pfMWFrRUUxaDVLaVhOZlE5WTlYbHE1czI5QnR2YWFWTDhSMUdkODRZYm15RGszeFk2WUhqcUlDT1F5VjZlaWdHRlJ5a3pxMTI2VUNyQ0VXSzNkcDk0VDV1T2l2dU9RTlpKMXdsMWFqODJ0LU9Xa190QU1VV29UQVQxTHlaY1VxSU5fejJ3bTV1YTA?oc=5",
+   "source": "Yahoo Finance",
+   "published_at": "2026-10-30T04:03:00Z",
+   "tags": []
+  },
+  {
    "title": "Nvidia responds to report Jensen Huang was target of Chinese asset, says diversion allegations were 'investigated and debunked'",
    "url": "https://www.cnbc.com/2026/10/29/nvidia-jensen-huang-chinese-intelligence-asset.html",
    "source": "CNBC Top News",
@@ -8396,20 +8414,22 @@
    ]
   },
   {
-   "title": "米株価指数先物 ダウ一段高、原油先物が軟調 ナスダックは安い",
-   "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE0tZmVwT1RrN3h6WjZtdWtKVDcwZkdITlBFRmpYT2VJNFMtZkFkR3JMdzRSMWZMYXBfLTN4Uk9ta2FSOUQ1UEUtMQ?oc=5",
-   "source": "みんかぶ FX/為替",
-   "published_at": "2026-10-29T05:40:29Z",
+   "title": "The Case Against a SpaceX and Tesla Merger",
+   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQdnBvSTYxa2RpNjRMLXRMZW1TT1RTb0tZaF9EbWt5YXltbWFyMlJISkxPZnRsc3FBMUE4QnpLZ2NDMVpfQ0pEcjk2akFNTDVDclVLeE9FaHU5TVpjelpra3ZZU2RSZ2ZTRVdOZ25Tb1dqYzd0dUJRb292bzhSNTJ0Sk1vYjJVRFdiSVlycGVn?oc=5",
+   "source": "The Motley Fool",
+   "published_at": "2026-10-30T07:00:44Z",
    "tags": [
-    "oil_gas"
+    "space",
+    "ev_autonomy"
    ]
   },
   {
-   "title": "Bitcoin Is Beating the S&P 500, so Why Is $85,000 Still Out of Reach?",
-   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPUTY1R0tqYVQtclVxc0VJXzB4RjRkVjZZNzlacmlPVTRzbE1pQTdveV9mWk9hNl8tV2lIaFVGM2tBUDRnV0NGRVpaVkhuNDFmQnFMbC1vYXJBVFg5UnFwU1A5VGhva2VDaGpQX2t2ZC1ERVdhWVdqVTN5RGNsZy1jdDkySlVGYUJaQkhRc1JtcUgzbU93?oc=5",
-   "source": "Yahoo Finance",
-   "published_at": "2026-10-30T00:45:00Z",
+   "title": "Biggest-ever crypto hack impacts $6.3 billion as Binance works to contain fallout",
+   "url": "https://www.cnbc.com/2026/10/29/circle-tether-freeze-funds-impacted-by-potential-binance-security-issue.html",
+   "source": "CNBC Markets",
+   "published_at": "2026-10-30T04:40:17Z",
    "tags": [
+    "cyber_security",
     "crypto"
    ]
   },
@@ -8441,10 +8461,19 @@
    ]
   },
   {
-   "title": "ダウ平均、ナスダックとも４日ぶり反落 アルファベットの決算に失望感強める＝米国株概況 -",
-   "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1VWnF6SE5xSzZpVXE4UnhHYnQyRHZ6c0pCZFc2Qmt1UkNveHpwbnQ0Z3dMMnRxTGJTZFlJelc3R3YycmNlTU1DMw?oc=5",
-   "source": "みんかぶ FX/為替",
-   "published_at": "2026-10-29T20:28:29Z",
+   "title": "Jim Cramer says Wall Street is punishing the wrong tech stocks",
+   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPRmVnSjQ2MFV3UDBoRTVsTUIwWHJMa1pLX1FfTXR2Q184WVRoVW1MWFlWa05tT0hHYnJBLXJwTHVKb2oxZ2hRc1dBSE9UTTFJZDlObTh0SVpYT090d0syTW00RUNIdzU2djBFNXlLS0lkSzJURVJoVFdIME1HVmJVdDRqUdIBiAFBVV95cUxNNTgwQkZMTE5peTB2aGljMXFyWGVScDBLTmtMMGdEZkd3T2ZONnluejFlcHctRmNFcFJQOG1NcnNnYlNEVkZydHRYUmUwRGhOdWRpQ0t0Wi1BX2lPYVR0TDlFRHRlaHJsN0M0cnplQjhmZ2lSZFVrNHRPbUg4NjdWTUF0YnhzQW02?oc=5",
+   "source": "CNBC",
+   "published_at": "2026-10-29T23:00:01Z",
+   "tags": [
+    "megabanks"
+   ]
+  },
+  {
+   "title": "ダウ平均、ナスダックとも４日ぶり反落 アルファベットの決算に失望感強める＝米国株概況",
+   "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBydVVuMF9obTRYRmdKMmVrNm5iakcza3ZOWF9PRERKZnp0RnlhZ3ZkVUFWQWRwZVh2c081aDlKaU80RXJ4V05qbC02UEI3VmlLQnRwcjc4bk1PcWZaemRReA?oc=5",
+   "source": "株探",
+   "published_at": "2026-10-29T20:35:00Z",
    "tags": []
   },
   {
@@ -8455,12 +8484,46 @@
    "tags": []
   },
   {
-   "title": "上場インデックスファンド米国株式(ダウ平均)H有【2562】：株価・株式情報（夜間PTS含む）",
-   "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1XQl9HU293TFRPNjFWV0d0cE9NcFZyRWdtYTRXYXF6N3A4UXlKc3VwYnpja24zeUxFOUxRTU1CTzM2ak9nVXhlZlRsQmxaRDdTa1E?oc=5",
-   "source": "Yahoo!ファイナンス",
-   "published_at": "2026-10-29T07:36:36Z",
+   "title": "Stock Market: Will S&P 500 Open Up or Down Today?",
+   "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQTy1oek9FTTlmdlpuUFZPTUs2d1hhU2lsUFJHZUJMTlJhaDdfQ1l1ZjVCUjNjUHRfZjJMeWJ1TVNyYjQ2V3pNdGJkRHdhQWMySXFsb2hRUkN3dkp3YnhFSDZoaV9FSUZ3dHk0ZDRuZjFhLXZPbmloUkdRR2tUTkFMV2RBbnVNeUtXckViTzlnNWpza0NycUJNUmhHTUxwTjg4T3hkb0djZWNFbExFckJOYTBWY3dwdjA?oc=5",
+   "source": "Benzinga",
+   "published_at": "2026-10-30T06:21:29Z",
+   "tags": []
+  },
+  {
+   "title": "AI Boom Shows Cracks After US, China Earnings",
+   "url": "https://www.bloomberg.com/news/videos/2026-10-30/the-china-show-10-30-2026-video",
+   "source": "Bloomberg Markets",
+   "published_at": "2026-10-30T06:15:42Z",
+   "tags": [
+    "china_adr"
+   ]
+  },
+  {
+   "title": "BOJ holds rates as underlying inflation aligns with 2% target for first time since 2013",
+   "url": "https://www.cnbc.com/2026/10/30/boj-inflation-target-rates.html",
+   "source": "CNBC Top News",
+   "published_at": "2026-10-30T04:19:38Z",
+   "tags": [
+    "retail"
+   ]
+  },
+  {
+   "title": "アスペン・ニューロサイエンス、ナスダックにて1株15ドルでIPO価格を決定 執筆 - Investing.com",
+   "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBvT3N2bDJGYmJSLVZCak8zTkd0T2hjeV93RnpqSERCLVJ0ZEkxVElMeVRFUFdGZ01XX2xZOGxSZ0pxWUtiLU5INWFKV0JIZlNyVk9XOTRiWXVnRF9wc1c2eEh3MV9iSjFPLXBvU3VQVFc0cmIxX1BLWg?oc=5",
+   "source": "FX",
+   "published_at": "2026-10-30T02:24:00Z",
    "tags": [
     "ipo"
+   ]
+  },
+  {
+   "title": "Chinese Investors Seek Shelter in Long-Bond ETFs as Stocks Sink",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-30/chinese-investors-seek-shelter-in-long-bond-etfs-as-stocks-sink",
+   "source": "Bloomberg Markets",
+   "published_at": "2026-10-30T02:00:21Z",
+   "tags": [
+    "china_adr"
    ]
   },
   {
@@ -8470,6 +8533,15 @@
    "published_at": "2026-10-30T02:00:00Z",
    "tags": [
     "nuclear"
+   ]
+  },
+  {
+   "title": "The Humanoid Robot Market Could Be Worth More Than $7 Trillion. Here Are 3 Stocks to Own.",
+   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNQ2dZYUlHVzFaX1BIUlRyYldoNWdaMG1sYUsyNmp0ZWxBUVdON3BzQklaUk8tcjZmX3JXQmdwNjdSQlp4clJNbzVVbUNjZEZQQmhIeVZjSTBXVUdtTTAxOUNUdERrcDFjOUlLOUtCTGNzZE1YUk02UEFFYUVWZVc3WklxeE1IcFM3Sy1sNlB5NXllSnFJbEx1TQ?oc=5",
+   "source": "The Motley Fool",
+   "published_at": "2026-10-30T01:45:00Z",
+   "tags": [
+    "robotics"
    ]
   },
   {
@@ -8503,29 +8575,11 @@
    "tags": []
   },
   {
-   "title": "Musk and a Wall Street Billionaire Eye a Market Bitwise Says 99.9% of Americans Don't Know",
-   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOaXBXRDFzRGZpQ05uVW81Sy1nXzhDYW56bWhaLUk4c2UxWm9tZlRGOGdpN0lYYm81UVRtQUJQQjI5NUNmYUg3WHRzR1BMWkhlbGY4NjB6c2otMHhiY3ZYaVJtUVBBaTU1SFEwVVpKYUdVRVhMeXowbkx4aGdDT00wdks3ajFFbUZfenZER0FGZGtZRklrVGRNOUJ5R2pIUQ?oc=5",
-   "source": "Yahoo Finance",
-   "published_at": "2026-10-30T01:00:00Z",
-   "tags": [
-    "megabanks"
-   ]
-  },
-  {
    "title": "米株価指数先物 ナスダック下げきつい、アマゾンやインテル決算に失望",
    "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9TNkM3MFh5TU90NlM5aFowaGhEcnlRVzIxcFVZZjVKMElvM3NhakN0LUxUTzVtMkEtOXcyQ0pkTnFJWXlXbXl5SzRtN0taMXVHc2c?oc=5",
    "source": "株探",
    "published_at": "2026-10-30T00:58:00Z",
    "tags": []
-  },
-  {
-   "title": "The Humanoid Robot Market Could Be Worth More Than $7 Trillion. Here Are 3 Stocks to Own.",
-   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNQ2dZYUlHVzFaX1BIUlRyYldoNWdaMG1sYUsyNmp0ZWxBUVdON3BzQklaUk8tcjZmX3JXQmdwNjdSQlp4clJNbzVVbUNjZEZQQmhIeVZjSTBXVUdtTTAxOUNUdERrcDFjOUlLOUtCTGNzZE1YUk02UEFFYUVWZVc3WklxeE1IcFM3Sy1sNlB5NXllSnFJbEx1TQ?oc=5",
-   "source": "The Motley Fool",
-   "published_at": "2026-10-30T00:54:48Z",
-   "tags": [
-    "robotics"
-   ]
   },
   {
    "title": "S&P500・オルカン 最新情報。30日は反転下落、アルファベットの上場以来“最大の下げ幅”で",
@@ -8555,21 +8609,12 @@
    ]
   },
   {
-   "title": "Hong Kong Stocks Lose a Key Backer as Chinese Investors Head for Exit",
-   "url": "https://www.bloomberg.com/news/articles/2026-10-30/hk-stocks-lose-a-key-backer-as-chinese-investors-head-for-exit",
-   "source": "Bloomberg Markets",
-   "published_at": "2026-10-30T00:00:00Z",
+   "title": "アンソロピックがナスダック上場を準備、最大2兆ドルの評価はAI需要が鍵",
+   "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBQNDlnVnNuOXRldU9wcFJoMUgtT3NkTEFNQUJhWG1CY214eDVndEVJejNjYWNzWG1uTFRGTUZwb2VoR3N0bVo3SVQ5SWxEOTFYekt4U3VJcEtDNk9qSXNWa2xXQ1BhWXdQdkRJMVUxNGRmRWJ5UXEw?oc=5",
+   "source": "Mezha.net",
+   "published_at": "2026-10-29T23:31:00Z",
    "tags": [
-    "china_adr"
-   ]
-  },
-  {
-   "title": "Wall Street ends lower as Alphabet revenue miss revives AI capex jitters",
-   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxObTRZdktaNHNaUkc2SG45TFV3V3hKRlMwdWdFTEhyUVFSRnBodWFIM0gxSHh5NWZDVkp3WnJOX3RTZGFtUDVIN3ZPQnB6NlNOQ01OOXhTRnNhNjkyajZ2ejhEZkRBS1IxMkxjVWJmY3FYa3lqcHUxajVqRXpWdS1UWjdxZFZYTW8tUjBtN2NZTGlLSWFiRlpjTDNKaVlVbHRiLVRCcA?oc=5",
-   "source": "Reuters",
-   "published_at": "2026-10-29T23:35:39Z",
-   "tags": [
-    "megabanks"
+    "ipo"
    ]
   },
   {
@@ -8585,6 +8630,15 @@
    "source": "株探",
    "published_at": "2026-10-29T23:12:00Z",
    "tags": []
+  },
+  {
+   "title": "Nasdaq Dives As Alphabet Has Worst Day Ever. But Note These Stock Market Silver Linings.",
+   "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQdTZmdnViVXpWYjZ4bjBYM2ZBRXVxb0VCdUxBV0h2dmUzUFYwWS1HM0NyWHdGZ3U4SG82M2dNdGoyZmpNdTVmSGRtazVJRzVET3F4ZkhzQnlJc1VLTmNOcVlUOU1qQjAydWhPN2JLQmN1U1BJcjdVcG5xR0VNamczX01lTlRtR1R6UERPY0N2akpEMV82SnZqX2hoZ1B5T0tZLVhZaWc3MVhFbk8yb01kMDF3bXYzckIyS0tWc1djd00ya1ZDNzdz?oc=5",
+   "source": "Investor's Business Daily",
+   "published_at": "2026-10-29T23:09:00Z",
+   "tags": [
+    "metals_mining"
+   ]
   },
   {
    "title": "米国株式市場、ＮＹダウ、ナスダック４日ぶり反落(ウエルスアドバイザー)",
@@ -8630,20 +8684,18 @@
    ]
   },
   {
+   "title": "NY株式：NYダウは132.54ドル安、一部企業決算受けAI投資への懸念再燃",
+   "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFB5Zks4Q0U3MUZ5LWFVSWFlbzJSMzhlNUNYanJLWnpYUS04a1hYWWw2bzZhQ1JMajhOa04wU2NfRVBaSEVzaVlvR3UzZ245elZ4YTYyaUt3ZEtFallNR2hVSQ?oc=5",
+   "source": "株探",
+   "published_at": "2026-10-29T21:19:07Z",
+   "tags": []
+  },
+  {
    "title": "Update: Nasdaq, S&P 500 Snap 3-Day Rise on Alphabet Sell-Off, Inflation Anxiety",
    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQUjllbTYwZGZ0N0tEV0N4TTh0cG9WOXl0d196MVB0bXUtdThPZmppMzBjMjZ4NGEzWmNSUFJCbmJTcWYtektWQ0tRY0tlZFM4Zm5GYXhDX0J5ZUQzdVhYOHY4RXFkbG9tclI0a1VFTHI2S044bV9IdWZiTkxhTjc0bXQxYVBxbDF5TzBnUA?oc=5",
    "source": "Yahoo Finance",
    "published_at": "2026-10-29T20:32:07Z",
    "tags": []
-  },
-  {
-   "title": "ServiceNow stock sinks in worst day ever, Fortinet shares drop as Q3 earnings reports send software sector lower",
-   "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxQQUpuMFR1MVJuYWRfQnZKNDlVRThQT1VyZl95Y2lIWWxoOWV5R2ladVplWk03blZrRWttbTJ3bFdmYXVZMEowQ1pVS0diYUFDaWsxWHNhd2VIWVVjcVdOZXRjVHFrQzdWaENucXc3R1NDVnpnR0YzVEVBZFA5Mk0yVmdvUmpjNmlKSWVJa3pxTmFaX0w0OS00MWZsbzhsQl9oelpYVmZhdEFJZXVHVTY0STdBLVliRW0wTkpheVZZZ0g0TTFBUkdHa3NpR1hyZGtpQXV5ejhJZGRwMHYyQW85QmtXVkNxWEtjSHY2QnJpYkZWOS03?oc=5",
-   "source": "Yahoo Finance",
-   "published_at": "2026-10-29T20:27:44Z",
-   "tags": [
-    "software"
-   ]
   },
   {
    "title": "ServiceNow shares plunge 27% to worst day ever after earnings revive AI disruption fears",
@@ -8671,43 +8723,6 @@
    "tags": [
     "oil_gas"
    ]
-  },
-  {
-   "title": "新興バーテックス、来年のナスダック上場計画",
-   "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE94dW9RNnBZUXlhbUJselY1RmxmcWdZbEFVUFY4RzNVOUp4NzNUNFhaY3NnZWNDakdwbDlwbEhSX0ZOX3N5UUE?oc=5",
-   "source": "NNAアジア",
-   "published_at": "2026-10-29T15:00:00Z",
-   "tags": [
-    "ipo"
-   ]
-  },
-  {
-   "title": "〔米株式〕ダウ反落、165ドル安＝ナスダックも安い（29日午前）（時事通信）",
-   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9oWk91NUNIUzcxeU1GcGozTE1qVl9sV0hqaEtNaUxsUTJJV25hY3BUZGNXeF9GMURMdkdfY2RETl9SNXJYTmxNNzVxNnRiLVdZTTA1U1EzZGp0el9nRHlJV1FHNGN5SnJEVGhaUng5aEZqSnkwcE5zZFZRM2pRd0E?oc=5",
-   "source": "Yahoo!ニュース",
-   "published_at": "2026-10-29T14:30:16Z",
-   "tags": []
-  },
-  {
-   "title": "〔米株式〕ダウ反落、240ドル安＝ナスダックも安い（29日朝）（時事通信）",
-   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5MSEdtY3BqR2Z4bFd0T2g0VUt2cTRzSHZ1WWJlMkQ3UkhCMEp6ZHZ6eGczcG9iS2Z3SUg3SWh1OTNTZ0lYdzZVVl9hWFdJcEk3OG9QZTNDc1k2bG5nS3VPZHdGY3NVQ1JpM1J3VEtGbnVtMEVDRDlqUEIxaVhTQjA?oc=5",
-   "source": "Yahoo!ニュース",
-   "published_at": "2026-10-29T14:00:20Z",
-   "tags": []
-  },
-  {
-   "title": "ダウ平均は反落して始まる ナスダックは１．４％の大幅安＝米国株オープン",
-   "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE42U3dxRnowbVBGeFhxd3RvV2FYd1F4ZmE2VW9sa1hna0sxa1NpXzNIaFBzZ2RyV0VqWEt2V0ZaZno0ZFQ4c2FVdWhONkMzQjFERzJXR0YwY1ZRZmhINFZDSQ?oc=5",
-   "source": "株探",
-   "published_at": "2026-10-29T13:31:00Z",
-   "tags": []
-  },
-  {
-   "title": "ナスダック１００が大幅安 アルファベットの決算に失望感＝米国株",
-   "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9NZmR0QmFUaFhickJ3U2hVQzR6Q28yZDB2RlY3UDNrQXhJc0lYd09VYm1qekJxRHF0eXNpV1RiZjhSU25fSjR1V1FhWDNXZ2FkSnBKbmNtVzFfeWVxaTQ2Mg?oc=5",
-   "source": "株探",
-   "published_at": "2026-10-29T12:56:00Z",
-   "tags": []
   }
  ],
  "disclosures_session": [
