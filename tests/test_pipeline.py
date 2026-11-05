@@ -289,5 +289,19 @@ def test_early_attempt_waits_for_coverage(tmp_path: Path) -> None:
     early.final = False
     with pytest.raises(StaleDataError, match="S&P 500 weight"):
         build_summary(T, settings(tmp_path), early)
-    s = build_summary(T, settings(tmp_path / "b"), deps(PartialSource()))
+    lenient = settings(tmp_path / "b").model_copy(update={"coverage_min_pct": 10.0})
+    s = build_summary(T, lenient, deps(PartialSource()))
     assert any("ウエイト" in w for w in s.warnings)
+
+
+class IndexOnlySource(FakeSource):
+    """Yahoo's gap after 20:00 ET: the index has today's bar, the stocks do not (D-29)."""
+
+    def daily_bars(self, symbols: list[str], start: dt.date, end: dt.date) -> pd.DataFrame:
+        df = super().daily_bars(symbols, start, end)
+        return df[(df["date"] != T) | (df["symbol"] == "^GSPC")]
+
+
+def test_final_attempt_does_not_publish_without_stock_closes(tmp_path: Path) -> None:
+    with pytest.raises(StaleDataError, match="S&P 500 weight"):
+        build_summary(T, settings(tmp_path), deps(IndexOnlySource()))

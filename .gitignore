@@ -8,3 +8,5 @@ site/
 .cache/
 .env
 screenshots/
+node_modules/
+.wrangler/

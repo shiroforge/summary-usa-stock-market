@@ -231,7 +231,7 @@ def build(target: dt.date, settings: Settings, deps: Deps) -> BuildResult:
     weights = pd.Series({c.code: c.weight_pct for c in master.constituents}, dtype=float)
     cov = core.coverage_pct(core.row(rets, target), weights)
     if cov < settings.coverage_warn_pct:
-        if not deps.final:
+        if not deps.final or cov < settings.coverage_min_pct:
             raise StaleDataError(f"only {cov:.1f}% of S&P 500 weight has a close for {target}")
         warnings.append(
             f"当日の株価を取得できた銘柄がS&P500の時価総額ウエイトの{cov:.1f}%にとどまります"

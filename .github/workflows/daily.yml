@@ -1,4 +1,6 @@
 name: daily
+# 定刻の配信は、外部の cron（worker/）が workflow_dispatch で起動する（07:00〜08:30 JST、D-29）。
+# 下の schedule は GitHub の cron で、2〜6時間遅れる。外部の起動が止まったときの予備で、生成済みなら何もしない。
 # NY市場の引け（16:00 ET）後に実行する。cron は UTC 固定なので、夏時間・冬時間の両方で引け後になる時刻を選んだ（D-22）。
 #   20:47 UTC = 夏 16:47 ET / 05:47 JST（冬は引け前のため前営業日を見て「生成済み」で終わる）
 #   21:33 UTC = 夏 17:33 ET / 冬 16:33 ET（06:33 JST）
@@ -25,6 +27,10 @@ on:
         description: "Discordに通知する"
         type: boolean
         default: true
+      early:
+        description: "データが揃っていなければ生成を見送る（外部の定時起動用）"
+        type: boolean
+        default: false
 
 concurrency:
   group: daily
@@ -80,6 +86,9 @@ jobs:
           # scheduled runs before the final one wait for complete data; the last run and manual runs build regardless
           mode=--final
           if [ "${{ github.event_name }}" = "schedule" ] && [ "${{ github.event.schedule }}" != "33 22 * * 1-5" ] && [ "$EVENING" != "true" ]; then
+            mode=--early
+          fi
+          if [ "${{ inputs.early }}" = "true" ]; then
             mode=--early
           fi
           set +e

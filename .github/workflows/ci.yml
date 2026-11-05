@@ -18,3 +18,5 @@ jobs:
       - run: uv run ruff format --check .
       - run: uv run mypy src
       - run: uv run pytest
+      - run: node --test
+        working-directory: worker

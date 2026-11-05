@@ -1,0 +1,17 @@
+name = "usmarket-dispatch"
+main = "src/index.js"
+compatibility_date = "2026-10-01"
+
+# UTC. Cloudflare numbers weekdays 1 = Sunday, so use names, not "1-5" (DECISIONS D-29).
+# 07:00 / 07:30 / 08:00 / 08:30 JST. tests/test_schedule.py checks these stay before 20:00 ET.
+[triggers]
+crons = ["0 22 * * mon-fri", "30 22 * * mon-fri", "0 23 * * mon-fri", "30 23 * * mon-fri"]
+
+[vars]
+GITHUB_REPO = "shiroforge/summary-usa-stock-market"
+GITHUB_WORKFLOW = "daily.yml"
+GITHUB_REF = "main"
+# GITHUB_TOKEN is a secret: npx wrangler secret put GITHUB_TOKEN
+
+[observability]
+enabled = true

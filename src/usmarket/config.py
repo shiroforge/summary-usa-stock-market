@@ -72,6 +72,7 @@ class Settings(BaseSettings):
     yf_max_retries: int = 3
     min_turnover_for_ranking: float = 1e8  # USD
     coverage_warn_pct: float = 95.0
+    coverage_min_pct: float = 50.0  # below this even the final attempt does not publish (D-29)
     ipo_min_offer_usd: float = 1e8  # smaller deals are left out of the IPO theme
 
     def _yaml(self, name: str) -> dict[str, Any]:
