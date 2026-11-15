@@ -19,12 +19,12 @@ Cloudflare の無料アカウントが必要です。トークンはプロンプ
 
 ```bash
 cd worker
-npx wrangler login
-npx wrangler secret put GITHUB_TOKEN
-npx wrangler deploy
+npx wrangler login                    # ブラウザが開くので、Cloudflare にログインして許可する
+npx wrangler deploy                   # Worker を公開する（初回は workers.dev のサブドメイン名を聞かれることがある）
+npx wrangler secret put GITHUB_TOKEN  # 1. で発行したトークンを貼り付ける（画面には表示されない）
 ```
 
-設定した時刻が反映されるまで、最大15分ほどかかります。
+設定した時刻が反映されるまで、最大15分ほどかかります。`secret put` を先に実行すると、Worker の新規作成を確認されます。
 
 ### 3. 動作を確認する
 翌朝、Actions の `daily` の一覧で、イベントが `workflow_dispatch` の実行が 07:00 JST ごろに始まっていることを確認します。Worker の実行結果は Cloudflare のダッシュボードで確認できます。
