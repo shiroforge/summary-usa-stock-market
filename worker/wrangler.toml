@@ -2,15 +2,12 @@ name = "usmarket-dispatch"
 main = "src/index.js"
 compatibility_date = "2026-10-01"
 
-# UTC. Cloudflare numbers weekdays 1 = Sunday, so use names, not "1-5" (DECISIONS D-29).
-# 07:00 / 07:30 / 08:00 / 08:30 JST. tests/test_schedule.py checks these stay before 20:00 ET.
+# UTC. The free plan allows 5 Cron Triggers per account, so the slots are grouped into 4 expressions;
+# src/index.js maps each fired time to a repo (SLOTS). Cloudflare numbers weekdays 1 = Sunday: use names.
+#   JPN 15:50 / 16:10 / 16:30 / 17:00 JST,  USA 07:00 / 07:30 / 08:00 / 08:30 JST
 [triggers]
-crons = ["0 22 * * mon-fri", "30 22 * * mon-fri", "0 23 * * mon-fri", "30 23 * * mon-fri"]
+crons = ["50 6 * * mon-fri", "10,30 7 * * mon-fri", "0 8 * * mon-fri", "0,30 22-23 * * mon-fri"]
 
-[vars]
-GITHUB_REPO = "shiroforge/summary-usa-stock-market"
-GITHUB_WORKFLOW = "daily.yml"
-GITHUB_REF = "main"
 # GITHUB_TOKEN is a secret: npx wrangler secret put GITHUB_TOKEN
 
 [observability]
