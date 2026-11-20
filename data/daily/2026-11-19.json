@@ -1,7 +1,7 @@
 {
  "schema_version": 1,
  "date": "2026-11-19",
- "generated_at": "2026-11-20T03:41:19.593239Z",
+ "generated_at": "2026-11-20T08:31:49.719131Z",
  "sources": [
   "yfinance",
   "S&P500構成銘柄のウエイト: SPDR S&P 500 ETF の保有比率（2026-11-13時点）",
@@ -11,10 +11,9 @@
   "RSS（Google News 米国株、日経速報、Bloomberg Markets、CNBC Markets、CNBC Top News、MarketWatch、Google News Markets）"
  ],
  "warnings": [
-  "当日の株価を取得できた銘柄がS&P500の時価総額ウエイトの88.9%にとどまります（セクターの推計値の誤差が大きくなります）。",
   "一部のニュースを取得できませんでした（Yahoo Finance）。"
  ],
- "comment": "S&P500は-2.02%、NASDAQ総合は-2.25%、NYダウは-2.19%。値下がり銘柄が93%を占める全面安。一般消費財・コミュニケーションの下げが目立つ。テーマでは「IPO（上場1年以内）」(+4.43%)が強い。「中国ADR」(-5.77%)は売られた。VIXは28.44（+3.88）、米10年債利回りは5.05%（-1.4bp）。",
+ "comment": "S&P500は-2.02%、NASDAQ総合は-2.25%、NYダウは-2.19%。値下がり銘柄が92%を占める全面安。一般消費財・コミュニケーションの下げが目立つ。テーマでは「サイバーセキュリティ」(+1.61%)が強い。「量子コンピュータ」(-4.65%)は売られた。VIXは28.44（+3.88）、米10年債利回りは5.05%（-1.4bp）。",
  "quotes": [
   {
    "key": "sp500",
@@ -174,12 +173,12 @@
    "ticker": "^RUT",
    "category": "us_index",
    "close": 2655.11,
-   "change": -59.2048,
+   "change": -59.2,
    "change_pct": -2.18,
    "change_5d_pct": -5.14,
    "change_20d_pct": -4.63,
-   "change_5d": -143.9548,
-   "change_20d": -128.9248,
+   "change_5d": -143.95,
+   "change_20d": -128.9199,
    "spark": [
     2775.8999,
     2786.4199,
@@ -200,7 +199,7 @@
     2742.9399,
     2701.8701,
     2714.3101,
-    2655.1052
+    2655.1101
    ],
    "as_of": "2026-11-19",
    "is_proxy": false,
@@ -212,12 +211,12 @@
    "ticker": "^SOX",
    "category": "us_index",
    "close": 9419.72,
-   "change": -233.0771,
+   "change": -233.0801,
    "change_pct": -2.41,
    "change_5d_pct": -10.35,
    "change_20d_pct": -12.23,
-   "change_5d": -1086.9473,
-   "change_20d": -1312.2578,
+   "change_5d": -1086.9502,
+   "change_20d": -1312.2607,
    "spark": [
     10779.46,
     11083.4697,
@@ -238,7 +237,7 @@
     9610.6504,
     9642.8799,
     9652.7998,
-    9419.7227
+    9419.7197
    ],
    "as_of": "2026-11-19",
    "is_proxy": false,
@@ -287,13 +286,13 @@
    "name": "S&P500先物",
    "ticker": "ES=F",
    "category": "futures_vol",
-   "close": 7172.0,
-   "change": -168.5,
-   "change_pct": -2.3,
-   "change_5d_pct": -5.82,
-   "change_20d_pct": -6.91,
-   "change_5d": -443.25,
-   "change_20d": -532.5,
+   "close": 7197.25,
+   "change": -143.25,
+   "change_pct": -1.95,
+   "change_5d_pct": -5.49,
+   "change_20d_pct": -6.58,
+   "change_5d": -418.0,
+   "change_20d": -507.25,
    "spark": [
     7659.75,
     7714.5,
@@ -314,7 +313,7 @@
     7439.0,
     7359.0,
     7340.5,
-    7172.0
+    7197.25
    ],
    "as_of": "2026-11-19",
    "is_proxy": false,
@@ -325,13 +324,13 @@
    "name": "NASDAQ100先物",
    "ticker": "NQ=F",
    "category": "futures_vol",
-   "close": 26426.0,
-   "change": -760.75,
-   "change_pct": -2.8,
-   "change_5d_pct": -6.9,
-   "change_20d_pct": -9.32,
-   "change_5d": -1958.5,
-   "change_20d": -2716.0,
+   "close": 26600.25,
+   "change": -586.5,
+   "change_pct": -2.16,
+   "change_5d_pct": -6.29,
+   "change_20d_pct": -8.72,
+   "change_5d": -1784.25,
+   "change_20d": -2541.75,
    "spark": [
     29117.75,
     29437.25,
@@ -352,7 +351,7 @@
     27284.25,
     27075.5,
     27186.75,
-    26426.0
+    26600.25
    ],
    "as_of": "2026-11-19",
    "is_proxy": false,
@@ -439,13 +438,13 @@
    "name": "ドル指数",
    "ticker": "DX-Y.NYB",
    "category": "fx",
-   "close": 103.85,
-   "change": -0.008,
-   "change_pct": -0.01,
-   "change_5d_pct": 0.66,
-   "change_20d_pct": 2.21,
-   "change_5d": 0.682,
-   "change_20d": 2.242,
+   "close": 103.9,
+   "change": 0.04,
+   "change_pct": 0.04,
+   "change_5d_pct": 0.71,
+   "change_20d_pct": 2.25,
+   "change_5d": 0.73,
+   "change_20d": 2.29,
    "spark": [
     101.81,
     101.96,
@@ -466,7 +465,7 @@
     103.55,
     103.49,
     103.86,
-    103.852
+    103.9
    ],
    "as_of": "2026-11-19",
    "is_proxy": false,
@@ -895,13 +894,13 @@
    "name": "WTI原油",
    "ticker": "CL=F",
    "category": "commodity",
-   "close": 82.75,
-   "change": -0.51,
-   "change_pct": -0.61,
-   "change_5d_pct": -6.75,
-   "change_20d_pct": -16.81,
-   "change_5d": -5.99,
-   "change_20d": -16.72,
+   "close": 83.21,
+   "change": -0.05,
+   "change_pct": -0.06,
+   "change_5d_pct": -6.23,
+   "change_20d_pct": -16.35,
+   "change_5d": -5.53,
+   "change_20d": -16.26,
    "spark": [
     103.27,
     101.76,
@@ -922,7 +921,7 @@
     85.72,
     86.01,
     83.26,
-    82.75
+    83.21
    ],
    "as_of": "2026-11-19",
    "is_proxy": false,
@@ -933,13 +932,13 @@
    "name": "金",
    "ticker": "GC=F",
    "category": "commodity",
-   "close": 3532.9,
-   "change": -209.0,
-   "change_pct": -5.59,
-   "change_5d_pct": -9.07,
-   "change_20d_pct": -12.99,
-   "change_5d": -352.4001,
-   "change_20d": -527.5,
+   "close": 3685.5,
+   "change": -56.3999,
+   "change_pct": -1.51,
+   "change_5d_pct": -5.14,
+   "change_20d_pct": -9.23,
+   "change_5d": -199.8,
+   "change_20d": -374.8999,
    "spark": [
     4007.8999,
     4038.3999,
@@ -960,7 +959,7 @@
     3853.0,
     3864.2,
     3741.8999,
-    3532.8999
+    3685.5
    ],
    "as_of": "2026-11-19",
    "is_proxy": false,
@@ -971,13 +970,13 @@
    "name": "銅",
    "ticker": "HG=F",
    "category": "commodity",
-   "close": 5.507,
-   "change": -0.1525,
-   "change_pct": -2.69,
-   "change_5d_pct": -10.93,
-   "change_20d_pct": -13.45,
-   "change_5d": -0.6755,
-   "change_20d": -0.8555,
+   "close": 5.625,
+   "change": -0.0345,
+   "change_pct": -0.61,
+   "change_5d_pct": -9.02,
+   "change_20d_pct": -11.59,
+   "change_5d": -0.5575,
+   "change_20d": -0.7375,
    "spark": [
     6.476,
     6.508,
@@ -998,7 +997,7 @@
     5.9975,
     5.976,
     5.6595,
-    5.507
+    5.625
    ],
    "as_of": "2026-11-19",
    "is_proxy": false,
@@ -1009,13 +1008,13 @@
    "name": "天然ガス",
    "ticker": "NG=F",
    "category": "commodity",
-   "close": 3.254,
-   "change": -0.118,
-   "change_pct": -3.5,
-   "change_5d_pct": -2.57,
-   "change_20d_pct": 16.38,
-   "change_5d": -0.086,
-   "change_20d": 0.458,
+   "close": 3.268,
+   "change": -0.104,
+   "change_pct": -3.08,
+   "change_5d_pct": -2.16,
+   "change_20d_pct": 16.88,
+   "change_5d": -0.072,
+   "change_20d": 0.472,
    "spark": [
     2.64,
     2.602,
@@ -1036,7 +1035,7 @@
     3.122,
     3.208,
     3.372,
-    3.254
+    3.268
    ],
    "as_of": "2026-11-19",
    "is_proxy": false,
@@ -1047,15 +1046,14 @@
    "name": "ビットコイン",
    "ticker": "BTC-USD",
    "category": "commodity",
-   "close": 62987.27,
-   "change": -1906.6797,
-   "change_pct": -2.94,
-   "change_5d_pct": -7.71,
-   "change_20d_pct": -19.01,
-   "change_5d": -5262.0078,
-   "change_20d": -14787.8438,
+   "close": 61901.82,
+   "change": -1085.4453,
+   "change_pct": -1.72,
+   "change_5d_pct": -3.47,
+   "change_20d_pct": -19.81,
+   "change_5d": -2226.2305,
+   "change_20d": -15296.3906,
    "spark": [
-    77198.2109,
     77434.75,
     78248.4531,
     76677.2969,
@@ -1074,9 +1072,10 @@
     65305.0625,
     64855.8438,
     64893.9453,
-    62987.2656
+    62987.2656,
+    61901.8203
    ],
-   "as_of": "2026-11-18",
+   "as_of": "2026-11-19",
    "is_proxy": false,
    "unit": ""
   }
@@ -1085,11 +1084,11 @@
   {
    "name": "エネルギー",
    "key": "Energy",
-   "change_pct": -0.7,
-   "median_pct": -1.19,
-   "advancers": 5,
-   "decliners": 13,
-   "count": 18,
+   "change_pct": -0.68,
+   "median_pct": -1.05,
+   "advancers": 6,
+   "decliners": 15,
+   "count": 21,
    "index_weight_pct": 3.62,
    "etf": "XLE",
    "etf_change_pct": -0.65,
@@ -1117,14 +1116,14 @@
      "disclosures": []
     },
     {
-     "code": "HAL",
-     "name": "Halliburton",
+     "code": "FANG",
+     "name": "Diamondback Energy",
      "sector": "エネルギー",
-     "close": 31.73,
-     "change_pct": 0.92,
-     "turnover": 267000000.0,
-     "volume": 8423500.0,
-     "volume_ratio": 0.88,
+     "close": 176.77,
+     "change_pct": 1.41,
+     "turnover": 562000000.0,
+     "volume": 3181400.0,
+     "volume_ratio": 1.5,
      "disclosures": []
     }
    ],
@@ -1167,11 +1166,11 @@
   {
    "name": "公益",
    "key": "Utilities",
-   "change_pct": -1.02,
-   "median_pct": -1.13,
+   "change_pct": -1.23,
+   "median_pct": -1.14,
    "advancers": 3,
-   "decliners": 25,
-   "count": 29,
+   "decliners": 27,
+   "count": 31,
    "index_weight_pct": 2.12,
    "etf": "XLU",
    "etf_change_pct": -1.24,
@@ -1212,6 +1211,17 @@
    ],
    "laggards": [
     {
+     "code": "CEG",
+     "name": "Constellation Energy",
+     "sector": "公益",
+     "close": 252.03,
+     "change_pct": -4.08,
+     "turnover": 921000000.0,
+     "volume": 3655200.0,
+     "volume_ratio": 0.96,
+     "disclosures": []
+    },
+    {
      "code": "NEE",
      "name": "NextEra Energy",
      "sector": "公益",
@@ -1232,28 +1242,17 @@
      "volume": 5856400.0,
      "volume_ratio": 0.68,
      "disclosures": []
-    },
-    {
-     "code": "DUK",
-     "name": "Duke Energy",
-     "sector": "公益",
-     "close": 128.86,
-     "change_pct": -0.92,
-     "turnover": 578000000.0,
-     "volume": 4486500.0,
-     "volume_ratio": 0.88,
-     "disclosures": []
     }
    ]
   },
   {
    "name": "生活必需品",
    "key": "Consumer Staples",
-   "change_pct": -1.47,
-   "median_pct": -1.55,
+   "change_pct": -1.49,
+   "median_pct": -1.61,
    "advancers": 1,
-   "decliners": 30,
-   "count": 31,
+   "decliners": 32,
+   "count": 33,
    "index_weight_pct": 5.17,
    "etf": "XLP",
    "etf_change_pct": -1.45,
@@ -1329,11 +1328,11 @@
   {
    "name": "金融",
    "key": "Financials",
-   "change_pct": -1.49,
-   "median_pct": -1.54,
+   "change_pct": -1.53,
+   "median_pct": -1.61,
    "advancers": 5,
-   "decliners": 64,
-   "count": 69,
+   "decliners": 71,
+   "count": 76,
    "index_weight_pct": 12.65,
    "etf": "XLF",
    "etf_change_pct": -1.49,
@@ -1411,14 +1410,14 @@
   {
    "name": "不動産",
    "key": "Real Estate",
-   "change_pct": -1.8,
-   "median_pct": -1.69,
+   "change_pct": -1.77,
+   "median_pct": -1.66,
    "advancers": 0,
-   "decliners": 28,
-   "count": 28,
+   "decliners": 30,
+   "count": 30,
    "index_weight_pct": 1.85,
    "etf": "XLRE",
-   "etf_change_pct": null,
+   "etf_change_pct": -1.7,
    "leaders": [],
    "laggards": [
     {
@@ -1457,13 +1456,181 @@
    ]
   },
   {
+   "name": "情報技術",
+   "key": "Information Technology",
+   "change_pct": -1.97,
+   "median_pct": -1.6,
+   "advancers": 11,
+   "decliners": 65,
+   "count": 76,
+   "index_weight_pct": 35.69,
+   "etf": "XLK",
+   "etf_change_pct": -1.9,
+   "leaders": [
+    {
+     "code": "PANW",
+     "name": "Palo Alto Networks",
+     "sector": "情報技術",
+     "close": 361.73,
+     "change_pct": 6.42,
+     "turnover": 6929000000.0,
+     "volume": 19154100.0,
+     "volume_ratio": 2.79,
+     "disclosures": [
+      {
+       "code": "PANW",
+       "name": "Palo Alto Networks",
+       "time": "2026-11-18T16:37:04-05:00",
+       "title": "2.02 Results of Operations and Financial Condition; 3.02 Unregistered Sales of Equity Securities; 7.01 Regulation FD Disclosure; 8.01 Other Events",
+       "url": "https://www.sec.gov/Archives/edgar/data/1327567/000132756726000030/0001327567-26-000030-index.htm",
+       "items": [
+        "2.02",
+        "3.02",
+        "7.01",
+        "8.01",
+        "9.01"
+       ],
+       "tags": [
+        "決算",
+        "未登録株式の発行",
+        "Reg FD開示",
+        "その他の重要事項"
+       ],
+       "tone": "neg",
+       "move_pct": null,
+       "move_basis": null,
+       "ah_price": null,
+       "ah_time": null
+      }
+     ]
+    },
+    {
+     "code": "CRWD",
+     "name": "CrowdStrike",
+     "sector": "情報技術",
+     "close": 243.46,
+     "change_pct": 2.71,
+     "turnover": 2817000000.0,
+     "volume": 11568700.0,
+     "volume_ratio": 1.26,
+     "disclosures": []
+    },
+    {
+     "code": "INTC",
+     "name": "Intel",
+     "sector": "情報技術",
+     "close": 55.72,
+     "change_pct": 1.92,
+     "turnover": 7434000000.0,
+     "volume": 133421900.0,
+     "volume_ratio": 0.91,
+     "disclosures": []
+    }
+   ],
+   "laggards": [
+    {
+     "code": "NVDA",
+     "name": "Nvidia",
+     "sector": "情報技術",
+     "close": 145.98,
+     "change_pct": -3.3,
+     "turnover": 46799000000.0,
+     "volume": 320588100.0,
+     "volume_ratio": 1.28,
+     "disclosures": []
+    },
+    {
+     "code": "MSFT",
+     "name": "Microsoft",
+     "sector": "情報技術",
+     "close": 498.3,
+     "change_pct": -1.97,
+     "turnover": 14488000000.0,
+     "volume": 29073900.0,
+     "volume_ratio": 1.04,
+     "disclosures": []
+    },
+    {
+     "code": "AMD",
+     "name": "Advanced Micro Devices",
+     "sector": "情報技術",
+     "close": 489.19,
+     "change_pct": -7.72,
+     "turnover": 34781000000.0,
+     "volume": 71098300.0,
+     "volume_ratio": 1.9,
+     "disclosures": []
+    }
+   ]
+  },
+  {
+   "name": "素材",
+   "key": "Materials",
+   "change_pct": -1.98,
+   "median_pct": -2.07,
+   "advancers": 1,
+   "decliners": 23,
+   "count": 24,
+   "index_weight_pct": 1.74,
+   "etf": "XLB",
+   "etf_change_pct": -2.06,
+   "leaders": [
+    {
+     "code": "CF",
+     "name": "CF Industries",
+     "sector": "素材",
+     "close": 115.76,
+     "change_pct": 1.81,
+     "turnover": 279000000.0,
+     "volume": 2410800.0,
+     "volume_ratio": 1.18,
+     "disclosures": []
+    }
+   ],
+   "laggards": [
+    {
+     "code": "NEM",
+     "name": "Newmont",
+     "sector": "素材",
+     "close": 100.05,
+     "change_pct": -4.29,
+     "turnover": 972000000.0,
+     "volume": 9710700.0,
+     "volume_ratio": 1.34,
+     "disclosures": []
+    },
+    {
+     "code": "FCX",
+     "name": "Freeport-McMoRan",
+     "sector": "素材",
+     "close": 49.12,
+     "change_pct": -4.53,
+     "turnover": 1314000000.0,
+     "volume": 26741000.0,
+     "volume_ratio": 1.94,
+     "disclosures": []
+    },
+    {
+     "code": "SHW",
+     "name": "Sherwin-Williams",
+     "sector": "素材",
+     "close": 339.83,
+     "change_pct": -1.95,
+     "turnover": 801000000.0,
+     "volume": 2358300.0,
+     "volume_ratio": 1.05,
+     "disclosures": []
+    }
+   ]
+  },
+  {
    "name": "資本財",
    "key": "Industrials",
-   "change_pct": -1.94,
-   "median_pct": -1.6,
+   "change_pct": -2.04,
+   "median_pct": -1.68,
    "advancers": 9,
-   "decliners": 62,
-   "count": 71,
+   "decliners": 74,
+   "count": 83,
    "index_weight_pct": 8.22,
    "etf": "XLI",
    "etf_change_pct": -2.0,
@@ -1526,156 +1693,14 @@
      "disclosures": []
     },
     {
-     "code": "UNP",
-     "name": "Union Pacific",
+     "code": "UBER",
+     "name": "Uber",
      "sector": "資本財",
-     "close": 290.63,
-     "change_pct": -3.41,
-     "turnover": 1171000000.0,
-     "volume": 4030300.0,
-     "volume_ratio": 1.37,
-     "disclosures": []
-    }
-   ]
-  },
-  {
-   "name": "素材",
-   "key": "Materials",
-   "change_pct": -1.95,
-   "median_pct": -1.99,
-   "advancers": 1,
-   "decliners": 20,
-   "count": 21,
-   "index_weight_pct": 1.74,
-   "etf": "XLB",
-   "etf_change_pct": -2.06,
-   "leaders": [
-    {
-     "code": "CF",
-     "name": "CF Industries",
-     "sector": "素材",
-     "close": 115.76,
-     "change_pct": 1.81,
-     "turnover": 279000000.0,
-     "volume": 2410800.0,
-     "volume_ratio": 1.18,
-     "disclosures": []
-    }
-   ],
-   "laggards": [
-    {
-     "code": "NEM",
-     "name": "Newmont",
-     "sector": "素材",
-     "close": 100.05,
-     "change_pct": -4.29,
-     "turnover": 972000000.0,
-     "volume": 9710700.0,
-     "volume_ratio": 1.34,
-     "disclosures": []
-    },
-    {
-     "code": "FCX",
-     "name": "Freeport-McMoRan",
-     "sector": "素材",
-     "close": 49.12,
-     "change_pct": -4.53,
-     "turnover": 1314000000.0,
-     "volume": 26741000.0,
-     "volume_ratio": 1.94,
-     "disclosures": []
-    },
-    {
-     "code": "SHW",
-     "name": "Sherwin-Williams",
-     "sector": "素材",
-     "close": 339.83,
-     "change_pct": -1.95,
-     "turnover": 801000000.0,
-     "volume": 2358300.0,
-     "volume_ratio": 1.05,
-     "disclosures": []
-    }
-   ]
-  },
-  {
-   "name": "情報技術",
-   "key": "Information Technology",
-   "change_pct": -2.15,
-   "median_pct": -1.68,
-   "advancers": 7,
-   "decliners": 52,
-   "count": 59,
-   "index_weight_pct": 35.69,
-   "etf": "XLK",
-   "etf_change_pct": -1.9,
-   "leaders": [
-    {
-     "code": "INTC",
-     "name": "Intel",
-     "sector": "情報技術",
-     "close": 55.72,
-     "change_pct": 1.92,
-     "turnover": 7434000000.0,
-     "volume": 133421900.0,
-     "volume_ratio": 0.91,
-     "disclosures": []
-    },
-    {
-     "code": "WDC",
-     "name": "Western Digital",
-     "sector": "情報技術",
-     "close": 296.78,
-     "change_pct": 2.98,
-     "turnover": 2920000000.0,
-     "volume": 9838000.0,
-     "volume_ratio": 1.17,
-     "disclosures": []
-    },
-    {
-     "code": "QCOM",
-     "name": "Qualcomm",
-     "sector": "情報技術",
-     "close": 162.01,
-     "change_pct": 1.38,
-     "turnover": 2172000000.0,
-     "volume": 13405400.0,
-     "volume_ratio": 0.95,
-     "disclosures": []
-    }
-   ],
-   "laggards": [
-    {
-     "code": "NVDA",
-     "name": "Nvidia",
-     "sector": "情報技術",
-     "close": 145.98,
-     "change_pct": -3.3,
-     "turnover": 46799000000.0,
-     "volume": 320588100.0,
-     "volume_ratio": 1.28,
-     "disclosures": []
-    },
-    {
-     "code": "MSFT",
-     "name": "Microsoft",
-     "sector": "情報技術",
-     "close": 498.3,
-     "change_pct": -1.97,
-     "turnover": 14488000000.0,
-     "volume": 29073900.0,
-     "volume_ratio": 1.04,
-     "disclosures": []
-    },
-    {
-     "code": "AMD",
-     "name": "Advanced Micro Devices",
-     "sector": "情報技術",
-     "close": 489.19,
-     "change_pct": -7.72,
-     "turnover": 34781000000.0,
-     "volume": 71098300.0,
-     "volume_ratio": 1.9,
+     "close": 65.6,
+     "change_pct": -4.6,
+     "turnover": 1886000000.0,
+     "volume": 28749900.0,
+     "volume_ratio": 1.52,
      "disclosures": []
     }
    ]
@@ -1683,15 +1708,27 @@
   {
    "name": "ヘルスケア",
    "key": "Health Care",
-   "change_pct": -2.2,
+   "change_pct": -2.09,
    "median_pct": -1.85,
-   "advancers": 0,
-   "decliners": 53,
-   "count": 53,
+   "advancers": 1,
+   "decliners": 59,
+   "count": 60,
    "index_weight_pct": 10.48,
    "etf": "XLV",
    "etf_change_pct": -2.05,
-   "leaders": [],
+   "leaders": [
+    {
+     "code": "MRNA",
+     "name": "Moderna",
+     "sector": "ヘルスケア",
+     "close": 199.33,
+     "change_pct": 1.29,
+     "turnover": 1632000000.0,
+     "volume": 8188000.0,
+     "volume_ratio": 0.61,
+     "disclosures": []
+    }
+   ],
    "laggards": [
     {
      "code": "LLY",
@@ -1731,14 +1768,14 @@
   {
    "name": "コミュニケーション",
    "key": "Communication Services",
-   "change_pct": -2.75,
-   "median_pct": -2.61,
+   "change_pct": -2.93,
+   "median_pct": -3.0,
    "advancers": 0,
-   "decliners": 14,
-   "count": 14,
+   "decliners": 22,
+   "count": 22,
    "index_weight_pct": 8.94,
    "etf": "XLC",
-   "etf_change_pct": null,
+   "etf_change_pct": -2.67,
    "leaders": [],
    "laggards": [
     {
@@ -1753,25 +1790,25 @@
      "disclosures": []
     },
     {
-     "code": "NFLX",
-     "name": "Netflix",
+     "code": "META",
+     "name": "Meta Platforms",
      "sector": "コミュニケーション",
-     "close": 58.46,
-     "change_pct": -2.27,
-     "turnover": 2217000000.0,
-     "volume": 37924200.0,
-     "volume_ratio": 0.94,
+     "close": 596.22,
+     "change_pct": -3.27,
+     "turnover": 9113000000.0,
+     "volume": 15285100.0,
+     "volume_ratio": 0.68,
      "disclosures": []
     },
     {
-     "code": "DIS",
-     "name": "Walt Disney",
+     "code": "GOOG",
+     "name": "Alphabet (Class C)",
      "sector": "コミュニケーション",
-     "close": 120.25,
-     "change_pct": -1.72,
-     "turnover": 1805000000.0,
-     "volume": 15011900.0,
-     "volume_ratio": 1.62,
+     "close": 271.02,
+     "change_pct": -2.93,
+     "turnover": 7794000000.0,
+     "volume": 28759100.0,
+     "volume_ratio": 1.04,
      "disclosures": []
     }
    ]
@@ -1779,11 +1816,11 @@
   {
    "name": "一般消費財",
    "key": "Consumer Discretionary",
-   "change_pct": -2.96,
-   "median_pct": -2.41,
+   "change_pct": -3.03,
+   "median_pct": -2.77,
    "advancers": 1,
-   "decliners": 41,
-   "count": 42,
+   "decliners": 46,
+   "count": 47,
    "index_weight_pct": 9.52,
    "etf": "XLY",
    "etf_change_pct": -2.79,
@@ -1839,55 +1876,93 @@
  ],
  "themes": [
   {
-   "key": "ipo",
-   "name": "IPO（上場1年以内）",
-   "change_pct": 4.43,
-   "advancers_ratio": 0.67,
-   "count": 3,
-   "members": [
-    {
-     "code": "CTY",
-     "name": "City Therapeutics",
-     "sector": null,
-     "close": 18.35,
-     "change_pct": 10.28,
-     "turnover": 5000000.0,
-     "volume": 245887.0,
-     "volume_ratio": 0.91,
-     "disclosures": []
-    },
-    {
-     "code": "WWB",
-     "name": "Windward Bio Group Ag",
-     "sector": null,
-     "close": 24.01,
-     "change_pct": 6.05,
-     "turnover": 4000000.0,
-     "volume": 166313.0,
-     "volume_ratio": null,
-     "disclosures": []
-    },
-    {
-     "code": "VVVV",
-     "name": "vVARDIS Holding AG",
-     "sector": null,
-     "close": 15.0,
-     "change_pct": -3.04,
-     "turnover": 7000000.0,
-     "volume": 485283.0,
-     "volume_ratio": null,
-     "disclosures": []
-    }
-   ],
-   "news_count": 25
-  },
-  {
    "key": "cyber_security",
    "name": "サイバーセキュリティ",
-   "change_pct": 0.34,
-   "advancers_ratio": 0.5,
-   "count": 2,
+   "change_pct": 1.61,
+   "advancers_ratio": 0.58,
+   "count": 12,
    "members": [
+    {
+     "code": "PANW",
+     "name": "Palo Alto Networks",
+     "sector": "情報技術",
+     "close": 361.73,
+     "change_pct": 6.42,
+     "turnover": 6929000000.0,
+     "volume": 19154100.0,
+     "volume_ratio": 2.79,
+     "disclosures": [
+      {
+       "code": "PANW",
+       "name": "Palo Alto Networks",
+       "time": "2026-11-18T16:37:04-05:00",
+       "title": "2.02 Results of Operations and Financial Condition; 3.02 Unregistered Sales of Equity Securities; 7.01 Regulation FD Disclosure; 8.01 Other Events",
+       "url": "https://www.sec.gov/Archives/edgar/data/1327567/000132756726000030/0001327567-26-000030-index.htm",
+       "items": [
+        "2.02",
+        "3.02",
+        "7.01",
+        "8.01",
+        "9.01"
+       ],
+       "tags": [
+        "決算",
+        "未登録株式の発行",
+        "Reg FD開示",
+        "その他の重要事項"
+       ],
+       "tone": "neg",
+       "move_pct": null,
+       "move_basis": null,
+       "ah_price": null,
+       "ah_time": null
+      }
+     ]
+    },
+    {
+     "code": "OKTA",
+     "name": "Okta",
+     "sector": "情報技術",
+     "close": 206.85,
+     "change_pct": 5.75,
+     "turnover": 1272000000.0,
+     "volume": 6151300.0,
+     "volume_ratio": 1.25,
+     "disclosures": []
+    },
+    {
+     "code": "ZS",
+     "name": "Zscaler",
+     "sector": null,
+     "close": 205.71,
+     "change_pct": 3.98,
+     "turnover": 766000000.0,
+     "volume": 3721400.0,
+     "volume_ratio": 1.57,
+     "disclosures": []
+    },
+    {
+     "code": "S",
+     "name": "SentinelOne",
+     "sector": null,
+     "close": 24.01,
+     "change_pct": 2.87,
+     "turnover": 277000000.0,
+     "volume": 11537800.0,
+     "volume_ratio": 1.08,
+     "disclosures": []
+    },
+    {
+     "code": "CRWD",
+     "name": "CrowdStrike",
+     "sector": "情報技術",
+     "close": 243.46,
+     "change_pct": 2.71,
+     "turnover": 2817000000.0,
+     "volume": 11568700.0,
+     "volume_ratio": 1.26,
+     "disclosures": []
+    },
     {
      "code": "CHKP",
      "name": "Check Point",
@@ -1900,6 +1975,39 @@
      "disclosures": []
     },
     {
+     "code": "NET",
+     "name": "Cloudflare",
+     "sector": null,
+     "close": 303.68,
+     "change_pct": 0.92,
+     "turnover": 1471000000.0,
+     "volume": 4843100.0,
+     "volume_ratio": 1.11,
+     "disclosures": []
+    },
+    {
+     "code": "RPD",
+     "name": "Rapid7",
+     "sector": null,
+     "close": 15.33,
+     "change_pct": -0.07,
+     "turnover": 32000000.0,
+     "volume": 2112500.0,
+     "volume_ratio": 0.98,
+     "disclosures": []
+    },
+    {
+     "code": "VRNS",
+     "name": "Varonis",
+     "sector": null,
+     "close": 49.14,
+     "change_pct": -0.18,
+     "turnover": 200000000.0,
+     "volume": 4073900.0,
+     "volume_ratio": 1.1,
+     "disclosures": []
+    },
+    {
      "code": "FTNT",
      "name": "Fortinet",
      "sector": "情報技術",
@@ -1909,6 +2017,28 @@
      "volume": 7054700.0,
      "volume_ratio": 1.11,
      "disclosures": []
+    },
+    {
+     "code": "TENB",
+     "name": "Tenable",
+     "sector": null,
+     "close": 44.09,
+     "change_pct": -1.32,
+     "turnover": 159000000.0,
+     "volume": 3611900.0,
+     "volume_ratio": 0.97,
+     "disclosures": []
+    },
+    {
+     "code": "QLYS",
+     "name": "Qualys",
+     "sector": null,
+     "close": 192.43,
+     "change_pct": -2.44,
+     "turnover": 193000000.0,
+     "volume": 1001200.0,
+     "volume_ratio": 1.01,
+     "disclosures": []
     }
    ],
    "news_count": 0
@@ -1916,9 +2046,9 @@
   {
    "key": "biotech",
    "name": "バイオテック",
-   "change_pct": 0.16,
-   "advancers_ratio": 0.1,
-   "count": 10,
+   "change_pct": 0.24,
+   "advancers_ratio": 0.31,
+   "count": 13,
    "members": [
     {
      "code": "INSM",
@@ -1929,6 +2059,39 @@
      "turnover": 2081000000.0,
      "volume": 14404600.0,
      "volume_ratio": 3.91,
+     "disclosures": []
+    },
+    {
+     "code": "MRNA",
+     "name": "Moderna",
+     "sector": "ヘルスケア",
+     "close": 199.33,
+     "change_pct": 1.29,
+     "turnover": 1632000000.0,
+     "volume": 8188000.0,
+     "volume_ratio": 0.61,
+     "disclosures": []
+    },
+    {
+     "code": "NTRA",
+     "name": "Natera",
+     "sector": null,
+     "close": 289.92,
+     "change_pct": 0.15,
+     "turnover": 793000000.0,
+     "volume": 2734900.0,
+     "volume_ratio": 1.2,
+     "disclosures": []
+    },
+    {
+     "code": "ARGX",
+     "name": "argenx",
+     "sector": null,
+     "close": 942.04,
+     "change_pct": 0.08,
+     "turnover": 272000000.0,
+     "volume": 288600.0,
+     "volume_ratio": 0.75,
      "disclosures": []
     },
     {
@@ -2036,10 +2199,21 @@
   {
    "key": "oil_gas",
    "name": "石油・ガス",
-   "change_pct": -0.43,
-   "advancers_ratio": 0.45,
-   "count": 11,
+   "change_pct": -0.27,
+   "advancers_ratio": 0.5,
+   "count": 12,
    "members": [
+    {
+     "code": "FANG",
+     "name": "Diamondback",
+     "sector": "エネルギー",
+     "close": 176.77,
+     "change_pct": 1.41,
+     "turnover": 562000000.0,
+     "volume": 3181400.0,
+     "volume_ratio": 1.5,
+     "disclosures": []
+    },
     {
      "code": "HAL",
      "name": "Halliburton",
@@ -2243,9 +2417,9 @@
   {
    "key": "defense",
    "name": "防衛",
-   "change_pct": -1.05,
-   "advancers_ratio": 0.18,
-   "count": 11,
+   "change_pct": -1.12,
+   "advancers_ratio": 0.17,
+   "count": 12,
    "members": [
     {
      "code": "AXON",
@@ -2336,6 +2510,17 @@
      "disclosures": []
     },
     {
+     "code": "PLTR",
+     "name": "Palantir",
+     "sector": "情報技術",
+     "close": 153.68,
+     "change_pct": -1.91,
+     "turnover": 3270000000.0,
+     "volume": 21279200.0,
+     "volume_ratio": 0.88,
+     "disclosures": []
+    },
+    {
      "code": "KTOS",
      "name": "Kratos",
      "sector": null,
@@ -2366,209 +2551,6 @@
      "turnover": 157000000.0,
      "volume": 1636600.0,
      "volume_ratio": 1.22,
-     "disclosures": []
-    }
-   ],
-   "news_count": 0
-  },
-  {
-   "key": "dc_power",
-   "name": "データセンター電力・冷却",
-   "change_pct": -1.06,
-   "advancers_ratio": 0.33,
-   "count": 6,
-   "members": [
-    {
-     "code": "POWL",
-     "name": "Powell Industries",
-     "sector": null,
-     "close": 158.75,
-     "change_pct": 2.45,
-     "turnover": 140000000.0,
-     "volume": 879800.0,
-     "volume_ratio": 1.0,
-     "disclosures": []
-    },
-    {
-     "code": "NRG",
-     "name": "NRG Energy",
-     "sector": "公益",
-     "close": 93.85,
-     "change_pct": 0.2,
-     "turnover": 245000000.0,
-     "volume": 2612300.0,
-     "volume_ratio": 0.65,
-     "disclosures": []
-    },
-    {
-     "code": "HUBB",
-     "name": "Hubbell",
-     "sector": "資本財",
-     "close": 418.74,
-     "change_pct": -1.81,
-     "turnover": 191000000.0,
-     "volume": 455844.0,
-     "volume_ratio": 0.61,
-     "disclosures": []
-    },
-    {
-     "code": "ETN",
-     "name": "Eaton",
-     "sector": "資本財",
-     "close": 330.57,
-     "change_pct": -2.3,
-     "turnover": 1092000000.0,
-     "volume": 3302300.0,
-     "volume_ratio": 1.02,
-     "disclosures": []
-    },
-    {
-     "code": "MOD",
-     "name": "Modine",
-     "sector": null,
-     "close": 134.56,
-     "change_pct": -2.41,
-     "turnover": 370000000.0,
-     "volume": 2751900.0,
-     "volume_ratio": 0.97,
-     "disclosures": []
-    },
-    {
-     "code": "PWR",
-     "name": "Quanta Services",
-     "sector": "資本財",
-     "close": 587.43,
-     "change_pct": -2.52,
-     "turnover": 710000000.0,
-     "volume": 1209500.0,
-     "volume_ratio": 0.71,
-     "disclosures": []
-    }
-   ],
-   "news_count": 0
-  },
-  {
-   "key": "ev_autonomy",
-   "name": "EV・自動運転",
-   "change_pct": -1.08,
-   "advancers_ratio": 0.0,
-   "count": 3,
-   "members": [
-    {
-     "code": "F",
-     "name": "Ford",
-     "sector": "一般消費財",
-     "close": 11.24,
-     "change_pct": -0.35,
-     "turnover": 495000000.0,
-     "volume": 44068400.0,
-     "volume_ratio": 1.01,
-     "disclosures": []
-    },
-    {
-     "code": "GM",
-     "name": "General Motors",
-     "sector": "一般消費財",
-     "close": 81.75,
-     "change_pct": -0.46,
-     "turnover": 418000000.0,
-     "volume": 5108500.0,
-     "volume_ratio": 0.68,
-     "disclosures": []
-    },
-    {
-     "code": "TSLA",
-     "name": "Tesla",
-     "sector": "一般消費財",
-     "close": 374.41,
-     "change_pct": -2.43,
-     "turnover": 9875000000.0,
-     "volume": 26375800.0,
-     "volume_ratio": 0.71,
-     "disclosures": []
-    }
-   ],
-   "news_count": 0
-  },
-  {
-   "key": "optical",
-   "name": "光通信・ネットワーク",
-   "change_pct": -1.53,
-   "advancers_ratio": 0.2,
-   "count": 5,
-   "members": [
-    {
-     "code": "COHR",
-     "name": "Coherent",
-     "sector": "情報技術",
-     "close": 214.94,
-     "change_pct": 0.99,
-     "turnover": 2611000000.0,
-     "volume": 12147700.0,
-     "volume_ratio": 1.21,
-     "disclosures": [
-      {
-       "code": "COHR",
-       "name": "Coherent",
-       "time": "2026-11-19T06:30:06-05:00",
-       "title": "7.01 Regulation FD Disclosure",
-       "url": "https://www.sec.gov/Archives/edgar/data/820318/000119312526467737/0001193125-26-467737-index.htm",
-       "items": [
-        "7.01"
-       ],
-       "tags": [
-        "Reg FD開示"
-       ],
-       "tone": "neutral",
-       "move_pct": null,
-       "move_basis": null,
-       "ah_price": null,
-       "ah_time": null
-      }
-     ]
-    },
-    {
-     "code": "CIEN",
-     "name": "Ciena",
-     "sector": "情報技術",
-     "close": 262.63,
-     "change_pct": -1.47,
-     "turnover": 632000000.0,
-     "volume": 2407800.0,
-     "volume_ratio": 0.75,
-     "disclosures": []
-    },
-    {
-     "code": "GLW",
-     "name": "Corning",
-     "sector": "情報技術",
-     "close": 105.97,
-     "change_pct": -2.02,
-     "turnover": 833000000.0,
-     "volume": 7858400.0,
-     "volume_ratio": 0.73,
-     "disclosures": []
-    },
-    {
-     "code": "CSCO",
-     "name": "Cisco",
-     "sector": "情報技術",
-     "close": 94.7,
-     "change_pct": -2.55,
-     "turnover": 1829000000.0,
-     "volume": 19311400.0,
-     "volume_ratio": 0.91,
-     "disclosures": []
-    },
-    {
-     "code": "FN",
-     "name": "Fabrinet",
-     "sector": null,
-     "close": 311.71,
-     "change_pct": -2.61,
-     "turnover": 227000000.0,
-     "volume": 729000.0,
-     "volume_ratio": 0.6,
      "disclosures": []
     }
    ],
@@ -2659,78 +2641,14 @@
      "disclosures": []
     }
    ],
-   "news_count": 7
-  },
-  {
-   "key": "space",
-   "name": "宇宙",
-   "change_pct": -1.56,
-   "advancers_ratio": 0.0,
-   "count": 1,
-   "members": [
-    {
-     "code": "IRDM",
-     "name": "Iridium",
-     "sector": null,
-     "close": 43.67,
-     "change_pct": -1.56,
-     "turnover": 26000000.0,
-     "volume": 590700.0,
-     "volume_ratio": 0.86,
-     "disclosures": []
-    }
-   ],
-   "news_count": 1
-  },
-  {
-   "key": "glp1",
-   "name": "肥満症薬（GLP-1）",
-   "change_pct": -1.62,
-   "advancers_ratio": 0.0,
-   "count": 3,
-   "members": [
-    {
-     "code": "AMGN",
-     "name": "Amgen",
-     "sector": "ヘルスケア",
-     "close": 438.82,
-     "change_pct": -1.14,
-     "turnover": 1100000000.0,
-     "volume": 2506500.0,
-     "volume_ratio": 0.95,
-     "disclosures": []
-    },
-    {
-     "code": "NVO",
-     "name": "Novo Nordisk",
-     "sector": null,
-     "close": 38.87,
-     "change_pct": -1.42,
-     "turnover": 683000000.0,
-     "volume": 17580400.0,
-     "volume_ratio": 1.38,
-     "disclosures": []
-    },
-    {
-     "code": "LLY",
-     "name": "Eli Lilly",
-     "sector": "ヘルスケア",
-     "close": 1351.12,
-     "change_pct": -2.29,
-     "turnover": 4321000000.0,
-     "volume": 3198300.0,
-     "volume_ratio": 1.04,
-     "disclosures": []
-    }
-   ],
-   "news_count": 0
+   "news_count": 8
   },
   {
    "key": "medtech",
    "name": "医療機器",
-   "change_pct": -1.65,
+   "change_pct": -1.7,
    "advancers_ratio": 0.0,
-   "count": 9,
+   "count": 10,
    "members": [
     {
      "code": "MDT",
@@ -2810,6 +2728,17 @@
      "disclosures": []
     },
     {
+     "code": "GEHC",
+     "name": "GE HealthCare",
+     "sector": "ヘルスケア",
+     "close": 81.89,
+     "change_pct": -2.12,
+     "turnover": 232000000.0,
+     "volume": 2835500.0,
+     "volume_ratio": 0.64,
+     "disclosures": []
+    },
+    {
      "code": "DXCM",
      "name": "Dexcom",
      "sector": "ヘルスケア",
@@ -2835,56 +2764,428 @@
    "news_count": 0
   },
   {
-   "key": "clean_energy",
-   "name": "太陽光・クリーンエネルギー",
-   "change_pct": -1.72,
-   "advancers_ratio": 0.33,
-   "count": 3,
+   "key": "china_adr",
+   "name": "中国ADR",
+   "change_pct": -1.71,
+   "advancers_ratio": 0.18,
+   "count": 11,
    "members": [
     {
-     "code": "FSLR",
-     "name": "First Solar",
-     "sector": "情報技術",
-     "close": 151.95,
-     "change_pct": 0.64,
-     "turnover": 493000000.0,
-     "volume": 3246700.0,
+     "code": "PDD",
+     "name": "PDD Holdings",
+     "sector": null,
+     "close": 86.0,
+     "change_pct": 11.04,
+     "turnover": 2008000000.0,
+     "volume": 23349900.0,
+     "volume_ratio": 4.06,
+     "disclosures": []
+    },
+    {
+     "code": "JD",
+     "name": "JD.com",
+     "sector": null,
+     "close": 25.64,
+     "change_pct": 2.89,
+     "turnover": 393000000.0,
+     "volume": 15315100.0,
+     "volume_ratio": 1.64,
+     "disclosures": []
+    },
+    {
+     "code": "BABA",
+     "name": "Alibaba",
+     "sector": null,
+     "close": 83.31,
+     "change_pct": -1.26,
+     "turnover": 1835000000.0,
+     "volume": 22023600.0,
+     "volume_ratio": 1.88,
+     "disclosures": []
+    },
+    {
+     "code": "BEKE",
+     "name": "KE Holdings",
+     "sector": null,
+     "close": 18.24,
+     "change_pct": -1.35,
+     "turnover": 82000000.0,
+     "volume": 4482200.0,
+     "volume_ratio": 0.79,
+     "disclosures": []
+    },
+    {
+     "code": "TCOM",
+     "name": "Trip.com",
+     "sector": null,
+     "close": 42.26,
+     "change_pct": -1.84,
+     "turnover": 131000000.0,
+     "volume": 3101500.0,
+     "volume_ratio": 1.05,
+     "disclosures": []
+    },
+    {
+     "code": "LI",
+     "name": "Li Auto",
+     "sector": null,
+     "close": 11.24,
+     "change_pct": -2.35,
+     "turnover": 23000000.0,
+     "volume": 2009900.0,
+     "volume_ratio": 0.74,
+     "disclosures": []
+    },
+    {
+     "code": "BILI",
+     "name": "Bilibili",
+     "sector": null,
+     "close": 11.06,
+     "change_pct": -2.81,
+     "turnover": 50000000.0,
+     "volume": 4552500.0,
+     "volume_ratio": 1.3,
+     "disclosures": []
+    },
+    {
+     "code": "XPEV",
+     "name": "XPeng",
+     "sector": null,
+     "close": 9.38,
+     "change_pct": -3.7,
+     "turnover": 66000000.0,
+     "volume": 6987000.0,
+     "volume_ratio": 0.91,
+     "disclosures": []
+    },
+    {
+     "code": "NIO",
+     "name": "NIO",
+     "sector": null,
+     "close": 2.66,
+     "change_pct": -3.97,
+     "turnover": 127000000.0,
+     "volume": 47712000.0,
+     "volume_ratio": 1.22,
+     "disclosures": []
+    },
+    {
+     "code": "BIDU",
+     "name": "Baidu",
+     "sector": null,
+     "close": 66.38,
+     "change_pct": -4.09,
+     "turnover": 269000000.0,
+     "volume": 4048500.0,
+     "volume_ratio": 1.55,
+     "disclosures": []
+    },
+    {
+     "code": "NTES",
+     "name": "NetEase",
+     "sector": null,
+     "close": 104.94,
+     "change_pct": -11.39,
+     "turnover": 284000000.0,
+     "volume": 2710900.0,
+     "volume_ratio": 2.79,
+     "disclosures": []
+    }
+   ],
+   "news_count": 2
+  },
+  {
+   "key": "dc_power",
+   "name": "データセンター電力・冷却",
+   "change_pct": -1.77,
+   "advancers_ratio": 0.15,
+   "count": 13,
+   "members": [
+    {
+     "code": "POWL",
+     "name": "Powell Industries",
+     "sector": null,
+     "close": 158.75,
+     "change_pct": 2.45,
+     "turnover": 140000000.0,
+     "volume": 879800.0,
+     "volume_ratio": 1.0,
+     "disclosures": []
+    },
+    {
+     "code": "NRG",
+     "name": "NRG Energy",
+     "sector": "公益",
+     "close": 93.85,
+     "change_pct": 0.2,
+     "turnover": 245000000.0,
+     "volume": 2612300.0,
+     "volume_ratio": 0.65,
+     "disclosures": []
+    },
+    {
+     "code": "VST",
+     "name": "Vistra",
+     "sector": "公益",
+     "close": 124.15,
+     "change_pct": -1.14,
+     "turnover": 555000000.0,
+     "volume": 4474400.0,
+     "volume_ratio": 0.65,
+     "disclosures": []
+    },
+    {
+     "code": "TLN",
+     "name": "Talen Energy",
+     "sector": null,
+     "close": 355.91,
+     "change_pct": -1.19,
+     "turnover": 255000000.0,
+     "volume": 715100.0,
+     "volume_ratio": 0.64,
+     "disclosures": []
+    },
+    {
+     "code": "NVT",
+     "name": "nVent",
+     "sector": null,
+     "close": 108.1,
+     "change_pct": -1.63,
+     "turnover": 364000000.0,
+     "volume": 3363200.0,
+     "volume_ratio": 0.93,
+     "disclosures": []
+    },
+    {
+     "code": "BE",
+     "name": "Bloom Energy",
+     "sector": "資本財",
+     "close": 168.11,
+     "change_pct": -1.68,
+     "turnover": 2764000000.0,
+     "volume": 16439100.0,
+     "volume_ratio": 0.89,
+     "disclosures": []
+    },
+    {
+     "code": "HUBB",
+     "name": "Hubbell",
+     "sector": "資本財",
+     "close": 418.74,
+     "change_pct": -1.81,
+     "turnover": 191000000.0,
+     "volume": 455844.0,
+     "volume_ratio": 0.61,
+     "disclosures": []
+    },
+    {
+     "code": "GEV",
+     "name": "GE Vernova",
+     "sector": "資本財",
+     "close": 756.28,
+     "change_pct": -2.06,
+     "turnover": 2405000000.0,
+     "volume": 3180700.0,
+     "volume_ratio": 0.71,
+     "disclosures": []
+    },
+    {
+     "code": "ETN",
+     "name": "Eaton",
+     "sector": "資本財",
+     "close": 330.57,
+     "change_pct": -2.3,
+     "turnover": 1092000000.0,
+     "volume": 3302300.0,
+     "volume_ratio": 1.02,
+     "disclosures": []
+    },
+    {
+     "code": "MOD",
+     "name": "Modine",
+     "sector": null,
+     "close": 134.56,
+     "change_pct": -2.41,
+     "turnover": 370000000.0,
+     "volume": 2751900.0,
+     "volume_ratio": 0.97,
+     "disclosures": []
+    },
+    {
+     "code": "PWR",
+     "name": "Quanta Services",
+     "sector": "資本財",
+     "close": 587.43,
+     "change_pct": -2.52,
+     "turnover": 710000000.0,
+     "volume": 1209500.0,
+     "volume_ratio": 0.71,
+     "disclosures": []
+    },
+    {
+     "code": "CEG",
+     "name": "Constellation Energy",
+     "sector": "公益",
+     "close": 252.03,
+     "change_pct": -4.08,
+     "turnover": 921000000.0,
+     "volume": 3655200.0,
+     "volume_ratio": 0.96,
+     "disclosures": []
+    },
+    {
+     "code": "VRT",
+     "name": "Vertiv",
+     "sector": "資本財",
+     "close": 184.99,
+     "change_pct": -4.88,
+     "turnover": 1349000000.0,
+     "volume": 7289700.0,
+     "volume_ratio": 0.86,
+     "disclosures": []
+    }
+   ],
+   "news_count": 0
+  },
+  {
+   "key": "big_pharma",
+   "name": "大手製薬",
+   "change_pct": -1.92,
+   "advancers_ratio": 0.0,
+   "count": 11,
+   "members": [
+    {
+     "code": "ABBV",
+     "name": "AbbVie",
+     "sector": "ヘルスケア",
+     "close": 283.54,
+     "change_pct": -0.86,
+     "turnover": 1431000000.0,
+     "volume": 5045400.0,
+     "volume_ratio": 0.97,
+     "disclosures": []
+    },
+    {
+     "code": "AMGN",
+     "name": "Amgen",
+     "sector": "ヘルスケア",
+     "close": 438.82,
+     "change_pct": -1.14,
+     "turnover": 1100000000.0,
+     "volume": 2506500.0,
      "volume_ratio": 0.95,
      "disclosures": []
     },
     {
-     "code": "NEE",
-     "name": "NextEra Energy",
-     "sector": "公益",
-     "close": 83.79,
-     "change_pct": -1.17,
-     "turnover": 802000000.0,
-     "volume": 9576300.0,
-     "volume_ratio": 0.73,
+     "code": "NVO",
+     "name": "Novo Nordisk",
+     "sector": null,
+     "close": 38.87,
+     "change_pct": -1.42,
+     "turnover": 683000000.0,
+     "volume": 17580400.0,
+     "volume_ratio": 1.38,
      "disclosures": []
     },
     {
-     "code": "PLUG",
-     "name": "Plug Power",
+     "code": "GILD",
+     "name": "Gilead",
+     "sector": "ヘルスケア",
+     "close": 166.53,
+     "change_pct": -1.45,
+     "turnover": 852000000.0,
+     "volume": 5116700.0,
+     "volume_ratio": 0.8,
+     "disclosures": []
+    },
+    {
+     "code": "PFE",
+     "name": "Pfizer",
+     "sector": "ヘルスケア",
+     "close": 27.54,
+     "change_pct": -1.85,
+     "turnover": 977000000.0,
+     "volume": 35485900.0,
+     "volume_ratio": 0.96,
+     "disclosures": []
+    },
+    {
+     "code": "AZN",
+     "name": "AstraZeneca",
      "sector": null,
-     "close": 1.03,
-     "change_pct": -4.63,
-     "turnover": 62000000.0,
-     "volume": 60324600.0,
-     "volume_ratio": 1.11,
+     "close": 175.41,
+     "change_pct": -1.87,
+     "turnover": 453000000.0,
+     "volume": 2581000.0,
+     "volume_ratio": 0.88,
+     "disclosures": []
+    },
+    {
+     "code": "JNJ",
+     "name": "Johnson & Johnson",
+     "sector": "ヘルスケア",
+     "close": 267.14,
+     "change_pct": -2.04,
+     "turnover": 2628000000.0,
+     "volume": 9836200.0,
+     "volume_ratio": 1.3,
+     "disclosures": []
+    },
+    {
+     "code": "BMY",
+     "name": "Bristol-Myers Squibb",
+     "sector": "ヘルスケア",
+     "close": 58.34,
+     "change_pct": -2.05,
+     "turnover": 798000000.0,
+     "volume": 13675100.0,
+     "volume_ratio": 1.33,
+     "disclosures": []
+    },
+    {
+     "code": "LLY",
+     "name": "Eli Lilly",
+     "sector": "ヘルスケア",
+     "close": 1351.12,
+     "change_pct": -2.29,
+     "turnover": 4321000000.0,
+     "volume": 3198300.0,
+     "volume_ratio": 1.04,
+     "disclosures": []
+    },
+    {
+     "code": "NVS",
+     "name": "Novartis",
+     "sector": null,
+     "close": 151.22,
+     "change_pct": -2.57,
+     "turnover": 537000000.0,
+     "volume": 3549700.0,
+     "volume_ratio": 1.56,
+     "disclosures": []
+    },
+    {
+     "code": "MRK",
+     "name": "Merck",
+     "sector": "ヘルスケア",
+     "close": 132.81,
+     "change_pct": -3.61,
+     "turnover": 1805000000.0,
+     "volume": 13593500.0,
+     "volume_ratio": 1.44,
      "disclosures": [
       {
-       "code": "PLUG",
-       "name": "Plug Power",
-       "time": "2026-11-19T08:30:36-05:00",
-       "title": "7.01 Regulation FD Disclosure",
-       "url": "https://www.sec.gov/Archives/edgar/data/1093691/000110465926129950/0001104659-26-129950-index.htm",
+       "code": "MRK",
+       "name": "Merck",
+       "time": "2026-11-18T16:27:51-05:00",
+       "title": "5.02 Departure of Directors or Certain Officers; Election of Directors; Appointment of Certain Officers: Compensatory Arrangements of Certain Officers",
+       "url": "https://www.sec.gov/Archives/edgar/data/310158/000031015826000255/0000310158-26-000255-index.htm",
        "items": [
-        "7.01",
+        "5.02",
         "9.01"
        ],
        "tags": [
-        "Reg FD開示"
+        "役員の異動"
        ],
        "tone": "neutral",
        "move_pct": null,
@@ -2898,65 +3199,11 @@
    "news_count": 0
   },
   {
-   "key": "nuclear",
-   "name": "原子力・ウラン",
-   "change_pct": -1.83,
-   "advancers_ratio": 0.0,
-   "count": 4,
-   "members": [
-    {
-     "code": "BWXT",
-     "name": "BWX Technologies",
-     "sector": null,
-     "close": 117.06,
-     "change_pct": -0.74,
-     "turnover": 187000000.0,
-     "volume": 1599500.0,
-     "volume_ratio": 1.14,
-     "disclosures": []
-    },
-    {
-     "code": "CCJ",
-     "name": "Cameco",
-     "sector": null,
-     "close": 61.42,
-     "change_pct": -1.63,
-     "turnover": 236000000.0,
-     "volume": 3843000.0,
-     "volume_ratio": 0.89,
-     "disclosures": []
-    },
-    {
-     "code": "LEU",
-     "name": "Centrus Energy",
-     "sector": null,
-     "close": 89.7,
-     "change_pct": -2.24,
-     "turnover": 40000000.0,
-     "volume": 448100.0,
-     "volume_ratio": 0.55,
-     "disclosures": []
-    },
-    {
-     "code": "UEC",
-     "name": "Uranium Energy",
-     "sector": null,
-     "close": 5.76,
-     "change_pct": -2.7,
-     "turnover": 55000000.0,
-     "volume": 9522400.0,
-     "volume_ratio": 0.92,
-     "disclosures": []
-    }
-   ],
-   "news_count": 0
-  },
-  {
    "key": "regional_banks",
    "name": "地銀",
-   "change_pct": -1.88,
+   "change_pct": -1.92,
    "advancers_ratio": 0.0,
-   "count": 12,
+   "count": 13,
    "members": [
     {
      "code": "PNC",
@@ -3088,6 +3335,17 @@
      "turnover": 375000000.0,
      "volume": 13719800.0,
      "volume_ratio": 1.42,
+     "disclosures": []
+    },
+    {
+     "code": "CFG",
+     "name": "Citizens",
+     "sector": "金融",
+     "close": 60.51,
+     "change_pct": -2.45,
+     "turnover": 275000000.0,
+     "volume": 4546800.0,
+     "volume_ratio": 1.14,
      "disclosures": []
     }
    ],
@@ -3242,136 +3500,622 @@
      "disclosures": []
     }
    ],
-   "news_count": 1
+   "news_count": 3
   },
   {
-   "key": "big_pharma",
-   "name": "大手製薬",
-   "change_pct": -2.03,
-   "advancers_ratio": 0.0,
-   "count": 10,
+   "key": "ipo",
+   "name": "IPO（上場1年以内）",
+   "change_pct": -1.95,
+   "advancers_ratio": 0.25,
+   "count": 88,
    "members": [
     {
-     "code": "AMGN",
-     "name": "Amgen",
-     "sector": "ヘルスケア",
-     "close": 438.82,
-     "change_pct": -1.14,
-     "turnover": 1100000000.0,
-     "volume": 2506500.0,
-     "volume_ratio": 0.95,
+     "code": "ADRX",
+     "name": "ADARx Pharmaceuticals",
+     "sector": null,
+     "close": 14.16,
+     "change_pct": 10.45,
+     "turnover": 8000000.0,
+     "volume": 556300.0,
+     "volume_ratio": 1.23,
      "disclosures": []
     },
     {
-     "code": "NVO",
-     "name": "Novo Nordisk",
+     "code": "CTY",
+     "name": "City Therapeutics",
      "sector": null,
-     "close": 38.87,
+     "close": 18.35,
+     "change_pct": 10.28,
+     "turnover": 5000000.0,
+     "volume": 245900.0,
+     "volume_ratio": 0.91,
+     "disclosures": []
+    },
+    {
+     "code": "OFRM",
+     "name": "Once Upon a Farm, PBC",
+     "sector": null,
+     "close": 12.39,
+     "change_pct": 8.88,
+     "turnover": 27000000.0,
+     "volume": 2160100.0,
+     "volume_ratio": 1.7,
+     "disclosures": []
+    },
+    {
+     "code": "DPC",
+     "name": "DPC Holdings",
+     "sector": null,
+     "close": 34.18,
+     "change_pct": 7.08,
+     "turnover": 76000000.0,
+     "volume": 2228900.0,
+     "volume_ratio": 1.23,
+     "disclosures": []
+    },
+    {
+     "code": "WWB",
+     "name": "Windward Bio Group Ag",
+     "sector": null,
+     "close": 24.01,
+     "change_pct": 6.05,
+     "turnover": 4000000.0,
+     "volume": 166300.0,
+     "volume_ratio": null,
+     "disclosures": []
+    },
+    {
+     "code": "ETRA",
+     "name": "Electra Therapeutics",
+     "sector": null,
+     "close": 8.94,
+     "change_pct": 6.05,
+     "turnover": 4000000.0,
+     "volume": 413800.0,
+     "volume_ratio": 1.2,
+     "disclosures": []
+    },
+    {
+     "code": "LIME",
+     "name": "Neutron Holdings",
+     "sector": null,
+     "close": 20.17,
+     "change_pct": 5.88,
+     "turnover": 6000000.0,
+     "volume": 315100.0,
+     "volume_ratio": 0.55,
+     "disclosures": []
+    },
+    {
+     "code": "BRVE",
+     "name": "Braveheart Bio",
+     "sector": null,
+     "close": 19.27,
+     "change_pct": 3.99,
+     "turnover": 21000000.0,
+     "volume": 1107900.0,
+     "volume_ratio": 2.3,
+     "disclosures": []
+    },
+    {
+     "code": "SGP",
+     "name": "SpyGlass Pharma",
+     "sector": null,
+     "close": 30.78,
+     "change_pct": 3.71,
+     "turnover": 3000000.0,
+     "volume": 86400.0,
+     "volume_ratio": 0.7,
+     "disclosures": []
+    },
+    {
+     "code": "AVLN",
+     "name": "Avalyn Pharma",
+     "sector": null,
+     "close": 28.7,
+     "change_pct": 3.65,
+     "turnover": 13000000.0,
+     "volume": 437300.0,
+     "volume_ratio": 0.84,
+     "disclosures": []
+    },
+    {
+     "code": "TRXB",
+     "name": "TRex Bio",
+     "sector": null,
+     "close": 9.72,
+     "change_pct": 3.51,
+     "turnover": 2000000.0,
+     "volume": 190300.0,
+     "volume_ratio": 1.75,
+     "disclosures": []
+    },
+    {
+     "code": "AKTS",
+     "name": "Aktis Oncology",
+     "sector": null,
+     "close": 16.4,
+     "change_pct": 1.86,
+     "turnover": 6000000.0,
+     "volume": 384800.0,
+     "volume_ratio": 1.07,
+     "disclosures": []
+    },
+    {
+     "code": "COAG",
+     "name": "Hemab Therapeutics Holdings",
+     "sector": null,
+     "close": 39.86,
+     "change_pct": 1.81,
+     "turnover": 10000000.0,
+     "volume": 248300.0,
+     "volume_ratio": 0.48,
+     "disclosures": []
+    },
+    {
+     "code": "KARD",
+     "name": "Kardigan",
+     "sector": null,
+     "close": 12.52,
+     "change_pct": 1.62,
+     "turnover": 12000000.0,
+     "volume": 977800.0,
+     "volume_ratio": 2.09,
+     "disclosures": []
+    },
+    {
+     "code": "PAYP",
+     "name": "PayPay",
+     "sector": null,
+     "close": 12.91,
+     "change_pct": 1.57,
+     "turnover": 13000000.0,
+     "volume": 999800.0,
+     "volume_ratio": 1.9,
+     "disclosures": []
+    },
+    {
+     "code": "HMH",
+     "name": "HMH Holding",
+     "sector": null,
+     "close": 11.2,
+     "change_pct": 1.45,
+     "turnover": 8000000.0,
+     "volume": 736000.0,
+     "volume_ratio": 2.39,
+     "disclosures": []
+    },
+    {
+     "code": "MAIR",
+     "name": "Madison Air Solutions",
+     "sector": null,
+     "close": 23.19,
+     "change_pct": 1.44,
+     "turnover": 77000000.0,
+     "volume": 3325900.0,
+     "volume_ratio": 1.36,
+     "disclosures": []
+    },
+    {
+     "code": "LYCA",
+     "name": "Lycia Therapeutics",
+     "sector": null,
+     "close": 31.77,
+     "change_pct": 1.34,
+     "turnover": 9000000.0,
+     "volume": 281800.0,
+     "volume_ratio": 0.64,
+     "disclosures": []
+    },
+    {
+     "code": "ITG",
+     "name": "ITG",
+     "sector": null,
+     "close": 6.18,
+     "change_pct": 0.49,
+     "turnover": 4000000.0,
+     "volume": 593200.0,
+     "volume_ratio": 0.74,
+     "disclosures": []
+    },
+    {
+     "code": "LMRI",
+     "name": "Lumexa Imaging Holdings",
+     "sector": null,
+     "close": 14.06,
+     "change_pct": 0.36,
+     "turnover": 5000000.0,
+     "volume": 339800.0,
+     "volume_ratio": 0.84,
+     "disclosures": []
+    },
+    {
+     "code": "ATTO",
+     "name": "Attovia Therapeutics",
+     "sector": null,
+     "close": 15.58,
+     "change_pct": 0.32,
+     "turnover": 2000000.0,
+     "volume": 159300.0,
+     "volume_ratio": 0.62,
+     "disclosures": []
+    },
+    {
+     "code": "SPTX",
+     "name": "Seaport Therapeutics",
+     "sector": null,
+     "close": 18.32,
+     "change_pct": 0.05,
+     "turnover": 6000000.0,
+     "volume": 321100.0,
+     "volume_ratio": 1.02,
+     "disclosures": []
+    },
+    {
+     "code": "MWH",
+     "name": "SOLV Energy",
+     "sector": null,
+     "close": 27.18,
+     "change_pct": -0.07,
+     "turnover": 58000000.0,
+     "volume": 2140300.0,
+     "volume_ratio": 1.08,
+     "disclosures": []
+    },
+    {
+     "code": "GENB",
+     "name": "Generate Biomedicines",
+     "sector": null,
+     "close": 10.37,
+     "change_pct": -0.1,
+     "turnover": 9000000.0,
+     "volume": 835600.0,
+     "volume_ratio": 0.83,
+     "disclosures": []
+    },
+    {
+     "code": "EROK",
+     "name": "EagleRock Land",
+     "sector": null,
+     "close": 20.29,
+     "change_pct": -0.34,
+     "turnover": 4000000.0,
+     "volume": 220700.0,
+     "volume_ratio": 0.87,
+     "disclosures": []
+    },
+    {
+     "code": "MANE",
+     "name": "VeraDermics",
+     "sector": null,
+     "close": 124.39,
+     "change_pct": -0.38,
+     "turnover": 37000000.0,
+     "volume": 293500.0,
+     "volume_ratio": 0.46,
+     "disclosures": []
+    },
+    {
+     "code": "LYNX",
+     "name": "Lyntris",
+     "sector": null,
+     "close": 12.69,
+     "change_pct": -0.39,
+     "turnover": 6000000.0,
+     "volume": 443500.0,
+     "volume_ratio": 0.78,
+     "disclosures": []
+    },
+    {
+     "code": "WHK",
+     "name": "WhiteHawk Minerals",
+     "sector": null,
+     "close": 25.01,
+     "change_pct": -0.52,
+     "turnover": 3000000.0,
+     "volume": 139800.0,
+     "volume_ratio": 0.91,
+     "disclosures": []
+    },
+    {
+     "code": "LTGO",
+     "name": "Latigo Biotherapeutics",
+     "sector": null,
+     "close": 13.24,
+     "change_pct": -0.53,
+     "turnover": 2000000.0,
+     "volume": 130300.0,
+     "volume_ratio": 0.43,
+     "disclosures": []
+    },
+    {
+     "code": "APMD",
+     "name": "Apnimed",
+     "sector": null,
+     "close": 17.25,
+     "change_pct": -1.15,
+     "turnover": 3000000.0,
+     "volume": 197600.0,
+     "volume_ratio": 0.49,
+     "disclosures": []
+    },
+    {
+     "code": "BLSM",
+     "name": "BlossomHill Therapeutics",
+     "sector": null,
+     "close": 14.41,
+     "change_pct": -1.23,
+     "turnover": 3000000.0,
+     "volume": 215200.0,
+     "volume_ratio": 1.15,
+     "disclosures": []
+    },
+    {
+     "code": "LIFE",
+     "name": "Ethos Technologies",
+     "sector": null,
+     "close": 32.13,
+     "change_pct": -1.26,
+     "turnover": 38000000.0,
+     "volume": 1182600.0,
+     "volume_ratio": 0.7,
+     "disclosures": []
+    },
+    {
+     "code": "EROC",
+     "name": "ERock",
+     "sector": null,
+     "close": 7.25,
+     "change_pct": -1.36,
+     "turnover": 17000000.0,
+     "volume": 2328300.0,
+     "volume_ratio": 0.78,
+     "disclosures": []
+    },
+    {
+     "code": "LFTO",
+     "name": "Liftoff Mobile",
+     "sector": null,
+     "close": 23.66,
      "change_pct": -1.42,
-     "turnover": 683000000.0,
-     "volume": 17580400.0,
-     "volume_ratio": 1.38,
+     "turnover": 25000000.0,
+     "volume": 1070400.0,
+     "volume_ratio": 0.72,
      "disclosures": []
     },
     {
-     "code": "GILD",
-     "name": "Gilead",
-     "sector": "ヘルスケア",
-     "close": 166.53,
-     "change_pct": -1.45,
-     "turnover": 852000000.0,
-     "volume": 5116700.0,
-     "volume_ratio": 0.8,
-     "disclosures": []
-    },
-    {
-     "code": "PFE",
-     "name": "Pfizer",
-     "sector": "ヘルスケア",
-     "close": 27.54,
-     "change_pct": -1.85,
-     "turnover": 977000000.0,
-     "volume": 35485900.0,
-     "volume_ratio": 0.96,
-     "disclosures": []
-    },
-    {
-     "code": "AZN",
-     "name": "AstraZeneca",
+     "code": "BXDC",
+     "name": "Blackstone Digital Infrastructure Trust",
      "sector": null,
-     "close": 175.41,
-     "change_pct": -1.87,
-     "turnover": 453000000.0,
-     "volume": 2581000.0,
-     "volume_ratio": 0.88,
+     "close": 16.37,
+     "change_pct": -1.44,
+     "turnover": 47000000.0,
+     "volume": 2855600.0,
+     "volume_ratio": 1.23,
      "disclosures": []
     },
     {
-     "code": "JNJ",
-     "name": "Johnson & Johnson",
-     "sector": "ヘルスケア",
-     "close": 267.14,
-     "change_pct": -2.04,
-     "turnover": 2628000000.0,
-     "volume": 9836200.0,
-     "volume_ratio": 1.3,
+     "code": "HAWK",
+     "name": "HawkEye 360",
+     "sector": null,
+     "close": 18.08,
+     "change_pct": -1.58,
+     "turnover": 40000000.0,
+     "volume": 2228700.0,
+     "volume_ratio": 1.05,
      "disclosures": []
     },
     {
-     "code": "BMY",
-     "name": "Bristol-Myers Squibb",
-     "sector": "ヘルスケア",
-     "close": 58.34,
-     "change_pct": -2.05,
-     "turnover": 798000000.0,
-     "volume": 13675100.0,
-     "volume_ratio": 1.33,
-     "disclosures": []
-    },
-    {
-     "code": "LLY",
-     "name": "Eli Lilly",
-     "sector": "ヘルスケア",
-     "close": 1351.12,
-     "change_pct": -2.29,
-     "turnover": 4321000000.0,
-     "volume": 3198300.0,
+     "code": "BTGO",
+     "name": "Bitgo Holdings",
+     "sector": null,
+     "close": 3.57,
+     "change_pct": -1.65,
+     "turnover": 5000000.0,
+     "volume": 1297000.0,
      "volume_ratio": 1.04,
      "disclosures": []
     },
     {
-     "code": "NVS",
-     "name": "Novartis",
+     "code": "KLRA",
+     "name": "Kailera Therapeutics",
      "sector": null,
-     "close": 151.22,
-     "change_pct": -2.57,
-     "turnover": 537000000.0,
-     "volume": 3549700.0,
-     "volume_ratio": 1.56,
+     "close": 11.58,
+     "change_pct": -1.78,
+     "turnover": 5000000.0,
+     "volume": 474000.0,
+     "volume_ratio": 0.57,
      "disclosures": []
     },
     {
-     "code": "MRK",
-     "name": "Merck",
-     "sector": "ヘルスケア",
-     "close": 132.81,
-     "change_pct": -3.61,
-     "turnover": 1805000000.0,
-     "volume": 13593500.0,
-     "volume_ratio": 1.44,
+     "code": "WLTH",
+     "name": "Wealthfront",
+     "sector": null,
+     "close": 10.46,
+     "change_pct": -2.24,
+     "turnover": 8000000.0,
+     "volume": 793900.0,
+     "volume_ratio": 0.49,
+     "disclosures": []
+    },
+    {
+     "code": "OIG",
+     "name": "Orion180 Insurance Group",
+     "sector": null,
+     "close": 10.28,
+     "change_pct": -2.28,
+     "turnover": 2000000.0,
+     "volume": 156200.0,
+     "volume_ratio": 0.86,
+     "disclosures": []
+    },
+    {
+     "code": "FRVO",
+     "name": "Fervo Energy",
+     "sector": null,
+     "close": 11.14,
+     "change_pct": -2.28,
+     "turnover": 82000000.0,
+     "volume": 7324400.0,
+     "volume_ratio": 0.81,
+     "disclosures": []
+    },
+    {
+     "code": "NHP",
+     "name": "National Healthcare Properties",
+     "sector": null,
+     "close": 14.51,
+     "change_pct": -2.29,
+     "turnover": 12000000.0,
+     "volume": 808500.0,
+     "volume_ratio": 0.6,
+     "disclosures": []
+    },
+    {
+     "code": "CBC",
+     "name": "Central Bancompany",
+     "sector": null,
+     "close": 37.2,
+     "change_pct": -2.36,
+     "turnover": 51000000.0,
+     "volume": 1369300.0,
+     "volume_ratio": 1.47,
+     "disclosures": []
+    },
+    {
+     "code": "BSP",
+     "name": "Bending Spoons",
+     "sector": null,
+     "close": 41.7,
+     "change_pct": -2.55,
+     "turnover": 180000000.0,
+     "volume": 4309700.0,
+     "volume_ratio": 2.53,
+     "disclosures": []
+    },
+    {
+     "code": "SKHY",
+     "name": "SK hynix",
+     "sector": null,
+     "close": 119.2,
+     "change_pct": -2.67,
+     "turnover": 2907000000.0,
+     "volume": 24386800.0,
+     "volume_ratio": 1.04,
+     "disclosures": []
+    },
+    {
+     "code": "JAN",
+     "name": "Janus Living",
+     "sector": null,
+     "close": 31.67,
+     "change_pct": -2.82,
+     "turnover": 68000000.0,
+     "volume": 2155700.0,
+     "volume_ratio": 0.57,
+     "disclosures": []
+    },
+    {
+     "code": "PBLS",
+     "name": "Parabilis Medicines",
+     "sector": null,
+     "close": 27.63,
+     "change_pct": -2.95,
+     "turnover": 22000000.0,
+     "volume": 805700.0,
+     "volume_ratio": 0.93,
+     "disclosures": []
+    },
+    {
+     "code": "CDNL",
+     "name": "Cardinal Infrastructure Group",
+     "sector": null,
+     "close": 5.18,
+     "change_pct": -3.0,
+     "turnover": 11000000.0,
+     "volume": 2170300.0,
+     "volume_ratio": 0.84,
+     "disclosures": []
+    },
+    {
+     "code": "VVVV",
+     "name": "vVARDIS Holding AG",
+     "sector": null,
+     "close": 15.0,
+     "change_pct": -3.04,
+     "turnover": 7000000.0,
+     "volume": 485300.0,
+     "volume_ratio": null,
+     "disclosures": []
+    },
+    {
+     "code": "REF",
+     "name": "Reformation",
+     "sector": null,
+     "close": 19.42,
+     "change_pct": -3.05,
+     "turnover": 15000000.0,
+     "volume": 750000.0,
+     "volume_ratio": 1.34,
+     "disclosures": []
+    },
+    {
+     "code": "LCLN",
+     "name": "Lincoln International",
+     "sector": null,
+     "close": 27.25,
+     "change_pct": -3.3,
+     "turnover": 11000000.0,
+     "volume": 407900.0,
+     "volume_ratio": 1.07,
+     "disclosures": []
+    },
+    {
+     "code": "SUJA",
+     "name": "Suja Life",
+     "sector": null,
+     "close": 6.35,
+     "change_pct": -3.35,
+     "turnover": 2000000.0,
+     "volume": 329900.0,
+     "volume_ratio": 1.64,
+     "disclosures": []
+    },
+    {
+     "code": "ODTX",
+     "name": "Odyssey Therapeutics",
+     "sector": null,
+     "close": 18.34,
+     "change_pct": -3.37,
+     "turnover": 8000000.0,
+     "volume": 419200.0,
+     "volume_ratio": 1.27,
+     "disclosures": []
+    },
+    {
+     "code": "MDLN",
+     "name": "Medline",
+     "sector": null,
+     "close": 37.84,
+     "change_pct": -3.37,
+     "turnover": 391000000.0,
+     "volume": 10343800.0,
+     "volume_ratio": 0.82,
      "disclosures": [
       {
-       "code": "MRK",
-       "name": "Merck",
-       "time": "2026-11-18T16:27:51-05:00",
-       "title": "5.02 Departure of Directors or Certain Officers; Election of Directors; Appointment of Certain Officers: Compensatory Arrangements of Certain Officers",
-       "url": "https://www.sec.gov/Archives/edgar/data/310158/000031015826000255/0000310158-26-000255-index.htm",
+       "code": "MDLN",
+       "name": "Medline",
+       "time": "2026-11-18T16:34:17-05:00",
+       "title": "1.01 Entry into a Material Definitive Agreement; 8.01 Other Events",
+       "url": "https://www.sec.gov/Archives/edgar/data/2046386/000119312526467193/0001193125-26-467193-index.htm",
        "items": [
-        "5.02",
+        "1.01",
+        "8.01",
         "9.01"
        ],
        "tags": [
-        "役員の異動"
+        "重要な契約",
+        "その他の重要事項"
        ],
        "tone": "neutral",
        "move_pct": null,
@@ -3380,16 +4124,390 @@
        "ah_time": null
       }
      ]
+    },
+    {
+     "code": "IAM",
+     "name": "Iambic Therapeutics",
+     "sector": null,
+     "close": 14.26,
+     "change_pct": -3.39,
+     "turnover": 4000000.0,
+     "volume": 297900.0,
+     "volume_ratio": 0.6,
+     "disclosures": []
+    },
+    {
+     "code": "FPS",
+     "name": "Forgent Power Solutions",
+     "sector": null,
+     "close": 20.96,
+     "change_pct": -3.41,
+     "turnover": 136000000.0,
+     "volume": 6470600.0,
+     "volume_ratio": 0.52,
+     "disclosures": []
+    },
+    {
+     "code": "AGMB",
+     "name": "Agomab Therapeutics NV",
+     "sector": null,
+     "close": 5.62,
+     "change_pct": -3.44,
+     "turnover": 2000000.0,
+     "volume": 335900.0,
+     "volume_ratio": 1.08,
+     "disclosures": []
+    },
+    {
+     "code": "SPCX",
+     "name": "Space Exploration Technologies",
+     "sector": null,
+     "close": 138.43,
+     "change_pct": -3.53,
+     "turnover": 16473000000.0,
+     "volume": 118996800.0,
+     "volume_ratio": 1.11,
+     "disclosures": []
+    },
+    {
+     "code": "ARXS",
+     "name": "Arxis",
+     "sector": null,
+     "close": 51.52,
+     "change_pct": -3.54,
+     "turnover": 29000000.0,
+     "volume": 568100.0,
+     "volume_ratio": 0.69,
+     "disclosures": []
+    },
+    {
+     "code": "SIND",
+     "name": "Sinda",
+     "sector": null,
+     "close": 11.18,
+     "change_pct": -3.87,
+     "turnover": 12000000.0,
+     "volume": 1098300.0,
+     "volume_ratio": 4.92,
+     "disclosures": []
+    },
+    {
+     "code": "XE",
+     "name": "X-Energy",
+     "sector": null,
+     "close": 9.7,
+     "change_pct": -3.87,
+     "turnover": 44000000.0,
+     "volume": 4567000.0,
+     "volume_ratio": 0.77,
+     "disclosures": []
+    },
+    {
+     "code": "AVEX",
+     "name": "AEVEX",
+     "sector": null,
+     "close": 12.86,
+     "change_pct": -4.03,
+     "turnover": 15000000.0,
+     "volume": 1157700.0,
+     "volume_ratio": 0.52,
+     "disclosures": []
+    },
+    {
+     "code": "ELMT",
+     "name": "Elmet Group",
+     "sector": null,
+     "close": 19.5,
+     "change_pct": -4.13,
+     "turnover": 7000000.0,
+     "volume": 365800.0,
+     "volume_ratio": 0.71,
+     "disclosures": []
+    },
+    {
+     "code": "FRBT",
+     "name": "Forbright",
+     "sector": null,
+     "close": 17.11,
+     "change_pct": -4.15,
+     "turnover": 2000000.0,
+     "volume": 94600.0,
+     "volume_ratio": 0.96,
+     "disclosures": []
+    },
+    {
+     "code": "JMKE",
+     "name": "Jersey Mike's Subs",
+     "sector": null,
+     "close": 17.81,
+     "change_pct": -4.2,
+     "turnover": 44000000.0,
+     "volume": 2470500.0,
+     "volume_ratio": 0.75,
+     "disclosures": []
+    },
+    {
+     "code": "CSQR",
+     "name": "Csquare",
+     "sector": null,
+     "close": 15.19,
+     "change_pct": -4.22,
+     "turnover": 32000000.0,
+     "volume": 2113600.0,
+     "volume_ratio": 0.86,
+     "disclosures": []
+    },
+    {
+     "code": "SSMR",
+     "name": "Sunshine Silver Mining & Refining",
+     "sector": null,
+     "close": 12.04,
+     "change_pct": -4.29,
+     "turnover": 19000000.0,
+     "volume": 1612500.0,
+     "volume_ratio": 1.44,
+     "disclosures": []
+    },
+    {
+     "code": "MMED",
+     "name": "MiniMed Group",
+     "sector": null,
+     "close": 16.26,
+     "change_pct": -4.3,
+     "turnover": 113000000.0,
+     "volume": 6972700.0,
+     "volume_ratio": 0.99,
+     "disclosures": []
+    },
+    {
+     "code": "BOBS",
+     "name": "Bob's Discount Furniture",
+     "sector": null,
+     "close": 19.82,
+     "change_pct": -4.94,
+     "turnover": 33000000.0,
+     "volume": 1667700.0,
+     "volume_ratio": 1.38,
+     "disclosures": []
+    },
+    {
+     "code": "PICS",
+     "name": "PicS",
+     "sector": null,
+     "close": 4.85,
+     "change_pct": -5.09,
+     "turnover": 8000000.0,
+     "volume": 1585900.0,
+     "volume_ratio": 1.37,
+     "disclosures": []
+    },
+    {
+     "code": "YSS",
+     "name": "York Space Systems",
+     "sector": null,
+     "close": 3.58,
+     "change_pct": -5.29,
+     "turnover": 13000000.0,
+     "volume": 3563900.0,
+     "volume_ratio": 1.92,
+     "disclosures": []
+    },
+    {
+     "code": "AADX",
+     "name": "Applied Aerospace & Defense",
+     "sector": null,
+     "close": 6.43,
+     "change_pct": -5.3,
+     "turnover": 14000000.0,
+     "volume": 2188500.0,
+     "volume_ratio": 1.02,
+     "disclosures": []
+    },
+    {
+     "code": "STDN",
+     "name": "Standard Nuclear",
+     "sector": null,
+     "close": 9.01,
+     "change_pct": -5.36,
+     "turnover": 4000000.0,
+     "volume": 489100.0,
+     "volume_ratio": 1.63,
+     "disclosures": []
+    },
+    {
+     "code": "EQPT",
+     "name": "EquipmentShare.com",
+     "sector": null,
+     "close": 14.11,
+     "change_pct": -5.43,
+     "turnover": 36000000.0,
+     "volume": 2546300.0,
+     "volume_ratio": 0.77,
+     "disclosures": []
+    },
+    {
+     "code": "INIO",
+     "name": "Innio",
+     "sector": null,
+     "close": 12.81,
+     "change_pct": -5.74,
+     "turnover": 46000000.0,
+     "volume": 3606900.0,
+     "volume_ratio": 0.51,
+     "disclosures": []
+    },
+    {
+     "code": "SCTX",
+     "name": "Scribe Therapeutics",
+     "sector": null,
+     "close": 13.22,
+     "change_pct": -5.91,
+     "turnover": 7000000.0,
+     "volume": 505200.0,
+     "volume_ratio": 1.34,
+     "disclosures": []
+    },
+    {
+     "code": "ALMR",
+     "name": "Alamar Biosciences",
+     "sector": null,
+     "close": 28.68,
+     "change_pct": -6.0,
+     "turnover": 9000000.0,
+     "volume": 326500.0,
+     "volume_ratio": 0.45,
+     "disclosures": []
+    },
+    {
+     "code": "ANDG",
+     "name": "Andersen Group",
+     "sector": null,
+     "close": 57.62,
+     "change_pct": -6.26,
+     "turnover": 32000000.0,
+     "volume": 562300.0,
+     "volume_ratio": 0.97,
+     "disclosures": []
+    },
+    {
+     "code": "APC",
+     "name": "ARKO Petroleum",
+     "sector": null,
+     "close": 12.95,
+     "change_pct": -6.5,
+     "turnover": 4000000.0,
+     "volume": 345400.0,
+     "volume_ratio": 2.34,
+     "disclosures": []
+    },
+    {
+     "code": "GMRS",
+     "name": "GMR Solutions",
+     "sector": null,
+     "close": 10.01,
+     "change_pct": -6.54,
+     "turnover": 9000000.0,
+     "volume": 880500.0,
+     "volume_ratio": 0.75,
+     "disclosures": []
+    },
+    {
+     "code": "SHAZ",
+     "name": "SharonAI Holdings",
+     "sector": null,
+     "close": 20.54,
+     "change_pct": -6.59,
+     "turnover": 72000000.0,
+     "volume": 3523800.0,
+     "volume_ratio": 1.3,
+     "disclosures": []
+    },
+    {
+     "code": "CBRS",
+     "name": "Cerebras Systems",
+     "sector": null,
+     "close": 86.96,
+     "change_pct": -7.64,
+     "turnover": 1025000000.0,
+     "volume": 11788400.0,
+     "volume_ratio": 0.91,
+     "disclosures": []
+    },
+    {
+     "code": "EIKN",
+     "name": "Eikon Therapeutics",
+     "sector": null,
+     "close": 4.76,
+     "change_pct": -7.93,
+     "turnover": 2000000.0,
+     "volume": 436800.0,
+     "volume_ratio": 0.8,
+     "disclosures": []
+    },
+    {
+     "code": "AGBK",
+     "name": "AGI",
+     "sector": null,
+     "close": 5.34,
+     "change_pct": -8.09,
+     "turnover": 1000000.0,
+     "volume": 118600.0,
+     "volume_ratio": 0.21,
+     "disclosures": []
+    },
+    {
+     "code": "MOBI",
+     "name": "Mobia Medical",
+     "sector": null,
+     "close": 11.86,
+     "change_pct": -8.98,
+     "turnover": 2000000.0,
+     "volume": 145700.0,
+     "volume_ratio": 0.69,
+     "disclosures": []
+    },
+    {
+     "code": "PS",
+     "name": "Pershing Square",
+     "sector": null,
+     "close": 36.84,
+     "change_pct": -9.26,
+     "turnover": 75000000.0,
+     "volume": 2027900.0,
+     "volume_ratio": 4.46,
+     "disclosures": []
+    },
+    {
+     "code": "YSWY",
+     "name": "Yesway",
+     "sector": null,
+     "close": 19.3,
+     "change_pct": -9.35,
+     "turnover": 25000000.0,
+     "volume": 1300400.0,
+     "volume_ratio": 3.55,
+     "disclosures": []
+    },
+    {
+     "code": "QNT",
+     "name": "Quantinuum",
+     "sector": null,
+     "close": 27.96,
+     "change_pct": -12.6,
+     "turnover": 122000000.0,
+     "volume": 4360200.0,
+     "volume_ratio": 1.79,
+     "disclosures": []
     }
    ],
-   "news_count": 0
+   "news_count": 27
   },
   {
    "key": "semiconductor",
    "name": "半導体（主力）",
-   "change_pct": -2.06,
-   "advancers_ratio": 0.14,
-   "count": 14,
+   "change_pct": -2.13,
+   "advancers_ratio": 0.13,
+   "count": 15,
    "members": [
     {
      "code": "INTC",
@@ -3552,6 +4670,17 @@
      "disclosures": []
     },
     {
+     "code": "ARM",
+     "name": "Arm Holdings",
+     "sector": null,
+     "close": 177.17,
+     "change_pct": -3.06,
+     "turnover": 683000000.0,
+     "volume": 3855800.0,
+     "volume_ratio": 0.65,
+     "disclosures": []
+    },
+    {
      "code": "NVDA",
      "name": "NVIDIA",
      "sector": "情報技術",
@@ -3585,39 +4714,7 @@
      "disclosures": []
     }
    ],
-   "news_count": 5
-  },
-  {
-   "key": "quantum",
-   "name": "量子コンピュータ",
-   "change_pct": -2.1,
-   "advancers_ratio": 0.0,
-   "count": 2,
-   "members": [
-    {
-     "code": "IBM",
-     "name": "IBM",
-     "sector": "情報技術",
-     "close": 223.88,
-     "change_pct": -2.03,
-     "turnover": 844000000.0,
-     "volume": 3768100.0,
-     "volume_ratio": 0.83,
-     "disclosures": []
-    },
-    {
-     "code": "HON",
-     "name": "Honeywell",
-     "sector": "資本財",
-     "close": 217.84,
-     "change_pct": -2.18,
-     "turnover": 513000000.0,
-     "volume": 2354000.0,
-     "volume_ratio": 0.81,
-     "disclosures": []
-    }
-   ],
-   "news_count": 0
+   "news_count": 3
   },
   {
    "key": "homebuilders",
@@ -3729,466 +4826,355 @@
    "news_count": 0
   },
   {
-   "key": "software",
-   "name": "クラウド・SaaS",
-   "change_pct": -2.33,
-   "advancers_ratio": 0.0,
-   "count": 5,
+   "key": "optical",
+   "name": "光通信・ネットワーク",
+   "change_pct": -2.26,
+   "advancers_ratio": 0.1,
+   "count": 10,
    "members": [
     {
-     "code": "INTU",
-     "name": "Intuit",
+     "code": "COHR",
+     "name": "Coherent",
      "sector": "情報技術",
-     "close": 310.02,
-     "change_pct": -1.03,
-     "turnover": 1365000000.0,
-     "volume": 4401800.0,
-     "volume_ratio": 1.55,
-     "disclosures": []
+     "close": 214.94,
+     "change_pct": 0.99,
+     "turnover": 2611000000.0,
+     "volume": 12147700.0,
+     "volume_ratio": 1.21,
+     "disclosures": [
+      {
+       "code": "COHR",
+       "name": "Coherent",
+       "time": "2026-11-19T06:30:06-05:00",
+       "title": "7.01 Regulation FD Disclosure",
+       "url": "https://www.sec.gov/Archives/edgar/data/820318/000119312526467737/0001193125-26-467737-index.htm",
+       "items": [
+        "7.01"
+       ],
+       "tags": [
+        "Reg FD開示"
+       ],
+       "tone": "neutral",
+       "move_pct": null,
+       "move_basis": null,
+       "ah_price": null,
+       "ah_time": null
+      }
+     ]
     },
     {
-     "code": "MSFT",
-     "name": "Microsoft",
+     "code": "CIEN",
+     "name": "Ciena",
      "sector": "情報技術",
-     "close": 498.3,
-     "change_pct": -1.97,
-     "turnover": 14488000000.0,
-     "volume": 29073900.0,
-     "volume_ratio": 1.04,
-     "disclosures": []
-    },
-    {
-     "code": "ADBE",
-     "name": "Adobe",
-     "sector": "情報技術",
-     "close": 221.68,
-     "change_pct": -2.0,
-     "turnover": 790000000.0,
-     "volume": 3563900.0,
-     "volume_ratio": 0.89,
-     "disclosures": []
-    },
-    {
-     "code": "ORCL",
-     "name": "Oracle",
-     "sector": "情報技術",
-     "close": 110.57,
-     "change_pct": -2.92,
-     "turnover": 3055000000.0,
-     "volume": 27630500.0,
-     "volume_ratio": 0.67,
-     "disclosures": []
-    },
-    {
-     "code": "CRM",
-     "name": "Salesforce",
-     "sector": "情報技術",
-     "close": 183.31,
-     "change_pct": -3.72,
-     "turnover": 1461000000.0,
-     "volume": 7969700.0,
-     "volume_ratio": 1.1,
-     "disclosures": []
-    }
-   ],
-   "news_count": 1
-  },
-  {
-   "key": "ai_infra",
-   "name": "AIインフラ・サーバー",
-   "change_pct": -2.35,
-   "advancers_ratio": 0.0,
-   "count": 5,
-   "members": [
-    {
-     "code": "CLS",
-     "name": "Celestica",
-     "sector": null,
-     "close": 240.23,
-     "change_pct": -1.27,
-     "turnover": 800000000.0,
-     "volume": 3331000.0,
-     "volume_ratio": 0.84,
-     "disclosures": []
-    },
-    {
-     "code": "AVGO",
-     "name": "Broadcom",
-     "sector": "情報技術",
-     "close": 346.65,
-     "change_pct": -2.09,
-     "turnover": 9004000000.0,
-     "volume": 25974400.0,
-     "volume_ratio": 0.92,
-     "disclosures": []
-    },
-    {
-     "code": "SMCI",
-     "name": "Super Micro",
-     "sector": "情報技術",
-     "close": 23.84,
-     "change_pct": -2.17,
-     "turnover": 858000000.0,
-     "volume": 35985100.0,
-     "volume_ratio": 0.78,
-     "disclosures": []
-    },
-    {
-     "code": "ORCL",
-     "name": "Oracle",
-     "sector": "情報技術",
-     "close": 110.57,
-     "change_pct": -2.92,
-     "turnover": 3055000000.0,
-     "volume": 27630500.0,
-     "volume_ratio": 0.67,
-     "disclosures": []
-    },
-    {
-     "code": "NVDA",
-     "name": "NVIDIA",
-     "sector": "情報技術",
-     "close": 145.98,
-     "change_pct": -3.3,
-     "turnover": 46799000000.0,
-     "volume": 320588100.0,
-     "volume_ratio": 1.28,
-     "disclosures": []
-    }
-   ],
-   "news_count": 0
-  },
-  {
-   "key": "internet_media",
-   "name": "ネット・メディア",
-   "change_pct": -2.48,
-   "advancers_ratio": 0.0,
-   "count": 3,
-   "members": [
-    {
-     "code": "DIS",
-     "name": "Disney",
-     "sector": "コミュニケーション",
-     "close": 120.25,
-     "change_pct": -1.72,
-     "turnover": 1805000000.0,
-     "volume": 15011900.0,
-     "volume_ratio": 1.62,
-     "disclosures": []
-    },
-    {
-     "code": "NFLX",
-     "name": "Netflix",
-     "sector": "コミュニケーション",
-     "close": 58.46,
-     "change_pct": -2.27,
-     "turnover": 2217000000.0,
-     "volume": 37924200.0,
-     "volume_ratio": 0.94,
-     "disclosures": []
-    },
-    {
-     "code": "GOOGL",
-     "name": "Alphabet",
-     "sector": "コミュニケーション",
-     "close": 272.66,
-     "change_pct": -3.46,
-     "turnover": 13401000000.0,
-     "volume": 49150400.0,
-     "volume_ratio": 1.17,
-     "disclosures": []
-    }
-   ],
-   "news_count": 0
-  },
-  {
-   "key": "mag7",
-   "name": "マグニフィセント7",
-   "change_pct": -2.66,
-   "advancers_ratio": 0.0,
-   "count": 6,
-   "members": [
-    {
-     "code": "AAPL",
-     "name": "Apple",
-     "sector": "情報技術",
-     "close": 349.21,
-     "change_pct": -0.92,
-     "turnover": 14246000000.0,
-     "volume": 40795500.0,
-     "volume_ratio": 0.85,
-     "disclosures": []
-    },
-    {
-     "code": "MSFT",
-     "name": "Microsoft",
-     "sector": "情報技術",
-     "close": 498.3,
-     "change_pct": -1.97,
-     "turnover": 14488000000.0,
-     "volume": 29073900.0,
-     "volume_ratio": 1.04,
-     "disclosures": []
-    },
-    {
-     "code": "TSLA",
-     "name": "Tesla",
-     "sector": "一般消費財",
-     "close": 374.41,
-     "change_pct": -2.43,
-     "turnover": 9875000000.0,
-     "volume": 26375800.0,
-     "volume_ratio": 0.71,
-     "disclosures": []
-    },
-    {
-     "code": "NVDA",
-     "name": "NVIDIA",
-     "sector": "情報技術",
-     "close": 145.98,
-     "change_pct": -3.3,
-     "turnover": 46799000000.0,
-     "volume": 320588100.0,
-     "volume_ratio": 1.28,
-     "disclosures": []
-    },
-    {
-     "code": "GOOGL",
-     "name": "Alphabet",
-     "sector": "コミュニケーション",
-     "close": 272.66,
-     "change_pct": -3.46,
-     "turnover": 13401000000.0,
-     "volume": 49150400.0,
-     "volume_ratio": 1.17,
-     "disclosures": []
-    },
-    {
-     "code": "AMZN",
-     "name": "Amazon",
-     "sector": "一般消費財",
-     "close": 257.37,
-     "change_pct": -3.87,
-     "turnover": 13622000000.0,
-     "volume": 52926000.0,
-     "volume_ratio": 1.05,
-     "disclosures": []
-    }
-   ],
-   "news_count": 0
-  },
-  {
-   "key": "fintech",
-   "name": "決済・フィンテック",
-   "change_pct": -2.87,
-   "advancers_ratio": 0.0,
-   "count": 2,
-   "members": [
-    {
-     "code": "MA",
-     "name": "Mastercard",
-     "sector": "金融",
-     "close": 626.5,
-     "change_pct": -2.62,
-     "turnover": 2281000000.0,
-     "volume": 3640700.0,
-     "volume_ratio": 1.12,
-     "disclosures": []
-    },
-    {
-     "code": "V",
-     "name": "Visa",
-     "sector": "金融",
-     "close": 402.25,
-     "change_pct": -3.12,
-     "turnover": 3329000000.0,
-     "volume": 8276200.0,
-     "volume_ratio": 1.17,
-     "disclosures": []
-    }
-   ],
-   "news_count": 1
-  },
-  {
-   "key": "robotics",
-   "name": "ロボティクス・自動化",
-   "change_pct": -2.95,
-   "advancers_ratio": 0.0,
-   "count": 6,
-   "members": [
-    {
-     "code": "ZBRA",
-     "name": "Zebra",
-     "sector": "情報技術",
-     "close": 312.51,
-     "change_pct": -2.22,
-     "turnover": 168000000.0,
-     "volume": 537200.0,
-     "volume_ratio": 0.68,
-     "disclosures": []
-    },
-    {
-     "code": "EMR",
-     "name": "Emerson",
-     "sector": "資本財",
-     "close": 157.6,
-     "change_pct": -2.72,
-     "turnover": 391000000.0,
-     "volume": 2480700.0,
-     "volume_ratio": 0.83,
-     "disclosures": []
-    },
-    {
-     "code": "CGNX",
-     "name": "Cognex",
-     "sector": null,
-     "close": 47.66,
-     "change_pct": -2.99,
-     "turnover": 102000000.0,
-     "volume": 2142100.0,
-     "volume_ratio": 1.0,
-     "disclosures": []
-    },
-    {
-     "code": "ROK",
-     "name": "Rockwell Automation",
-     "sector": "資本財",
-     "close": 383.1,
-     "change_pct": -3.22,
-     "turnover": 428000000.0,
-     "volume": 1116100.0,
-     "volume_ratio": 1.0,
-     "disclosures": []
-    },
-    {
-     "code": "ISRG",
-     "name": "Intuitive Surgical",
-     "sector": "ヘルスケア",
-     "close": 407.24,
-     "change_pct": -3.26,
-     "turnover": 851000000.0,
-     "volume": 2090800.0,
-     "volume_ratio": 0.83,
-     "disclosures": []
-    },
-    {
-     "code": "TER",
-     "name": "Teradyne",
-     "sector": "情報技術",
-     "close": 227.43,
-     "change_pct": -3.31,
-     "turnover": 646000000.0,
-     "volume": 2840400.0,
-     "volume_ratio": 0.63,
-     "disclosures": []
-    }
-   ],
-   "news_count": 0
-  },
-  {
-   "key": "travel",
-   "name": "旅行・航空",
-   "change_pct": -3.03,
-   "advancers_ratio": 0.0,
-   "count": 9,
-   "members": [
-    {
-     "code": "BA",
-     "name": "Boeing",
-     "sector": "資本財",
-     "close": 160.51,
+     "close": 262.63,
      "change_pct": -1.47,
-     "turnover": 1187000000.0,
-     "volume": 7392400.0,
-     "volume_ratio": 0.7,
-     "disclosures": []
-    },
-    {
-     "code": "UAL",
-     "name": "United Airlines",
-     "sector": "資本財",
-     "close": 105.53,
-     "change_pct": -1.95,
-     "turnover": 423000000.0,
-     "volume": 4005400.0,
+     "turnover": 632000000.0,
+     "volume": 2407800.0,
      "volume_ratio": 0.75,
      "disclosures": []
     },
     {
-     "code": "DAL",
-     "name": "Delta",
-     "sector": "資本財",
-     "close": 83.17,
-     "change_pct": -2.01,
-     "turnover": 602000000.0,
-     "volume": 7232700.0,
-     "volume_ratio": 1.2,
+     "code": "GLW",
+     "name": "Corning",
+     "sector": "情報技術",
+     "close": 105.97,
+     "change_pct": -2.02,
+     "turnover": 833000000.0,
+     "volume": 7858400.0,
+     "volume_ratio": 0.73,
      "disclosures": []
     },
     {
-     "code": "AAL",
-     "name": "American Airlines",
+     "code": "ANET",
+     "name": "Arista Networks",
+     "sector": "情報技術",
+     "close": 189.59,
+     "change_pct": -2.24,
+     "turnover": 1260000000.0,
+     "volume": 6644800.0,
+     "volume_ratio": 0.76,
+     "disclosures": []
+    },
+    {
+     "code": "ALAB",
+     "name": "Astera Labs",
      "sector": null,
-     "close": 12.72,
-     "change_pct": -2.23,
-     "turnover": 732000000.0,
-     "volume": 57553300.0,
+     "close": 211.6,
+     "change_pct": -2.38,
+     "turnover": 1045000000.0,
+     "volume": 4937800.0,
      "volume_ratio": 0.93,
      "disclosures": []
     },
     {
-     "code": "EXPE",
-     "name": "Expedia",
-     "sector": "一般消費財",
-     "close": 239.19,
-     "change_pct": -2.69,
-     "turnover": 289000000.0,
-     "volume": 1207600.0,
+     "code": "CSCO",
+     "name": "Cisco",
+     "sector": "情報技術",
+     "close": 94.7,
+     "change_pct": -2.55,
+     "turnover": 1829000000.0,
+     "volume": 19311400.0,
+     "volume_ratio": 0.91,
+     "disclosures": []
+    },
+    {
+     "code": "FN",
+     "name": "Fabrinet",
+     "sector": null,
+     "close": 311.71,
+     "change_pct": -2.61,
+     "turnover": 227000000.0,
+     "volume": 729000.0,
+     "volume_ratio": 0.6,
+     "disclosures": []
+    },
+    {
+     "code": "LITE",
+     "name": "Lumentum",
+     "sector": "情報技術",
+     "close": 535.15,
+     "change_pct": -2.89,
+     "turnover": 2101000000.0,
+     "volume": 3926600.0,
+     "volume_ratio": 0.61,
+     "disclosures": []
+    },
+    {
+     "code": "AAOI",
+     "name": "Applied Optoelectronics",
+     "sector": null,
+     "close": 39.46,
+     "change_pct": -3.26,
+     "turnover": 438000000.0,
+     "volume": 11110600.0,
+     "volume_ratio": 0.76,
+     "disclosures": []
+    },
+    {
+     "code": "CRDO",
+     "name": "Credo",
+     "sector": null,
+     "close": 117.76,
+     "change_pct": -4.21,
+     "turnover": 662000000.0,
+     "volume": 5624700.0,
+     "volume_ratio": 0.67,
+     "disclosures": []
+    }
+   ],
+   "news_count": 0
+  },
+  {
+   "key": "glp1",
+   "name": "肥満症薬（GLP-1）",
+   "change_pct": -2.32,
+   "advancers_ratio": 0.0,
+   "count": 6,
+   "members": [
+    {
+     "code": "AMGN",
+     "name": "Amgen",
+     "sector": "ヘルスケア",
+     "close": 438.82,
+     "change_pct": -1.14,
+     "turnover": 1100000000.0,
+     "volume": 2506500.0,
+     "volume_ratio": 0.95,
+     "disclosures": []
+    },
+    {
+     "code": "VKTX",
+     "name": "Viking Therapeutics",
+     "sector": null,
+     "close": 25.84,
+     "change_pct": -1.26,
+     "turnover": 71000000.0,
+     "volume": 2761200.0,
+     "volume_ratio": 0.66,
+     "disclosures": []
+    },
+    {
+     "code": "NVO",
+     "name": "Novo Nordisk",
+     "sector": null,
+     "close": 38.87,
+     "change_pct": -1.42,
+     "turnover": 683000000.0,
+     "volume": 17580400.0,
+     "volume_ratio": 1.38,
+     "disclosures": []
+    },
+    {
+     "code": "KLRA",
+     "name": "Kailera Therapeutics",
+     "sector": null,
+     "close": 11.58,
+     "change_pct": -1.78,
+     "turnover": 5000000.0,
+     "volume": 474000.0,
      "volume_ratio": 0.57,
      "disclosures": []
     },
     {
-     "code": "MAR",
-     "name": "Marriott",
-     "sector": "一般消費財",
-     "close": 414.04,
-     "change_pct": -2.78,
-     "turnover": 530000000.0,
-     "volume": 1278900.0,
-     "volume_ratio": 0.74,
+     "code": "LLY",
+     "name": "Eli Lilly",
+     "sector": "ヘルスケア",
+     "close": 1351.12,
+     "change_pct": -2.29,
+     "turnover": 4321000000.0,
+     "volume": 3198300.0,
+     "volume_ratio": 1.04,
      "disclosures": []
     },
     {
-     "code": "BKNG",
-     "name": "Booking",
-     "sector": "一般消費財",
-     "close": 147.32,
-     "change_pct": -3.89,
-     "turnover": 982000000.0,
-     "volume": 6665900.0,
+     "code": "HIMS",
+     "name": "Hims & Hers",
+     "sector": null,
+     "close": 16.02,
+     "change_pct": -6.04,
+     "turnover": 215000000.0,
+     "volume": 13448800.0,
+     "volume_ratio": 0.86,
+     "disclosures": []
+    }
+   ],
+   "news_count": 0
+  },
+  {
+   "key": "clean_energy",
+   "name": "太陽光・クリーンエネルギー",
+   "change_pct": -2.39,
+   "advancers_ratio": 0.1,
+   "count": 10,
+   "members": [
+    {
+     "code": "FSLR",
+     "name": "First Solar",
+     "sector": "情報技術",
+     "close": 151.95,
+     "change_pct": 0.64,
+     "turnover": 493000000.0,
+     "volume": 3246700.0,
+     "volume_ratio": 0.95,
+     "disclosures": []
+    },
+    {
+     "code": "ARRY",
+     "name": "Array Technologies",
+     "sector": null,
+     "close": 4.19,
+     "change_pct": -0.48,
+     "turnover": 30000000.0,
+     "volume": 7132800.0,
+     "volume_ratio": 0.58,
+     "disclosures": []
+    },
+    {
+     "code": "NEE",
+     "name": "NextEra Energy",
+     "sector": "公益",
+     "close": 83.79,
+     "change_pct": -1.17,
+     "turnover": 802000000.0,
+     "volume": 9576300.0,
+     "volume_ratio": 0.73,
+     "disclosures": []
+    },
+    {
+     "code": "BE",
+     "name": "Bloom Energy",
+     "sector": "資本財",
+     "close": 168.11,
+     "change_pct": -1.68,
+     "turnover": 2764000000.0,
+     "volume": 16439100.0,
      "volume_ratio": 0.89,
      "disclosures": []
     },
     {
-     "code": "CCL",
-     "name": "Carnival",
-     "sector": "一般消費財",
-     "close": 27.57,
-     "change_pct": -4.83,
-     "turnover": 439000000.0,
-     "volume": 15922000.0,
-     "volume_ratio": 0.85,
+     "code": "RUN",
+     "name": "Sunrun",
+     "sector": null,
+     "close": 7.12,
+     "change_pct": -2.2,
+     "turnover": 51000000.0,
+     "volume": 7228600.0,
+     "volume_ratio": 0.57,
      "disclosures": []
     },
     {
-     "code": "RCL",
-     "name": "Royal Caribbean",
-     "sector": "一般消費財",
-     "close": 303.15,
-     "change_pct": -5.46,
-     "turnover": 469000000.0,
-     "volume": 1547300.0,
-     "volume_ratio": 0.72,
+     "code": "ENPH",
+     "name": "Enphase",
+     "sector": null,
+     "close": 21.98,
+     "change_pct": -3.0,
+     "turnover": 111000000.0,
+     "volume": 5060200.0,
+     "volume_ratio": 0.6,
+     "disclosures": []
+    },
+    {
+     "code": "NXT",
+     "name": "Nextracker",
+     "sector": null,
+     "close": 75.95,
+     "change_pct": -3.14,
+     "turnover": 218000000.0,
+     "volume": 2870300.0,
+     "volume_ratio": 0.83,
+     "disclosures": []
+    },
+    {
+     "code": "SEDG",
+     "name": "SolarEdge",
+     "sector": null,
+     "close": 20.33,
+     "change_pct": -3.24,
+     "turnover": 48000000.0,
+     "volume": 2355700.0,
+     "volume_ratio": 0.74,
+     "disclosures": []
+    },
+    {
+     "code": "PLUG",
+     "name": "Plug Power",
+     "sector": null,
+     "close": 1.03,
+     "change_pct": -4.63,
+     "turnover": 62000000.0,
+     "volume": 60324600.0,
+     "volume_ratio": 1.11,
+     "disclosures": [
+      {
+       "code": "PLUG",
+       "name": "Plug Power",
+       "time": "2026-11-19T08:30:36-05:00",
+       "title": "7.01 Regulation FD Disclosure",
+       "url": "https://www.sec.gov/Archives/edgar/data/1093691/000110465926129950/0001104659-26-129950-index.htm",
+       "items": [
+        "7.01",
+        "9.01"
+       ],
+       "tags": [
+        "Reg FD開示"
+       ],
+       "tone": "neutral",
+       "move_pct": null,
+       "move_basis": null,
+       "ah_price": null,
+       "ah_time": null
+      }
+     ]
+    },
+    {
+     "code": "FLNC",
+     "name": "Fluence",
+     "sector": null,
+     "close": 3.83,
+     "change_pct": -4.96,
+     "turnover": 21000000.0,
+     "volume": 5560400.0,
+     "volume_ratio": 0.79,
      "disclosures": []
     }
    ],
@@ -4197,10 +5183,21 @@
   {
    "key": "semi_equipment",
    "name": "半導体製造装置",
-   "change_pct": -3.25,
-   "advancers_ratio": 0.0,
-   "count": 11,
+   "change_pct": -2.66,
+   "advancers_ratio": 0.08,
+   "count": 13,
    "members": [
+    {
+     "code": "ACMR",
+     "name": "ACM Research",
+     "sector": null,
+     "close": 45.5,
+     "change_pct": 3.64,
+     "turnover": 72000000.0,
+     "volume": 1581500.0,
+     "volume_ratio": 1.24,
+     "disclosures": []
+    },
     {
      "code": "CAMT",
      "name": "Camtek",
@@ -4232,6 +5229,17 @@
      "turnover": 1528000000.0,
      "volume": 10799600.0,
      "volume_ratio": 0.73,
+     "disclosures": []
+    },
+    {
+     "code": "ONTO",
+     "name": "Onto Innovation",
+     "sector": null,
+     "close": 195.93,
+     "change_pct": -2.53,
+     "turnover": 213000000.0,
+     "volume": 1086300.0,
+     "volume_ratio": 0.9,
      "disclosures": []
     },
     {
@@ -4346,12 +5354,416 @@
    "news_count": 0
   },
   {
+   "key": "mag7",
+   "name": "マグニフィセント7",
+   "change_pct": -2.75,
+   "advancers_ratio": 0.0,
+   "count": 7,
+   "members": [
+    {
+     "code": "AAPL",
+     "name": "Apple",
+     "sector": "情報技術",
+     "close": 349.21,
+     "change_pct": -0.92,
+     "turnover": 14246000000.0,
+     "volume": 40795500.0,
+     "volume_ratio": 0.85,
+     "disclosures": []
+    },
+    {
+     "code": "MSFT",
+     "name": "Microsoft",
+     "sector": "情報技術",
+     "close": 498.3,
+     "change_pct": -1.97,
+     "turnover": 14488000000.0,
+     "volume": 29073900.0,
+     "volume_ratio": 1.04,
+     "disclosures": []
+    },
+    {
+     "code": "TSLA",
+     "name": "Tesla",
+     "sector": "一般消費財",
+     "close": 374.41,
+     "change_pct": -2.43,
+     "turnover": 9875000000.0,
+     "volume": 26375800.0,
+     "volume_ratio": 0.71,
+     "disclosures": []
+    },
+    {
+     "code": "META",
+     "name": "Meta Platforms",
+     "sector": "コミュニケーション",
+     "close": 596.22,
+     "change_pct": -3.27,
+     "turnover": 9113000000.0,
+     "volume": 15285100.0,
+     "volume_ratio": 0.68,
+     "disclosures": []
+    },
+    {
+     "code": "NVDA",
+     "name": "NVIDIA",
+     "sector": "情報技術",
+     "close": 145.98,
+     "change_pct": -3.3,
+     "turnover": 46799000000.0,
+     "volume": 320588100.0,
+     "volume_ratio": 1.28,
+     "disclosures": []
+    },
+    {
+     "code": "GOOGL",
+     "name": "Alphabet",
+     "sector": "コミュニケーション",
+     "close": 272.66,
+     "change_pct": -3.46,
+     "turnover": 13401000000.0,
+     "volume": 49150400.0,
+     "volume_ratio": 1.17,
+     "disclosures": []
+    },
+    {
+     "code": "AMZN",
+     "name": "Amazon",
+     "sector": "一般消費財",
+     "close": 257.37,
+     "change_pct": -3.87,
+     "turnover": 13622000000.0,
+     "volume": 52926000.0,
+     "volume_ratio": 1.05,
+     "disclosures": []
+    }
+   ],
+   "news_count": 0
+  },
+  {
+   "key": "nuclear",
+   "name": "原子力・ウラン",
+   "change_pct": -2.75,
+   "advancers_ratio": 0.0,
+   "count": 12,
+   "members": [
+    {
+     "code": "BWXT",
+     "name": "BWX Technologies",
+     "sector": null,
+     "close": 117.06,
+     "change_pct": -0.74,
+     "turnover": 187000000.0,
+     "volume": 1599500.0,
+     "volume_ratio": 1.14,
+     "disclosures": []
+    },
+    {
+     "code": "VST",
+     "name": "Vistra",
+     "sector": "公益",
+     "close": 124.15,
+     "change_pct": -1.14,
+     "turnover": 555000000.0,
+     "volume": 4474400.0,
+     "volume_ratio": 0.65,
+     "disclosures": []
+    },
+    {
+     "code": "TLN",
+     "name": "Talen Energy",
+     "sector": null,
+     "close": 355.91,
+     "change_pct": -1.19,
+     "turnover": 255000000.0,
+     "volume": 715100.0,
+     "volume_ratio": 0.64,
+     "disclosures": []
+    },
+    {
+     "code": "CCJ",
+     "name": "Cameco",
+     "sector": null,
+     "close": 61.42,
+     "change_pct": -1.63,
+     "turnover": 236000000.0,
+     "volume": 3843000.0,
+     "volume_ratio": 0.89,
+     "disclosures": []
+    },
+    {
+     "code": "LEU",
+     "name": "Centrus Energy",
+     "sector": null,
+     "close": 89.7,
+     "change_pct": -2.24,
+     "turnover": 40000000.0,
+     "volume": 448100.0,
+     "volume_ratio": 0.55,
+     "disclosures": []
+    },
+    {
+     "code": "SMR",
+     "name": "NuScale",
+     "sector": null,
+     "close": 3.81,
+     "change_pct": -2.56,
+     "turnover": 154000000.0,
+     "volume": 40528200.0,
+     "volume_ratio": 1.31,
+     "disclosures": []
+    },
+    {
+     "code": "UEC",
+     "name": "Uranium Energy",
+     "sector": null,
+     "close": 5.76,
+     "change_pct": -2.7,
+     "turnover": 55000000.0,
+     "volume": 9522400.0,
+     "volume_ratio": 0.92,
+     "disclosures": []
+    },
+    {
+     "code": "NNE",
+     "name": "Nano Nuclear",
+     "sector": null,
+     "close": 9.97,
+     "change_pct": -3.67,
+     "turnover": 18000000.0,
+     "volume": 1789800.0,
+     "volume_ratio": 0.89,
+     "disclosures": []
+    },
+    {
+     "code": "XE",
+     "name": "X-Energy",
+     "sector": null,
+     "close": 9.7,
+     "change_pct": -3.87,
+     "turnover": 44000000.0,
+     "volume": 4567000.0,
+     "volume_ratio": 0.77,
+     "disclosures": []
+    },
+    {
+     "code": "CEG",
+     "name": "Constellation Energy",
+     "sector": "公益",
+     "close": 252.03,
+     "change_pct": -4.08,
+     "turnover": 921000000.0,
+     "volume": 3655200.0,
+     "volume_ratio": 0.96,
+     "disclosures": []
+    },
+    {
+     "code": "OKLO",
+     "name": "Oklo",
+     "sector": null,
+     "close": 20.84,
+     "change_pct": -4.4,
+     "turnover": 158000000.0,
+     "volume": 7574300.0,
+     "volume_ratio": 0.74,
+     "disclosures": []
+    },
+    {
+     "code": "NXE",
+     "name": "NexGen Energy",
+     "sector": null,
+     "close": 6.93,
+     "change_pct": -4.81,
+     "turnover": 88000000.0,
+     "volume": 12708700.0,
+     "volume_ratio": 2.15,
+     "disclosures": []
+    }
+   ],
+   "news_count": 0
+  },
+  {
+   "key": "software",
+   "name": "クラウド・SaaS",
+   "change_pct": -2.83,
+   "advancers_ratio": 0.0,
+   "count": 14,
+   "members": [
+    {
+     "code": "DDOG",
+     "name": "Datadog",
+     "sector": "情報技術",
+     "close": 166.46,
+     "change_pct": -0.39,
+     "turnover": 847000000.0,
+     "volume": 5086800.0,
+     "volume_ratio": 1.06,
+     "disclosures": []
+    },
+    {
+     "code": "INTU",
+     "name": "Intuit",
+     "sector": "情報技術",
+     "close": 310.02,
+     "change_pct": -1.03,
+     "turnover": 1365000000.0,
+     "volume": 4401800.0,
+     "volume_ratio": 1.55,
+     "disclosures": []
+    },
+    {
+     "code": "TEAM",
+     "name": "Atlassian",
+     "sector": null,
+     "close": 133.01,
+     "change_pct": -1.51,
+     "turnover": 534000000.0,
+     "volume": 4013500.0,
+     "volume_ratio": 1.11,
+     "disclosures": []
+    },
+    {
+     "code": "NOW",
+     "name": "ServiceNow",
+     "sector": "情報技術",
+     "close": 88.87,
+     "change_pct": -1.9,
+     "turnover": 1868000000.0,
+     "volume": 21019100.0,
+     "volume_ratio": 1.0,
+     "disclosures": []
+    },
+    {
+     "code": "MSFT",
+     "name": "Microsoft",
+     "sector": "情報技術",
+     "close": 498.3,
+     "change_pct": -1.97,
+     "turnover": 14488000000.0,
+     "volume": 29073900.0,
+     "volume_ratio": 1.04,
+     "disclosures": []
+    },
+    {
+     "code": "ADBE",
+     "name": "Adobe",
+     "sector": "情報技術",
+     "close": 221.68,
+     "change_pct": -2.0,
+     "turnover": 790000000.0,
+     "volume": 3563900.0,
+     "volume_ratio": 0.89,
+     "disclosures": []
+    },
+    {
+     "code": "WDAY",
+     "name": "Workday",
+     "sector": "情報技術",
+     "close": 173.36,
+     "change_pct": -2.3,
+     "turnover": 310000000.0,
+     "volume": 1789600.0,
+     "volume_ratio": 0.82,
+     "disclosures": []
+    },
+    {
+     "code": "ORCL",
+     "name": "Oracle",
+     "sector": "情報技術",
+     "close": 110.57,
+     "change_pct": -2.92,
+     "turnover": 3055000000.0,
+     "volume": 27630500.0,
+     "volume_ratio": 0.67,
+     "disclosures": []
+    },
+    {
+     "code": "APP",
+     "name": "AppLovin",
+     "sector": "コミュニケーション",
+     "close": 379.02,
+     "change_pct": -3.04,
+     "turnover": 1282000000.0,
+     "volume": 3382400.0,
+     "volume_ratio": 0.57,
+     "disclosures": []
+    },
+    {
+     "code": "MDB",
+     "name": "MongoDB",
+     "sector": null,
+     "close": 297.01,
+     "change_pct": -3.16,
+     "turnover": 374000000.0,
+     "volume": 1258100.0,
+     "volume_ratio": 0.99,
+     "disclosures": []
+    },
+    {
+     "code": "CRM",
+     "name": "Salesforce",
+     "sector": "情報技術",
+     "close": 183.31,
+     "change_pct": -3.72,
+     "turnover": 1461000000.0,
+     "volume": 7969700.0,
+     "volume_ratio": 1.1,
+     "disclosures": []
+    },
+    {
+     "code": "SNOW",
+     "name": "Snowflake",
+     "sector": null,
+     "close": 268.59,
+     "change_pct": -3.94,
+     "turnover": 1385000000.0,
+     "volume": 5154800.0,
+     "volume_ratio": 1.23,
+     "disclosures": []
+    },
+    {
+     "code": "SHOP",
+     "name": "Shopify",
+     "sector": null,
+     "close": 131.97,
+     "change_pct": -5.34,
+     "turnover": 982000000.0,
+     "volume": 7440100.0,
+     "volume_ratio": 0.92,
+     "disclosures": []
+    },
+    {
+     "code": "HUBS",
+     "name": "HubSpot",
+     "sector": null,
+     "close": 191.99,
+     "change_pct": -6.4,
+     "turnover": 564000000.0,
+     "volume": 2938400.0,
+     "volume_ratio": 1.94,
+     "disclosures": []
+    }
+   ],
+   "news_count": 1
+  },
+  {
    "key": "metals_mining",
    "name": "金・銅・鉱山",
-   "change_pct": -3.43,
-   "advancers_ratio": 0.0,
-   "count": 9,
+   "change_pct": -2.89,
+   "advancers_ratio": 0.1,
+   "count": 10,
    "members": [
+    {
+     "code": "MP",
+     "name": "MP Materials",
+     "sector": null,
+     "close": 36.66,
+     "change_pct": 1.97,
+     "turnover": 205000000.0,
+     "volume": 5579000.0,
+     "volume_ratio": 0.85,
+     "disclosures": []
+    },
     {
      "code": "AEM",
      "name": "Agnico Eagle",
@@ -4452,15 +5864,92 @@
      "disclosures": []
     }
    ],
-   "news_count": 0
+   "news_count": 2
   },
   {
    "key": "ai_software",
    "name": "AIソフトウェア・データ",
-   "change_pct": -3.72,
-   "advancers_ratio": 0.0,
-   "count": 1,
+   "change_pct": -2.91,
+   "advancers_ratio": 0.1,
+   "count": 10,
    "members": [
+    {
+     "code": "AI",
+     "name": "C3.ai",
+     "sector": null,
+     "close": 10.04,
+     "change_pct": 0.2,
+     "turnover": 53000000.0,
+     "volume": 5251900.0,
+     "volume_ratio": 1.27,
+     "disclosures": []
+    },
+    {
+     "code": "BBAI",
+     "name": "BigBear.ai",
+     "sector": null,
+     "close": 1.73,
+     "change_pct": -1.14,
+     "turnover": 25000000.0,
+     "volume": 14356800.0,
+     "volume_ratio": 0.65,
+     "disclosures": []
+    },
+    {
+     "code": "NOW",
+     "name": "ServiceNow",
+     "sector": "情報技術",
+     "close": 88.87,
+     "change_pct": -1.9,
+     "turnover": 1868000000.0,
+     "volume": 21019100.0,
+     "volume_ratio": 1.0,
+     "disclosures": []
+    },
+    {
+     "code": "PLTR",
+     "name": "Palantir",
+     "sector": "情報技術",
+     "close": 153.68,
+     "change_pct": -1.91,
+     "turnover": 3270000000.0,
+     "volume": 21279200.0,
+     "volume_ratio": 0.88,
+     "disclosures": []
+    },
+    {
+     "code": "APP",
+     "name": "AppLovin",
+     "sector": "コミュニケーション",
+     "close": 379.02,
+     "change_pct": -3.04,
+     "turnover": 1282000000.0,
+     "volume": 3382400.0,
+     "volume_ratio": 0.57,
+     "disclosures": []
+    },
+    {
+     "code": "SOUN",
+     "name": "SoundHound",
+     "sector": null,
+     "close": 2.91,
+     "change_pct": -3.32,
+     "turnover": 53000000.0,
+     "volume": 18084000.0,
+     "volume_ratio": 0.97,
+     "disclosures": []
+    },
+    {
+     "code": "IOT",
+     "name": "Samsara",
+     "sector": null,
+     "close": 38.4,
+     "change_pct": -3.71,
+     "turnover": 128000000.0,
+     "volume": 3328200.0,
+     "volume_ratio": 0.93,
+     "disclosures": []
+    },
     {
      "code": "CRM",
      "name": "Salesforce",
@@ -4471,17 +5960,762 @@
      "volume": 7969700.0,
      "volume_ratio": 1.1,
      "disclosures": []
+    },
+    {
+     "code": "PATH",
+     "name": "UiPath",
+     "sector": null,
+     "close": 11.23,
+     "change_pct": -4.26,
+     "turnover": 281000000.0,
+     "volume": 25015000.0,
+     "volume_ratio": 1.07,
+     "disclosures": []
+    },
+    {
+     "code": "TEM",
+     "name": "Tempus AI",
+     "sector": null,
+     "close": 59.61,
+     "change_pct": -6.3,
+     "turnover": 316000000.0,
+     "volume": 5294400.0,
+     "volume_ratio": 0.8,
+     "disclosures": []
     }
    ],
-   "news_count": 26
+   "news_count": 25
+  },
+  {
+   "key": "ev_autonomy",
+   "name": "EV・自動運転",
+   "change_pct": -2.97,
+   "advancers_ratio": 0.0,
+   "count": 10,
+   "members": [
+    {
+     "code": "F",
+     "name": "Ford",
+     "sector": "一般消費財",
+     "close": 11.24,
+     "change_pct": -0.35,
+     "turnover": 495000000.0,
+     "volume": 44068400.0,
+     "volume_ratio": 1.01,
+     "disclosures": []
+    },
+    {
+     "code": "GM",
+     "name": "General Motors",
+     "sector": "一般消費財",
+     "close": 81.75,
+     "change_pct": -0.46,
+     "turnover": 418000000.0,
+     "volume": 5108500.0,
+     "volume_ratio": 0.68,
+     "disclosures": []
+    },
+    {
+     "code": "MBLY",
+     "name": "Mobileye",
+     "sector": null,
+     "close": 5.09,
+     "change_pct": -2.3,
+     "turnover": 29000000.0,
+     "volume": 5662500.0,
+     "volume_ratio": 0.65,
+     "disclosures": []
+    },
+    {
+     "code": "LI",
+     "name": "Li Auto",
+     "sector": null,
+     "close": 11.24,
+     "change_pct": -2.35,
+     "turnover": 23000000.0,
+     "volume": 2009900.0,
+     "volume_ratio": 0.74,
+     "disclosures": []
+    },
+    {
+     "code": "TSLA",
+     "name": "Tesla",
+     "sector": "一般消費財",
+     "close": 374.41,
+     "change_pct": -2.43,
+     "turnover": 9875000000.0,
+     "volume": 26375800.0,
+     "volume_ratio": 0.71,
+     "disclosures": []
+    },
+    {
+     "code": "XPEV",
+     "name": "XPeng",
+     "sector": null,
+     "close": 9.38,
+     "change_pct": -3.7,
+     "turnover": 66000000.0,
+     "volume": 6987000.0,
+     "volume_ratio": 0.91,
+     "disclosures": []
+    },
+    {
+     "code": "NIO",
+     "name": "NIO",
+     "sector": null,
+     "close": 2.66,
+     "change_pct": -3.97,
+     "turnover": 127000000.0,
+     "volume": 47712000.0,
+     "volume_ratio": 1.22,
+     "disclosures": []
+    },
+    {
+     "code": "RIVN",
+     "name": "Rivian",
+     "sector": null,
+     "close": 11.29,
+     "change_pct": -4.32,
+     "turnover": 373000000.0,
+     "volume": 33002300.0,
+     "volume_ratio": 1.02,
+     "disclosures": []
+    },
+    {
+     "code": "UBER",
+     "name": "Uber",
+     "sector": "資本財",
+     "close": 65.6,
+     "change_pct": -4.6,
+     "turnover": 1886000000.0,
+     "volume": 28749900.0,
+     "volume_ratio": 1.52,
+     "disclosures": []
+    },
+    {
+     "code": "LCID",
+     "name": "Lucid",
+     "sector": null,
+     "close": 2.79,
+     "change_pct": -5.26,
+     "turnover": 27000000.0,
+     "volume": 9569400.0,
+     "volume_ratio": 0.71,
+     "disclosures": []
+    }
+   ],
+   "news_count": 0
+  },
+  {
+   "key": "robotics",
+   "name": "ロボティクス・自動化",
+   "change_pct": -3.02,
+   "advancers_ratio": 0.0,
+   "count": 8,
+   "members": [
+    {
+     "code": "SYM",
+     "name": "Symbotic",
+     "sector": null,
+     "close": 33.16,
+     "change_pct": -1.86,
+     "turnover": 79000000.0,
+     "volume": 2381800.0,
+     "volume_ratio": 1.44,
+     "disclosures": []
+    },
+    {
+     "code": "ZBRA",
+     "name": "Zebra",
+     "sector": "情報技術",
+     "close": 312.51,
+     "change_pct": -2.22,
+     "turnover": 168000000.0,
+     "volume": 537200.0,
+     "volume_ratio": 0.68,
+     "disclosures": []
+    },
+    {
+     "code": "EMR",
+     "name": "Emerson",
+     "sector": "資本財",
+     "close": 157.6,
+     "change_pct": -2.72,
+     "turnover": 391000000.0,
+     "volume": 2480700.0,
+     "volume_ratio": 0.83,
+     "disclosures": []
+    },
+    {
+     "code": "CGNX",
+     "name": "Cognex",
+     "sector": null,
+     "close": 47.66,
+     "change_pct": -2.99,
+     "turnover": 102000000.0,
+     "volume": 2142100.0,
+     "volume_ratio": 1.0,
+     "disclosures": []
+    },
+    {
+     "code": "ROK",
+     "name": "Rockwell Automation",
+     "sector": "資本財",
+     "close": 383.1,
+     "change_pct": -3.22,
+     "turnover": 428000000.0,
+     "volume": 1116100.0,
+     "volume_ratio": 1.0,
+     "disclosures": []
+    },
+    {
+     "code": "ISRG",
+     "name": "Intuitive Surgical",
+     "sector": "ヘルスケア",
+     "close": 407.24,
+     "change_pct": -3.26,
+     "turnover": 851000000.0,
+     "volume": 2090800.0,
+     "volume_ratio": 0.83,
+     "disclosures": []
+    },
+    {
+     "code": "TER",
+     "name": "Teradyne",
+     "sector": "情報技術",
+     "close": 227.43,
+     "change_pct": -3.31,
+     "turnover": 646000000.0,
+     "volume": 2840400.0,
+     "volume_ratio": 0.63,
+     "disclosures": []
+    },
+    {
+     "code": "SERV",
+     "name": "Serve Robotics",
+     "sector": null,
+     "close": 2.29,
+     "change_pct": -4.58,
+     "turnover": 8000000.0,
+     "volume": 3506500.0,
+     "volume_ratio": 0.85,
+     "disclosures": []
+    }
+   ],
+   "news_count": 0
+  },
+  {
+   "key": "ai_infra",
+   "name": "AIインフラ・サーバー",
+   "change_pct": -3.09,
+   "advancers_ratio": 0.0,
+   "count": 13,
+   "members": [
+    {
+     "code": "DELL",
+     "name": "Dell",
+     "sector": "情報技術",
+     "close": 312.54,
+     "change_pct": -0.18,
+     "turnover": 2219000000.0,
+     "volume": 7100000.0,
+     "volume_ratio": 0.96,
+     "disclosures": []
+    },
+    {
+     "code": "HPE",
+     "name": "HPE",
+     "sector": "情報技術",
+     "close": 45.49,
+     "change_pct": -0.63,
+     "turnover": 579000000.0,
+     "volume": 12725900.0,
+     "volume_ratio": 0.87,
+     "disclosures": [
+      {
+       "code": "HPE",
+       "name": "Hewlett Packard Enterprise",
+       "time": "2026-11-18T16:08:26-05:00",
+       "title": "1.01 Entry into a Material Definitive Agreement; 5.02 Departure of Directors or Certain Officers; Election of Directors; Appointment of Certain Officers: Compensatory Arrangements of Certain Officers; 7.01 Regulation FD Disclosure",
+       "url": "https://www.sec.gov/Archives/edgar/data/1645590/000164559026000092/0001645590-26-000092-index.htm",
+       "items": [
+        "1.01",
+        "5.02",
+        "7.01",
+        "9.01"
+       ],
+       "tags": [
+        "重要な契約",
+        "役員の異動",
+        "Reg FD開示"
+       ],
+       "tone": "neutral",
+       "move_pct": null,
+       "move_basis": null,
+       "ah_price": null,
+       "ah_time": null
+      }
+     ]
+    },
+    {
+     "code": "CLS",
+     "name": "Celestica",
+     "sector": null,
+     "close": 240.23,
+     "change_pct": -1.27,
+     "turnover": 800000000.0,
+     "volume": 3331000.0,
+     "volume_ratio": 0.84,
+     "disclosures": []
+    },
+    {
+     "code": "AVGO",
+     "name": "Broadcom",
+     "sector": "情報技術",
+     "close": 346.65,
+     "change_pct": -2.09,
+     "turnover": 9004000000.0,
+     "volume": 25974400.0,
+     "volume_ratio": 0.92,
+     "disclosures": []
+    },
+    {
+     "code": "SMCI",
+     "name": "Super Micro",
+     "sector": "情報技術",
+     "close": 23.84,
+     "change_pct": -2.17,
+     "turnover": 858000000.0,
+     "volume": 35985100.0,
+     "volume_ratio": 0.78,
+     "disclosures": []
+    },
+    {
+     "code": "ANET",
+     "name": "Arista Networks",
+     "sector": "情報技術",
+     "close": 189.59,
+     "change_pct": -2.24,
+     "turnover": 1260000000.0,
+     "volume": 6644800.0,
+     "volume_ratio": 0.76,
+     "disclosures": []
+    },
+    {
+     "code": "ALAB",
+     "name": "Astera Labs",
+     "sector": null,
+     "close": 211.6,
+     "change_pct": -2.38,
+     "turnover": 1045000000.0,
+     "volume": 4937800.0,
+     "volume_ratio": 0.93,
+     "disclosures": []
+    },
+    {
+     "code": "ORCL",
+     "name": "Oracle",
+     "sector": "情報技術",
+     "close": 110.57,
+     "change_pct": -2.92,
+     "turnover": 3055000000.0,
+     "volume": 27630500.0,
+     "volume_ratio": 0.67,
+     "disclosures": []
+    },
+    {
+     "code": "APLD",
+     "name": "Applied Digital",
+     "sector": null,
+     "close": 13.98,
+     "change_pct": -3.25,
+     "turnover": 392000000.0,
+     "volume": 28034900.0,
+     "volume_ratio": 1.07,
+     "disclosures": []
+    },
+    {
+     "code": "NVDA",
+     "name": "NVIDIA",
+     "sector": "情報技術",
+     "close": 145.98,
+     "change_pct": -3.3,
+     "turnover": 46799000000.0,
+     "volume": 320588100.0,
+     "volume_ratio": 1.28,
+     "disclosures": []
+    },
+    {
+     "code": "CRDO",
+     "name": "Credo",
+     "sector": null,
+     "close": 117.76,
+     "change_pct": -4.21,
+     "turnover": 662000000.0,
+     "volume": 5624700.0,
+     "volume_ratio": 0.67,
+     "disclosures": []
+    },
+    {
+     "code": "CRWV",
+     "name": "CoreWeave",
+     "sector": null,
+     "close": 44.91,
+     "change_pct": -6.1,
+     "turnover": 3490000000.0,
+     "volume": 77707900.0,
+     "volume_ratio": 1.13,
+     "disclosures": []
+    },
+    {
+     "code": "NBIS",
+     "name": "Nebius",
+     "sector": null,
+     "close": 96.92,
+     "change_pct": -9.39,
+     "turnover": 3658000000.0,
+     "volume": 37745600.0,
+     "volume_ratio": 1.31,
+     "disclosures": []
+    }
+   ],
+   "news_count": 0
+  },
+  {
+   "key": "travel",
+   "name": "旅行・航空",
+   "change_pct": -3.12,
+   "advancers_ratio": 0.0,
+   "count": 11,
+   "members": [
+    {
+     "code": "BA",
+     "name": "Boeing",
+     "sector": "資本財",
+     "close": 160.51,
+     "change_pct": -1.47,
+     "turnover": 1187000000.0,
+     "volume": 7392400.0,
+     "volume_ratio": 0.7,
+     "disclosures": []
+    },
+    {
+     "code": "UAL",
+     "name": "United Airlines",
+     "sector": "資本財",
+     "close": 105.53,
+     "change_pct": -1.95,
+     "turnover": 423000000.0,
+     "volume": 4005400.0,
+     "volume_ratio": 0.75,
+     "disclosures": []
+    },
+    {
+     "code": "DAL",
+     "name": "Delta",
+     "sector": "資本財",
+     "close": 83.17,
+     "change_pct": -2.01,
+     "turnover": 602000000.0,
+     "volume": 7232700.0,
+     "volume_ratio": 1.2,
+     "disclosures": []
+    },
+    {
+     "code": "AAL",
+     "name": "American Airlines",
+     "sector": null,
+     "close": 12.72,
+     "change_pct": -2.23,
+     "turnover": 732000000.0,
+     "volume": 57553300.0,
+     "volume_ratio": 0.93,
+     "disclosures": []
+    },
+    {
+     "code": "EXPE",
+     "name": "Expedia",
+     "sector": "一般消費財",
+     "close": 239.19,
+     "change_pct": -2.69,
+     "turnover": 289000000.0,
+     "volume": 1207600.0,
+     "volume_ratio": 0.57,
+     "disclosures": []
+    },
+    {
+     "code": "MAR",
+     "name": "Marriott",
+     "sector": "一般消費財",
+     "close": 414.04,
+     "change_pct": -2.78,
+     "turnover": 530000000.0,
+     "volume": 1278900.0,
+     "volume_ratio": 0.74,
+     "disclosures": []
+    },
+    {
+     "code": "HLT",
+     "name": "Hilton",
+     "sector": "一般消費財",
+     "close": 362.3,
+     "change_pct": -2.88,
+     "turnover": 575000000.0,
+     "volume": 1586900.0,
+     "volume_ratio": 0.82,
+     "disclosures": []
+    },
+    {
+     "code": "BKNG",
+     "name": "Booking",
+     "sector": "一般消費財",
+     "close": 147.32,
+     "change_pct": -3.89,
+     "turnover": 982000000.0,
+     "volume": 6665900.0,
+     "volume_ratio": 0.89,
+     "disclosures": []
+    },
+    {
+     "code": "ABNB",
+     "name": "Airbnb",
+     "sector": "一般消費財",
+     "close": 172.79,
+     "change_pct": -4.12,
+     "turnover": 990000000.0,
+     "volume": 5730100.0,
+     "volume_ratio": 1.17,
+     "disclosures": []
+    },
+    {
+     "code": "CCL",
+     "name": "Carnival",
+     "sector": "一般消費財",
+     "close": 27.57,
+     "change_pct": -4.83,
+     "turnover": 439000000.0,
+     "volume": 15922000.0,
+     "volume_ratio": 0.85,
+     "disclosures": []
+    },
+    {
+     "code": "RCL",
+     "name": "Royal Caribbean",
+     "sector": "一般消費財",
+     "close": 303.15,
+     "change_pct": -5.46,
+     "turnover": 469000000.0,
+     "volume": 1547300.0,
+     "volume_ratio": 0.72,
+     "disclosures": []
+    }
+   ],
+   "news_count": 0
+  },
+  {
+   "key": "fintech",
+   "name": "決済・フィンテック",
+   "change_pct": -3.17,
+   "advancers_ratio": 0.0,
+   "count": 11,
+   "members": [
+    {
+     "code": "HOOD",
+     "name": "Robinhood",
+     "sector": "金融",
+     "close": 68.65,
+     "change_pct": -0.75,
+     "turnover": 1725000000.0,
+     "volume": 25133900.0,
+     "volume_ratio": 1.24,
+     "disclosures": []
+    },
+    {
+     "code": "COIN",
+     "name": "Coinbase",
+     "sector": "金融",
+     "close": 108.87,
+     "change_pct": -1.48,
+     "turnover": 880000000.0,
+     "volume": 8086200.0,
+     "volume_ratio": 0.92,
+     "disclosures": []
+    },
+    {
+     "code": "NU",
+     "name": "Nu Holdings",
+     "sector": null,
+     "close": 11.82,
+     "change_pct": -2.15,
+     "turnover": 657000000.0,
+     "volume": 55584600.0,
+     "volume_ratio": 0.62,
+     "disclosures": []
+    },
+    {
+     "code": "WLTH",
+     "name": "Wealthfront",
+     "sector": null,
+     "close": 10.46,
+     "change_pct": -2.24,
+     "turnover": 8000000.0,
+     "volume": 793900.0,
+     "volume_ratio": 0.49,
+     "disclosures": []
+    },
+    {
+     "code": "MA",
+     "name": "Mastercard",
+     "sector": "金融",
+     "close": 626.5,
+     "change_pct": -2.62,
+     "turnover": 2281000000.0,
+     "volume": 3640700.0,
+     "volume_ratio": 1.12,
+     "disclosures": []
+    },
+    {
+     "code": "PYPL",
+     "name": "PayPal",
+     "sector": "金融",
+     "close": 56.37,
+     "change_pct": -2.63,
+     "turnover": 537000000.0,
+     "volume": 9531900.0,
+     "volume_ratio": 0.92,
+     "disclosures": []
+    },
+    {
+     "code": "V",
+     "name": "Visa",
+     "sector": "金融",
+     "close": 402.25,
+     "change_pct": -3.12,
+     "turnover": 3329000000.0,
+     "volume": 8276200.0,
+     "volume_ratio": 1.17,
+     "disclosures": []
+    },
+    {
+     "code": "AFRM",
+     "name": "Affirm",
+     "sector": null,
+     "close": 56.91,
+     "change_pct": -3.4,
+     "turnover": 284000000.0,
+     "volume": 4998400.0,
+     "volume_ratio": 1.15,
+     "disclosures": []
+    },
+    {
+     "code": "SOFI",
+     "name": "SoFi",
+     "sector": null,
+     "close": 13.53,
+     "change_pct": -4.11,
+     "turnover": 772000000.0,
+     "volume": 57035000.0,
+     "volume_ratio": 1.0,
+     "disclosures": []
+    },
+    {
+     "code": "XYZ",
+     "name": "Block",
+     "sector": "金融",
+     "close": 74.23,
+     "change_pct": -6.05,
+     "turnover": 554000000.0,
+     "volume": 7459500.0,
+     "volume_ratio": 1.17,
+     "disclosures": []
+    },
+    {
+     "code": "TOST",
+     "name": "Toast",
+     "sector": null,
+     "close": 31.85,
+     "change_pct": -6.32,
+     "turnover": 269000000.0,
+     "volume": 8437200.0,
+     "volume_ratio": 0.87,
+     "disclosures": []
+    }
+   ],
+   "news_count": 0
   },
   {
    "key": "crypto",
    "name": "暗号資産関連",
-   "change_pct": -4.64,
+   "change_pct": -3.75,
    "advancers_ratio": 0.0,
-   "count": 1,
+   "count": 12,
    "members": [
+    {
+     "code": "HOOD",
+     "name": "Robinhood",
+     "sector": "金融",
+     "close": 68.65,
+     "change_pct": -0.75,
+     "turnover": 1725000000.0,
+     "volume": 25133900.0,
+     "volume_ratio": 1.24,
+     "disclosures": []
+    },
+    {
+     "code": "COIN",
+     "name": "Coinbase",
+     "sector": "金融",
+     "close": 108.87,
+     "change_pct": -1.48,
+     "turnover": 880000000.0,
+     "volume": 8086200.0,
+     "volume_ratio": 0.92,
+     "disclosures": []
+    },
+    {
+     "code": "BTGO",
+     "name": "BitGo",
+     "sector": null,
+     "close": 3.57,
+     "change_pct": -1.65,
+     "turnover": 5000000.0,
+     "volume": 1297000.0,
+     "volume_ratio": 1.04,
+     "disclosures": []
+    },
+    {
+     "code": "HUT",
+     "name": "Hut 8",
+     "sector": null,
+     "close": 55.8,
+     "change_pct": -2.43,
+     "turnover": 349000000.0,
+     "volume": 6249600.0,
+     "volume_ratio": 1.0,
+     "disclosures": []
+    },
+    {
+     "code": "CRCL",
+     "name": "Circle",
+     "sector": null,
+     "close": 51.88,
+     "change_pct": -2.68,
+     "turnover": 462000000.0,
+     "volume": 8907000.0,
+     "volume_ratio": 0.91,
+     "disclosures": []
+    },
+    {
+     "code": "RIOT",
+     "name": "Riot Platforms",
+     "sector": null,
+     "close": 17.73,
+     "change_pct": -2.8,
+     "turnover": 572000000.0,
+     "volume": 32269200.0,
+     "volume_ratio": 1.13,
+     "disclosures": []
+    },
     {
      "code": "MSTR",
      "name": "Strategy",
@@ -4492,67 +6726,516 @@
      "volume": 23775500.0,
      "volume_ratio": 1.31,
      "disclosures": []
+    },
+    {
+     "code": "MARA",
+     "name": "MARA Holdings",
+     "sector": null,
+     "close": 6.25,
+     "change_pct": -4.73,
+     "turnover": 224000000.0,
+     "volume": 35790700.0,
+     "volume_ratio": 0.9,
+     "disclosures": []
+    },
+    {
+     "code": "CORZ",
+     "name": "Core Scientific",
+     "sector": null,
+     "close": 13.36,
+     "change_pct": -4.91,
+     "turnover": 288000000.0,
+     "volume": 21557800.0,
+     "volume_ratio": 1.25,
+     "disclosures": []
+    },
+    {
+     "code": "IREN",
+     "name": "IREN",
+     "sector": null,
+     "close": 14.41,
+     "change_pct": -5.45,
+     "turnover": 1732000000.0,
+     "volume": 120170700.0,
+     "volume_ratio": 1.67,
+     "disclosures": []
+    },
+    {
+     "code": "CLSK",
+     "name": "CleanSpark",
+     "sector": null,
+     "close": 5.84,
+     "change_pct": -5.96,
+     "turnover": 96000000.0,
+     "volume": 16481300.0,
+     "volume_ratio": 0.85,
+     "disclosures": []
+    },
+    {
+     "code": "GLXY",
+     "name": "Galaxy Digital",
+     "sector": null,
+     "close": 12.32,
+     "change_pct": -7.51,
+     "turnover": 121000000.0,
+     "volume": 9824900.0,
+     "volume_ratio": 1.04,
+     "disclosures": []
     }
    ],
    "news_count": 1
   },
   {
-   "key": "china_adr",
-   "name": "中国ADR",
-   "change_pct": -5.77,
+   "key": "internet_media",
+   "name": "ネット・メディア",
+   "change_pct": -3.75,
    "advancers_ratio": 0.0,
-   "count": 3,
+   "count": 10,
    "members": [
     {
-     "code": "TCOM",
-     "name": "Trip.com",
-     "sector": null,
-     "close": 42.26,
-     "change_pct": -1.84,
-     "turnover": 131000000.0,
-     "volume": 3101500.0,
-     "volume_ratio": 1.05,
+     "code": "DIS",
+     "name": "Disney",
+     "sector": "コミュニケーション",
+     "close": 120.25,
+     "change_pct": -1.72,
+     "turnover": 1805000000.0,
+     "volume": 15011900.0,
+     "volume_ratio": 1.62,
      "disclosures": []
     },
     {
-     "code": "BIDU",
-     "name": "Baidu",
+     "code": "RBLX",
+     "name": "Roblox",
      "sector": null,
-     "close": 66.38,
-     "change_pct": -4.09,
-     "turnover": 269000000.0,
-     "volume": 4048500.0,
-     "volume_ratio": 1.55,
+     "close": 46.35,
+     "change_pct": -2.07,
+     "turnover": 533000000.0,
+     "volume": 11494500.0,
+     "volume_ratio": 1.13,
      "disclosures": []
     },
     {
-     "code": "NTES",
-     "name": "NetEase",
+     "code": "NFLX",
+     "name": "Netflix",
+     "sector": "コミュニケーション",
+     "close": 58.46,
+     "change_pct": -2.27,
+     "turnover": 2217000000.0,
+     "volume": 37924200.0,
+     "volume_ratio": 0.94,
+     "disclosures": []
+    },
+    {
+     "code": "META",
+     "name": "Meta Platforms",
+     "sector": "コミュニケーション",
+     "close": 596.22,
+     "change_pct": -3.27,
+     "turnover": 9113000000.0,
+     "volume": 15285100.0,
+     "volume_ratio": 0.68,
+     "disclosures": []
+    },
+    {
+     "code": "GOOGL",
+     "name": "Alphabet",
+     "sector": "コミュニケーション",
+     "close": 272.66,
+     "change_pct": -3.46,
+     "turnover": 13401000000.0,
+     "volume": 49150400.0,
+     "volume_ratio": 1.17,
+     "disclosures": []
+    },
+    {
+     "code": "SPOT",
+     "name": "Spotify",
      "sector": null,
-     "close": 104.94,
-     "change_pct": -11.39,
-     "turnover": 284000000.0,
-     "volume": 2710900.0,
-     "volume_ratio": 2.79,
+     "close": 583.85,
+     "change_pct": -3.63,
+     "turnover": 1196000000.0,
+     "volume": 2048200.0,
+     "volume_ratio": 1.16,
+     "disclosures": []
+    },
+    {
+     "code": "RDDT",
+     "name": "Reddit",
+     "sector": "コミュニケーション",
+     "close": 89.88,
+     "change_pct": -4.47,
+     "turnover": 369000000.0,
+     "volume": 4106900.0,
+     "volume_ratio": 0.52,
+     "disclosures": []
+    },
+    {
+     "code": "PINS",
+     "name": "Pinterest",
+     "sector": null,
+     "close": 16.89,
+     "change_pct": -4.52,
+     "turnover": 159000000.0,
+     "volume": 9404400.0,
+     "volume_ratio": 0.67,
+     "disclosures": []
+    },
+    {
+     "code": "SNAP",
+     "name": "Snap",
+     "sector": null,
+     "close": 5.12,
+     "change_pct": -5.88,
+     "turnover": 266000000.0,
+     "volume": 51911900.0,
+     "volume_ratio": 1.11,
+     "disclosures": []
+    },
+    {
+     "code": "TTD",
+     "name": "Trade Desk",
+     "sector": null,
+     "close": 14.56,
+     "change_pct": -6.19,
+     "turnover": 325000000.0,
+     "volume": 22325400.0,
+     "volume_ratio": 0.99,
      "disclosures": []
     }
    ],
-   "news_count": 3
+   "news_count": 0
+  },
+  {
+   "key": "space",
+   "name": "宇宙",
+   "change_pct": -3.87,
+   "advancers_ratio": 0.09,
+   "count": 11,
+   "members": [
+    {
+     "code": "ASTS",
+     "name": "AST SpaceMobile",
+     "sector": null,
+     "close": 25.55,
+     "change_pct": 0.24,
+     "turnover": 445000000.0,
+     "volume": 17412900.0,
+     "volume_ratio": 0.96,
+     "disclosures": [
+      {
+       "code": "ASTS",
+       "name": "AST SpaceMobile",
+       "time": "2026-11-18T16:35:21-05:00",
+       "title": "8.01 Other Events",
+       "url": "https://www.sec.gov/Archives/edgar/data/1780312/000149315226053080/0001493152-26-053080-index.htm",
+       "items": [
+        "8.01",
+        "9.01"
+       ],
+       "tags": [
+        "その他の重要事項"
+       ],
+       "tone": "neutral",
+       "move_pct": null,
+       "move_basis": null,
+       "ah_price": null,
+       "ah_time": null
+      }
+     ]
+    },
+    {
+     "code": "IRDM",
+     "name": "Iridium",
+     "sector": null,
+     "close": 43.67,
+     "change_pct": -1.56,
+     "turnover": 26000000.0,
+     "volume": 590700.0,
+     "volume_ratio": 0.86,
+     "disclosures": []
+    },
+    {
+     "code": "LUNR",
+     "name": "Intuitive Machines",
+     "sector": null,
+     "close": 9.78,
+     "change_pct": -3.36,
+     "turnover": 111000000.0,
+     "volume": 11384600.0,
+     "volume_ratio": 1.21,
+     "disclosures": []
+    },
+    {
+     "code": "PL",
+     "name": "Planet Labs",
+     "sector": null,
+     "close": 11.63,
+     "change_pct": -3.49,
+     "turnover": 111000000.0,
+     "volume": 9539200.0,
+     "volume_ratio": 1.31,
+     "disclosures": []
+    },
+    {
+     "code": "KRMN",
+     "name": "Karman",
+     "sector": null,
+     "close": 32.99,
+     "change_pct": -3.51,
+     "turnover": 116000000.0,
+     "volume": 3519800.0,
+     "volume_ratio": 1.03,
+     "disclosures": []
+    },
+    {
+     "code": "SPCX",
+     "name": "SpaceX",
+     "sector": null,
+     "close": 138.43,
+     "change_pct": -3.53,
+     "turnover": 16473000000.0,
+     "volume": 118996800.0,
+     "volume_ratio": 1.11,
+     "disclosures": []
+    },
+    {
+     "code": "RKLB",
+     "name": "Rocket Lab",
+     "sector": null,
+     "close": 50.99,
+     "change_pct": -3.92,
+     "turnover": 787000000.0,
+     "volume": 15427600.0,
+     "volume_ratio": 0.83,
+     "disclosures": []
+    },
+    {
+     "code": "RDW",
+     "name": "Redwire",
+     "sector": null,
+     "close": 6.51,
+     "change_pct": -4.55,
+     "turnover": 82000000.0,
+     "volume": 12589800.0,
+     "volume_ratio": 1.0,
+     "disclosures": []
+    },
+    {
+     "code": "FLY",
+     "name": "Firefly Aerospace",
+     "sector": null,
+     "close": 19.52,
+     "change_pct": -4.55,
+     "turnover": 64000000.0,
+     "volume": 3286400.0,
+     "volume_ratio": 0.79,
+     "disclosures": []
+    },
+    {
+     "code": "YSS",
+     "name": "York Space Systems",
+     "sector": null,
+     "close": 3.58,
+     "change_pct": -5.29,
+     "turnover": 13000000.0,
+     "volume": 3563900.0,
+     "volume_ratio": 1.92,
+     "disclosures": []
+    },
+    {
+     "code": "BKSY",
+     "name": "BlackSky",
+     "sector": null,
+     "close": 18.79,
+     "change_pct": -9.01,
+     "turnover": 23000000.0,
+     "volume": 1233000.0,
+     "volume_ratio": 1.13,
+     "disclosures": []
+    }
+   ],
+   "news_count": 2
+  },
+  {
+   "key": "quantum",
+   "name": "量子コンピュータ",
+   "change_pct": -4.65,
+   "advancers_ratio": 0.0,
+   "count": 7,
+   "members": [
+    {
+     "code": "IBM",
+     "name": "IBM",
+     "sector": "情報技術",
+     "close": 223.88,
+     "change_pct": -2.03,
+     "turnover": 844000000.0,
+     "volume": 3768100.0,
+     "volume_ratio": 0.83,
+     "disclosures": []
+    },
+    {
+     "code": "HON",
+     "name": "Honeywell",
+     "sector": "資本財",
+     "close": 217.84,
+     "change_pct": -2.18,
+     "turnover": 513000000.0,
+     "volume": 2354000.0,
+     "volume_ratio": 0.81,
+     "disclosures": []
+    },
+    {
+     "code": "RGTI",
+     "name": "Rigetti",
+     "sector": null,
+     "close": 8.06,
+     "change_pct": -3.24,
+     "turnover": 141000000.0,
+     "volume": 17466200.0,
+     "volume_ratio": 1.04,
+     "disclosures": []
+    },
+    {
+     "code": "IONQ",
+     "name": "IonQ",
+     "sector": null,
+     "close": 22.71,
+     "change_pct": -3.28,
+     "turnover": 614000000.0,
+     "volume": 27020300.0,
+     "volume_ratio": 1.22,
+     "disclosures": []
+    },
+    {
+     "code": "QUBT",
+     "name": "Quantum Computing Inc",
+     "sector": null,
+     "close": 4.88,
+     "change_pct": -4.31,
+     "turnover": 34000000.0,
+     "volume": 7036500.0,
+     "volume_ratio": 0.94,
+     "disclosures": []
+    },
+    {
+     "code": "QBTS",
+     "name": "D-Wave",
+     "sector": null,
+     "close": 7.31,
+     "change_pct": -4.94,
+     "turnover": 137000000.0,
+     "volume": 18776400.0,
+     "volume_ratio": 1.22,
+     "disclosures": []
+    },
+    {
+     "code": "QNT",
+     "name": "Quantinuum",
+     "sector": null,
+     "close": 27.96,
+     "change_pct": -12.6,
+     "turnover": 122000000.0,
+     "volume": 4360200.0,
+     "volume_ratio": 1.79,
+     "disclosures": []
+    }
+   ],
+   "news_count": 0
   }
  ],
  "breadth": {
-  "advancers": 32,
-  "decliners": 402,
+  "advancers": 38,
+  "decliners": 464,
   "unchanged": 1,
-  "total": 435,
-  "adv_dec_ratio_25d": 95.5,
+  "total": 503,
+  "adv_dec_ratio_25d": 94.7,
   "new_highs": 0,
-  "new_lows": 17,
-  "above_50dma_pct": 52.0,
-  "above_200dma_pct": 49.7
+  "new_lows": 21,
+  "above_50dma_pct": 49.0,
+  "above_200dma_pct": 48.8
  },
  "rankings": {
   "gainers": [
+   {
+    "code": "PANW",
+    "name": "Palo Alto Networks",
+    "sector": "情報技術",
+    "close": 361.73,
+    "change_pct": 6.42,
+    "turnover": 6929000000.0,
+    "volume": 19154100.0,
+    "volume_ratio": 2.79,
+    "disclosures": [
+     {
+      "code": "PANW",
+      "name": "Palo Alto Networks",
+      "time": "2026-11-18T16:37:04-05:00",
+      "title": "2.02 Results of Operations and Financial Condition; 3.02 Unregistered Sales of Equity Securities; 7.01 Regulation FD Disclosure; 8.01 Other Events",
+      "url": "https://www.sec.gov/Archives/edgar/data/1327567/000132756726000030/0001327567-26-000030-index.htm",
+      "items": [
+       "2.02",
+       "3.02",
+       "7.01",
+       "8.01",
+       "9.01"
+      ],
+      "tags": [
+       "決算",
+       "未登録株式の発行",
+       "Reg FD開示",
+       "その他の重要事項"
+      ],
+      "tone": "neg",
+      "move_pct": null,
+      "move_basis": null,
+      "ah_price": null,
+      "ah_time": null
+     }
+    ]
+   },
+   {
+    "code": "OKTA",
+    "name": "Okta",
+    "sector": "情報技術",
+    "close": 206.85,
+    "change_pct": 5.75,
+    "turnover": 1272000000.0,
+    "volume": 6151300.0,
+    "volume_ratio": 1.25,
+    "disclosures": []
+   },
+   {
+    "code": "P",
+    "name": "Everpure",
+    "sector": "情報技術",
+    "close": 105.5,
+    "change_pct": 4.73,
+    "turnover": 868000000.0,
+    "volume": 8230300.0,
+    "volume_ratio": 2.58,
+    "disclosures": [
+     {
+      "code": "P",
+      "name": "Everpure",
+      "time": "2026-11-18T16:06:52-05:00",
+      "title": "2.02 Results of Operations and Financial Condition",
+      "url": "https://www.sec.gov/Archives/edgar/data/1474432/000147443226000110/0001474432-26-000110-index.htm",
+      "items": [
+       "2.02",
+       "9.01"
+      ],
+      "tags": [
+       "決算"
+      ],
+      "tone": "neutral",
+      "move_pct": null,
+      "move_basis": null,
+      "ah_price": null,
+      "ah_time": null
+     }
+    ]
+   },
    {
     "code": "WDC",
     "name": "Western Digital",
@@ -4562,6 +7245,17 @@
     "turnover": 2920000000.0,
     "volume": 9838000.0,
     "volume_ratio": 1.17,
+    "disclosures": []
+   },
+   {
+    "code": "CRWD",
+    "name": "CrowdStrike",
+    "sector": "情報技術",
+    "close": 243.46,
+    "change_pct": 2.71,
+    "turnover": 2817000000.0,
+    "volume": 11568700.0,
+    "volume_ratio": 1.26,
     "disclosures": []
    },
    {
@@ -4618,69 +7312,6 @@
     "volume": 28942100.0,
     "volume_ratio": 1.01,
     "disclosures": []
-   },
-   {
-    "code": "QCOM",
-    "name": "Qualcomm",
-    "sector": "情報技術",
-    "close": 162.01,
-    "change_pct": 1.38,
-    "turnover": 2172000000.0,
-    "volume": 13405400.0,
-    "volume_ratio": 0.95,
-    "disclosures": []
-   },
-   {
-    "code": "STX",
-    "name": "Seagate Technology",
-    "sector": "情報技術",
-    "close": 521.39,
-    "change_pct": 1.06,
-    "turnover": 2638000000.0,
-    "volume": 5060200.0,
-    "volume_ratio": 0.84,
-    "disclosures": []
-   },
-   {
-    "code": "COHR",
-    "name": "Coherent",
-    "sector": "情報技術",
-    "close": 214.94,
-    "change_pct": 0.99,
-    "turnover": 2611000000.0,
-    "volume": 12147700.0,
-    "volume_ratio": 1.21,
-    "disclosures": [
-     {
-      "code": "COHR",
-      "name": "Coherent",
-      "time": "2026-11-19T06:30:06-05:00",
-      "title": "7.01 Regulation FD Disclosure",
-      "url": "https://www.sec.gov/Archives/edgar/data/820318/000119312526467737/0001193125-26-467737-index.htm",
-      "items": [
-       "7.01"
-      ],
-      "tags": [
-       "Reg FD開示"
-      ],
-      "tone": "neutral",
-      "move_pct": null,
-      "move_basis": null,
-      "ah_price": null,
-      "ah_time": null
-     }
-    ]
-   },
-   {
-    "code": "HAL",
-    "name": "Halliburton",
-    "sector": "エネルギー",
-    "close": 31.73,
-    "change_pct": 0.92,
-    "turnover": 267000000.0,
-    "volume": 8423500.0,
-    "volume_ratio": 0.88,
-    "disclosures": []
    }
   ],
   "losers": [
@@ -4716,6 +7347,17 @@
     ]
    },
    {
+    "code": "TWLO",
+    "name": "Twilio",
+    "sector": "情報技術",
+    "close": 178.78,
+    "change_pct": -8.75,
+    "turnover": 582000000.0,
+    "volume": 3253600.0,
+    "volume_ratio": 1.22,
+    "disclosures": []
+   },
+   {
     "code": "AMD",
     "name": "Advanced Micro Devices",
     "sector": "情報技術",
@@ -4738,6 +7380,17 @@
     "disclosures": []
    },
    {
+    "code": "XYZ",
+    "name": "Block",
+    "sector": "金融",
+    "close": 74.23,
+    "change_pct": -6.05,
+    "turnover": 554000000.0,
+    "volume": 7459500.0,
+    "volume_ratio": 1.17,
+    "disclosures": []
+   },
+   {
     "code": "UHS",
     "name": "Universal Health Services",
     "sector": "ヘルスケア",
@@ -4746,6 +7399,28 @@
     "turnover": 131000000.0,
     "volume": 750300.0,
     "volume_ratio": 0.93,
+    "disclosures": []
+   },
+   {
+    "code": "DASH",
+    "name": "DoorDash",
+    "sector": "一般消費財",
+    "close": 157.13,
+    "change_pct": -5.8,
+    "turnover": 816000000.0,
+    "volume": 5192200.0,
+    "volume_ratio": 0.83,
+    "disclosures": []
+   },
+   {
+    "code": "ZTS",
+    "name": "Zoetis",
+    "sector": "ヘルスケア",
+    "close": 80.79,
+    "change_pct": -5.59,
+    "turnover": 380000000.0,
+    "volume": 4707600.0,
+    "volume_ratio": 1.02,
     "disclosures": []
    },
    {
@@ -4768,50 +7443,6 @@
     "turnover": 6551000000.0,
     "volume": 19823000.0,
     "volume_ratio": 3.52,
-    "disclosures": []
-   },
-   {
-    "code": "RCL",
-    "name": "Royal Caribbean Group",
-    "sector": "一般消費財",
-    "close": 303.15,
-    "change_pct": -5.46,
-    "turnover": 469000000.0,
-    "volume": 1547300.0,
-    "volume_ratio": 0.72,
-    "disclosures": []
-   },
-   {
-    "code": "NKE",
-    "name": "Nike",
-    "sector": "一般消費財",
-    "close": 34.33,
-    "change_pct": -5.45,
-    "turnover": 1007000000.0,
-    "volume": 29339200.0,
-    "volume_ratio": 1.22,
-    "disclosures": []
-   },
-   {
-    "code": "MRVL",
-    "name": "Marvell Technology",
-    "sector": "情報技術",
-    "close": 138.47,
-    "change_pct": -4.86,
-    "turnover": 4142000000.0,
-    "volume": 29909100.0,
-    "volume_ratio": 0.96,
-    "disclosures": []
-   },
-   {
-    "code": "CCL",
-    "name": "Carnival",
-    "sector": "一般消費財",
-    "close": 27.57,
-    "change_pct": -4.83,
-    "turnover": 439000000.0,
-    "volume": 15922000.0,
-    "volume_ratio": 0.85,
     "disclosures": []
    }
   ],
@@ -4916,14 +7547,14 @@
     "disclosures": []
    },
    {
-    "code": "AVGO",
-    "name": "Broadcom",
-    "sector": "情報技術",
-    "close": 346.65,
-    "change_pct": -2.09,
-    "turnover": 9004000000.0,
-    "volume": 25974400.0,
-    "volume_ratio": 0.92,
+    "code": "META",
+    "name": "Meta Platforms",
+    "sector": "コミュニケーション",
+    "close": 596.22,
+    "change_pct": -3.27,
+    "turnover": 9113000000.0,
+    "volume": 15285100.0,
+    "volume_ratio": 0.68,
     "disclosures": []
    }
   ],
@@ -4982,6 +7613,85 @@
     "disclosures": []
    },
    {
+    "code": "PANW",
+    "name": "Palo Alto Networks",
+    "sector": "情報技術",
+    "close": 361.73,
+    "change_pct": 6.42,
+    "turnover": 6929000000.0,
+    "volume": 19154100.0,
+    "volume_ratio": 2.79,
+    "disclosures": [
+     {
+      "code": "PANW",
+      "name": "Palo Alto Networks",
+      "time": "2026-11-18T16:37:04-05:00",
+      "title": "2.02 Results of Operations and Financial Condition; 3.02 Unregistered Sales of Equity Securities; 7.01 Regulation FD Disclosure; 8.01 Other Events",
+      "url": "https://www.sec.gov/Archives/edgar/data/1327567/000132756726000030/0001327567-26-000030-index.htm",
+      "items": [
+       "2.02",
+       "3.02",
+       "7.01",
+       "8.01",
+       "9.01"
+      ],
+      "tags": [
+       "決算",
+       "未登録株式の発行",
+       "Reg FD開示",
+       "その他の重要事項"
+      ],
+      "tone": "neg",
+      "move_pct": null,
+      "move_basis": null,
+      "ah_price": null,
+      "ah_time": null
+     }
+    ]
+   },
+   {
+    "code": "P",
+    "name": "Everpure",
+    "sector": "情報技術",
+    "close": 105.5,
+    "change_pct": 4.73,
+    "turnover": 868000000.0,
+    "volume": 8230300.0,
+    "volume_ratio": 2.58,
+    "disclosures": [
+     {
+      "code": "P",
+      "name": "Everpure",
+      "time": "2026-11-18T16:06:52-05:00",
+      "title": "2.02 Results of Operations and Financial Condition",
+      "url": "https://www.sec.gov/Archives/edgar/data/1474432/000147443226000110/0001474432-26-000110-index.htm",
+      "items": [
+       "2.02",
+       "9.01"
+      ],
+      "tags": [
+       "決算"
+      ],
+      "tone": "neutral",
+      "move_pct": null,
+      "move_basis": null,
+      "ah_price": null,
+      "ah_time": null
+     }
+    ]
+   },
+   {
+    "code": "VEEV",
+    "name": "Veeva Systems",
+    "sector": "ヘルスケア",
+    "close": 262.92,
+    "change_pct": -5.15,
+    "turnover": 785000000.0,
+    "volume": 2985900.0,
+    "volume_ratio": 2.13,
+    "disclosures": []
+   },
+   {
     "code": "CI",
     "name": "Cigna",
     "sector": "ヘルスケア",
@@ -5024,43 +7734,32 @@
     "volume": 8283100.0,
     "volume_ratio": 1.95,
     "disclosures": []
-   },
-   {
-    "code": "FCX",
-    "name": "Freeport-McMoRan",
-    "sector": "素材",
-    "close": 49.12,
-    "change_pct": -4.53,
-    "turnover": 1314000000.0,
-    "volume": 26741000.0,
-    "volume_ratio": 1.94,
-    "disclosures": []
-   },
-   {
-    "code": "AMD",
-    "name": "Advanced Micro Devices",
-    "sector": "情報技術",
-    "close": 489.19,
-    "change_pct": -7.72,
-    "turnover": 34781000000.0,
-    "volume": 71098300.0,
-    "volume_ratio": 1.9,
-    "disclosures": []
-   },
-   {
-    "code": "AES",
-    "name": "AES",
-    "sector": "公益",
-    "close": 15.02,
-    "change_pct": 0.0,
-    "turnover": 378000000.0,
-    "volume": 25175500.0,
-    "volume_ratio": 1.9,
-    "disclosures": []
    }
   ]
  },
  "news": [
+  {
+   "title": "Stocks, gold and silver fall after blockbuster Anthropic IPO",
+   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPM29tU1h0VUhmdVJudjdkRVo4OURBNmhWamEtTmloRGRHeG93bEJxMFgyam1fb0lqSmtaYjFKalpON0llSFU5QTA5M3h1Mjk1TEFpNFdjSzVrRVctRXFsM0tRQmxwaG5GVklTT0ZaVVpPV3VPWFI5R2hEYmpjeWhyZThjbmZaYXl4VmZIbThONS1weUpQcl9yOWJ5WkloRU9fVGc?oc=5",
+   "source": "Yahoo Finance",
+   "published_at": "2026-11-20T05:48:00Z",
+   "tags": [
+    "ai_software",
+    "metals_mining",
+    "ipo"
+   ]
+  },
+  {
+   "title": "South Korea's Stock Market and the Nikkei 225 Sink More Than 4% as the AI Selloff Spreads From Wall Street. Here's How Much of a Target-Date Fund Is in Samsung, SK Hynix and TSMC",
+   "url": "https://news.google.com/rss/articles/CBMivgJBVV95cUxNcVR2UnlLWGVWNWRLajg1SGVQX3FoeEFPN2RSTDlXZURZUTM0NmQtWmJZRV9YS1Ftc0w2VkJRVGFneUo5ODJQRzNTaHJMTFZHTHI2SjhFdTNWXzRYSkh3aXpBX180cTlHTTVMNUoxLXpwUUNfcWtTN0F0cjcwSGY1cm4ta3Q1eUJMeHZaT2w0dUZndjdpNlRNRi00dGJnaTk2ZDFkeXpqYWQ5NW5Qak9nZTFaX3FydnhQR01VU2h4UDJ1T2ktcnlNTTZwU0wwbXJKdFBJOHN2TEh2ZW9CT3l6dUZzbDQ1LXBZTjR2UzY3T1lBNWswTjJFaTVPM0RCVXh0blNQMy1MZmRkUmpla1NoYVFsZXZQNU90cjNQWmxXTkJCSy1CcW0zdVJOSTNScENJdUVKVFpvbFJGcEVyLWc?oc=5",
+   "source": "24/7 Wall St.",
+   "published_at": "2026-11-20T03:51:00Z",
+   "tags": [
+    "semiconductor",
+    "megabanks",
+    "retail"
+   ]
+  },
   {
    "title": "米国株三大指数そろって2%超下落、Anthropicは上場初日17%高と逆行高 中国A株では自社株買い・増持の動き相次ぐ",
    "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9wMVVOM0M4djg4WGh2a0dKYXQ2VkJJN1Q4V2tfdzJHS2pFMXh0Z3pCcWE1Y3ZVendsWUg1NXFYYURWNFVROU8zel9JaXplSm1Xb1l6REVKRW90cGNDaXpFVXR6NG1fRVlTaVFRa2VDUGpDWkNX?oc=5",
@@ -5073,25 +7772,25 @@
    ]
   },
   {
-   "title": "Nvidia, Broadcom, and Micron stocks decline as Anthropic goes public",
-   "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNQnFiUEhueFNuXzRVcWt0NUlDWXY3b0MwVnYzN0YxYzZBZkoyRnZRQmJqeTJUdlJuaG1ubUdoQkk0Yk5KcHk3N2FTWm5rX2ZqQ2dPeml5dnBHUVZpNFVhdVdWdEZVLVNiRnFpNm15RUktZUdmUV9oV1ZFVWd4VVZwQlYwa19wc3cyMFMzbGRrVXdiYndLeVFUSUhrVTJBSUVmTGR1ZmVsd3QzZ05HTTVabktzRS02aEdDdnhJ?oc=5",
-   "source": "Yahoo Finance",
-   "published_at": "2026-11-19T21:21:28Z",
+   "title": "China Axes Palm Oil Purchases With Storage Space Running Out",
+   "url": "https://www.bloomberg.com/news/articles/2026-11-20/china-axes-palm-oil-purchases-with-storage-space-running-out",
+   "source": "Bloomberg Markets",
+   "published_at": "2026-11-20T07:57:21Z",
    "tags": [
-    "semiconductor",
-    "memory",
-    "ai_software"
+    "space",
+    "oil_gas",
+    "china_adr"
    ]
   },
   {
-   "title": "SOFI Stock Slumps To 52-Week Lows: Retail Blames Anthropic For Being A Liquidity ‘Sponge’",
-   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOVTVkcG9lV0xKQWUybjg4QTZpejkxRUE5V0F4MVFZUHRxb1NPSXpabmhHY3ExUjQyZ3dNLW9FbU1uZDVlMS14V1hTOHJtal95QVdzX3A2QmFPUlotTm1EQWEzRUQ3cU5ESGZBakNjcEVBZGRVRzJqMTk2M3o0eW1XcVhNcENNQS11ZmQ0QzZsWFdHOF9z?oc=5",
+   "title": "Anthropic IPO sets retail trading record as market sell-off weighs on buying",
+   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNVndiYzNlTGk1Q19QVk9pWEJrM0s3dF9pNEltZWxTcGVVaGsyM2VmQVh4U1JpWFlfNDFWc2UzWmpRM0tYaFVJdFlyRUNERTVsSEFtR2U5U1ptYXlHbTI5Rm5OZzNOUFlHRDRDcXpIUjBGRGJKT2taNGdRZ0NhNXR5NGc4Sy1kWlhnY2FWcUhCcVRHaVlVNDVudXdhbHlMd2pRRUp4MFVxZjZZS1R2bGZmQ2ZRV00xcldBZjN0bDU5RQ?oc=5",
    "source": "Yahoo Finance",
-   "published_at": "2026-11-20T01:53:00Z",
+   "published_at": "2026-11-19T23:47:12Z",
    "tags": [
     "ai_software",
-    "fintech",
-    "retail"
+    "retail",
+    "ipo"
    ]
   },
   {
@@ -5115,30 +7814,50 @@
    ]
   },
   {
-   "title": "Asia shares drop on AI worries, echoing Wall Street's decline despite the strong Anthropic debut",
-   "url": "https://news.google.com/rss/articles/CBMinwJBVV95cUxPMHpoRlpvRTVlcWZDZ0dhQTZ5ZkFVNlZ5ZlRYaG0xQUVsNEZYX2kzSkJMN0phYXJMbXhvTXN1MTMwQ01iWjdVVzFqZUtrdlh2NmFBMHNtZmktUVY4bnFGcmg3dmZrMzh0X1hDNjhVTS1PX1J2T2EwelhreG1vb2pkalpNdFhrLTJOSExWMFZ0d3FmX3JWS21XdTl0NVMxVWZiRzNuYlFIWC0teXB4UUFQR0prVTVuOVloV0REbFVxclV4czlNSm1lejNiUHNwRl9LVlhESVZ1UHhOSkl2dl9yeWRDdERGc1R4S21WdkRLbjlJMXlWUTZfTkpZZ3FGbFNFVmVUZ3ZGc3hQSWQtdEZ4ZWg5OFQ1X3JvSGdtem5vQQ?oc=5",
-   "source": "LancasterOnline",
-   "published_at": "2026-11-20T03:17:10Z",
-   "tags": [
-    "ai_software",
-    "megabanks"
-   ]
-  },
-  {
-   "title": "Anthropic (ANT) IPO on Nasdaq Overcame AI Fears and Warnings",
-   "url": "https://www.bloomberg.com/news/features/2026-11-20/anthropic-ant-ipo-on-nasdaq-overcame-ai-fears-and-warnings",
-   "source": "Bloomberg Markets",
-   "published_at": "2026-11-20T02:16:42Z",
+   "title": "Tech stocks fall as Anthropic IPO fails to reignite AI trade",
+   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOeFI2NEJCRHRJS3oxQnpSc2hUclVhRzQ4TGQxRVFYbEhRWS1tdGdHMlUtR1JtWDRtdERaTEo4M1F5c2kxOUZQODJMUHdUbVNIV2wxX0ZHR2ltVkVRcW83MVVzSXpoYV9wS3I2RkdUOGtITm9lNDBjRkJlakZ0ektISDNHZzY?oc=5",
+   "source": "Financial Times",
+   "published_at": "2026-11-20T08:15:00Z",
    "tags": [
     "ai_software",
     "ipo"
    ]
   },
   {
-   "title": "米国株2％超下落！米利上げ＋アンソロピック上場。 FRB当局者タカ派姿勢強める→株安＋ドル高の主因。",
-   "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBuWFZYdjNYRXdKVGluQS1FdDBqNk04TnpsX3JRdV9QblcyNXplNWxvS3dPNE1UYVA2VE1YVW5va0JxOWtNVW5XUVdhWTI2dGx4bVE?oc=5",
-   "source": "ザイFX！",
-   "published_at": "2026-11-20T00:50:00Z",
+   "title": "Anthropicの上場でさらなる成果を上げ、ナスダック（NDAQ.US）はニューヨーク証券取引所との差をさらに広げた。",
+   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPaDJRY0dCOW4xbDFVWmxPTkFVU1BJTjNVY0t0cFRCRmx6TXJKeW9mNkVfUTFtX2xibTkwcWI0UXYwNnlNSWxmeHE4eHhRQWdGd2FNTXZDaGpkNm9Mek96c2FFdGRfUVBjVFdNTzF5eEVkRlI1ZFBjX1BmbklpS2pYNWVSUVhxVmF0THRxbEozVTNJQTQtYTVOVl9IajkwUnJxWTRaS05aZFJLN0RlaFotcmhR?oc=5",
+   "source": "Moomoo",
+   "published_at": "2026-11-20T07:10:30Z",
+   "tags": [
+    "ai_software",
+    "ipo"
+   ]
+  },
+  {
+   "title": "Bybit、Anthropic株の取引を開始 AI企業の813億ドルIPOが「ANT」としてナスダック上場",
+   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBMbXl6UFl6eHN2WnE2Zm1vdGJ4MUtMcEdjZHBCQXVrYjY4bmtBeDU0NWNucWMzdlMzSkJ1LTZWRkhZM2xxRlNzOWNmbHR6UnRxWHdzbUQ4YTIxX0x3bEVLdlFwdEVfQTR1XzNXb2llWm5raTBZ?oc=5",
+   "source": "BigGo ファイナンス",
+   "published_at": "2026-11-20T04:35:00Z",
+   "tags": [
+    "ai_software",
+    "ipo"
+   ]
+  },
+  {
+   "title": "Asia shares drop on AI worries, echoing Wall Street's decline despite the strong Anthropic debut",
+   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPNkZmZUNDNVhfZC1pSk0xc2JGcEJZMmlWeFpBTVUxRkgxQVJ2NGVoRDM1MlhSREFmWEZwQXF4YWRzUEhycEV3N0k2OUJyVGNHVTZLOFlVblpMd01ERmNybzltc1J3clVVV1AtLXoxY3Z6cjlOWkVNQzdDWGN3eE5BOG85YVpxRW00UzltRFY1b2pQN2wzTENB?oc=5",
+   "source": "Yahoo Finance",
+   "published_at": "2026-11-20T03:17:00Z",
+   "tags": [
+    "ai_software",
+    "megabanks"
+   ]
+  },
+  {
+   "title": "アンソロピックがナスダック上場 17％高 時価総額280兆円 NYダウは5カ月ぶり5万ドル割れ｜昼サテ",
+   "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9FRUlNOXBHZWQ0TGJCMW8tMEh1TG1PUUI3VEhsaHBlZm5tcFB5NWZQV19abDdFN2xISXNBU0hlRjFwa2hRUFJPOUhCX0w2TFhGQURvVWR5Ym1Hd052NVE?oc=5",
+   "source": "テレ東BIZ",
+   "published_at": "2026-11-20T02:13:00Z",
    "tags": [
     "ipo"
    ]
@@ -5173,6 +7892,25 @@
    ]
   },
   {
+   "title": "Anthropic上場初日は公開価格比17%高で終了、米国株は主要3指数がそろって2%超の下落(2026年11月20日)",
+   "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5IdUZQTlJfRDlmc0l5VFRkUTEtVWI2alJyc0p1VHU2dU1feWlpakY4TzJNdzFGRTZPalcwaWNRd0o5OTVEcVNRVENVV2hqWUd6WFZyWWFxd0p0VV8yd0FVTGRnWFJZUTlEamdOWGtOM0hiLS1LREZFMjdzOVU?oc=5",
+   "source": "OANDA証券",
+   "published_at": "2026-11-19T23:44:00Z",
+   "tags": [
+    "ai_software",
+    "ipo"
+   ]
+  },
+  {
+   "title": "【先読み東京市場】NYダウ続落し1101ドル安、アンソロピック上場機に売り広がる、ナスダック2%超安",
+   "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1FVGxQZnZKTDNaX2tWcWpCa1RQRGxwN1F3VXNSRDNGN2E3dEg0Ym5FM3A1TWhnc0NvMFNrQUdLdTBWLS1JNWE3SWFNZGlSalB1V1pMRQ?oc=5",
+   "source": "日経CNBC online",
+   "published_at": "2026-11-19T23:15:00Z",
+   "tags": [
+    "ipo"
+   ]
+  },
+  {
    "title": "Intuit’s downbeat outlook deepens Wall Street’s anxiety about software companies",
    "url": "https://www.marketwatch.com/story/intuits-downbeat-outlook-deepens-wall-streets-anxiety-about-software-companies-15b878e5?mod=mw_rss_topstories",
    "source": "MarketWatch",
@@ -5193,16 +7931,6 @@
    ]
   },
   {
-   "title": "Why Is the Stock Market Down After Anthropic’s Successful IPO?",
-   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNNXFDQjFuLWxNV1h6NTZldmRBOVVFVm1Kc0VvdUxjZzZtYkhHcjFEMG9SWVJXS0RnVmJhd3lReGp4OHhtM1pQOUFxQklCMmlOWlRzaWlEUXBmT1JyQy0zUk5Ya2Vscnp6VGlod1BEUThjWkdJaUlGNl8zWUlhcmZ1bGd6Yw?oc=5",
-   "source": "The New York Times",
-   "published_at": "2026-11-19T22:17:42Z",
-   "tags": [
-    "ai_software",
-    "ipo"
-   ]
-  },
-  {
    "title": "U.S. Stocks Slide as AI Bust Continues Despite Anthropic IPO",
    "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOS0gyWjhIVGZYS3A2TDJtbVdaZVJHdlo5Smt3RkhsMHJ2bUh6ZVlOLWE5cDhkV3hXcmFVZFRVTmgxdlJXQ3dLRWREYVljemhSVjkycmlFYzctSW44YlhybXNtOFNyYVVvMEw2bGFNSmFnMEJrd2xWMklDbHJ4RGNRNFVnX1VTNUR0QXA5V1BaRlo3Tmo2eUE3U2lCQko5c21rQVMxOGlB?oc=5",
    "source": "WSJ",
@@ -5216,7 +7944,7 @@
    "title": "Why Is the US Stock Market Crashing Today? Dow Drops 1,000 Points Despite Anthropic IPO",
    "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5iQy1ONS05blpQMVlFOXg4VFdqQzVQbm1MNWgxUTM5WHpkWWlienZhUGRPLTJvRDFiWmQ2QmNHQ3lCVG1CYjNILXQ1V3BGbHNKTmNFaXcyVWN5c1o1cHBrNWF6YlJQSE9KT0FpU1F3NDVacnBMZ0pNQzkyYzM3QQ?oc=5",
    "source": "Stocks Down Under",
-   "published_at": "2026-11-19T20:35:19Z",
+   "published_at": "2026-11-19T20:34:11Z",
    "tags": [
     "ai_software",
     "ipo"
@@ -5233,13 +7961,22 @@
    ]
   },
   {
-   "title": "Stocks slip as Anthropic gains on market debut and oil prices rise",
-   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQcWh5RHQ1bW5IMHBlbVU4WVhSWDN1YXNoc1VXY0ktM1d5OTE5bG11T2lkZzhPUEhNNmVWVW11b1pfWkMyRmRzYks0NmgtZkRZTVNVc3dEc3dlZ3k2S1V1Q1kwTmV0LWNFS0M3VXFxVU1DZFdTRzA0VU5MdzNHV3N2OThKQVBQYVlQRTZGcnhYcWgydjRZckRsV0dBSTRkcW8?oc=5",
-   "source": "Yahoo Finance",
-   "published_at": "2026-11-19T17:55:40Z",
+   "title": "Why Is the Stock Market Down After Anthropic’s Successful IPO?",
+   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNNXFDQjFuLWxNV1h6NTZldmRBOVVFVm1Kc0VvdUxjZzZtYkhHcjFEMG9SWVJXS0RnVmJhd3lReGp4OHhtM1pQOUFxQklCMmlOWlRzaWlEUXBmT1JyQy0zUk5Ya2Vscnp6VGlod1BEUThjWkdJaUlGNl8zWUlhcmZ1bGd6Yw?oc=5",
+   "source": "The New York Times",
+   "published_at": "2026-11-19T20:19:13Z",
    "tags": [
     "ai_software",
-    "oil_gas"
+    "ipo"
+   ]
+  },
+  {
+   "title": "A fifth straight drop for the S&P 500 drags Wall Street to its longest losing streak since June",
+   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOZWFNcnM4SHZMUHBoaEMwczJGRDNJZHRMTUwwYkNvamlyczc2OHJqSXNOZWE2dU1xLUkybDBMUURBQ0RNTFQyOWpJRWpmZTRmT210WldpWFl5NkhsZnN0VUkwRUpBRzZiVk9xQ01MZU1vM3ctQTVBVXF0MVBnVjUtVWJOeDgxUnhzWnRPSE8zaGY5clVSYzhURllKWExFOTA4RC1pdXpR?oc=5",
+   "source": "AP News",
+   "published_at": "2026-11-19T19:54:50Z",
+   "tags": [
+    "megabanks"
    ]
   },
   {
@@ -5282,16 +8019,6 @@
    ]
   },
   {
-   "title": "AnthropicのIPO価格は1株83ドルで予想上回る、ナスダック100先物は523ポイント急騰、欧州テック株も軒並み上昇",
-   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBjeFFLbzBoa2tqWGUxQ2VEV2hLT21pTGVLUGRNZ3JjdEo4cEdlVnU1LWpmdG1QVW9SeE9vcUpHaHJ1R3ZjZWdKTWVTeUpxWWx5MUpqT3lLT0JCb2pSZ0IxMkxsNm14MG9vN21sZC0wOE50MUdI?oc=5",
-   "source": "BigGo ファイナンス",
-   "published_at": "2026-11-19T10:15:00Z",
-   "tags": [
-    "ai_software",
-    "ipo"
-   ]
-  },
-  {
    "title": "Wall Street ends sharply lower as Anthropic's debut fails to revive AI fervor",
    "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxONFhTcEs0ZXJTOXhCWUVEQlBXR3BaeFdLVjdiNkNXdVFrNWtaVjFJRVc0cTcyRUJBRXBqV0JZUHUza3I0TndGYzZRX3N3eU4zR3plNl9wUkR5VU1FQ0phSjZEODlXYjJYQk5QaVRoTFotemhuTWFwSkhrYzFfNE1tM0JJNlBFY1BmNFNhS0FTeURyaGtHM2xJb3VoRE5LY0I1SVUxeko5dDJvRGlGam1ITllSRFU1OEV6T0tF?oc=5",
    "source": "Reuters",
@@ -5302,58 +8029,30 @@
    ]
   },
   {
-   "title": "Anthropic IPO 'exactly what the markets need,' but analysts warn of volatility",
-   "url": "https://www.cnbc.com/2026/11/20/anthropic-ipo-stocks-market.html",
-   "source": "CNBC Top News",
-   "published_at": "2026-11-20T03:38:07Z",
+   "title": "Anthropic Slumps 5% Post-Market After Record $107.3 Billion IPO",
+   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNU05IcE5RazNyajNodmVGbEJxU0g5U3FPc2IzMFlfdVdSbkxsUWRFYkxpc0JpOWxQNnVZSGlEVWpHSklHMGwyRzRmdjZXUFVYWDdxdTIwbmRGUVk0WGZ6RnB3MHFhSS1YR3VJSVUxeUtlcktQY1NDbUVWNXpfOVpXREFYY3k5bXpnMjEwM2drWTdMQldwWEFFVG9BX2cySUdmUUNOcFFURVNIa2dZal84?oc=5",
+   "source": "Bloomberg.com",
+   "published_at": "2026-11-20T08:00:44Z",
    "tags": [
     "ai_software",
     "ipo"
    ]
   },
   {
-   "title": "Wall Street tumbles to its longest losing streak since 2024 as AI stocks slide",
-   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPU1dBaWhMQkhVTzVSOFp5WEtmWml0b2xYaUVhYk9XMTJpcmdIenFEV2dIZklHZFJvVzE5TlVXZnMtcTllZkxDXzkxZGpKcGV0WWQ4OUl6NWZKWlZZRnBKVVFxdV9UeGY4OFRONGJLTFgza3RTbjQ0WnJIZHZMQ1gxWXdicElxQ2lHdk14QTVDakFORnBsMzluSXdVcE8xWGgwSFhlSVVrMzg4Ujc0?oc=5",
-   "source": "CommBank",
-   "published_at": "2026-11-20T02:33:39Z",
-   "tags": [
-    "megabanks"
-   ]
-  },
-  {
-   "title": "Anthropic IPO Live Updates: Company Value Surges in Stock Market Debut",
-   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE45bTR3Zzh2OENUSmxiYWhGSmF6QWh2Q2Jsbm5KZldsY0pEQUkteVNqVTFwSWVreVVwcEZ2bDdjbTRyeXNDNmRVMXF6NDNqckxnMHAyay05Ukh4enRNdG1jOXJoQVF5b01iWG10cWFFOHBsVWlWbVE?oc=5",
-   "source": "The New York Times",
-   "published_at": "2026-11-20T02:18:00Z",
+   "title": "Anthropic makes stock market debut with massive IPO",
+   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPRjFvWmozSzMtOWVXN3NnZEJaOUc1QlAzUWlTdk9ENnlObHJLTFVxZmstbWRrSk5xdWMwck1ldnJqTV9xeFNtV2JrLTFzWGV5TF9VNVVranRkZzRpQUFEZjM2WFQzUFQtVWpBbzBfd2NoS2UzOHJQc0tNd3pPWTUzZ2t5ckJPcTA3cVhMTTFGbk5qc01Va25MUVN4di1nZmVodFh5UTRJTHJxWjFIUnc?oc=5",
+   "source": "NBC Palm Springs",
+   "published_at": "2026-11-20T07:55:00Z",
    "tags": [
     "ai_software",
     "ipo"
    ]
   },
   {
-   "title": "米国株情報＞アンソロピックがナスダックに上場、８１３億ドル調達(ウエルスアドバイザー)",
-   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPc05BcEJMUzJQRUhsaTFodVBJNmlqLTRtXzVQNmFWRFZxa1lMbzVXX2c0NEFKNXJMRF90V19pNTBPS28tcGhSVC1uTXh3VlpVR2JIQXpWcVVibzZxU19ieDFDd2JZVlJFYTNWY3BLNWgxNC00QkpXRDluaFVjbXd2cXZPaEpOcU0?oc=5",
-   "source": "Yahoo!ファイナンス",
-   "published_at": "2026-11-20T01:16:40Z",
-   "tags": [
-    "ipo"
-   ]
-  },
-  {
-   "title": "Commerce approved sales of more than 879,000 AI chips to Chinese companies, Rep. Mast says",
-   "url": "https://www.cnbc.com/2026/11/19/nvidia-amd-china-chip-sales-congress.html",
+   "title": "Forget Anthropic: In Europe, the IPO hype is about a blue lagoon",
+   "url": "https://www.cnbc.com/2026/11/20/anthropic-ipo-iceland-blue-lagoon.html",
    "source": "CNBC Top News",
-   "published_at": "2026-11-20T00:53:55Z",
-   "tags": [
-    "semiconductor",
-    "china_adr"
-   ]
-  },
-  {
-   "title": "Anthropic IPO: Investors who flip the stock may face brokerage penalty",
-   "url": "https://www.cnbc.com/2026/11/19/anthropic-ipo-flipping-rules.html",
-   "source": "CNBC Top News",
-   "published_at": "2026-11-20T00:16:30Z",
+   "published_at": "2026-11-20T06:00:01Z",
    "tags": [
     "ai_software",
     "ipo"
@@ -5363,92 +8062,73 @@
    "title": "上場インデックスファンド米国株式(S&P500)【1547】：株価・株式情報（夜間PTS含む）",
    "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9HekxwX1ctNnY1Wi11ZzBnV3N6UWtGRm41OVkybzBMN3M2bDJhbEJmczFLYmdlVUdtZm4tRmN4Z0VWaEROTXVYWGc1a1JxS1dBdUE?oc=5",
    "source": "Yahoo!ファイナンス",
-   "published_at": "2026-11-20T00:03:34Z",
+   "published_at": "2026-11-20T04:55:03Z",
    "tags": [
     "ipo"
    ]
   },
   {
-   "title": "After Anthropic’s ‘bittersweet’ IPO, here’s what lies ahead",
-   "url": "https://www.marketwatch.com/story/after-anthropics-bittersweet-ipo-heres-what-lies-ahead-8c32fdb7?mod=mw_rss_topstories",
-   "source": "MarketWatch",
-   "published_at": "2026-11-19T23:56:00Z",
+   "title": "ANT's IPO Is Hot, But Stock Market Gets Cold Feet And Gold Panic Worsens",
+   "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNNC1La0g2YWt5dXdhUzNIaTNBTWxBUVUwdC1IZWlOSEl6OW1iR2FDNGtKSURvY2JLNmxXQ01UOXJqRDM1Z1VDLU54TUkyRkliaFpiakFOVjdWalZ1ZDZ6UTF1TkdIbUN2QnlEd3dHQVA2ZEYyLXRpekhsQi1mVGZCU2FkVER0ZV9VbEdYOXlwSHNqblN6WG0xQVBXNzVobFQzRlFSQW1GODY?oc=5",
+   "source": "Yardeni QuickTakes",
+   "published_at": "2026-11-20T04:09:26Z",
    "tags": [
-    "ai_software",
+    "metals_mining",
     "ipo"
    ]
   },
   {
-   "title": "NYダウ大幅続落、5万ドル割れ アンソロピック上場もAI不安",
-   "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5FVm9BOWQ0d1cwWTJyR1pSNHUwc0w2TVZlNjlSRndOZ0g1dlNUTXdBZC1YUFdRZUM3a2t5QW9UdEVnMXZtcW0wUmVDYl9rcVQ3eGtRUE1CY0l1X3lzcjRWdERfa1p4ZDFQ?oc=5",
-   "source": "毎日新聞",
-   "published_at": "2026-11-19T23:38:52Z",
-   "tags": [
-    "ipo"
-   ]
-  },
-  {
-   "title": "Anthropic IPO’s Australia Tranche Said About 10 Times Subscribed",
-   "url": "https://www.bloomberg.com/news/articles/2026-11-19/anthropic-ipo-raises-only-110-million-from-australian-investors",
-   "source": "Bloomberg Markets",
-   "published_at": "2026-11-19T23:35:17Z",
-   "tags": [
-    "ai_software",
-    "ipo"
-   ]
-  },
-  {
-   "title": "アンソロピック上場前夜に米株急落、ナスダック指数の2%上昇が消える",
-   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFAzdmJ6WF9xc3lxRGxycEIxek5GaHNUY3AwOERZMl9Tbkdybi1YTkdtazV2OHVpckdBdWpaLWhxejN2WnFrUXcwbXV0cGlkSG1CeXU3aG1qQms2OTNNTGM2R1RvdG1wVnItYkVrUnNGTXhieDNX?oc=5",
-   "source": "BigGo ファイナンス",
-   "published_at": "2026-11-19T23:28:20Z",
-   "tags": [
-    "ipo"
-   ]
-  },
-  {
-   "title": "The Semiconductor ETF Is on Track to Beat the S&P 500 for a 4th Straight Year. It Has Never Done That Before.",
-   "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNOEpJUzdtdTlUTFdmOEk5bE1teXdiOUI5cjdUMTRSVGtHaFNEZ3h4akxKZTR3WDQwd3hUSzZRUEJmdnlFXzhKSTlJN3lRUE9jRmt0QzJtTDRLcHJnTG1vVjdqTTMxVkVaMVU3RUZkaEFBaW00QVBpWDhHb1pWNDBtTHA0OHdrX2NHYmNpMjhIOTJ3dDhrMEc4SndIWlNWdDl6UkszYTI3TXlab2JfLUlEOXFKMnZDZjlUcVJPUXpERE9sdWVJS0lvSmZyMFgtQ1llWHBJeU1GbVZkdm1aTVRNVHFRMUFIblJCamc?oc=5",
+   "title": "Nvidia Just Raised Its Supply Commitments to $390 Billion, Mostly for Memory. Micron Is the Memory Stock I'd Buy.",
+   "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQcUxGZ2xYWjFVd1dyT0V3bkdPVHZ2U2gzUzZUUzRPd2RqRXcxemNKem9zbnplNGwzQWY4SENsdXF3dUlIMU9Dc185WmJXdmo3eVk2UzhLT2JPR3hwdUlpa3AzVE5hZEktR0lfY0xaVjZuZUVqamF0M0tDbmhTVVpjUHU1bXZnRzQtdXI2YWh2Zm1wRDlPSFpvRDJObTRUbnJ4ZGNDR3J5SmNoVC0zTmc1QXBfdTR1TExLNno3RXJ5eU8waVNCaDIwNnhkZWJrcHR6dExKemJVQmsxb0VCdEtBUUhqY2Q0STNrdVpr?oc=5",
    "source": "The Motley Fool",
-   "published_at": "2026-11-19T23:23:02Z",
-   "tags": [
-    "semiconductor"
-   ]
-  },
-  {
-   "title": "California attorney general issues Nvidia subpoena in probe of China chip diversion",
-   "url": "https://www.cnbc.com/2026/11/19/nvidia-california-bonta-subpoena-china-chips.html",
-   "source": "CNBC Top News",
-   "published_at": "2026-11-19T23:21:23Z",
+   "published_at": "2026-11-20T04:07:00Z",
    "tags": [
     "semiconductor",
-    "china_adr"
+    "memory"
    ]
   },
   {
-   "title": "アンソロピック($ANT)上場初日17%急騰 それでもS&P500は2%安で6日続落 #米国株 【11/20(金)】",
-   "url": "https://news.google.com/rss/articles/CBMiQkFVX3lxTFBlblZxeVJ2a3Q2YjB6SGZQRXFsYkNpSXhnam5JQjlBV1ozMzdZZWxFZFl3Vjk3ekkyRzZWUG9DallnUQ?oc=5",
-   "source": "YouTube",
-   "published_at": "2026-11-19T23:00:02Z",
+   "title": "MAXIS 米国株式(S&P500)上場投信【2558】：株価・株式情報（夜間PTS含む）",
+   "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9TVGJvT1lKczNhYmJ5TmRKTmlhTUdEMFRMOXhkOU81SC1ERkY1dGtHSGJ0QzdLTEl1Z082YW1iVkd3T2t1ejBnb3FDWDlBbzh4cWc?oc=5",
+   "source": "Yahoo!ファイナンス",
+   "published_at": "2026-11-20T03:50:40Z",
    "tags": [
     "ipo"
    ]
   },
   {
-   "title": "Anthropic Stock Jumps 17% in Record-Breaking IPO",
-   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPa1I5YjA0akw4cnpuYkFzT0YtOHpUWlhMbTNGTEs0T1pQcV9xUGd2Zm5wbS1BQzFaX0tWU3d2eW9OQXZxcjBaWmhNdGNMaWd3S09rYWE0eURFQk9lOFoyLUUxLU5fZkMtek04OHlxeGJ5UDhIbGNuWVJER3JTLUNvMGVVYXZ1MS00cDVSaw?oc=5",
-   "source": "Morningstar",
-   "published_at": "2026-11-19T22:58:38Z",
+   "title": "アンソロピック、米ナスダック上場 初値1株111ドル50セントも、終値およそ97ドルに ダウは大幅続落",
+   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNRUI5RFFrdkFWYUNyMmhUTUItRWF1ZmhSSXpMbWhoMUVMNWMydXdkVEpWQl90NEpWak5nU1d0S0RiUkU0VUl6MjE4ckJrYWxsS3l6Z0huZjRwVzhmcmp3cWNndTBhVXBYckZoRm85djFnS3A5eTl6WkE4Z3lieTAtOEE1MW0?oc=5",
+   "source": "日テレNEWS NNN",
+   "published_at": "2026-11-20T03:40:00Z",
+   "tags": [
+    "ipo"
+   ]
+  },
+  {
+   "title": "3 Stocks Retail Investors Are Watching for Higher Money Market and Treasury Yields",
+   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOeDRUQi1HaGtyNUNsb040TDdnYTBMcEF4cEVNZU5zM202MURrNWhFVGNMa2M3SUhUTm52eU4tdE9WVjhXaVRBLWxibFdhZjZnUXh6Wi1OYVdTUHJDdWtWYmRhbDVMcXFZaW5zNlBNTW50Zy1tTlp3cUc5bi1pSm9ITUNSd1YxbTV2RXhlNWVLR21xRVphcEdRbEdiTUIwQzhI?oc=5",
+   "source": "Yahoo Finance",
+   "published_at": "2026-11-20T03:14:00Z",
+   "tags": [
+    "retail"
+   ]
+  },
+  {
+   "title": "Anthropic IPO Live Updates: Company Value Surges in Stock Market Debut",
+   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE45bTR3Zzh2OENUSmxiYWhGSmF6QWh2Q2Jsbm5KZldsY0pEQUkteVNqVTFwSWVreVVwcEZ2bDdjbTRyeXNDNmRVMXF6NDNqckxnMHAyay05Ukh4enRNdG1jOXJoQVF5b01iWG10cWFFOHBsVWlWbVE?oc=5",
+   "source": "The New York Times",
+   "published_at": "2026-11-20T02:44:00Z",
    "tags": [
     "ai_software",
     "ipo"
    ]
   },
   {
-   "title": "Stock Market Today, Nov. 19: CoreWeave Falls as Profit-Taking Follows Anthropic IPO Pricing Above Range",
-   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPbFZCNTA3YzdCeVgzekh4Z25id2RNRmxKSTVMZlIzQk9kM1pmeGpwaTVCUzN4N1NWdTRNVF96ang2M3lEZWJZWGFTNmVGUnJWWFBVaWRZQlh1cHFoNmlOUklVWUZ2U1FvaXpnY0ZCeWhGR3I0RmlpekM2X2duaGsxY0lrS19hNkRkNm5MRWF3RHJZeG5q?oc=5",
-   "source": "Yahoo Finance",
-   "published_at": "2026-11-19T22:53:05Z",
+   "title": "Anthropic IPO 'exactly what the markets need,' but analysts warn of volatility",
+   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBZOEFpTi1iUmxaWVoyVm5zUWNuRm14dXA2MUozdFNBNy1BSDlWY0tDekwzUE96MFJTUHd5RHBmNGM1b29fc3J3VkxqbDhQVGNnaXA1bkhOZTI1b1h4ckhhM2JIZTRkRDBwaFpQdTg5NkJaZ9IBd0FVX3lxTFA2cTBDSlRPdGV5ekoyRElpLUV1TDRiMWtGUy04NmgxdXRFc0xqWGhjcl8wYS01ekVheGk1Tzg1blF1RUlDNzdyeWJUSjFhRjNSMkhPcmFXNDJVOUFpNWxNazV4VXRxeTQ4Y3V6TUtERHgyakZuUEFr?oc=5",
+   "source": "CNBC",
+   "published_at": "2026-11-20T02:31:00Z",
    "tags": [
     "ai_software",
     "ipo"
@@ -5514,8 +8194,8 @@
     "その他の重要事項"
    ],
    "tone": "neg",
-   "move_pct": null,
-   "move_basis": null,
+   "move_pct": 6.42,
+   "move_basis": "day",
    "ah_price": null,
    "ah_time": null
   },
@@ -5632,8 +8312,8 @@
     "Reg FD開示"
    ],
    "tone": "neutral",
-   "move_pct": null,
-   "move_basis": null,
+   "move_pct": -0.63,
+   "move_basis": "day",
    "ah_price": null,
    "ah_time": null
   },
@@ -5727,8 +8407,8 @@
     "決算"
    ],
    "tone": "neutral",
-   "move_pct": null,
-   "move_basis": null,
+   "move_pct": 4.73,
+   "move_basis": "day",
    "ah_price": null,
    "ah_time": null
   },
@@ -5842,8 +8522,8 @@
     "その他の重要事項"
    ],
    "tone": "neutral",
-   "move_pct": null,
-   "move_basis": null,
+   "move_pct": -3.7,
+   "move_basis": "day",
    "ah_price": null,
    "ah_time": null
   },
@@ -5880,8 +8560,8 @@
     "その他の重要事項"
    ],
    "tone": "neutral",
-   "move_pct": null,
-   "move_basis": null,
+   "move_pct": 0.24,
+   "move_basis": "day",
    "ah_price": null,
    "ah_time": null
   },
@@ -5901,8 +8581,8 @@
     "その他の重要事項"
    ],
    "tone": "neutral",
-   "move_pct": null,
-   "move_basis": null,
+   "move_pct": -3.37,
+   "move_basis": "day",
    "ah_price": null,
    "ah_time": null
   },
@@ -6116,10 +8796,10 @@
     "決算"
    ],
    "tone": "neutral",
-   "move_pct": null,
+   "move_pct": 0.31,
    "move_basis": "ah",
-   "ah_price": null,
-   "ah_time": null
+   "ah_price": 282.3,
+   "ah_time": "2026-11-19T19:55:00-05:00"
   },
   {
    "code": "NKE",
@@ -6210,7 +8890,7 @@
     -2.98,
     -0.76,
     0.16,
-    -2.15
+    -1.97
    ],
    "ヘルスケア": [
     -1.13,
@@ -6232,7 +8912,7 @@
     -0.53,
     -1.36,
     -2.19,
-    -2.2
+    -2.09
    ],
    "金融": [
     -1.32,
@@ -6254,7 +8934,7 @@
     -0.86,
     -1.87,
     -1.12,
-    -1.49
+    -1.53
    ],
    "一般消費財": [
     -1.39,
@@ -6276,7 +8956,7 @@
     -2.09,
     -0.55,
     2.25,
-    -2.96
+    -3.03
    ],
    "コミュニケーション": [
     -1.4,
@@ -6298,7 +8978,7 @@
     -2.82,
     -1.3,
     0.4,
-    -2.75
+    -2.93
    ],
    "資本財": [
     -1.27,
@@ -6320,7 +9000,7 @@
     -1.85,
     -0.54,
     -0.03,
-    -1.94
+    -2.04
    ],
    "生活必需品": [
     -1.83,
@@ -6342,7 +9022,7 @@
     0.34,
     -1.06,
     -0.48,
-    -1.47
+    -1.49
    ],
    "エネルギー": [
     2.55,
@@ -6364,7 +9044,7 @@
     -2.09,
     -0.53,
     -3.51,
-    -0.7
+    -0.68
    ],
    "公益": [
     -0.66,
@@ -6386,7 +9066,7 @@
     0.12,
     -1.61,
     0.25,
-    -1.02
+    -1.23
    ],
    "不動産": [
     0.28,
@@ -6408,7 +9088,7 @@
     -0.3,
     -1.4,
     0.16,
-    -1.8
+    -1.77
    ],
    "素材": [
     -1.0,
@@ -6430,7 +9110,7 @@
     -1.45,
     -1.16,
     -1.21,
-    -1.95
+    -1.98
    ]
   }
  },
@@ -6478,7 +9158,7 @@
     -2.67,
     -0.75,
     0.4,
-    -2.66
+    -2.75
    ],
    "semiconductor": [
     0.54,
@@ -6500,7 +9180,7 @@
     -5.23,
     0.31,
     -0.29,
-    -2.06
+    -2.13
    ],
    "semi_equipment": [
     1.07,
@@ -6522,7 +9202,7 @@
     -5.93,
     0.47,
     1.19,
-    -3.25
+    -2.66
    ],
    "memory": [
     -0.51,
@@ -6566,7 +9246,7 @@
     -5.83,
     -0.21,
     0.31,
-    -2.35
+    -3.09
    ],
    "dc_power": [
     -1.7,
@@ -6588,7 +9268,7 @@
     -3.25,
     -0.57,
     0.86,
-    -1.06
+    -1.77
    ],
    "optical": [
     -0.89,
@@ -6610,7 +9290,7 @@
     -6.84,
     2.01,
     -0.06,
-    -1.53
+    -2.26
    ],
    "software": [
     0.6,
@@ -6632,7 +9312,7 @@
     -1.1,
     -5.18,
     -1.52,
-    -2.33
+    -2.83
    ],
    "ai_software": [
     1.17,
@@ -6654,7 +9334,7 @@
     -4.08,
     -4.71,
     -1.37,
-    -3.72
+    -2.91
    ],
    "cyber_security": [
     5.23,
@@ -6676,7 +9356,7 @@
     -0.54,
     -2.61,
     8.67,
-    0.34
+    1.61
    ],
    "quantum": [
     0.58,
@@ -6698,7 +9378,7 @@
     -6.19,
     -3.14,
     -2.14,
-    -2.11
+    -4.66
    ],
    "space": [
     3.03,
@@ -6720,7 +9400,7 @@
     -7.72,
     -4.14,
     -4.28,
-    -1.56
+    -3.87
    ],
    "defense": [
     0.52,
@@ -6742,7 +9422,7 @@
     -2.64,
     -1.07,
     -1.66,
-    -1.05
+    -1.12
    ],
    "nuclear": [
     -0.93,
@@ -6764,7 +9444,7 @@
     -4.96,
     -2.08,
     -1.65,
-    -1.83
+    -2.75
    ],
    "clean_energy": [
     -1.38,
@@ -6786,7 +9466,7 @@
     -4.4,
     -6.07,
     -1.03,
-    -1.72
+    -2.38
    ],
    "ev_autonomy": [
     -1.44,
@@ -6808,7 +9488,7 @@
     -2.29,
     0.44,
     -0.55,
-    -1.08
+    -2.97
    ],
    "robotics": [
     -0.07,
@@ -6830,7 +9510,7 @@
     -3.37,
     -0.99,
     0.68,
-    -2.95
+    -3.02
    ],
    "glp1": [
     -3.15,
@@ -6852,7 +9532,7 @@
     -3.52,
     -2.05,
     -2.89,
-    -1.62
+    -2.32
    ],
    "big_pharma": [
     -1.48,
@@ -6874,7 +9554,7 @@
     -0.61,
     -0.98,
     -2.4,
-    -2.03
+    -1.92
    ],
    "biotech": [
     -1.12,
@@ -6896,7 +9576,7 @@
     -1.96,
     -0.69,
     -0.83,
-    0.16
+    0.24
    ],
    "medtech": [
     -0.01,
@@ -6918,7 +9598,7 @@
     -1.2,
     -0.57,
     -0.23,
-    -1.65
+    -1.7
    ],
    "megabanks": [
     -1.42,
@@ -6962,7 +9642,7 @@
     -1.1,
     -2.21,
     -1.13,
-    -1.88
+    -1.92
    ],
    "fintech": [
     -1.41,
@@ -6984,7 +9664,7 @@
     -2.25,
     -3.3,
     -0.74,
-    -2.87
+    -3.17
    ],
    "crypto": [
     -2.55,
@@ -7006,7 +9686,7 @@
     -6.68,
     -2.66,
     0.25,
-    -4.64
+    -3.75
    ],
    "oil_gas": [
     3.86,
@@ -7028,7 +9708,7 @@
     -2.66,
     -1.04,
     -2.49,
-    -0.43
+    -0.27
    ],
    "metals_mining": [
     -0.99,
@@ -7050,7 +9730,7 @@
     -4.57,
     0.43,
     -4.57,
-    -3.42
+    -2.88
    ],
    "homebuilders": [
     -0.62,
@@ -7116,7 +9796,7 @@
     -0.6,
     -2.39,
     0.95,
-    -3.04
+    -3.12
    ],
    "internet_media": [
     -1.44,
@@ -7138,7 +9818,7 @@
     -3.48,
     -0.33,
     1.38,
-    -2.49
+    -3.75
    ],
    "china_adr": [
     -0.43,
@@ -7160,7 +9840,7 @@
     -1.32,
     -1.82,
     -1.66,
-    -5.77
+    -1.71
    ],
    "ipo": [
     -1.01,
@@ -7182,7 +9862,7 @@
     -3.21,
     -0.86,
     -1.01,
-    4.43
+    -1.95
    ]
   }
  }
