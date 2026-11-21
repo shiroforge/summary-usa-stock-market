@@ -1,7 +1,7 @@
 {
  "schema_version": 1,
  "date": "2026-11-20",
- "generated_at": "2026-11-21T02:40:16.662905Z",
+ "generated_at": "2026-11-21T08:15:52.821458Z",
  "sources": [
   "yfinance",
   "S&P500構成銘柄のウエイト: SPDR S&P 500 ETF の保有比率（2026-11-13時点）",
@@ -59,12 +59,12 @@
    "ticker": "^IXIC",
    "category": "us_index",
    "close": 22617.73,
-   "change": -1261.4668,
+   "change": -1261.4688,
    "change_pct": -5.28,
    "change_5d_pct": -10.02,
    "change_20d_pct": -12.86,
-   "change_5d": -2518.5371,
-   "change_20d": -3337.6074,
+   "change_5d": -2518.5391,
+   "change_20d": -3337.6094,
    "spark": [
     26169.3809,
     26477.8105,
@@ -85,7 +85,7 @@
     24328.3809,
     24429.8809,
     23879.1992,
-    22617.7324
+    22617.7305
    ],
    "as_of": "2026-11-20",
    "is_proxy": false,
@@ -135,12 +135,12 @@
    "ticker": "^NDX",
    "category": "us_index",
    "close": 25028.98,
-   "change": -1488.0684,
+   "change": -1488.0703,
    "change_pct": -5.61,
    "change_5d_pct": -10.43,
    "change_20d_pct": -13.57,
-   "change_5d": -2914.7578,
-   "change_20d": -3928.5469,
+   "change_5d": -2914.7598,
+   "change_20d": -3928.5488,
    "spark": [
     29273.4004,
     29651.4395,
@@ -161,7 +161,7 @@
     27001.7793,
     27116.2598,
     26517.0508,
-    25028.9824
+    25028.9805
    ],
    "as_of": "2026-11-20",
    "is_proxy": false,
@@ -173,12 +173,12 @@
    "ticker": "^RUT",
    "category": "us_index",
    "close": 2581.79,
-   "change": -73.3206,
+   "change": -73.3201,
    "change_pct": -2.76,
    "change_5d_pct": -7.48,
    "change_20d_pct": -6.99,
-   "change_5d": -208.7004,
-   "change_20d": -194.1104,
+   "change_5d": -208.7,
+   "change_20d": -194.1099,
    "spark": [
     2786.4199,
     2818.8701,
@@ -199,7 +199,7 @@
     2701.8701,
     2714.3101,
     2655.1101,
-    2581.7896
+    2581.79
    ],
    "as_of": "2026-11-20",
    "is_proxy": false,
@@ -211,12 +211,12 @@
    "ticker": "^SOX",
    "category": "us_index",
    "close": 8408.59,
-   "change": -1011.1289,
+   "change": -1011.1299,
    "change_pct": -10.73,
    "change_5d_pct": -17.13,
    "change_20d_pct": -21.99,
-   "change_5d": -1737.7295,
-   "change_20d": -2370.8691,
+   "change_5d": -1737.7305,
+   "change_20d": -2370.8701,
    "spark": [
     11083.4697,
     11482.5,
@@ -237,7 +237,7 @@
     9642.8799,
     9652.7998,
     9419.7197,
-    8408.5908
+    8408.5898
    ],
    "as_of": "2026-11-20",
    "is_proxy": false,
@@ -286,13 +286,13 @@
    "name": "S&P500先物",
    "ticker": "ES=F",
    "category": "futures_vol",
-   "close": 6966.75,
-   "change": -230.5,
-   "change_pct": -3.2,
-   "change_5d_pct": -8.13,
-   "change_20d_pct": -9.05,
-   "change_5d": -616.25,
-   "change_20d": -693.0,
+   "close": 6935.0,
+   "change": -262.25,
+   "change_pct": -3.64,
+   "change_5d_pct": -8.55,
+   "change_20d_pct": -9.46,
+   "change_5d": -648.0,
+   "change_20d": -724.75,
    "spark": [
     7714.5,
     7758.25,
@@ -313,7 +313,7 @@
     7359.0,
     7340.5,
     7197.25,
-    6966.75
+    6935.0
    ],
    "as_of": "2026-11-20",
    "is_proxy": false,
@@ -324,13 +324,13 @@
    "name": "NASDAQ100先物",
    "ticker": "NQ=F",
    "category": "futures_vol",
-   "close": 25291.0,
-   "change": -1309.25,
-   "change_pct": -4.92,
-   "change_5d_pct": -9.79,
-   "change_20d_pct": -13.14,
-   "change_5d": -2743.75,
-   "change_20d": -3826.75,
+   "close": 25126.5,
+   "change": -1473.75,
+   "change_pct": -5.54,
+   "change_5d_pct": -10.37,
+   "change_20d_pct": -13.71,
+   "change_5d": -2908.25,
+   "change_20d": -3991.25,
    "spark": [
     29437.25,
     29812.0,
@@ -351,7 +351,7 @@
     27075.5,
     27186.75,
     26600.25,
-    25291.0
+    25126.5
    ],
    "as_of": "2026-11-20",
    "is_proxy": false,
@@ -438,13 +438,13 @@
    "name": "ドル指数",
    "ticker": "DX-Y.NYB",
    "category": "fx",
-   "close": 103.84,
-   "change": -0.06,
-   "change_pct": -0.06,
-   "change_5d_pct": 0.42,
-   "change_20d_pct": 1.99,
-   "change_5d": 0.43,
-   "change_20d": 2.03,
+   "close": 103.81,
+   "change": -0.09,
+   "change_pct": -0.09,
+   "change_5d_pct": 0.39,
+   "change_20d_pct": 1.96,
+   "change_5d": 0.4,
+   "change_20d": 2.0,
    "spark": [
     101.96,
     102.32,
@@ -465,7 +465,7 @@
     103.49,
     103.86,
     103.9,
-    103.84
+    103.81
    ],
    "as_of": "2026-11-20",
    "is_proxy": false,
@@ -894,13 +894,13 @@
    "name": "WTI原油",
    "ticker": "CL=F",
    "category": "commodity",
-   "close": 83.62,
-   "change": 0.41,
-   "change_pct": 0.49,
-   "change_5d_pct": -5.58,
-   "change_20d_pct": -19.03,
-   "change_5d": -4.94,
-   "change_20d": -19.65,
+   "close": 83.98,
+   "change": 0.77,
+   "change_pct": 0.93,
+   "change_5d_pct": -5.17,
+   "change_20d_pct": -18.68,
+   "change_5d": -4.58,
+   "change_20d": -19.29,
    "spark": [
     101.76,
     99.9,
@@ -921,7 +921,7 @@
     86.01,
     83.26,
     83.21,
-    83.62
+    83.98
    ],
    "as_of": "2026-11-20",
    "is_proxy": false,
@@ -932,13 +932,13 @@
    "name": "金",
    "ticker": "GC=F",
    "category": "commodity",
-   "close": 3539.0,
-   "change": -146.5,
-   "change_pct": -3.98,
-   "change_5d_pct": -8.94,
-   "change_20d_pct": -11.7,
-   "change_5d": -347.3,
-   "change_20d": -468.8999,
+   "close": 3515.4,
+   "change": -170.1001,
+   "change_pct": -4.62,
+   "change_5d_pct": -9.54,
+   "change_20d_pct": -12.29,
+   "change_5d": -370.9001,
+   "change_20d": -492.5,
    "spark": [
     4038.3999,
     4074.6001,
@@ -959,7 +959,7 @@
     3864.2,
     3741.8999,
     3685.5,
-    3539.0
+    3515.3999
    ],
    "as_of": "2026-11-20",
    "is_proxy": false,
@@ -970,13 +970,13 @@
    "name": "銅",
    "ticker": "HG=F",
    "category": "commodity",
-   "close": 5.465,
-   "change": -0.16,
-   "change_pct": -2.84,
-   "change_5d_pct": -10.11,
-   "change_20d_pct": -15.61,
-   "change_5d": -0.6145,
-   "change_20d": -1.011,
+   "close": 5.477,
+   "change": -0.148,
+   "change_pct": -2.63,
+   "change_5d_pct": -9.91,
+   "change_20d_pct": -15.43,
+   "change_5d": -0.6025,
+   "change_20d": -0.999,
    "spark": [
     6.508,
     6.622,
@@ -997,7 +997,7 @@
     5.976,
     5.6595,
     5.625,
-    5.465
+    5.477
    ],
    "as_of": "2026-11-20",
    "is_proxy": false,
@@ -1008,13 +1008,13 @@
    "name": "天然ガス",
    "ticker": "NG=F",
    "category": "commodity",
-   "close": 3.791,
-   "change": 0.523,
-   "change_pct": 16.0,
-   "change_5d_pct": 17.37,
-   "change_20d_pct": 43.6,
-   "change_5d": 0.561,
-   "change_20d": 1.151,
+   "close": 3.411,
+   "change": 0.143,
+   "change_pct": 4.38,
+   "change_5d_pct": 5.6,
+   "change_20d_pct": 29.2,
+   "change_5d": 0.181,
+   "change_20d": 0.771,
    "spark": [
     2.602,
     2.697,
@@ -1035,7 +1035,7 @@
     3.208,
     3.372,
     3.268,
-    3.791
+    3.411
    ],
    "as_of": "2026-11-20",
    "is_proxy": false,
@@ -1046,15 +1046,14 @@
    "name": "ビットコイン",
    "ticker": "BTC-USD",
    "category": "commodity",
-   "close": 61901.82,
-   "change": -1085.4453,
-   "change_pct": -1.72,
-   "change_5d_pct": -3.47,
-   "change_20d_pct": -19.81,
-   "change_5d": -2226.2305,
-   "change_20d": -15296.3906,
+   "close": 58798.98,
+   "change": -3102.8398,
+   "change_pct": -5.01,
+   "change_5d_pct": -9.96,
+   "change_20d_pct": -24.07,
+   "change_5d": -6506.082,
+   "change_20d": -18635.7695,
    "spark": [
-    77434.75,
     78248.4531,
     76677.2969,
     77345.0469,
@@ -1073,9 +1072,10 @@
     64855.8438,
     64893.9453,
     62987.2656,
-    61901.8203
+    61901.8203,
+    58798.9805
    ],
-   "as_of": "2026-11-19",
+   "as_of": "2026-11-20",
    "is_proxy": false,
    "unit": ""
   }
@@ -3351,7 +3351,7 @@
      "disclosures": []
     }
    ],
-   "news_count": 0
+   "news_count": 1
   },
   {
    "key": "megabanks",
@@ -3438,7 +3438,7 @@
      "disclosures": []
     }
    ],
-   "news_count": 6
+   "news_count": 7
   },
   {
    "key": "software",
@@ -3803,7 +3803,7 @@
      "close": 19.32,
      "change_pct": 5.29,
      "turnover": 5000000.0,
-     "volume": 250121.0,
+     "volume": 250100.0,
      "volume_ratio": 0.9,
      "disclosures": []
     },
@@ -3888,10 +3888,10 @@
      "code": "WWB",
      "name": "Windward Bio Group Ag",
      "sector": null,
-     "close": 24.28,
-     "change_pct": 1.15,
+     "close": 24.29,
+     "change_pct": 1.17,
      "turnover": 4000000.0,
-     "volume": 158585.0,
+     "volume": 158600.0,
      "volume_ratio": null,
      "disclosures": []
     },
@@ -4199,7 +4199,7 @@
      "close": 14.55,
      "change_pct": -3.0,
      "turnover": 5000000.0,
-     "volume": 341524.0,
+     "volume": 341500.0,
      "volume_ratio": null,
      "disclosures": []
     },
@@ -4539,8 +4539,8 @@
      "sector": null,
      "close": 88.91,
      "change_pct": -8.5,
-     "turnover": 35531000000.0,
-     "volume": 399629474.0,
+     "turnover": 35525000000.0,
+     "volume": 399561400.0,
      "volume_ratio": null,
      "disclosures": []
     },
@@ -4754,7 +4754,7 @@
      "disclosures": []
     }
    ],
-   "news_count": 19
+   "news_count": 21
   },
   {
    "key": "fintech",
@@ -5169,7 +5169,7 @@
      "disclosures": []
     }
    ],
-   "news_count": 2
+   "news_count": 1
   },
   {
    "key": "china_adr",
@@ -5300,7 +5300,7 @@
      "disclosures": []
     }
    ],
-   "news_count": 1
+   "news_count": 2
   },
   {
    "key": "mag7",
@@ -5507,7 +5507,7 @@
      "disclosures": []
     }
    ],
-   "news_count": 17
+   "news_count": 18
   },
   {
    "key": "robotics",
@@ -6893,7 +6893,7 @@
      "disclosures": []
     }
    ],
-   "news_count": 3
+   "news_count": 2
   },
   {
    "key": "optical",
@@ -7794,7 +7794,7 @@
    "title": "S&P500は6営業日続落、FRB議事録が12月利上げを確実視 Anthropicの記録的IPOも市場を押し上げられず",
    "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1CclRlZnFiTDJfNzhFTVhibm1VdWktNVdDeGZGZ3gxU2ZzRmdJblQ1SVk5aUUxZzNUVWpMSXc4LUJCQW1JVlpUSVhmcnU1TWtyQklEVExsZllpaG1yVTY0YVRHRkxuSkZCY3ZfdHJxdTUzaTNi?oc=5",
    "source": "BigGo ファイナンス",
-   "published_at": "2026-11-20T19:09:59Z",
+   "published_at": "2026-11-20T19:05:00Z",
    "tags": [
     "ai_software",
     "ipo"
@@ -7804,7 +7804,7 @@
    "title": "Wall Street suffers historic losses as Dow, S&P 500 plunge into correction territory",
    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPMGo2a2JDeFFQWXZZSUFuc1hYVkctMXBGZzVJWjhCSU4tV21qenB4bVNuLUJFTG1hakVYdGNlQ2tuRXFnOXlnSzFJVjZHWVg3V09EWVVhb1o5NVY3YWJpcHZ4MGFyYm9faWdPOGVsRERlakFST214NC1RZDA4UTBjdUZmYmZtOUdUOWZNNFE1M3dVdGVneWtKeWl4Sll0aFZFcW1qUUtFM2RfVUhkTGNJ0gG0AUFVX3lxTFBlZXlISGdZNkJyblRJX1V4NW9OQTFrYkNHWFZoazJzTDZZUHI4US1sT01jSkhtWVFxeUVqYkdJdzIwYmxjWFFsRTNMYWhUdk9wVWl3aVpUTmhvZi1IQ1ZJcFdKODc1TDdJb2tLZzZ0RzB6d3o4WERicXJ5OGNvcFZpTTl5RmhQRTRkWERGeUFPTmVUeU56dl9ObDNPcTgxeDU2bHlCaDFiSVdQaXlQMlozdzZ1Tw?oc=5",
    "source": "Fox Business",
-   "published_at": "2026-11-21T00:47:21Z",
+   "published_at": "2026-11-21T01:28:00Z",
    "tags": [
     "megabanks"
    ]
@@ -7813,7 +7813,7 @@
    "title": "Dow Jones Futures: Market Has Worst Week Since Covid Amid Nvidia, Anthropic. Does Fear Gauge Offer Hope?",
    "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNbGZqY3FoUjhCTGtSbnJQMmlMMlNQWGxuQ1UyR09vYVpCY2xHcU5la0pPb0FGbnkzZ3AwRThVNXdMcXk4cEZ4elRxd1VKVHRqTEdxUGtHeUZNS1RPQkVKdUpXeVJscjg1Qm1zUHpjMDlzYUQ5UUE0X3FVTzRqRC1FWVRGU0NXWUI0Rk1FWERnVWxkWEtRbTJNc3Nldms4emVsSF9yMU4xaDU4SWh6TDgydjJWa3ZYQ2pFaUp2TFhmdUh6cFU?oc=5",
    "source": "Investor's Business Daily",
-   "published_at": "2026-11-21T00:34:00Z",
+   "published_at": "2026-11-21T03:51:00Z",
    "tags": [
     "semiconductor",
     "ai_software"
@@ -7821,12 +7821,22 @@
   },
   {
    "title": "Stock Market Today, Nov. 20: Nvidia's $2.5 Trillion Rout Deepens as SEC Accounting Probe Adds to Wall Street's AI Sell-Off",
-   "url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxNdUhHRHVEUDBOY2ktQlJSWGRTc2V2Q3VmdnYtRG9hdlVVdWQtd2lZdmdDODRWelA3eFkwaDBRTE16bXVFYnNRUGhyYmlSclFLOHJLWEtIS0l3aTV3YU5ZS25iU1R2OFp3SmRSang1a1JibjhpMi1kTS1tOC1oejhuV0pTVUx3ZWNKV0RRLUNydFRYanJqeXZmenJRV1FScXlwX2NjRWU5ajN3eDk3ZmZRY1NTOHV3dzNaRVN4dWJDT1BzN1c4LVBDMF93RW5XWHBqWi1OZWpSQTAtNlRIYXNCMVlDNnFNY1EwQktzbm56NUh5QXR2QmxUemNUcWJmSDJISjctS2RWZjJYNTlKUVNr?oc=5",
-   "source": "The Motley Fool",
-   "published_at": "2026-11-20T21:35:02Z",
+   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPbVFiSFQyZkVZQnhMSWJEMkliQ1Jrb1RiYXBSbTlId0kybU5KbW1XOGpuRDdXSE9wZGFOTWo2QzJZV2pIWXVlVG9Xd3pZek5Wd09sTGFDMHgxdGFzNkNtOVM4bDNNdTZsZUF3d2otZnhaaFRqbm5JWWZPRlBzVnZudllNVWpSUVdHOWFLVUdjaG41SzJa?oc=5",
+   "source": "Yahoo Finance",
+   "published_at": "2026-11-20T21:55:02Z",
    "tags": [
     "semiconductor",
     "megabanks"
+   ]
+  },
+  {
+   "title": "Tech stocks end the week on a down note, despite Anthropic's mega-IPO",
+   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQMVpnX3c3WnlYc1ZCQ3FvUDBUbGpEZ0pha2M0VnhSVnZyU2puYURBR1haYTE0NFFPTXJsM2lhTHh3ZHlmSldiZWVuZ2NlTUk1XzRVcFAxRnBOMjNZUTdPejM5NEFVMkxMYXFuZUM3VDJwQ2lHTXJxaVg0bUs2VEt3czFra1c5eXl3M0FaeWZhWUk2aWcyd0pLX0Mzb3ZpTTV5WmZMeTNYakNodklhSEk2d2NB?oc=5",
+   "source": "NPR",
+   "published_at": "2026-11-20T21:38:32Z",
+   "tags": [
+    "ai_software",
+    "ipo"
    ]
   },
   {
@@ -7837,16 +7847,6 @@
    "tags": [
     "ai_software",
     "ipo"
-   ]
-  },
-  {
-   "title": "Bitcoin sell-off: Crypto is failing the 'digital gold' test again as it sinks with stocks",
-   "url": "https://www.cnbc.com/2026/11/20/bitcoin-price-gold-market-hedge.html",
-   "source": "CNBC Top News",
-   "published_at": "2026-11-20T17:25:19Z",
-   "tags": [
-    "crypto",
-    "metals_mining"
    ]
   },
   {
@@ -7890,14 +7890,31 @@
    ]
   },
   {
-   "title": "アンソロピックの2兆ドル規模ナスダック上場もAI相場を押し上げられず、欧州半導体株が下落",
-   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE44eG1manF6ZnlGOGxsSHJselVORzk2Umx4NjNSVk1ielFwa0V3aG5MckVzMEdfYktjeGN3YjFqVHpjU0RMR0d1OFpBYUQ1aWZLMDNuOXU0aHJTc3RqdVVtM2I4Vk9ab3Y1Mm1oSjc2akJTc0Jm?oc=5",
-   "source": "BigGo ファイナンス",
-   "published_at": "2026-11-20T09:05:00Z",
+   "title": "Anthropic IPO fails to prevent a tech stock wipeout",
+   "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNUzk4NzhEUGpTWGM3YjNtaEJ4ZUF3a2Mwa2tkbk1Mb1BwX3dJYmIwUGYydnNxa3hfZzdFVW5NUmFUMmk0YlA2a1JwWF9DOVpCTG9lbDIwZVg3QndnOGNMVF9UWkxfVGVBZ2JEZXNwWFNiZWc5NkZaY1pwSlJNQ1BoVDFjWi02VHM4OG50VEtsdnk?oc=5",
+   "source": "Morning Brew",
+   "published_at": "2026-11-21T07:01:00Z",
    "tags": [
-    "semiconductor",
+    "ai_software",
     "ipo"
    ]
+  },
+  {
+   "title": "China Military Bans SF Express From Procurement Over Misconduct",
+   "url": "https://www.bloomberg.com/news/articles/2026-11-21/china-military-bans-sf-express-from-procurement-over-misconduct",
+   "source": "Bloomberg Markets",
+   "published_at": "2026-11-21T05:00:48Z",
+   "tags": [
+    "defense",
+    "china_adr"
+   ]
+  },
+  {
+   "title": "20日の米国株、ナスダックが年初来の上昇分を失う―AI株売り加速でS&P500とダウが調整局面入り",
+   "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1ZMHlyaXZtcVNlenlZdmVLZXNYQS1seTBaY1RXWGl5UDVJTEh3RC1nWGlhcTR3Z3RyTlFvN0JMRDRPTDRJSmlldXdrUkRhYy1yZ0Uta2g0NnZDN2wyMHVManFmd9IBaEFVX3lxTE90NUlWOUpaVmk5VWhmckszdkNsSzRsbmFkYUJYOTF0b0hZeFR2WlFxVHBTYW1WQmpBTmhGemhxRC1ZU24zdlFzZnJKelRkOFV2TGhvdDZiVGpiTGVrMEV6bVFEVUkxX3FR?oc=5",
+   "source": "財経新聞",
+   "published_at": "2026-11-21T04:46:17Z",
+   "tags": []
   },
   {
    "title": "Report: Goldman Sachs Predicts the S&P 500 Will Gain 26% in 12 Months",
@@ -7917,9 +7934,9 @@
   },
   {
    "title": "NYダウ1101ドル安、5万ドル割れ AI大手上場でも投資への警戒続く",
-   "url": "https://news.google.com/rss/articles/CBMivgRBVV95cUxNbGlZRkd4TVd3eXdna201bzVlcnZneEtyQUpJYUhwSTBWRmwwakdJMjBFZjVWQW5IeDVkaDdMQUprWEpER1JDaDhtc1NqVVh4THJ1YXcxdjI1bkJHVkFDV1RVQkQtVHFhaDU0QmEtMldXaExwY2VkWUo3UHl1QXVjUGFKdzVfNEhPdGxtUE5haG9rc0pRVWM3Z2NyTVRuV2NzcFluODVzZjNJMlAxV0J1Q2VQZVFxMC1iVjJZSGg2LTM3MGJ1N0ZpeHNzYkNNcko1U05QVzhsTy05MFNRQlVWOTdmVEhKYnRpNW5LblhDNU5NN0tDQVlueUxUNzVvTVJtOWdaejVhVnFOd3RIN25aamtsZko2c1Y2bVlnXzByM0syM3NKQnVmT1FwM04yaGhDWTh0MEJVTG1ERUtZbmowZkE0dFppcVByV25JQUlYejYyREhPRGNjV01sR0FMZ1NWTk1ZX1ZnblRXUDNGY2MyY2cxYmdXUVllbFJ1MGhESGlSdzhXVjVTSFVCVHh0ODk5ckJaNkdrY1hNWFcwN1gzV3RYZldGV3h4ZWlKXzdoU3hVSm9ad29yU1ExQjJaYUx2ck91NzBwOUhIbzViOGt3WktuWEhidmIxZ08yVHpYM1h2dTZWbENTYWIyLU5PT0RYemlCcExibEdzUlJrWGttaEhZdl9jNXhfTVp3RzBib2hvcEdyNmFjT0JUalI5OF80NE1FMWFiempSTEFpcnM4bkY5RmFRWnlHbE45aVNn?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE90S1M3REtIcFlQbmhqRjNBZHhTMWhucTdzRnZPNU5SSk85MWJSM2xCdE44cG1zaTRHMGxWUVBnMkk2eWpBRk5XYnEyVDgxX1BWd1Fn?oc=5",
    "source": "東京報道新聞",
-   "published_at": "2026-11-20T23:01:41Z",
+   "published_at": "2026-11-20T23:01:10Z",
    "tags": [
     "ipo"
    ]
@@ -7950,6 +7967,15 @@
    ]
   },
   {
+   "title": "Nasdaq stock market today: 2026 gains erased as Wall Street warns of further losses",
+   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOeVpoZTBJdzBfamJDSm95LWhGRDhzMjJ5dmNBbTFNR2UtTTJYYjBNek94R0tUT1VBVnFlb2V0dlREbjdwUjkxTkd5b3hNRUFMTkFkVElQUVZDSVlyVkoxQmVENy1ySm9aY2tabXF5OTNkenpRVXUtWEluYkRIMW5ULUY4UDRTVi1k?oc=5",
+   "source": "Beinsure",
+   "published_at": "2026-11-20T22:18:03Z",
+   "tags": [
+    "megabanks"
+   ]
+  },
+  {
    "title": "【米国株式】ナスダック５．２８％急落、エヌビディア・アンソロピックに売り集中、主要３指数が調整局面入り - https://kabu-ir.com/",
    "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE91T0I0Ukk0ckF2Q2VhVnlDek5ZdnNfMDFKU2Y1akNXam5lWTBNMksteDVoeXJuQnpqUW1iSWZUVjdMM0pUMzYxLUk3RWNtMjZvaE9MQw?oc=5",
    "source": "Google News 米国株",
@@ -7957,22 +7983,6 @@
    "tags": [
     "semiconductor"
    ]
-  },
-  {
-   "title": "Nasdaq stock market today: 2026 gains erased as Wall Street warns of further losses",
-   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOeVpoZTBJdzBfamJDSm95LWhGRDhzMjJ5dmNBbTFNR2UtTTJYYjBNek94R0tUT1VBVnFlb2V0dlREbjdwUjkxTkd5b3hNRUFMTkFkVElQUVZDSVlyVkoxQmVENy1ySm9aY2tabXF5OTNkenpRVXUtWEluYkRIMW5ULUY4UDRTVi1k?oc=5",
-   "source": "Beinsure",
-   "published_at": "2026-11-20T22:03:52Z",
-   "tags": [
-    "megabanks"
-   ]
-  },
-  {
-   "title": "Nasdaq wipes out 2026 gains, TSX, Dow and S&P 500 fall into correction territory",
-   "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1QbmRPWjN5dEh4eGkwYXcwdkZRVmFZZjZiTWJqeTZ3cGJJcXdER1pqVDJobUV3R09wT0dQd0hWTlYtVGtpc0wwNnRiSkxOc0FuSHZQRkFYN3FTRmdDU21mUEtZYms5NGktX3o3UzVPMS1QTmJfcTlscWxn?oc=5",
-   "source": "CBC",
-   "published_at": "2026-11-20T21:45:46Z",
-   "tags": []
   },
   {
    "title": "Anthropic stock drops 8% after rip-roaring IPO",
@@ -7995,25 +8005,6 @@
    ]
   },
   {
-   "title": "Nasdaq turns negative: Why Anthropic & other tech stocks are getting crushed",
-   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxON2Z2RzBhSDRBZHJvUEQ1cFJ5dTVFUWFZU21meHY3bFdmeVdpeTVQdlNCLTdRT190LWN0QWdpRVdKS0NpQTNMaDVQMmVhbmJqU0VFMUV0ZFV0NnJDY0g3dFkyQ1VsOHQ4eG9oNlpETkdIdHpFY0pNUEw3emxJLUxpZEtlODBHWmg5OWM2cU1qVUlPM1pOcFN3eGJnMUVjRXB2SFE2V3pSdVE4akhCZnJZWVVCMlA1UlFxa19wNXBB?oc=5",
-   "source": "Yahoo Finance",
-   "published_at": "2026-11-20T21:38:46Z",
-   "tags": [
-    "ai_software"
-   ]
-  },
-  {
-   "title": "Anthropic IPO Could Mark End of the AI Trade",
-   "url": "https://www.bloomberg.com/news/videos/2026-11-20/anthropic-ipo-could-mark-end-of-the-ai-trade-video",
-   "source": "Bloomberg Markets",
-   "published_at": "2026-11-20T21:35:36Z",
-   "tags": [
-    "ai_software",
-    "ipo"
-   ]
-  },
-  {
    "title": "Anthropic’s stock sees dramatic slide but manages to stay above its IPO price",
    "url": "https://www.marketwatch.com/story/anthropics-stock-slides-closer-to-ipo-price-and-drags-down-the-ai-trade-cc43a0c4?mod=mw_rss_topstories",
    "source": "MarketWatch",
@@ -8030,6 +8021,16 @@
    "published_at": "2026-11-20T21:12:15Z",
    "tags": [
     "ai_software"
+   ]
+  },
+  {
+   "title": "Why Anthropic's blockbuster IPO couldn't escape the market correction",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE90YWJYMjBRbTlBb2JWM2hUektMRU45aWpYTGFweEdwYnpKbnUxZW5ZZmpRZldwOE1DTkNJNW03RmlXRXJ2eHpkam42WVdjSkVKSnhQTXVqZVpnaUFQdWlwQTVWZnRma3dYYUlqajRzdHlVQ1FxRVBIN2YwQ0hBMTTSAYQBQVVfeXFMT3NHN0pIT3ZMVktfX1pJRE5GV1JqUFcyQmhtSnczMjhLY2NNUXYyYUJIT3BtQ0JUeW5oLTBMenpSN0VVcVN1S245OHAxd29FMFdMZjY4ektWMW15Q29vMVhfRkh0TExJdS16OVdrOG1BbHN6cV9vWVpNZEdHa1RfNk5tUVZs?oc=5",
+   "source": "CNBC",
+   "published_at": "2026-11-20T20:57:30Z",
+   "tags": [
+    "ai_software",
+    "ipo"
    ]
   },
   {
@@ -8098,6 +8099,16 @@
    "tags": []
   },
   {
+   "title": "エヌビディアが時間外で2%超下落、AMDは6%近く急落、AIセクターが上場ラッシュ後の初のストレステストに直面",
+   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1TSVlieXVaOFAta2ZOTEp1ZDR1TDZZQzhsSW42cjRyRkltN3BuU1Zkd2R5YzBrNkdwVXZTeXE0OThIYzlKeTV0S3hkZXBjMEtqVVBWTzlxdkxFdVgxOXVrMWpCbmlrR0ZuZ2phQnU4MW9XTHo2?oc=5",
+   "source": "BigGo ファイナンス",
+   "published_at": "2026-11-20T12:05:00Z",
+   "tags": [
+    "semiconductor",
+    "ipo"
+   ]
+  },
+  {
    "title": "Forget Anthropic: In Europe, the IPO hype is about a blue lagoon",
    "url": "https://www.cnbc.com/2026/11/20/anthropic-ipo-iceland-blue-lagoon.html",
    "source": "CNBC Top News",
@@ -8108,26 +8119,21 @@
    ]
   },
   {
-   "title": "Nasdaq 100 Ends Worst Week Since 2020, S&P 500 In Correction Territory As AI Rout Sours Sentiment — ANT, NVDA, TTWO, ZS, CRWD In Focus",
-   "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQQ1hBdGw1anUtLVZ1cFNyVmJmX0liYVYxcGg3WEpaOURrSlJLWHZDSzlIbjFBM3ZaTlllb29CTERST2ZDaWVfWUxnRUJ5b19ybWs2dXp5NFRjUmU5TVlVUHYtYm5maDRxMUlpVFc0WDhyUEJFN1M2MjJGWGY0dXk1V2RHanl3S1pWU3J0Rm5CRDdjRXVJN2c?oc=5",
-   "source": "Yahoo Finance",
-   "published_at": "2026-11-21T01:30:00Z",
-   "tags": []
-  },
-  {
-   "title": "S&P 500 sinks 3.7% and Nasdaq composite goes negative for the year as tech sell-off worsens",
-   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQY09GMmxTYlpRMnQ3YVJ4Q3BUdmg3NEFJWG5lVlh4TC0zZGxxZVcydTkwSkpiZUZfS3BXdlRab05HSW5TS0h5TDY5NFRKajBDSWdFbUdhNFIxMzUxc3pLRnEtMXVNblBwZmgteFlUWVhuS0lRU3diRGpWQnkyeWtDMGJiS3hzd2xCdUtDVHIxc0hOWGkwTHdPZ1FfenUwQQ?oc=5",
-   "source": "AP News",
-   "published_at": "2026-11-20T23:29:00Z",
-   "tags": []
-  },
-  {
-   "title": "アンソロピック株が上場2日目に9%急落、ナスダック5%安で世界のAI相場に波及",
-   "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBBTTdLN2lfWlpyMHpVU3VobTYzVVlBS05pS0NYQ0dZb2FGZFhQM1ptZ1JnMmxabmJDWFVoYWE2QXRreGVuTVNXQ3c3SUhTLXM?oc=5",
-   "source": "ビジネス+IT",
-   "published_at": "2026-11-20T23:00:00Z",
+   "title": "アンソロピックのナスダック上場がリスク選好を刺激できず、ジーキャッシュとNEARが下落",
+   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBJMjM2blNzeExucDdlSXlvdHUySmVMaTdpbnNOQUR1SHBvbmZBQ2xnamVZNy1qcXczdEt6NlJhWl9DWHJ4Y1lxM1daR0p1R08wMGtUdHpzckJmcEl6NWk3YWh5b3lUN2J2UDZ0TnRlMkt6Z2dt?oc=5",
+   "source": "BigGo ファイナンス",
+   "published_at": "2026-11-21T08:05:00Z",
    "tags": [
     "ipo"
+   ]
+  },
+  {
+   "title": "ドイツ銀行、チップマネーがペトロダラーに代わりアジアの余剰資金が米国株へ流入と指摘",
+   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9vLVBHeVBzSFQ5MUJPRUxDWlZ4WDlsakFTNUdtWFQ5UXZqRkFoRGlTWmluYjlnS2gzWEZQVC13TGp3azhMenAwRlRkWXk3VzZaUzZEQkN2b3lFSVM3SjRTQnFiSmJGWEQ1ZFU5VWhndU1QMDY2?oc=5",
+   "source": "BigGo ファイナンス",
+   "published_at": "2026-11-21T07:35:00Z",
+   "tags": [
+    "megabanks"
    ]
   }
  ],
