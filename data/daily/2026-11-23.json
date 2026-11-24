@@ -1,17 +1,17 @@
 {
  "schema_version": 1,
  "date": "2026-11-23",
- "generated_at": "2026-11-23T22:01:01.350536Z",
+ "generated_at": "2026-11-24T10:54:10.528426Z",
  "sources": [
   "yfinance",
   "S&P500構成銘柄のウエイト: SPDR S&P 500 ETF の保有比率（2026-11-13時点）",
   "GICSセクター: Wikipedia「List of S&P 500 companies」",
   "米財務省（2年債利回り）",
   "SEC EDGAR（8-K）",
-  "RSS（Google News 米国株、日経速報、CNBC Markets、CNBC Top News、MarketWatch、Google News Markets）"
+  "RSS（Google News 米国株、日経速報、Bloomberg Markets、CNBC Markets、CNBC Top News、MarketWatch、Google News Markets）"
  ],
  "warnings": [
-  "一部のニュースを取得できませんでした（Bloomberg Markets、Yahoo Finance）。"
+  "一部のニュースを取得できませんでした（Yahoo Finance）。"
  ],
  "comment": "S&P500は+4.73%、NASDAQ総合は+6.51%、NYダウは+3.01%。値上がり銘柄が83%を占める全面高。情報技術・コミュニケーションが上昇を主導し、エネルギー・生活必需品が軟調。テーマでは「AIインフラ・サーバー」(+16.82%)が強い。「石油・ガス」(-0.87%)は売られた。VIXは26.62（-9.27）、米10年債利回りは4.92%（+0.6bp）。",
  "quotes": [
@@ -59,12 +59,12 @@
    "ticker": "^IXIC",
    "category": "us_index",
    "close": 24089.56,
-   "change": 1471.8281,
+   "change": 1471.8301,
    "change_pct": 6.51,
    "change_5d_pct": -1.71,
    "change_20d_pct": -7.95,
-   "change_5d": -420.2012,
-   "change_20d": -2079.8223,
+   "change_5d": -420.1992,
+   "change_20d": -2079.8203,
    "spark": [
     26477.8105,
     26549.8496,
@@ -85,7 +85,7 @@
     24429.8809,
     23879.1992,
     22617.7305,
-    24089.5586
+    24089.5605
    ],
    "as_of": "2026-11-23",
    "is_proxy": false,
@@ -135,12 +135,12 @@
    "ticker": "^NDX",
    "category": "us_index",
    "close": 26746.1,
-   "change": 1717.1152,
+   "change": 1717.1191,
    "change_pct": 6.86,
    "change_5d_pct": -1.66,
    "change_20d_pct": -8.63,
-   "change_5d": -451.0547,
-   "change_20d": -2527.3047,
+   "change_5d": -451.0508,
+   "change_20d": -2527.3008,
    "spark": [
     29651.4395,
     29813.1602,
@@ -161,7 +161,7 @@
     27116.2598,
     26517.0508,
     25028.9805,
-    26746.0957
+    26746.0996
    ],
    "as_of": "2026-11-23",
    "is_proxy": false,
@@ -173,12 +173,12 @@
    "ticker": "^RUT",
    "category": "us_index",
    "close": 2669.66,
-   "change": 87.865,
+   "change": 87.8699,
    "change_pct": 3.4,
    "change_5d_pct": -2.67,
    "change_20d_pct": -4.19,
-   "change_5d": -73.2849,
-   "change_20d": -116.7649,
+   "change_5d": -73.28,
+   "change_20d": -116.76,
    "spark": [
     2818.8701,
     2830.51,
@@ -199,7 +199,7 @@
     2714.3101,
     2655.1101,
     2581.79,
-    2669.655
+    2669.6599
    ],
    "as_of": "2026-11-23",
    "is_proxy": false,
@@ -286,13 +286,13 @@
    "name": "S&P500先物",
    "ticker": "ES=F",
    "category": "futures_vol",
-   "close": 7264.25,
-   "change": 329.25,
-   "change_pct": 4.75,
-   "change_5d_pct": -2.35,
-   "change_20d_pct": -5.84,
-   "change_5d": -174.75,
-   "change_20d": -450.25,
+   "close": 7254.5,
+   "change": 319.5,
+   "change_pct": 4.61,
+   "change_5d_pct": -2.48,
+   "change_20d_pct": -5.96,
+   "change_5d": -184.5,
+   "change_20d": -460.0,
    "spark": [
     7758.25,
     7783.25,
@@ -313,7 +313,7 @@
     7340.5,
     7197.25,
     6935.0,
-    7264.25
+    7254.5
    ],
    "as_of": "2026-11-23",
    "is_proxy": false,
@@ -324,13 +324,13 @@
    "name": "NASDAQ100先物",
    "ticker": "NQ=F",
    "category": "futures_vol",
-   "close": 26804.5,
-   "change": 1678.0,
-   "change_pct": 6.68,
-   "change_5d_pct": -1.76,
-   "change_20d_pct": -8.94,
-   "change_5d": -479.75,
-   "change_20d": -2632.75,
+   "close": 26808.0,
+   "change": 1681.5,
+   "change_pct": 6.69,
+   "change_5d_pct": -1.75,
+   "change_20d_pct": -8.93,
+   "change_5d": -476.25,
+   "change_20d": -2629.25,
    "spark": [
     29812.0,
     29979.5,
@@ -351,7 +351,7 @@
     27186.75,
     26600.25,
     25126.5,
-    26804.5
+    26808.0
    ],
    "as_of": "2026-11-23",
    "is_proxy": false,
@@ -362,13 +362,13 @@
    "name": "ドル円",
    "ticker": "USDJPY=X",
    "category": "fx",
-   "close": 158.95,
-   "change": -0.756,
-   "change_pct": -0.47,
-   "change_5d_pct": -0.52,
-   "change_20d_pct": 1.35,
-   "change_5d": -0.829,
-   "change_20d": 2.121,
+   "close": 158.93,
+   "change": -0.776,
+   "change_pct": -0.49,
+   "change_5d_pct": -0.53,
+   "change_20d_pct": 1.34,
+   "change_5d": -0.849,
+   "change_20d": 2.101,
    "spark": [
     157.528,
     157.993,
@@ -389,7 +389,7 @@
     159.504,
     159.381,
     159.707,
-    158.951
+    158.931
    ],
    "as_of": "2026-11-23",
    "is_proxy": false,
@@ -400,13 +400,13 @@
    "name": "ユーロドル",
    "ticker": "EURUSD=X",
    "category": "fx",
-   "close": 1.0898,
-   "change": -0.0072,
-   "change_pct": -0.65,
-   "change_5d_pct": -1.15,
-   "change_20d_pct": -2.85,
-   "change_5d": -0.0127,
-   "change_20d": -0.032,
+   "close": 1.0972,
+   "change": 0.0002,
+   "change_pct": 0.02,
+   "change_5d_pct": -0.48,
+   "change_20d_pct": -2.19,
+   "change_5d": -0.0053,
+   "change_20d": -0.0246,
    "spark": [
     1.1174,
     1.113,
@@ -427,7 +427,7 @@
     1.0993,
     1.0972,
     1.097,
-    1.0898
+    1.0972
    ],
    "as_of": "2026-11-23",
    "is_proxy": false,
@@ -438,13 +438,13 @@
    "name": "ドル指数",
    "ticker": "DX-Y.NYB",
    "category": "fx",
-   "close": 104.33,
-   "change": 0.516,
-   "change_pct": 0.5,
-   "change_5d_pct": 0.75,
-   "change_20d_pct": 2.32,
-   "change_5d": 0.776,
-   "change_20d": 2.366,
+   "close": 104.32,
+   "change": 0.51,
+   "change_pct": 0.49,
+   "change_5d_pct": 0.74,
+   "change_20d_pct": 2.31,
+   "change_5d": 0.77,
+   "change_20d": 2.36,
    "spark": [
     102.32,
     102.19,
@@ -465,7 +465,7 @@
     103.86,
     103.9,
     103.81,
-    104.326
+    104.32
    ],
    "as_of": "2026-11-23",
    "is_proxy": false,
@@ -590,13 +590,13 @@
    "name": "英FTSE100",
    "ticker": "^FTSE",
    "category": "global",
-   "close": 10480.82,
-   "change": 134.5205,
+   "close": 10480.8,
+   "change": 134.5,
    "change_pct": 1.3,
    "change_5d_pct": -3.68,
    "change_20d_pct": -2.66,
-   "change_5d": -400.7793,
-   "change_20d": -286.4795,
+   "change_5d": -400.7998,
+   "change_20d": -286.5,
    "spark": [
     10686.5,
     10694.5,
@@ -617,7 +617,7 @@
     10551.2002,
     10452.7002,
     10346.2998,
-    10480.8203
+    10480.7998
    ],
    "as_of": "2026-11-23",
    "is_proxy": false,
@@ -628,15 +628,14 @@
    "name": "香港ハンセン",
    "ticker": "^HSI",
    "category": "global",
-   "close": 22410.8,
-   "change": -430.8184,
-   "change_pct": -1.89,
-   "change_5d_pct": -5.19,
-   "change_20d_pct": -2.96,
-   "change_5d": -1226.7988,
-   "change_20d": -682.5684,
+   "close": 22383.74,
+   "change": -27.0605,
+   "change_pct": -0.12,
+   "change_5d_pct": -5.77,
+   "change_20d_pct": -3.57,
+   "change_5d": -1370.0996,
+   "change_20d": -828.0703,
    "spark": [
-    23211.8105,
     23041.3203,
     23094.8301,
     22958.6504,
@@ -655,9 +654,10 @@
     23508.1699,
     23294.75,
     22841.6191,
-    22410.8008
+    22410.8008,
+    22383.7402
    ],
-   "as_of": "2026-11-20",
+   "as_of": "2026-11-23",
    "is_proxy": false,
    "unit": ""
   },
@@ -666,15 +666,14 @@
    "name": "上海総合",
    "ticker": "000001.SS",
    "category": "global",
-   "close": 3533.79,
-   "change": -43.824,
-   "change_pct": -1.22,
-   "change_5d_pct": -2.77,
-   "change_20d_pct": -4.25,
-   "change_5d": -100.5601,
-   "change_20d": -156.6821,
+   "close": 3538.95,
+   "change": 5.155,
+   "change_pct": 0.15,
+   "change_5d_pct": -1.77,
+   "change_20d_pct": -4.29,
+   "change_5d": -63.6221,
+   "change_20d": -158.572,
    "spark": [
-    3697.52,
     3648.301,
     3681.469,
     3651.4341,
@@ -693,9 +692,10 @@
     3584.5791,
     3587.832,
     3577.6169,
-    3533.793
+    3533.793,
+    3538.948
    ],
-   "as_of": "2026-11-20",
+   "as_of": "2026-11-23",
    "is_proxy": false,
    "unit": ""
   },
@@ -894,13 +894,13 @@
    "name": "WTI原油",
    "ticker": "CL=F",
    "category": "commodity",
-   "close": 80.37,
-   "change": -3.61,
-   "change_pct": -4.3,
-   "change_5d_pct": -6.24,
-   "change_20d_pct": -21.02,
-   "change_5d": -5.35,
-   "change_20d": -21.39,
+   "close": 80.17,
+   "change": -3.81,
+   "change_pct": -4.54,
+   "change_5d_pct": -6.47,
+   "change_20d_pct": -21.22,
+   "change_5d": -5.55,
+   "change_20d": -21.59,
    "spark": [
     99.9,
     102.78,
@@ -921,7 +921,7 @@
     83.26,
     83.21,
     83.98,
-    80.37
+    80.17
    ],
    "as_of": "2026-11-23",
    "is_proxy": false,
@@ -932,13 +932,13 @@
    "name": "金",
    "ticker": "GC=F",
    "category": "commodity",
-   "close": 3631.7,
-   "change": 116.3,
-   "change_pct": 3.31,
-   "change_5d_pct": -5.74,
-   "change_20d_pct": -10.07,
-   "change_5d": -221.3,
-   "change_20d": -406.7,
+   "close": 3651.4,
+   "change": 136.0,
+   "change_pct": 3.87,
+   "change_5d_pct": -5.23,
+   "change_20d_pct": -9.58,
+   "change_5d": -201.6001,
+   "change_20d": -387.0,
    "spark": [
     4074.6001,
     4051.6001,
@@ -959,7 +959,7 @@
     3741.8999,
     3685.5,
     3515.3999,
-    3631.7
+    3651.3999
    ],
    "as_of": "2026-11-23",
    "is_proxy": false,
@@ -970,13 +970,13 @@
    "name": "銅",
    "ticker": "HG=F",
    "category": "commodity",
-   "close": 5.609,
-   "change": 0.132,
-   "change_pct": 2.41,
-   "change_5d_pct": -6.48,
-   "change_20d_pct": -13.81,
-   "change_5d": -0.3885,
-   "change_20d": -0.899,
+   "close": 5.627,
+   "change": 0.15,
+   "change_pct": 2.74,
+   "change_5d_pct": -6.18,
+   "change_20d_pct": -13.54,
+   "change_5d": -0.3705,
+   "change_20d": -0.881,
    "spark": [
     6.622,
     6.6415,
@@ -997,7 +997,7 @@
     5.6595,
     5.625,
     5.477,
-    5.609
+    5.627
    ],
    "as_of": "2026-11-23",
    "is_proxy": false,
@@ -1008,13 +1008,13 @@
    "name": "天然ガス",
    "ticker": "NG=F",
    "category": "commodity",
-   "close": 3.532,
-   "change": 0.121,
-   "change_pct": 3.55,
-   "change_5d_pct": 13.13,
-   "change_20d_pct": 35.74,
-   "change_5d": 0.41,
-   "change_20d": 0.93,
+   "close": 3.184,
+   "change": -0.227,
+   "change_pct": -6.65,
+   "change_5d_pct": 1.99,
+   "change_20d_pct": 22.37,
+   "change_5d": 0.062,
+   "change_20d": 0.582,
    "spark": [
     2.697,
     2.817,
@@ -1035,7 +1035,7 @@
     3.372,
     3.268,
     3.411,
-    3.532
+    3.184
    ],
    "as_of": "2026-11-23",
    "is_proxy": false,
@@ -1046,13 +1046,13 @@
    "name": "ビットコイン",
    "ticker": "BTC-USD",
    "category": "commodity",
-   "close": 61233.89,
-   "change": 71.9805,
-   "change_pct": 0.12,
-   "change_5d_pct": -2.78,
-   "change_20d_pct": -20.83,
-   "change_5d": -1753.375,
-   "change_20d": -16111.1562,
+   "close": 61210.98,
+   "change": 49.0742,
+   "change_pct": 0.08,
+   "change_5d_pct": -2.82,
+   "change_20d_pct": -20.86,
+   "change_5d": -1776.2812,
+   "change_20d": -16134.0625,
    "spark": [
     80405.2891,
     75942.125,
@@ -1073,7 +1073,7 @@
     58798.9805,
     60094.0898,
     61161.9102,
-    61233.8906
+    61210.9844
    ],
    "as_of": "2026-11-23",
    "is_proxy": false,
@@ -1099,9 +1099,9 @@
      "sector": "情報技術",
      "close": 165.05,
      "change_pct": 31.48,
-     "turnover": 128116000000.0,
-     "volume": 776225888.0,
-     "volume_ratio": 2.7,
+     "turnover": 128604000000.0,
+     "volume": 779184200.0,
+     "volume_ratio": 2.71,
      "disclosures": [
       {
        "code": "NVDA",
@@ -1130,9 +1130,9 @@
      "sector": "情報技術",
      "close": 707.7,
      "change_pct": 19.04,
-     "turnover": 34962000000.0,
-     "volume": 49402564.0,
-     "volume_ratio": 1.46,
+     "turnover": 35112000000.0,
+     "volume": 49614800.0,
+     "volume_ratio": 1.47,
      "disclosures": []
     },
     {
@@ -1141,9 +1141,9 @@
      "sector": "情報技術",
      "close": 349.08,
      "change_pct": 1.9,
-     "turnover": 19897000000.0,
-     "volume": 56997299.0,
-     "volume_ratio": 1.15,
+     "turnover": 20435000000.0,
+     "volume": 58538400.0,
+     "volume_ratio": 1.18,
      "disclosures": []
     }
    ],
@@ -1154,9 +1154,9 @@
      "sector": "情報技術",
      "close": 208.97,
      "change_pct": -8.92,
-     "turnover": 8803000000.0,
-     "volume": 42124135.0,
-     "volume_ratio": 4.57,
+     "turnover": 8842000000.0,
+     "volume": 42313300.0,
+     "volume_ratio": 4.59,
      "disclosures": [
       {
        "code": "CRWD",
@@ -1218,7 +1218,7 @@
      "close": 458.13,
      "change_pct": -0.37,
      "turnover": 471000000.0,
-     "volume": 1027243.0,
+     "volume": 1027300.0,
      "volume_ratio": 0.95,
      "disclosures": []
     }
@@ -1242,9 +1242,9 @@
      "sector": "コミュニケーション",
      "close": 282.1,
      "change_pct": 6.34,
-     "turnover": 12435000000.0,
-     "volume": 44078624.0,
-     "volume_ratio": 0.97,
+     "turnover": 12484000000.0,
+     "volume": 44255200.0,
+     "volume_ratio": 0.98,
      "disclosures": []
     },
     {
@@ -1253,8 +1253,8 @@
      "sector": "コミュニケーション",
      "close": 597.6,
      "change_pct": 6.55,
-     "turnover": 11361000000.0,
-     "volume": 19011217.0,
+     "turnover": 11385000000.0,
+     "volume": 19051700.0,
      "volume_ratio": 0.88,
      "disclosures": []
     },
@@ -1264,8 +1264,8 @@
      "sector": "コミュニケーション",
      "close": 279.53,
      "change_pct": 5.88,
-     "turnover": 8755000000.0,
-     "volume": 31321256.0,
+     "turnover": 8773000000.0,
+     "volume": 31384000.0,
      "volume_ratio": 1.07,
      "disclosures": []
     }
@@ -1278,7 +1278,7 @@
      "close": 24.72,
      "change_pct": -0.72,
      "turnover": 788000000.0,
-     "volume": 31875412.0,
+     "volume": 31879300.0,
      "volume_ratio": 1.1,
      "disclosures": []
     },
@@ -1288,8 +1288,8 @@
      "sector": "コミュニケーション",
      "close": 46.45,
      "change_pct": -0.06,
-     "turnover": 971000000.0,
-     "volume": 20913485.0,
+     "turnover": 972000000.0,
+     "volume": 20918800.0,
      "volume_ratio": 0.88,
      "disclosures": []
     },
@@ -1299,8 +1299,8 @@
      "sector": "コミュニケーション",
      "close": 209.36,
      "change_pct": -0.3,
-     "turnover": 1345000000.0,
-     "volume": 6424147.0,
+     "turnover": 1347000000.0,
+     "volume": 6433300.0,
      "volume_ratio": 1.29,
      "disclosures": []
     }
@@ -1324,9 +1324,9 @@
      "sector": "一般消費財",
      "close": 385.46,
      "change_pct": 11.46,
-     "turnover": 17743000000.0,
-     "volume": 46030333.0,
-     "volume_ratio": 1.25,
+     "turnover": 18105000000.0,
+     "volume": 46970000.0,
+     "volume_ratio": 1.28,
      "disclosures": []
     },
     {
@@ -1335,8 +1335,8 @@
      "sector": "一般消費財",
      "close": 255.39,
      "change_pct": 3.47,
-     "turnover": 13500000000.0,
-     "volume": 52860784.0,
+     "turnover": 13578000000.0,
+     "volume": 53166700.0,
      "volume_ratio": 1.0,
      "disclosures": []
     },
@@ -1346,8 +1346,8 @@
      "sector": "一般消費財",
      "close": 346.06,
      "change_pct": 2.07,
-     "turnover": 1988000000.0,
-     "volume": 5745429.0,
+     "turnover": 1989000000.0,
+     "volume": 5747100.0,
      "volume_ratio": 1.15,
      "disclosures": []
     }
@@ -1360,7 +1360,7 @@
      "close": 37.57,
      "change_pct": -2.26,
      "turnover": 351000000.0,
-     "volume": 9344566.0,
+     "volume": 9345300.0,
      "volume_ratio": 0.86,
      "disclosures": []
     },
@@ -1370,9 +1370,9 @@
      "sector": "一般消費財",
      "close": 139.25,
      "change_pct": -0.27,
-     "turnover": 1090000000.0,
-     "volume": 7826596.0,
-     "volume_ratio": 1.02,
+     "turnover": 1116000000.0,
+     "volume": 8017900.0,
+     "volume_ratio": 1.04,
      "disclosures": []
     },
     {
@@ -1382,8 +1382,8 @@
      "close": 97.0,
      "change_pct": -0.97,
      "turnover": 733000000.0,
-     "volume": 7555377.0,
-     "volume_ratio": 2.74,
+     "volume": 7558700.0,
+     "volume_ratio": 2.75,
      "disclosures": []
     }
    ]
@@ -1406,8 +1406,8 @@
      "sector": "資本財",
      "close": 547.04,
      "change_pct": 7.17,
-     "turnover": 2149000000.0,
-     "volume": 3928286.0,
+     "turnover": 2152000000.0,
+     "volume": 3933600.0,
      "volume_ratio": 0.96,
      "disclosures": []
     },
@@ -1417,8 +1417,8 @@
      "sector": "資本財",
      "close": 756.71,
      "change_pct": 8.2,
-     "turnover": 3208000000.0,
-     "volume": 4239395.0,
+     "turnover": 3209000000.0,
+     "volume": 4240500.0,
      "volume_ratio": 0.95,
      "disclosures": []
     },
@@ -1428,9 +1428,9 @@
      "sector": "資本財",
      "close": 321.26,
      "change_pct": 3.76,
-     "turnover": 1354000000.0,
-     "volume": 4215076.0,
-     "volume_ratio": 0.85,
+     "turnover": 1365000000.0,
+     "volume": 4247600.0,
+     "volume_ratio": 0.86,
      "disclosures": []
     }
    ],
@@ -1442,7 +1442,7 @@
      "close": 199.91,
      "change_pct": -1.08,
      "turnover": 205000000.0,
-     "volume": 1025196.0,
+     "volume": 1026100.0,
      "volume_ratio": 0.78,
      "disclosures": []
     },
@@ -1452,8 +1452,8 @@
      "sector": "資本財",
      "close": 116.81,
      "change_pct": -1.46,
-     "turnover": 193000000.0,
-     "volume": 1656529.0,
+     "turnover": 194000000.0,
+     "volume": 1658100.0,
      "volume_ratio": 1.17,
      "disclosures": []
     },
@@ -1464,7 +1464,7 @@
      "close": 112.54,
      "change_pct": -0.08,
      "turnover": 259000000.0,
-     "volume": 2299376.0,
+     "volume": 2299500.0,
      "volume_ratio": 0.83,
      "disclosures": []
     }
@@ -1488,8 +1488,8 @@
      "sector": "素材",
      "close": 100.73,
      "change_pct": 6.39,
-     "turnover": 883000000.0,
-     "volume": 8768102.0,
+     "turnover": 884000000.0,
+     "volume": 8778900.0,
      "volume_ratio": 1.16,
      "disclosures": []
     },
@@ -1500,7 +1500,7 @@
      "close": 49.71,
      "change_pct": 8.09,
      "turnover": 1114000000.0,
-     "volume": 22407728.0,
+     "volume": 22410000.0,
      "volume_ratio": 1.45,
      "disclosures": []
     },
@@ -1511,7 +1511,7 @@
      "close": 517.0,
      "change_pct": 2.82,
      "turnover": 1270000000.0,
-     "volume": 2456207.0,
+     "volume": 2456400.0,
      "volume_ratio": 1.11,
      "disclosures": []
     }
@@ -1524,7 +1524,7 @@
      "close": 28.98,
      "change_pct": -4.55,
      "turnover": 359000000.0,
-     "volume": 12375152.0,
+     "volume": 12376700.0,
      "volume_ratio": 2.09,
      "disclosures": [
       {
@@ -1554,9 +1554,9 @@
      "sector": "素材",
      "close": 28.6,
      "change_pct": -1.48,
-     "turnover": 256000000.0,
-     "volume": 8966899.0,
-     "volume_ratio": 1.09,
+     "turnover": 299000000.0,
+     "volume": 10446400.0,
+     "volume_ratio": 1.27,
      "disclosures": []
     },
     {
@@ -1565,10 +1565,30 @@
      "sector": "素材",
      "close": 54.74,
      "change_pct": -1.97,
-     "turnover": 448000000.0,
-     "volume": 8180858.0,
-     "volume_ratio": 1.98,
-     "disclosures": []
+     "turnover": 466000000.0,
+     "volume": 8514000.0,
+     "volume_ratio": 2.06,
+     "disclosures": [
+      {
+       "code": "LYB",
+       "name": "LyondellBasell",
+       "time": "2026-11-20T16:18:41-05:00",
+       "title": "5.02 Departure of Directors or Certain Officers; Election of Directors; Appointment of Certain Officers: Compensatory Arrangements of Certain Officers",
+       "url": "https://www.sec.gov/Archives/edgar/data/1489393/000148939326000072/0001489393-26-000072-index.htm",
+       "items": [
+        "5.02",
+        "9.01"
+       ],
+       "tags": [
+        "役員の異動"
+       ],
+       "tone": "neutral",
+       "move_pct": null,
+       "move_basis": null,
+       "ah_price": null,
+       "ah_time": null
+      }
+     ]
     }
    ]
   },
@@ -1591,7 +1611,7 @@
      "close": 316.66,
      "change_pct": 1.97,
      "turnover": 2758000000.0,
-     "volume": 8709107.0,
+     "volume": 8710800.0,
      "volume_ratio": 1.24,
      "disclosures": []
     },
@@ -1602,7 +1622,7 @@
      "close": 409.4,
      "change_pct": 1.87,
      "turnover": 3552000000.0,
-     "volume": 8675249.0,
+     "volume": 8676200.0,
      "volume_ratio": 1.19,
      "disclosures": []
     },
@@ -1612,9 +1632,9 @@
      "sector": "金融",
      "close": 823.62,
      "change_pct": 4.16,
-     "turnover": 3125000000.0,
-     "volume": 3794422.0,
-     "volume_ratio": 1.67,
+     "turnover": 3227000000.0,
+     "volume": 3917800.0,
+     "volume_ratio": 1.72,
      "disclosures": []
     }
    ],
@@ -1625,8 +1645,8 @@
      "sector": "金融",
      "close": 304.43,
      "change_pct": -1.02,
-     "turnover": 756000000.0,
-     "volume": 2483701.0,
+     "turnover": 758000000.0,
+     "volume": 2488400.0,
      "volume_ratio": 1.28,
      "disclosures": []
     },
@@ -1637,7 +1657,7 @@
      "close": 275.07,
      "change_pct": -1.5,
      "turnover": 443000000.0,
-     "volume": 1612057.0,
+     "volume": 1612100.0,
      "volume_ratio": 0.89,
      "disclosures": []
     },
@@ -1648,7 +1668,7 @@
      "close": 368.67,
      "change_pct": -0.8,
      "turnover": 851000000.0,
-     "volume": 2308366.0,
+     "volume": 2308400.0,
      "volume_ratio": 1.48,
      "disclosures": []
     }
@@ -1672,9 +1692,9 @@
      "sector": "公益",
      "close": 251.72,
      "change_pct": 6.03,
-     "turnover": 1229000000.0,
-     "volume": 4881442.0,
-     "volume_ratio": 1.25,
+     "turnover": 1309000000.0,
+     "volume": 5199200.0,
+     "volume_ratio": 1.33,
      "disclosures": []
     },
     {
@@ -1683,8 +1703,8 @@
      "sector": "公益",
      "close": 123.87,
      "change_pct": 7.48,
-     "turnover": 701000000.0,
-     "volume": 5658617.0,
+     "turnover": 702000000.0,
+     "volume": 5664100.0,
      "volume_ratio": 0.86,
      "disclosures": []
     },
@@ -1695,7 +1715,7 @@
      "close": 97.72,
      "change_pct": 11.3,
      "turnover": 476000000.0,
-     "volume": 4866036.0,
+     "volume": 4866100.0,
      "volume_ratio": 1.2,
      "disclosures": []
     }
@@ -1708,7 +1728,7 @@
      "close": 147.26,
      "change_pct": -1.52,
      "turnover": 301000000.0,
-     "volume": 2045415.0,
+     "volume": 2045400.0,
      "volume_ratio": 0.98,
      "disclosures": []
     },
@@ -1719,7 +1739,7 @@
      "close": 118.48,
      "change_pct": -0.74,
      "turnover": 432000000.0,
-     "volume": 3649748.0,
+     "volume": 3649800.0,
      "volume_ratio": 1.23,
      "disclosures": []
     },
@@ -1729,9 +1749,9 @@
      "sector": "公益",
      "close": 129.47,
      "change_pct": -0.24,
-     "turnover": 615000000.0,
-     "volume": 4753686.0,
-     "volume_ratio": 0.91,
+     "turnover": 616000000.0,
+     "volume": 4758000.0,
+     "volume_ratio": 0.92,
      "disclosures": []
     }
    ]
@@ -1754,8 +1774,8 @@
      "sector": "ヘルスケア",
      "close": 1364.6,
      "change_pct": 1.3,
-     "turnover": 3997000000.0,
-     "volume": 2929307.0,
+     "turnover": 3999000000.0,
+     "volume": 2930600.0,
      "volume_ratio": 0.92,
      "disclosures": []
     },
@@ -1765,9 +1785,9 @@
      "sector": "ヘルスケア",
      "close": 449.04,
      "change_pct": 3.08,
-     "turnover": 1521000000.0,
-     "volume": 3388198.0,
-     "volume_ratio": 1.23,
+     "turnover": 1540000000.0,
+     "volume": 3430000.0,
+     "volume_ratio": 1.24,
      "disclosures": []
     },
     {
@@ -1776,9 +1796,9 @@
      "sector": "ヘルスケア",
      "close": 212.08,
      "change_pct": 8.76,
-     "turnover": 1736000000.0,
-     "volume": 8185800.0,
-     "volume_ratio": 0.76,
+     "turnover": 1738000000.0,
+     "volume": 8196800.0,
+     "volume_ratio": 0.77,
      "disclosures": []
     }
    ],
@@ -1789,8 +1809,8 @@
      "sector": "ヘルスケア",
      "close": 336.08,
      "change_pct": -1.11,
-     "turnover": 4334000000.0,
-     "volume": 12895806.0,
+     "turnover": 4345000000.0,
+     "volume": 12929900.0,
      "volume_ratio": 1.9,
      "disclosures": []
     },
@@ -1800,9 +1820,9 @@
      "sector": "ヘルスケア",
      "close": 379.55,
      "change_pct": -3.78,
-     "turnover": 982000000.0,
-     "volume": 2588333.0,
-     "volume_ratio": 1.74,
+     "turnover": 985000000.0,
+     "volume": 2594600.0,
+     "volume_ratio": 1.75,
      "disclosures": []
     },
     {
@@ -1811,8 +1831,8 @@
      "sector": "ヘルスケア",
      "close": 1048.42,
      "change_pct": -1.96,
-     "turnover": 758000000.0,
-     "volume": 722922.0,
+     "turnover": 759000000.0,
+     "volume": 723700.0,
      "volume_ratio": 1.0,
      "disclosures": []
     }
@@ -1837,7 +1857,7 @@
      "close": 999.4,
      "change_pct": 3.22,
      "turnover": 659000000.0,
-     "volume": 659387.0,
+     "volume": 659400.0,
      "volume_ratio": 0.88,
      "disclosures": []
     },
@@ -1859,7 +1879,7 @@
      "close": 167.41,
      "change_pct": 3.05,
      "turnover": 511000000.0,
-     "volume": 3051775.0,
+     "volume": 3051800.0,
      "volume_ratio": 1.04,
      "disclosures": []
     }
@@ -1872,7 +1892,7 @@
      "close": 179.31,
      "change_pct": -2.66,
      "turnover": 486000000.0,
-     "volume": 2712139.0,
+     "volume": 2712200.0,
      "volume_ratio": 0.96,
      "disclosures": [
       {
@@ -1903,7 +1923,7 @@
      "close": 81.24,
      "change_pct": -1.41,
      "turnover": 236000000.0,
-     "volume": 2904349.0,
+     "volume": 2904400.0,
      "volume_ratio": 0.67,
      "disclosures": []
     },
@@ -1914,7 +1934,7 @@
      "close": 171.0,
      "change_pct": -1.34,
      "turnover": 152000000.0,
-     "volume": 890721.0,
+     "volume": 890800.0,
      "volume_ratio": 0.82,
      "disclosures": []
     }
@@ -1938,9 +1958,9 @@
      "sector": "生活必需品",
      "close": 129.58,
      "change_pct": 1.27,
-     "turnover": 3189000000.0,
-     "volume": 24612213.0,
-     "volume_ratio": 1.04,
+     "turnover": 3253000000.0,
+     "volume": 25105000.0,
+     "volume_ratio": 1.06,
      "disclosures": []
     },
     {
@@ -1949,9 +1969,9 @@
      "sector": "生活必需品",
      "close": 103.75,
      "change_pct": 4.31,
-     "turnover": 335000000.0,
-     "volume": 3227611.0,
-     "volume_ratio": 0.82,
+     "turnover": 440000000.0,
+     "volume": 4244400.0,
+     "volume_ratio": 1.08,
      "disclosures": []
     },
     {
@@ -1961,7 +1981,7 @@
      "close": 168.19,
      "change_pct": 1.42,
      "turnover": 741000000.0,
-     "volume": 4406769.0,
+     "volume": 4407300.0,
      "volume_ratio": 0.95,
      "disclosures": []
     }
@@ -1973,8 +1993,8 @@
      "sector": "生活必需品",
      "close": 95.88,
      "change_pct": -1.14,
-     "turnover": 2875000000.0,
-     "volume": 29988173.0,
+     "turnover": 2886000000.0,
+     "volume": 30102600.0,
      "volume_ratio": 1.56,
      "disclosures": []
     },
@@ -1984,9 +2004,9 @@
      "sector": "生活必需品",
      "close": 182.5,
      "change_pct": -0.86,
-     "turnover": 1209000000.0,
-     "volume": 6622769.0,
-     "volume_ratio": 1.21,
+     "turnover": 1214000000.0,
+     "volume": 6652100.0,
+     "volume_ratio": 1.22,
      "disclosures": []
     },
     {
@@ -1996,7 +2016,7 @@
      "close": 42.43,
      "change_pct": -2.88,
      "turnover": 852000000.0,
-     "volume": 20070929.0,
+     "volume": 20084000.0,
      "volume_ratio": 1.88,
      "disclosures": []
     }
@@ -2021,7 +2041,7 @@
      "close": 65.43,
      "change_pct": 1.74,
      "turnover": 559000000.0,
-     "volume": 8544139.0,
+     "volume": 8544200.0,
      "volume_ratio": 0.96,
      "disclosures": []
     },
@@ -2032,7 +2052,7 @@
      "close": 46.04,
      "change_pct": 2.74,
      "turnover": 375000000.0,
-     "volume": 8150610.0,
+     "volume": 8151700.0,
      "volume_ratio": 0.75,
      "disclosures": [
       {
@@ -2063,7 +2083,7 @@
      "close": 46.16,
      "change_pct": 0.59,
      "turnover": 613000000.0,
-     "volume": 13270280.0,
+     "volume": 13270800.0,
      "volume_ratio": 1.16,
      "disclosures": []
     }
@@ -2075,8 +2095,8 @@
      "sector": "エネルギー",
      "close": 156.9,
      "change_pct": -1.93,
-     "turnover": 2302000000.0,
-     "volume": 14669952.0,
+     "turnover": 2303000000.0,
+     "volume": 14676200.0,
      "volume_ratio": 0.98,
      "disclosures": []
     },
@@ -2086,9 +2106,9 @@
      "sector": "エネルギー",
      "close": 132.19,
      "change_pct": -2.89,
-     "turnover": 979000000.0,
-     "volume": 7406778.0,
-     "volume_ratio": 0.99,
+     "turnover": 1000000000.0,
+     "volume": 7563500.0,
+     "volume_ratio": 1.02,
      "disclosures": []
     },
     {
@@ -2097,8 +2117,8 @@
      "sector": "エネルギー",
      "close": 206.17,
      "change_pct": -1.06,
-     "turnover": 1823000000.0,
-     "volume": 8842670.0,
+     "turnover": 1827000000.0,
+     "volume": 8861100.0,
      "volume_ratio": 1.04,
      "disclosures": []
     }
@@ -2119,9 +2139,9 @@
      "sector": "情報技術",
      "close": 165.05,
      "change_pct": 31.48,
-     "turnover": 128116000000.0,
-     "volume": 776225888.0,
-     "volume_ratio": 2.7,
+     "turnover": 128604000000.0,
+     "volume": 779184200.0,
+     "volume_ratio": 2.71,
      "disclosures": [
       {
        "code": "NVDA",
@@ -2150,8 +2170,8 @@
      "sector": null,
      "close": 222.12,
      "change_pct": 23.16,
-     "turnover": 1877000000.0,
-     "volume": 8449583.0,
+     "turnover": 1881000000.0,
+     "volume": 8468500.0,
      "volume_ratio": 1.54,
      "disclosures": []
     },
@@ -2161,9 +2181,9 @@
      "sector": null,
      "close": 122.46,
      "change_pct": 22.63,
-     "turnover": 1284000000.0,
-     "volume": 10485909.0,
-     "volume_ratio": 1.27,
+     "turnover": 1304000000.0,
+     "volume": 10646400.0,
+     "volume_ratio": 1.29,
      "disclosures": []
     },
     {
@@ -2172,9 +2192,9 @@
      "sector": null,
      "close": 48.33,
      "change_pct": 22.32,
-     "turnover": 4572000000.0,
-     "volume": 94607762.0,
-     "volume_ratio": 1.35,
+     "turnover": 4584000000.0,
+     "volume": 94852900.0,
+     "volume_ratio": 1.36,
      "disclosures": []
     },
     {
@@ -2183,9 +2203,9 @@
      "sector": "情報技術",
      "close": 334.91,
      "change_pct": 20.46,
-     "turnover": 5370000000.0,
-     "volume": 16032854.0,
-     "volume_ratio": 2.04,
+     "turnover": 5393000000.0,
+     "volume": 16103000.0,
+     "volume_ratio": 2.05,
      "disclosures": []
     },
     {
@@ -2194,9 +2214,9 @@
      "sector": null,
      "close": 97.8,
      "change_pct": 20.28,
-     "turnover": 5027000000.0,
-     "volume": 51398825.0,
-     "volume_ratio": 1.65,
+     "turnover": 5055000000.0,
+     "volume": 51687500.0,
+     "volume_ratio": 1.66,
      "disclosures": []
     },
     {
@@ -2205,8 +2225,8 @@
      "sector": null,
      "close": 13.82,
      "change_pct": 20.28,
-     "turnover": 639000000.0,
-     "volume": 46236359.0,
+     "turnover": 641000000.0,
+     "volume": 46380700.0,
      "volume_ratio": 1.68,
      "disclosures": []
     },
@@ -2216,9 +2236,9 @@
      "sector": "情報技術",
      "close": 48.02,
      "change_pct": 17.38,
-     "turnover": 2083000000.0,
-     "volume": 43378538.0,
-     "volume_ratio": 2.95,
+     "turnover": 2133000000.0,
+     "volume": 44420100.0,
+     "volume_ratio": 3.03,
      "disclosures": []
     },
     {
@@ -2227,8 +2247,8 @@
      "sector": "情報技術",
      "close": 24.53,
      "change_pct": 13.3,
-     "turnover": 1527000000.0,
-     "volume": 62266922.0,
+     "turnover": 1531000000.0,
+     "volume": 62407300.0,
      "volume_ratio": 1.34,
      "disclosures": []
     },
@@ -2238,8 +2258,8 @@
      "sector": "情報技術",
      "close": 113.68,
      "change_pct": 12.34,
-     "turnover": 4580000000.0,
-     "volume": 40289066.0,
+     "turnover": 4603000000.0,
+     "volume": 40488200.0,
      "volume_ratio": 0.96,
      "disclosures": []
     },
@@ -2249,8 +2269,8 @@
      "sector": "情報技術",
      "close": 178.31,
      "change_pct": 6.38,
-     "turnover": 1744000000.0,
-     "volume": 9779167.0,
+     "turnover": 1746000000.0,
+     "volume": 9791000.0,
      "volume_ratio": 1.07,
      "disclosures": []
     },
@@ -2260,8 +2280,8 @@
      "sector": null,
      "close": 213.31,
      "change_pct": 5.7,
-     "turnover": 1096000000.0,
-     "volume": 5138965.0,
+     "turnover": 1097000000.0,
+     "volume": 5144900.0,
      "volume_ratio": 1.26,
      "disclosures": []
     },
@@ -2271,13 +2291,13 @@
      "sector": "情報技術",
      "close": 313.55,
      "change_pct": 3.0,
-     "turnover": 12831000000.0,
-     "volume": 40921621.0,
+     "turnover": 12858000000.0,
+     "volume": 41009300.0,
      "volume_ratio": 1.35,
      "disclosures": []
     }
    ],
-   "news_count": 0
+   "news_count": 1
   },
   {
    "key": "optical",
@@ -2292,8 +2312,8 @@
      "sector": null,
      "close": 222.12,
      "change_pct": 23.16,
-     "turnover": 1877000000.0,
-     "volume": 8449583.0,
+     "turnover": 1881000000.0,
+     "volume": 8468500.0,
      "volume_ratio": 1.54,
      "disclosures": []
     },
@@ -2303,9 +2323,9 @@
      "sector": null,
      "close": 122.46,
      "change_pct": 22.63,
-     "turnover": 1284000000.0,
-     "volume": 10485909.0,
-     "volume_ratio": 1.27,
+     "turnover": 1304000000.0,
+     "volume": 10646400.0,
+     "volume_ratio": 1.29,
      "disclosures": []
     },
     {
@@ -2314,9 +2334,9 @@
      "sector": "情報技術",
      "close": 544.38,
      "change_pct": 18.2,
-     "turnover": 3257000000.0,
-     "volume": 5982802.0,
-     "volume_ratio": 0.93,
+     "turnover": 3292000000.0,
+     "volume": 6047800.0,
+     "volume_ratio": 0.94,
      "disclosures": []
     },
     {
@@ -2325,9 +2345,9 @@
      "sector": null,
      "close": 38.7,
      "change_pct": 17.52,
-     "turnover": 546000000.0,
-     "volume": 14099410.0,
-     "volume_ratio": 0.94,
+     "turnover": 547000000.0,
+     "volume": 14140900.0,
+     "volume_ratio": 0.95,
      "disclosures": []
     },
     {
@@ -2337,7 +2357,7 @@
      "close": 329.22,
      "change_pct": 15.5,
      "turnover": 466000000.0,
-     "volume": 1415373.0,
+     "volume": 1415800.0,
      "volume_ratio": 1.16,
      "disclosures": []
     },
@@ -2347,8 +2367,8 @@
      "sector": "情報技術",
      "close": 215.81,
      "change_pct": 15.27,
-     "turnover": 2487000000.0,
-     "volume": 11523830.0,
+     "turnover": 2501000000.0,
+     "volume": 11588300.0,
      "volume_ratio": 1.11,
      "disclosures": []
     },
@@ -2358,8 +2378,8 @@
      "sector": "情報技術",
      "close": 108.31,
      "change_pct": 14.76,
-     "turnover": 1389000000.0,
-     "volume": 12824298.0,
+     "turnover": 1392000000.0,
+     "volume": 12847500.0,
      "volume_ratio": 1.17,
      "disclosures": []
     },
@@ -2369,8 +2389,8 @@
      "sector": "情報技術",
      "close": 264.73,
      "change_pct": 12.95,
-     "turnover": 996000000.0,
-     "volume": 3763986.0,
+     "turnover": 997000000.0,
+     "volume": 3765700.0,
      "volume_ratio": 1.17,
      "disclosures": []
     },
@@ -2381,7 +2401,7 @@
      "close": 96.8,
      "change_pct": 6.8,
      "turnover": 2659000000.0,
-     "volume": 27465036.0,
+     "volume": 27468500.0,
      "volume_ratio": 1.23,
      "disclosures": []
     },
@@ -2391,13 +2411,13 @@
      "sector": "情報技術",
      "close": 178.31,
      "change_pct": 6.38,
-     "turnover": 1744000000.0,
-     "volume": 9779167.0,
+     "turnover": 1746000000.0,
+     "volume": 9791000.0,
      "volume_ratio": 1.07,
      "disclosures": []
     }
    ],
-   "news_count": 0
+   "news_count": 1
   },
   {
    "key": "semiconductor",
@@ -2412,9 +2432,9 @@
      "sector": "情報技術",
      "close": 165.05,
      "change_pct": 31.48,
-     "turnover": 128116000000.0,
-     "volume": 776225888.0,
-     "volume_ratio": 2.7,
+     "turnover": 128604000000.0,
+     "volume": 779184200.0,
+     "volume_ratio": 2.71,
      "disclosures": [
       {
        "code": "NVDA",
@@ -2443,9 +2463,9 @@
      "sector": "情報技術",
      "close": 707.7,
      "change_pct": 19.04,
-     "turnover": 34962000000.0,
-     "volume": 49402564.0,
-     "volume_ratio": 1.46,
+     "turnover": 35112000000.0,
+     "volume": 49614800.0,
+     "volume_ratio": 1.47,
      "disclosures": []
     },
     {
@@ -2454,8 +2474,8 @@
      "sector": "情報技術",
      "close": 144.74,
      "change_pct": 18.37,
-     "turnover": 5310000000.0,
-     "volume": 36686576.0,
+     "turnover": 5323000000.0,
+     "volume": 36775000.0,
      "volume_ratio": 1.12,
      "disclosures": []
     },
@@ -2466,7 +2486,7 @@
      "close": 1333.88,
      "change_pct": 16.8,
      "turnover": 1861000000.0,
-     "volume": 1395081.0,
+     "volume": 1395200.0,
      "volume_ratio": 1.19,
      "disclosures": []
     },
@@ -2476,8 +2496,8 @@
      "sector": "情報技術",
      "close": 59.66,
      "change_pct": 16.34,
-     "turnover": 9785000000.0,
-     "volume": 164011608.0,
+     "turnover": 9816000000.0,
+     "volume": 164525500.0,
      "volume_ratio": 1.07,
      "disclosures": []
     },
@@ -2487,8 +2507,8 @@
      "sector": null,
      "close": 176.67,
      "change_pct": 16.08,
-     "turnover": 1422000000.0,
-     "volume": 8047163.0,
+     "turnover": 1424000000.0,
+     "volume": 8058700.0,
      "volume_ratio": 1.29,
      "disclosures": []
     },
@@ -2498,9 +2518,9 @@
      "sector": null,
      "close": 363.6,
      "change_pct": 14.08,
-     "turnover": 11456000000.0,
-     "volume": 31507758.0,
-     "volume_ratio": 1.85,
+     "turnover": 11482000000.0,
+     "volume": 31579400.0,
+     "volume_ratio": 1.86,
      "disclosures": []
     },
     {
@@ -2510,7 +2530,7 @@
      "close": 61.22,
      "change_pct": 10.43,
      "turnover": 1446000000.0,
-     "volume": 23615062.0,
+     "volume": 23616100.0,
      "volume_ratio": 1.34,
      "disclosures": []
     },
@@ -2520,9 +2540,9 @@
      "sector": "情報技術",
      "close": 291.19,
      "change_pct": 10.4,
-     "turnover": 3494000000.0,
-     "volume": 11999214.0,
-     "volume_ratio": 1.34,
+     "turnover": 3585000000.0,
+     "volume": 12312900.0,
+     "volume_ratio": 1.38,
      "disclosures": []
     },
     {
@@ -2531,8 +2551,8 @@
      "sector": "情報技術",
      "close": 165.38,
      "change_pct": 10.3,
-     "turnover": 3346000000.0,
-     "volume": 20232967.0,
+     "turnover": 3347000000.0,
+     "volume": 20240900.0,
      "volume_ratio": 1.37,
      "disclosures": []
     },
@@ -2543,7 +2563,7 @@
      "close": 66.77,
      "change_pct": 9.75,
      "turnover": 978000000.0,
-     "volume": 14653686.0,
+     "volume": 14654300.0,
      "volume_ratio": 1.3,
      "disclosures": []
     },
@@ -2554,7 +2574,7 @@
      "close": 378.75,
      "change_pct": 9.49,
      "turnover": 3371000000.0,
-     "volume": 8899809.0,
+     "volume": 8900600.0,
      "volume_ratio": 1.7,
      "disclosures": []
     },
@@ -2564,9 +2584,9 @@
      "sector": "情報技術",
      "close": 256.03,
      "change_pct": 8.88,
-     "turnover": 1576000000.0,
-     "volume": 6156192.0,
-     "volume_ratio": 1.05,
+     "turnover": 1586000000.0,
+     "volume": 6195600.0,
+     "volume_ratio": 1.06,
      "disclosures": []
     },
     {
@@ -2575,8 +2595,8 @@
      "sector": "情報技術",
      "close": 453.46,
      "change_pct": 6.85,
-     "turnover": 24348000000.0,
-     "volume": 53693661.0,
+     "turnover": 24413000000.0,
+     "volume": 53837500.0,
      "volume_ratio": 1.27,
      "disclosures": []
     },
@@ -2586,8 +2606,8 @@
      "sector": "情報技術",
      "close": 313.55,
      "change_pct": 3.0,
-     "turnover": 12831000000.0,
-     "volume": 40921621.0,
+     "turnover": 12858000000.0,
+     "volume": 41009300.0,
      "volume_ratio": 1.35,
      "disclosures": []
     }
@@ -2608,7 +2628,7 @@
      "close": 34.81,
      "change_pct": 15.11,
      "turnover": 158000000.0,
-     "volume": 4534479.0,
+     "volume": 4538300.0,
      "volume_ratio": 0.78,
      "disclosures": []
     },
@@ -2618,9 +2638,9 @@
      "sector": "情報技術",
      "close": 145.85,
      "change_pct": 14.96,
-     "turnover": 2475000000.0,
-     "volume": 16968704.0,
-     "volume_ratio": 1.13,
+     "turnover": 2557000000.0,
+     "volume": 17534500.0,
+     "volume_ratio": 1.17,
      "disclosures": []
     },
     {
@@ -2629,8 +2649,8 @@
      "sector": "情報技術",
      "close": 346.87,
      "change_pct": 14.62,
-     "turnover": 4307000000.0,
-     "volume": 12415689.0,
+     "turnover": 4311000000.0,
+     "volume": 12428500.0,
      "volume_ratio": 1.46,
      "disclosures": []
     },
@@ -2640,8 +2660,8 @@
      "sector": "情報技術",
      "close": 209.76,
      "change_pct": 14.45,
-     "turnover": 3616000000.0,
-     "volume": 17236627.0,
+     "turnover": 3618000000.0,
+     "volume": 17247300.0,
      "volume_ratio": 1.26,
      "disclosures": []
     },
@@ -2652,7 +2672,7 @@
      "close": 142.06,
      "change_pct": 14.08,
      "turnover": 604000000.0,
-     "volume": 4254178.0,
+     "volume": 4254600.0,
      "volume_ratio": 1.1,
      "disclosures": []
     },
@@ -2663,7 +2683,7 @@
      "close": 233.51,
      "change_pct": 14.03,
      "turnover": 1217000000.0,
-     "volume": 5210020.0,
+     "volume": 5210700.0,
      "volume_ratio": 1.16,
      "disclosures": []
     },
@@ -2674,7 +2694,7 @@
      "close": 45.17,
      "change_pct": 13.49,
      "turnover": 54000000.0,
-     "volume": 1195652.0,
+     "volume": 1195800.0,
      "volume_ratio": 0.9,
      "disclosures": []
     },
@@ -2684,9 +2704,9 @@
      "sector": null,
      "close": 61.54,
      "change_pct": 12.48,
-     "turnover": 61000000.0,
-     "volume": 996527.0,
-     "volume_ratio": 1.19,
+     "turnover": 81000000.0,
+     "volume": 1314900.0,
+     "volume_ratio": 1.57,
      "disclosures": []
     },
     {
@@ -2696,7 +2716,7 @@
      "close": 190.99,
      "change_pct": 12.24,
      "turnover": 163000000.0,
-     "volume": 855926.0,
+     "volume": 856000.0,
      "volume_ratio": 0.71,
      "disclosures": []
     },
@@ -2707,7 +2727,7 @@
      "close": 100.1,
      "change_pct": 12.22,
      "turnover": 50000000.0,
-     "volume": 500929.0,
+     "volume": 500900.0,
      "volume_ratio": 0.89,
      "disclosures": []
     },
@@ -2718,7 +2738,7 @@
      "close": 81.57,
      "change_pct": 11.71,
      "turnover": 181000000.0,
-     "volume": 2221468.0,
+     "volume": 2221500.0,
      "volume_ratio": 1.33,
      "disclosures": []
     },
@@ -2729,7 +2749,7 @@
      "close": 311.44,
      "change_pct": 10.89,
      "turnover": 68000000.0,
-     "volume": 218777.0,
+     "volume": 218800.0,
      "volume_ratio": 0.78,
      "disclosures": []
     },
@@ -2739,9 +2759,9 @@
      "sector": null,
      "close": 1383.78,
      "change_pct": 9.28,
-     "turnover": 2991000000.0,
-     "volume": 2161180.0,
-     "volume_ratio": 1.15,
+     "turnover": 3020000000.0,
+     "volume": 2182400.0,
+     "volume_ratio": 1.17,
      "disclosures": []
     }
    ],
@@ -2760,9 +2780,9 @@
      "sector": null,
      "close": 14.64,
      "change_pct": 23.86,
-     "turnover": 1824000000.0,
-     "volume": 124604189.0,
-     "volume_ratio": 1.57,
+     "turnover": 1834000000.0,
+     "volume": 125250100.0,
+     "volume_ratio": 1.58,
      "disclosures": []
     },
     {
@@ -2772,7 +2792,7 @@
      "close": 3.91,
      "change_pct": 16.72,
      "turnover": 9000000.0,
-     "volume": 2175132.0,
+     "volume": 2175400.0,
      "volume_ratio": 1.66,
      "disclosures": []
     },
@@ -2783,7 +2803,7 @@
      "close": 5.53,
      "change_pct": 13.09,
      "turnover": 103000000.0,
-     "volume": 18560908.0,
+     "volume": 18570900.0,
      "volume_ratio": 0.94,
      "disclosures": []
     },
@@ -2794,7 +2814,7 @@
      "close": 12.55,
      "change_pct": 11.85,
      "turnover": 162000000.0,
-     "volume": 12895930.0,
+     "volume": 12902000.0,
      "volume_ratio": 1.3,
      "disclosures": []
     },
@@ -2804,9 +2824,9 @@
      "sector": null,
      "close": 51.37,
      "change_pct": 11.8,
-     "turnover": 420000000.0,
-     "volume": 8184545.0,
-     "volume_ratio": 1.23,
+     "turnover": 422000000.0,
+     "volume": 8216300.0,
+     "volume_ratio": 1.24,
      "disclosures": []
     },
     {
@@ -2815,8 +2835,8 @@
      "sector": null,
      "close": 5.58,
      "change_pct": 9.63,
-     "turnover": 251000000.0,
-     "volume": 45061826.0,
+     "turnover": 252000000.0,
+     "volume": 45127100.0,
      "volume_ratio": 1.12,
      "disclosures": []
     },
@@ -2826,9 +2846,9 @@
      "sector": null,
      "close": 12.36,
      "change_pct": 9.09,
-     "turnover": 263000000.0,
-     "volume": 21294281.0,
-     "volume_ratio": 1.17,
+     "turnover": 286000000.0,
+     "volume": 23113300.0,
+     "volume_ratio": 1.27,
      "disclosures": []
     },
     {
@@ -2837,8 +2857,8 @@
      "sector": null,
      "close": 84.4,
      "change_pct": 8.48,
-     "turnover": 2250000000.0,
-     "volume": 26657445.0,
+     "turnover": 2256000000.0,
+     "volume": 26730200.0,
      "volume_ratio": 1.39,
      "disclosures": [
       {
@@ -2869,8 +2889,8 @@
      "sector": "金融",
      "close": 67.37,
      "change_pct": 8.36,
-     "turnover": 1372000000.0,
-     "volume": 20366779.0,
+     "turnover": 1377000000.0,
+     "volume": 20440600.0,
      "volume_ratio": 0.96,
      "disclosures": []
     },
@@ -2880,9 +2900,9 @@
      "sector": null,
      "close": 51.34,
      "change_pct": 8.06,
-     "turnover": 590000000.0,
-     "volume": 11488330.0,
-     "volume_ratio": 1.15,
+     "turnover": 591000000.0,
+     "volume": 11508700.0,
+     "volume_ratio": 1.16,
      "disclosures": []
     },
     {
@@ -2891,8 +2911,8 @@
      "sector": "金融",
      "close": 108.78,
      "change_pct": 6.68,
-     "turnover": 1171000000.0,
-     "volume": 10764119.0,
+     "turnover": 1172000000.0,
+     "volume": 10775900.0,
      "volume_ratio": 1.17,
      "disclosures": []
     },
@@ -2903,12 +2923,12 @@
      "close": 17.15,
      "change_pct": 5.67,
      "turnover": 446000000.0,
-     "volume": 25996845.0,
+     "volume": 26017900.0,
      "volume_ratio": 0.86,
      "disclosures": []
     }
    ],
-   "news_count": 1
+   "news_count": 0
   },
   {
    "key": "memory",
@@ -2923,9 +2943,9 @@
      "sector": "情報技術",
      "close": 707.7,
      "change_pct": 19.04,
-     "turnover": 34962000000.0,
-     "volume": 49402564.0,
-     "volume_ratio": 1.46,
+     "turnover": 35112000000.0,
+     "volume": 49614800.0,
+     "volume_ratio": 1.47,
      "disclosures": []
     },
     {
@@ -2934,9 +2954,9 @@
      "sector": null,
      "close": 153.42,
      "change_pct": 18.01,
-     "turnover": 190000000.0,
-     "volume": 1240000.0,
-     "volume_ratio": 1.04,
+     "turnover": 198000000.0,
+     "volume": 1292700.0,
+     "volume_ratio": 1.09,
      "disclosures": []
     },
     {
@@ -2945,8 +2965,8 @@
      "sector": "情報技術",
      "close": 297.25,
      "change_pct": 13.84,
-     "turnover": 2280000000.0,
-     "volume": 7669931.0,
+     "turnover": 2289000000.0,
+     "volume": 7700900.0,
      "volume_ratio": 0.95,
      "disclosures": []
     },
@@ -2956,8 +2976,8 @@
      "sector": "情報技術",
      "close": 520.1,
      "change_pct": 13.8,
-     "turnover": 2728000000.0,
-     "volume": 5244874.0,
+     "turnover": 2729000000.0,
+     "volume": 5247700.0,
      "volume_ratio": 0.87,
      "disclosures": []
     },
@@ -2968,7 +2988,7 @@
      "close": 171.64,
      "change_pct": 8.87,
      "turnover": 373000000.0,
-     "volume": 2170802.0,
+     "volume": 2171000.0,
      "volume_ratio": 1.13,
      "disclosures": []
     },
@@ -2999,9 +3019,9 @@
      "sector": "資本財",
      "close": 168.15,
      "change_pct": 18.09,
-     "turnover": 3780000000.0,
-     "volume": 22481081.0,
-     "volume_ratio": 1.26,
+     "turnover": 3788000000.0,
+     "volume": 22526600.0,
+     "volume_ratio": 1.27,
      "disclosures": []
     },
     {
@@ -3010,8 +3030,8 @@
      "sector": "資本財",
      "close": 186.35,
      "change_pct": 12.1,
-     "turnover": 1806000000.0,
-     "volume": 9690744.0,
+     "turnover": 1808000000.0,
+     "volume": 9701600.0,
      "volume_ratio": 1.12,
      "disclosures": []
     },
@@ -3022,7 +3042,7 @@
      "close": 97.72,
      "change_pct": 11.3,
      "turnover": 476000000.0,
-     "volume": 4866036.0,
+     "volume": 4866100.0,
      "volume_ratio": 1.2,
      "disclosures": []
     },
@@ -3033,7 +3053,7 @@
      "close": 137.39,
      "change_pct": 10.2,
      "turnover": 325000000.0,
-     "volume": 2361922.0,
+     "volume": 2362400.0,
      "volume_ratio": 0.8,
      "disclosures": []
     },
@@ -3044,7 +3064,7 @@
      "close": 111.92,
      "change_pct": 9.9,
      "turnover": 401000000.0,
-     "volume": 3586485.0,
+     "volume": 3586500.0,
      "volume_ratio": 1.01,
      "disclosures": []
     },
@@ -3054,8 +3074,8 @@
      "sector": null,
      "close": 364.83,
      "change_pct": 9.58,
-     "turnover": 539000000.0,
-     "volume": 1476943.0,
+     "turnover": 540000000.0,
+     "volume": 1480100.0,
      "volume_ratio": 1.31,
      "disclosures": []
     },
@@ -3066,7 +3086,7 @@
      "close": 161.98,
      "change_pct": 9.31,
      "turnover": 189000000.0,
-     "volume": 1163772.0,
+     "volume": 1163800.0,
      "volume_ratio": 1.32,
      "disclosures": []
     },
@@ -3076,8 +3096,8 @@
      "sector": "資本財",
      "close": 609.0,
      "change_pct": 8.94,
-     "turnover": 1254000000.0,
-     "volume": 2059660.0,
+     "turnover": 1255000000.0,
+     "volume": 2060600.0,
      "volume_ratio": 1.22,
      "disclosures": []
     },
@@ -3087,8 +3107,8 @@
      "sector": "資本財",
      "close": 756.71,
      "change_pct": 8.2,
-     "turnover": 3208000000.0,
-     "volume": 4239395.0,
+     "turnover": 3209000000.0,
+     "volume": 4240500.0,
      "volume_ratio": 0.95,
      "disclosures": []
     },
@@ -3098,8 +3118,8 @@
      "sector": "資本財",
      "close": 336.34,
      "change_pct": 8.03,
-     "turnover": 1178000000.0,
-     "volume": 3503775.0,
+     "turnover": 1179000000.0,
+     "volume": 3504300.0,
      "volume_ratio": 1.05,
      "disclosures": []
     },
@@ -3110,7 +3130,7 @@
      "close": 434.72,
      "change_pct": 7.69,
      "turnover": 335000000.0,
-     "volume": 770488.0,
+     "volume": 770036.0,
      "volume_ratio": 1.06,
      "disclosures": []
     },
@@ -3120,8 +3140,8 @@
      "sector": "公益",
      "close": 123.87,
      "change_pct": 7.48,
-     "turnover": 701000000.0,
-     "volume": 5658617.0,
+     "turnover": 702000000.0,
+     "volume": 5664100.0,
      "volume_ratio": 0.86,
      "disclosures": []
     },
@@ -3131,9 +3151,9 @@
      "sector": "公益",
      "close": 251.72,
      "change_pct": 6.03,
-     "turnover": 1229000000.0,
-     "volume": 4881442.0,
-     "volume_ratio": 1.25,
+     "turnover": 1309000000.0,
+     "volume": 5199200.0,
+     "volume_ratio": 1.33,
      "disclosures": []
     }
    ],
@@ -3152,9 +3172,9 @@
      "sector": "情報技術",
      "close": 165.05,
      "change_pct": 31.48,
-     "turnover": 128116000000.0,
-     "volume": 776225888.0,
-     "volume_ratio": 2.7,
+     "turnover": 128604000000.0,
+     "volume": 779184200.0,
+     "volume_ratio": 2.71,
      "disclosures": [
       {
        "code": "NVDA",
@@ -3183,9 +3203,9 @@
      "sector": "一般消費財",
      "close": 385.46,
      "change_pct": 11.46,
-     "turnover": 17743000000.0,
-     "volume": 46030333.0,
-     "volume_ratio": 1.25,
+     "turnover": 18105000000.0,
+     "volume": 46970000.0,
+     "volume_ratio": 1.28,
      "disclosures": []
     },
     {
@@ -3194,8 +3214,8 @@
      "sector": "コミュニケーション",
      "close": 597.6,
      "change_pct": 6.55,
-     "turnover": 11361000000.0,
-     "volume": 19011217.0,
+     "turnover": 11385000000.0,
+     "volume": 19051700.0,
      "volume_ratio": 0.88,
      "disclosures": []
     },
@@ -3205,9 +3225,9 @@
      "sector": "コミュニケーション",
      "close": 282.1,
      "change_pct": 6.34,
-     "turnover": 12435000000.0,
-     "volume": 44078624.0,
-     "volume_ratio": 0.97,
+     "turnover": 12484000000.0,
+     "volume": 44255200.0,
+     "volume_ratio": 0.98,
      "disclosures": []
     },
     {
@@ -3216,8 +3236,8 @@
      "sector": "一般消費財",
      "close": 255.39,
      "change_pct": 3.47,
-     "turnover": 13500000000.0,
-     "volume": 52860784.0,
+     "turnover": 13578000000.0,
+     "volume": 53166700.0,
      "volume_ratio": 1.0,
      "disclosures": []
     },
@@ -3227,9 +3247,9 @@
      "sector": "情報技術",
      "close": 349.08,
      "change_pct": 1.9,
-     "turnover": 19897000000.0,
-     "volume": 56997299.0,
-     "volume_ratio": 1.15,
+     "turnover": 20435000000.0,
+     "volume": 58538400.0,
+     "volume_ratio": 1.18,
      "disclosures": []
     },
     {
@@ -3238,9 +3258,9 @@
      "sector": "情報技術",
      "close": 492.5,
      "change_pct": 1.65,
-     "turnover": 14819000000.0,
-     "volume": 30090263.0,
-     "volume_ratio": 1.0,
+     "turnover": 14946000000.0,
+     "volume": 30347400.0,
+     "volume_ratio": 1.01,
      "disclosures": []
     }
    ],
@@ -3260,7 +3280,7 @@
      "close": 8.1,
      "change_pct": 13.06,
      "turnover": 164000000.0,
-     "volume": 20277713.0,
+     "volume": 20310000.0,
      "volume_ratio": 1.14,
      "disclosures": []
     },
@@ -3270,8 +3290,8 @@
      "sector": null,
      "close": 23.34,
      "change_pct": 12.64,
-     "turnover": 612000000.0,
-     "volume": 26240115.0,
+     "turnover": 615000000.0,
+     "volume": 26341400.0,
      "volume_ratio": 1.12,
      "disclosures": []
     },
@@ -3282,7 +3302,7 @@
      "close": 7.31,
      "change_pct": 12.12,
      "turnover": 144000000.0,
-     "volume": 19695381.0,
+     "volume": 19729200.0,
      "volume_ratio": 1.21,
      "disclosures": []
     },
@@ -3293,7 +3313,7 @@
      "close": 30.0,
      "change_pct": 8.15,
      "turnover": 71000000.0,
-     "volume": 2361912.0,
+     "volume": 2362500.0,
      "volume_ratio": 0.89,
      "disclosures": []
     },
@@ -3304,8 +3324,8 @@
      "close": 4.72,
      "change_pct": 7.39,
      "turnover": 28000000.0,
-     "volume": 5952813.0,
-     "volume_ratio": 0.75,
+     "volume": 5985500.0,
+     "volume_ratio": 0.76,
      "disclosures": []
     },
     {
@@ -3314,9 +3334,9 @@
      "sector": "資本財",
      "close": 221.97,
      "change_pct": 4.39,
-     "turnover": 615000000.0,
-     "volume": 2768759.0,
-     "volume_ratio": 0.99,
+     "turnover": 652000000.0,
+     "volume": 2938000.0,
+     "volume_ratio": 1.05,
      "disclosures": []
     },
     {
@@ -3325,8 +3345,8 @@
      "sector": "情報技術",
      "close": 233.0,
      "change_pct": 3.81,
-     "turnover": 1045000000.0,
-     "volume": 4484315.0,
+     "turnover": 1047000000.0,
+     "volume": 4492000.0,
      "volume_ratio": 1.06,
      "disclosures": []
     }
@@ -3347,7 +3367,7 @@
      "close": 233.51,
      "change_pct": 14.03,
      "turnover": 1217000000.0,
-     "volume": 5210020.0,
+     "volume": 5210700.0,
      "volume_ratio": 1.16,
      "disclosures": []
     },
@@ -3357,8 +3377,8 @@
      "sector": null,
      "close": 34.97,
      "change_pct": 12.44,
-     "turnover": 157000000.0,
-     "volume": 4495626.0,
+     "turnover": 158000000.0,
+     "volume": 4512300.0,
      "volume_ratio": 2.56,
      "disclosures": []
     },
@@ -3369,7 +3389,7 @@
      "close": 2.26,
      "change_pct": 10.78,
      "turnover": 10000000.0,
-     "volume": 4306070.0,
+     "volume": 4311600.0,
      "volume_ratio": 1.01,
      "disclosures": []
     },
@@ -3380,7 +3400,7 @@
      "close": 48.47,
      "change_pct": 9.27,
      "turnover": 110000000.0,
-     "volume": 2265362.0,
+     "volume": 2265400.0,
      "volume_ratio": 0.95,
      "disclosures": []
     },
@@ -3390,8 +3410,8 @@
      "sector": "情報技術",
      "close": 320.22,
      "change_pct": 6.2,
-     "turnover": 153000000.0,
-     "volume": 478552.0,
+     "turnover": 156000000.0,
+     "volume": 486200.0,
      "volume_ratio": 0.61,
      "disclosures": []
     },
@@ -3402,7 +3422,7 @@
      "close": 382.47,
      "change_pct": 5.68,
      "turnover": 454000000.0,
-     "volume": 1187237.0,
+     "volume": 1187300.0,
      "volume_ratio": 1.07,
      "disclosures": []
     },
@@ -3413,7 +3433,7 @@
      "close": 158.31,
      "change_pct": 4.89,
      "turnover": 487000000.0,
-     "volume": 3076103.0,
+     "volume": 3076100.0,
      "volume_ratio": 1.05,
      "disclosures": []
     },
@@ -3424,7 +3444,7 @@
      "close": 416.23,
      "change_pct": 4.31,
      "turnover": 940000000.0,
-     "volume": 2258725.0,
+     "volume": 2259000.0,
      "volume_ratio": 0.91,
      "disclosures": []
     }
@@ -3434,7 +3454,7 @@
   {
    "key": "nuclear",
    "name": "原子力・ウラン",
-   "change_pct": 7.06,
+   "change_pct": 7.07,
    "advancers_ratio": 1.0,
    "count": 12,
    "members": [
@@ -3443,9 +3463,9 @@
      "name": "X-Energy",
      "sector": null,
      "close": 9.9,
-     "change_pct": 12.57,
+     "change_pct": 12.63,
      "turnover": 94000000.0,
-     "volume": 9482891.0,
+     "volume": 9484300.0,
      "volume_ratio": 1.64,
      "disclosures": []
     },
@@ -3456,7 +3476,7 @@
      "close": 5.84,
      "change_pct": 10.19,
      "turnover": 85000000.0,
-     "volume": 14472763.0,
+     "volume": 14476900.0,
      "volume_ratio": 1.34,
      "disclosures": []
     },
@@ -3466,8 +3486,8 @@
      "sector": null,
      "close": 364.83,
      "change_pct": 9.58,
-     "turnover": 539000000.0,
-     "volume": 1476943.0,
+     "turnover": 540000000.0,
+     "volume": 1480100.0,
      "volume_ratio": 1.31,
      "disclosures": []
     },
@@ -3477,8 +3497,8 @@
      "sector": "公益",
      "close": 123.87,
      "change_pct": 7.48,
-     "turnover": 701000000.0,
-     "volume": 5658617.0,
+     "turnover": 702000000.0,
+     "volume": 5664100.0,
      "volume_ratio": 0.86,
      "disclosures": []
     },
@@ -3488,9 +3508,9 @@
      "sector": null,
      "close": 115.83,
      "change_pct": 6.72,
-     "turnover": 138000000.0,
-     "volume": 1187307.0,
-     "volume_ratio": 0.83,
+     "turnover": 165000000.0,
+     "volume": 1424800.0,
+     "volume_ratio": 0.99,
      "disclosures": []
     },
     {
@@ -3500,7 +3520,7 @@
      "close": 86.81,
      "change_pct": 6.61,
      "turnover": 88000000.0,
-     "volume": 1015220.0,
+     "volume": 1015400.0,
      "volume_ratio": 1.28,
      "disclosures": []
     },
@@ -3510,9 +3530,9 @@
      "sector": "公益",
      "close": 251.72,
      "change_pct": 6.03,
-     "turnover": 1229000000.0,
-     "volume": 4881442.0,
-     "volume_ratio": 1.25,
+     "turnover": 1309000000.0,
+     "volume": 5199200.0,
+     "volume_ratio": 1.33,
      "disclosures": []
     },
     {
@@ -3521,9 +3541,9 @@
      "sector": null,
      "close": 61.5,
      "change_pct": 6.03,
-     "turnover": 335000000.0,
-     "volume": 5453919.0,
-     "volume_ratio": 1.24,
+     "turnover": 349000000.0,
+     "volume": 5668400.0,
+     "volume_ratio": 1.29,
      "disclosures": []
     },
     {
@@ -3532,9 +3552,9 @@
      "sector": null,
      "close": 6.77,
      "change_pct": 5.78,
-     "turnover": 42000000.0,
-     "volume": 6201905.0,
-     "volume_ratio": 0.95,
+     "turnover": 43000000.0,
+     "volume": 6410600.0,
+     "volume_ratio": 0.99,
      "disclosures": []
     },
     {
@@ -3544,7 +3564,7 @@
      "close": 3.53,
      "change_pct": 5.06,
      "turnover": 89000000.0,
-     "volume": 25088665.0,
+     "volume": 25134000.0,
      "volume_ratio": 0.78,
      "disclosures": []
     },
@@ -3554,8 +3574,8 @@
      "sector": null,
      "close": 20.77,
      "change_pct": 4.63,
-     "turnover": 188000000.0,
-     "volume": 9074473.0,
+     "turnover": 189000000.0,
+     "volume": 9098100.0,
      "volume_ratio": 0.85,
      "disclosures": []
     },
@@ -3566,8 +3586,8 @@
      "close": 9.47,
      "change_pct": 4.07,
      "turnover": 20000000.0,
-     "volume": 2145426.0,
-     "volume_ratio": 1.04,
+     "volume": 2156300.0,
+     "volume_ratio": 1.05,
      "disclosures": []
     }
    ],
@@ -3587,7 +3607,7 @@
      "close": 6.42,
      "change_pct": 13.63,
      "turnover": 85000000.0,
-     "volume": 13178074.0,
+     "volume": 13205000.0,
      "volume_ratio": 1.0,
      "disclosures": []
     },
@@ -3598,7 +3618,7 @@
      "close": 9.75,
      "change_pct": 11.11,
      "turnover": 108000000.0,
-     "volume": 11028102.0,
+     "volume": 11043400.0,
      "volume_ratio": 1.11,
      "disclosures": []
     },
@@ -3608,9 +3628,9 @@
      "sector": null,
      "close": 25.67,
      "change_pct": 10.31,
-     "turnover": 490000000.0,
-     "volume": 19091146.0,
-     "volume_ratio": 1.01,
+     "turnover": 494000000.0,
+     "volume": 19262500.0,
+     "volume_ratio": 1.02,
      "disclosures": []
     },
     {
@@ -3619,8 +3639,8 @@
      "sector": null,
      "close": 49.63,
      "change_pct": 9.27,
-     "turnover": 913000000.0,
-     "volume": 18402395.0,
+     "turnover": 916000000.0,
+     "volume": 18450600.0,
      "volume_ratio": 0.97,
      "disclosures": []
     },
@@ -3631,7 +3651,7 @@
      "close": 19.14,
      "change_pct": 8.2,
      "turnover": 66000000.0,
-     "volume": 3436389.0,
+     "volume": 3438000.0,
      "volume_ratio": 0.79,
      "disclosures": []
     },
@@ -3642,7 +3662,7 @@
      "close": 17.6,
      "change_pct": 7.51,
      "turnover": 22000000.0,
-     "volume": 1238488.0,
+     "volume": 1239000.0,
      "volume_ratio": 1.07,
      "disclosures": []
     },
@@ -3653,8 +3673,8 @@
      "close": 11.21,
      "change_pct": 6.46,
      "turnover": 82000000.0,
-     "volume": 7286047.0,
-     "volume_ratio": 0.97,
+     "volume": 7299000.0,
+     "volume_ratio": 0.98,
      "disclosures": []
     },
     {
@@ -3663,8 +3683,8 @@
      "sector": null,
      "close": 133.35,
      "change_pct": 4.35,
-     "turnover": 12721000000.0,
-     "volume": 95396741.0,
+     "turnover": 12758000000.0,
+     "volume": 95671100.0,
      "volume_ratio": 0.92,
      "disclosures": []
     },
@@ -3675,7 +3695,7 @@
      "close": 30.32,
      "change_pct": 3.66,
      "turnover": 96000000.0,
-     "volume": 3168398.0,
+     "volume": 3168500.0,
      "volume_ratio": 0.9,
      "disclosures": []
     },
@@ -3686,7 +3706,7 @@
      "close": 43.21,
      "change_pct": 2.69,
      "turnover": 37000000.0,
-     "volume": 861316.0,
+     "volume": 861400.0,
      "volume_ratio": 1.21,
      "disclosures": []
     },
@@ -3697,7 +3717,7 @@
      "close": 3.66,
      "change_pct": 0.27,
      "turnover": 9000000.0,
-     "volume": 2505095.0,
+     "volume": 2506000.0,
      "volume_ratio": 1.21,
      "disclosures": []
     }
@@ -3717,8 +3737,8 @@
      "sector": "情報技術",
      "close": 159.36,
      "change_pct": 11.06,
-     "turnover": 5097000000.0,
-     "volume": 31984581.0,
+     "turnover": 5101000000.0,
+     "volume": 32010800.0,
      "volume_ratio": 1.28,
      "disclosures": []
     },
@@ -3729,8 +3749,8 @@
      "close": 2.89,
      "change_pct": 10.92,
      "turnover": 46000000.0,
-     "volume": 15819601.0,
-     "volume_ratio": 0.8,
+     "volume": 15867600.0,
+     "volume_ratio": 0.81,
      "disclosures": []
     },
     {
@@ -3740,7 +3760,7 @@
      "close": 9.96,
      "change_pct": 9.09,
      "turnover": 42000000.0,
-     "volume": 4200587.0,
+     "volume": 4201700.0,
      "volume_ratio": 1.01,
      "disclosures": []
     },
@@ -3751,7 +3771,7 @@
      "close": 11.84,
      "change_pct": 8.03,
      "turnover": 312000000.0,
-     "volume": 26360144.0,
+     "volume": 26363900.0,
      "volume_ratio": 1.15,
      "disclosures": []
     },
@@ -3762,7 +3782,7 @@
      "close": 373.92,
      "change_pct": 7.36,
      "turnover": 1608000000.0,
-     "volume": 4300846.0,
+     "volume": 4301600.0,
      "volume_ratio": 0.7,
      "disclosures": []
     },
@@ -3772,8 +3792,8 @@
      "sector": null,
      "close": 57.04,
      "change_pct": 5.55,
-     "turnover": 377000000.0,
-     "volume": 6613572.0,
+     "turnover": 378000000.0,
+     "volume": 6622100.0,
      "volume_ratio": 0.99,
      "disclosures": []
     },
@@ -3783,8 +3803,8 @@
      "sector": "情報技術",
      "close": 91.72,
      "change_pct": 4.69,
-     "turnover": 1430000000.0,
-     "volume": 15595542.0,
+     "turnover": 1435000000.0,
+     "volume": 15640600.0,
      "volume_ratio": 0.72,
      "disclosures": []
     },
@@ -3795,7 +3815,7 @@
      "close": 1.65,
      "change_pct": 4.43,
      "turnover": 24000000.0,
-     "volume": 14698057.0,
+     "volume": 14763800.0,
      "volume_ratio": 0.65,
      "disclosures": []
     },
@@ -3806,7 +3826,7 @@
      "close": 38.77,
      "change_pct": 3.41,
      "turnover": 103000000.0,
-     "volume": 2667740.0,
+     "volume": 2667800.0,
      "volume_ratio": 0.74,
      "disclosures": []
     },
@@ -3816,8 +3836,8 @@
      "sector": "情報技術",
      "close": 185.46,
      "change_pct": 2.68,
-     "turnover": 1130000000.0,
-     "volume": 6094909.0,
+     "turnover": 1132000000.0,
+     "volume": 6103700.0,
      "volume_ratio": 0.84,
      "disclosures": []
     }
@@ -3838,7 +3858,7 @@
      "close": 49.71,
      "change_pct": 8.09,
      "turnover": 1114000000.0,
-     "volume": 22407728.0,
+     "volume": 22410000.0,
      "volume_ratio": 1.45,
      "disclosures": []
     },
@@ -3848,9 +3868,9 @@
      "sector": null,
      "close": 33.92,
      "change_pct": 7.55,
-     "turnover": 461000000.0,
-     "volume": 13579658.0,
-     "volume_ratio": 1.39,
+     "turnover": 462000000.0,
+     "volume": 13621700.0,
+     "volume_ratio": 1.4,
      "disclosures": []
     },
     {
@@ -3860,7 +3880,7 @@
      "close": 117.73,
      "change_pct": 7.11,
      "turnover": 199000000.0,
-     "volume": 1688212.0,
+     "volume": 1689200.0,
      "volume_ratio": 0.72,
      "disclosures": []
     },
@@ -3871,7 +3891,7 @@
      "close": 143.32,
      "change_pct": 6.94,
      "turnover": 273000000.0,
-     "volume": 1902198.0,
+     "volume": 1902300.0,
      "volume_ratio": 1.42,
      "disclosures": []
     },
@@ -3881,8 +3901,8 @@
      "sector": "素材",
      "close": 100.73,
      "change_pct": 6.39,
-     "turnover": 883000000.0,
-     "volume": 8768102.0,
+     "turnover": 884000000.0,
+     "volume": 8778900.0,
      "volume_ratio": 1.16,
      "disclosures": []
     },
@@ -3892,9 +3912,9 @@
      "sector": null,
      "close": 236.66,
      "change_pct": 6.03,
-     "turnover": 243000000.0,
-     "volume": 1028388.0,
-     "volume_ratio": 1.43,
+     "turnover": 257000000.0,
+     "volume": 1085700.0,
+     "volume_ratio": 1.51,
      "disclosures": []
     },
     {
@@ -3903,9 +3923,9 @@
      "sector": null,
      "close": 159.7,
      "change_pct": 5.55,
-     "turnover": 413000000.0,
-     "volume": 2586757.0,
-     "volume_ratio": 1.1,
+     "turnover": 417000000.0,
+     "volume": 2610200.0,
+     "volume_ratio": 1.11,
      "disclosures": []
     },
     {
@@ -3914,9 +3934,9 @@
      "sector": null,
      "close": 18.27,
      "change_pct": 5.48,
-     "turnover": 197000000.0,
-     "volume": 10795430.0,
-     "volume_ratio": 1.04,
+     "turnover": 202000000.0,
+     "volume": 11062800.0,
+     "volume_ratio": 1.07,
      "disclosures": []
     },
     {
@@ -3925,8 +3945,8 @@
      "sector": null,
      "close": 35.54,
      "change_pct": 4.68,
-     "turnover": 276000000.0,
-     "volume": 7774663.0,
+     "turnover": 277000000.0,
+     "volume": 7781900.0,
      "volume_ratio": 1.14,
      "disclosures": []
     },
@@ -3937,7 +3957,7 @@
      "close": 82.58,
      "change_pct": 3.61,
      "turnover": 201000000.0,
-     "volume": 2438900.0,
+     "volume": 2439600.0,
      "volume_ratio": 0.96,
      "disclosures": []
     }
@@ -3947,7 +3967,7 @@
   {
    "key": "clean_energy",
    "name": "太陽光・クリーンエネルギー",
-   "change_pct": 5.64,
+   "change_pct": 5.6,
    "advancers_ratio": 1.0,
    "count": 10,
    "members": [
@@ -3957,9 +3977,9 @@
      "sector": "資本財",
      "close": 168.15,
      "change_pct": 18.09,
-     "turnover": 3780000000.0,
-     "volume": 22481081.0,
-     "volume_ratio": 1.26,
+     "turnover": 3788000000.0,
+     "volume": 22526600.0,
+     "volume_ratio": 1.27,
      "disclosures": []
     },
     {
@@ -3968,9 +3988,9 @@
      "sector": null,
      "close": 3.8,
      "change_pct": 9.83,
-     "turnover": 39000000.0,
-     "volume": 10337558.0,
-     "volume_ratio": 1.39,
+     "turnover": 41000000.0,
+     "volume": 10859200.0,
+     "volume_ratio": 1.46,
      "disclosures": []
     },
     {
@@ -3980,7 +4000,7 @@
      "close": 146.53,
      "change_pct": 6.5,
      "turnover": 448000000.0,
-     "volume": 3058297.0,
+     "volume": 3059500.0,
      "volume_ratio": 0.85,
      "disclosures": []
     },
@@ -3991,7 +4011,7 @@
      "close": 20.87,
      "change_pct": 6.32,
      "turnover": 152000000.0,
-     "volume": 7297193.0,
+     "volume": 7306500.0,
      "volume_ratio": 0.84,
      "disclosures": [
       {
@@ -4023,7 +4043,7 @@
      "close": 6.96,
      "change_pct": 5.45,
      "turnover": 80000000.0,
-     "volume": 11491264.0,
+     "volume": 11497000.0,
      "volume_ratio": 0.9,
      "disclosures": []
     },
@@ -4034,7 +4054,7 @@
      "close": 70.57,
      "change_pct": 5.13,
      "turnover": 295000000.0,
-     "volume": 4180057.0,
+     "volume": 4180100.0,
      "volume_ratio": 1.16,
      "disclosures": []
     },
@@ -4043,9 +4063,9 @@
      "name": "Plug Power",
      "sector": null,
      "close": 0.99,
-     "change_pct": 3.5,
+     "change_pct": 3.13,
      "turnover": 82000000.0,
-     "volume": 82686800.0,
+     "volume": 82779100.0,
      "volume_ratio": 1.32,
      "disclosures": []
     },
@@ -4056,7 +4076,7 @@
      "close": 18.4,
      "change_pct": 0.71,
      "turnover": 89000000.0,
-     "volume": 4855147.0,
+     "volume": 4859000.0,
      "volume_ratio": 1.44,
      "disclosures": []
     },
@@ -4066,9 +4086,9 @@
      "sector": "公益",
      "close": 83.97,
      "change_pct": 0.62,
-     "turnover": 1030000000.0,
-     "volume": 12261510.0,
-     "volume_ratio": 0.96,
+     "turnover": 1041000000.0,
+     "volume": 12400300.0,
+     "volume_ratio": 0.97,
      "disclosures": []
     },
     {
@@ -4078,7 +4098,7 @@
      "close": 3.8,
      "change_pct": 0.26,
      "turnover": 23000000.0,
-     "volume": 5973754.0,
+     "volume": 5978200.0,
      "volume_ratio": 0.48,
      "disclosures": []
     }
@@ -4088,7 +4108,7 @@
   {
    "key": "ev_autonomy",
    "name": "EV・自動運転",
-   "change_pct": 5.39,
+   "change_pct": 5.4,
    "advancers_ratio": 1.0,
    "count": 10,
    "members": [
@@ -4098,9 +4118,9 @@
      "sector": "一般消費財",
      "close": 385.46,
      "change_pct": 11.46,
-     "turnover": 17743000000.0,
-     "volume": 46030333.0,
-     "volume_ratio": 1.25,
+     "turnover": 18105000000.0,
+     "volume": 46970000.0,
+     "volume_ratio": 1.28,
      "disclosures": []
     },
     {
@@ -4109,8 +4129,8 @@
      "sector": null,
      "close": 11.22,
      "change_pct": 8.62,
-     "turnover": 366000000.0,
-     "volume": 32625460.0,
+     "turnover": 367000000.0,
+     "volume": 32702700.0,
      "volume_ratio": 0.96,
      "disclosures": []
     },
@@ -4121,7 +4141,7 @@
      "close": 8.68,
      "change_pct": 7.43,
      "turnover": 83000000.0,
-     "volume": 9581867.0,
+     "volume": 9588900.0,
      "volume_ratio": 1.16,
      "disclosures": []
     },
@@ -4129,10 +4149,10 @@
      "code": "MBLY",
      "name": "Mobileye",
      "sector": null,
-     "close": 4.8,
-     "change_pct": 5.14,
+     "close": 4.81,
+     "change_pct": 5.25,
      "turnover": 34000000.0,
-     "volume": 7138618.0,
+     "volume": 7148600.0,
      "volume_ratio": 0.85,
      "disclosures": []
     },
@@ -4143,7 +4163,7 @@
      "close": 2.57,
      "change_pct": 4.9,
      "turnover": 163000000.0,
-     "volume": 63445216.0,
+     "volume": 63593100.0,
      "volume_ratio": 1.48,
      "disclosures": []
     },
@@ -4154,7 +4174,7 @@
      "close": 2.61,
      "change_pct": 4.4,
      "turnover": 26000000.0,
-     "volume": 10027194.0,
+     "volume": 10047800.0,
      "volume_ratio": 0.73,
      "disclosures": []
     },
@@ -4164,8 +4184,8 @@
      "sector": "一般消費財",
      "close": 11.65,
      "change_pct": 4.3,
-     "turnover": 690000000.0,
-     "volume": 59265646.0,
+     "turnover": 692000000.0,
+     "volume": 59440700.0,
      "volume_ratio": 1.33,
      "disclosures": []
     },
@@ -4175,9 +4195,9 @@
      "sector": "一般消費財",
      "close": 81.64,
      "change_pct": 3.72,
-     "turnover": 417000000.0,
-     "volume": 5107512.0,
-     "volume_ratio": 0.68,
+     "turnover": 419000000.0,
+     "volume": 5137000.0,
+     "volume_ratio": 0.69,
      "disclosures": []
     },
     {
@@ -4187,7 +4207,7 @@
      "close": 10.7,
      "change_pct": 2.98,
      "turnover": 43000000.0,
-     "volume": 3987455.0,
+     "volume": 3988100.0,
      "volume_ratio": 1.44,
      "disclosures": []
     },
@@ -4197,13 +4217,13 @@
      "sector": "資本財",
      "close": 64.07,
      "change_pct": 0.95,
-     "turnover": 1253000000.0,
-     "volume": 19549590.0,
+     "turnover": 1258000000.0,
+     "volume": 19642200.0,
      "volume_ratio": 0.98,
      "disclosures": []
     }
    ],
-   "news_count": 0
+   "news_count": 2
   },
   {
    "key": "cyber_security",
@@ -4218,9 +4238,9 @@
      "sector": null,
      "close": 229.24,
      "change_pct": 17.67,
-     "turnover": 4402000000.0,
-     "volume": 19201079.0,
-     "volume_ratio": 8.19,
+     "turnover": 4408000000.0,
+     "volume": 19230300.0,
+     "volume_ratio": 8.18,
      "disclosures": [
       {
        "code": "ZS",
@@ -4271,7 +4291,7 @@
      "close": 45.81,
      "change_pct": 9.1,
      "turnover": 145000000.0,
-     "volume": 3158098.0,
+     "volume": 3163800.0,
      "volume_ratio": 0.87,
      "disclosures": []
     },
@@ -4282,7 +4302,7 @@
      "close": 206.28,
      "change_pct": 7.74,
      "turnover": 769000000.0,
-     "volume": 3727760.0,
+     "volume": 3728700.0,
      "volume_ratio": 0.73,
      "disclosures": []
     },
@@ -4293,7 +4313,7 @@
      "close": 15.38,
      "change_pct": 7.55,
      "turnover": 22000000.0,
-     "volume": 1420619.0,
+     "volume": 1420600.0,
      "volume_ratio": 0.69,
      "disclosures": []
     },
@@ -4303,8 +4323,8 @@
      "sector": null,
      "close": 24.49,
      "change_pct": 6.9,
-     "turnover": 351000000.0,
-     "volume": 14346564.0,
+     "turnover": 352000000.0,
+     "volume": 14360800.0,
      "volume_ratio": 1.4,
      "disclosures": []
     },
@@ -4315,7 +4335,7 @@
      "close": 197.69,
      "change_pct": 6.33,
      "turnover": 134000000.0,
-     "volume": 678342.0,
+     "volume": 678500.0,
      "volume_ratio": 0.71,
      "disclosures": []
     },
@@ -4325,8 +4345,8 @@
      "sector": null,
      "close": 291.13,
      "change_pct": 5.88,
-     "turnover": 919000000.0,
-     "volume": 3156155.0,
+     "turnover": 925000000.0,
+     "volume": 3176300.0,
      "volume_ratio": 0.72,
      "disclosures": []
     },
@@ -4336,8 +4356,8 @@
      "sector": "情報技術",
      "close": 131.1,
      "change_pct": 5.25,
-     "turnover": 711000000.0,
-     "volume": 5425595.0,
+     "turnover": 712000000.0,
+     "volume": 5428700.0,
      "volume_ratio": 0.81,
      "disclosures": []
     },
@@ -4347,9 +4367,9 @@
      "sector": "情報技術",
      "close": 353.43,
      "change_pct": 2.94,
-     "turnover": 3567000000.0,
-     "volume": 10093347.0,
-     "volume_ratio": 1.3,
+     "turnover": 3595000000.0,
+     "volume": 10172000.0,
+     "volume_ratio": 1.31,
      "disclosures": []
     },
     {
@@ -4359,7 +4379,7 @@
      "close": 159.25,
      "change_pct": 2.82,
      "turnover": 206000000.0,
-     "volume": 1292562.0,
+     "volume": 1292600.0,
      "volume_ratio": 0.85,
      "disclosures": []
     },
@@ -4369,9 +4389,9 @@
      "sector": null,
      "close": 49.41,
      "change_pct": 0.39,
-     "turnover": 142000000.0,
-     "volume": 2881853.0,
-     "volume_ratio": 0.77,
+     "turnover": 158000000.0,
+     "volume": 3196300.0,
+     "volume_ratio": 0.85,
      "disclosures": []
     },
     {
@@ -4380,9 +4400,9 @@
      "sector": "情報技術",
      "close": 208.97,
      "change_pct": -8.92,
-     "turnover": 8803000000.0,
-     "volume": 42124135.0,
-     "volume_ratio": 4.57,
+     "turnover": 8842000000.0,
+     "volume": 42313300.0,
+     "volume_ratio": 4.59,
      "disclosures": [
       {
        "code": "CRWD",
@@ -4427,7 +4447,7 @@
      ]
     }
    ],
-   "news_count": 1
+   "news_count": 0
   },
   {
    "key": "software",
@@ -4442,8 +4462,8 @@
      "sector": "情報技術",
      "close": 113.68,
      "change_pct": 12.34,
-     "turnover": 4580000000.0,
-     "volume": 40289066.0,
+     "turnover": 4603000000.0,
+     "volume": 40488200.0,
      "volume_ratio": 0.96,
      "disclosures": []
     },
@@ -4454,7 +4474,7 @@
      "close": 312.69,
      "change_pct": 9.37,
      "turnover": 380000000.0,
-     "volume": 1216142.0,
+     "volume": 1216500.0,
      "volume_ratio": 0.97,
      "disclosures": []
     },
@@ -4464,8 +4484,8 @@
      "sector": null,
      "close": 134.3,
      "change_pct": 8.55,
-     "turnover": 1098000000.0,
-     "volume": 8177949.0,
+     "turnover": 1101000000.0,
+     "volume": 8195600.0,
      "volume_ratio": 0.97,
      "disclosures": []
     },
@@ -4475,8 +4495,8 @@
      "sector": "情報技術",
      "close": 169.02,
      "change_pct": 7.4,
-     "turnover": 792000000.0,
-     "volume": 4688724.0,
+     "turnover": 793000000.0,
+     "volume": 4691800.0,
      "volume_ratio": 0.94,
      "disclosures": []
     },
@@ -4487,7 +4507,7 @@
      "close": 373.92,
      "change_pct": 7.36,
      "turnover": 1608000000.0,
-     "volume": 4300846.0,
+     "volume": 4301600.0,
      "volume_ratio": 0.7,
      "disclosures": []
     },
@@ -4498,7 +4518,7 @@
      "close": 271.27,
      "change_pct": 6.46,
      "turnover": 1172000000.0,
-     "volume": 4320744.0,
+     "volume": 4321000.0,
      "volume_ratio": 0.99,
      "disclosures": []
     },
@@ -4508,8 +4528,8 @@
      "sector": "情報技術",
      "close": 91.72,
      "change_pct": 4.69,
-     "turnover": 1430000000.0,
-     "volume": 15595542.0,
+     "turnover": 1435000000.0,
+     "volume": 15640600.0,
      "volume_ratio": 0.72,
      "disclosures": []
     },
@@ -4520,7 +4540,7 @@
      "close": 139.58,
      "change_pct": 3.66,
      "turnover": 402000000.0,
-     "volume": 2882824.0,
+     "volume": 2883000.0,
      "volume_ratio": 0.76,
      "disclosures": []
     },
@@ -4531,7 +4551,7 @@
      "close": 223.98,
      "change_pct": 2.88,
      "turnover": 875000000.0,
-     "volume": 3904788.0,
+     "volume": 3905600.0,
      "volume_ratio": 0.98,
      "disclosures": []
     },
@@ -4541,8 +4561,8 @@
      "sector": "情報技術",
      "close": 185.46,
      "change_pct": 2.68,
-     "turnover": 1130000000.0,
-     "volume": 6094909.0,
+     "turnover": 1132000000.0,
+     "volume": 6103700.0,
      "volume_ratio": 0.84,
      "disclosures": []
     },
@@ -4553,7 +4573,7 @@
      "close": 197.72,
      "change_pct": 1.98,
      "turnover": 234000000.0,
-     "volume": 1185159.0,
+     "volume": 1185400.0,
      "volume_ratio": 0.73,
      "disclosures": []
     },
@@ -4563,8 +4583,8 @@
      "sector": "情報技術",
      "close": 275.46,
      "change_pct": 1.86,
-     "turnover": 1206000000.0,
-     "volume": 4376920.0,
+     "turnover": 1208000000.0,
+     "volume": 4386400.0,
      "volume_ratio": 1.38,
      "disclosures": []
     },
@@ -4574,9 +4594,9 @@
      "sector": "情報技術",
      "close": 492.5,
      "change_pct": 1.65,
-     "turnover": 14819000000.0,
-     "volume": 30090263.0,
-     "volume_ratio": 1.0,
+     "turnover": 14946000000.0,
+     "volume": 30347400.0,
+     "volume_ratio": 1.01,
      "disclosures": []
     },
     {
@@ -4586,7 +4606,7 @@
      "close": 176.08,
      "change_pct": 0.89,
      "turnover": 442000000.0,
-     "volume": 2511645.0,
+     "volume": 2512000.0,
      "volume_ratio": 1.17,
      "disclosures": []
     }
@@ -4606,9 +4626,9 @@
      "sector": null,
      "close": 51.65,
      "change_pct": 10.55,
-     "turnover": 638000000.0,
-     "volume": 12346662.0,
-     "volume_ratio": 1.13,
+     "turnover": 641000000.0,
+     "volume": 12414800.0,
+     "volume_ratio": 1.14,
      "disclosures": []
     },
     {
@@ -4617,8 +4637,8 @@
      "sector": null,
      "close": 4.92,
      "change_pct": 8.13,
-     "turnover": 214000000.0,
-     "volume": 43594618.0,
+     "turnover": 215000000.0,
+     "volume": 43612400.0,
      "volume_ratio": 0.9,
      "disclosures": []
     },
@@ -4628,8 +4648,8 @@
      "sector": "コミュニケーション",
      "close": 597.6,
      "change_pct": 6.55,
-     "turnover": 11361000000.0,
-     "volume": 19011217.0,
+     "turnover": 11385000000.0,
+     "volume": 19051700.0,
      "volume_ratio": 0.88,
      "disclosures": []
     },
@@ -4639,9 +4659,9 @@
      "sector": "コミュニケーション",
      "close": 282.1,
      "change_pct": 6.34,
-     "turnover": 12435000000.0,
-     "volume": 44078624.0,
-     "volume_ratio": 0.97,
+     "turnover": 12484000000.0,
+     "volume": 44255200.0,
+     "volume_ratio": 0.98,
      "disclosures": []
     },
     {
@@ -4651,7 +4671,7 @@
      "close": 14.06,
      "change_pct": 5.08,
      "turnover": 190000000.0,
-     "volume": 13498110.0,
+     "volume": 13499600.0,
      "volume_ratio": 0.58,
      "disclosures": []
     },
@@ -4661,8 +4681,8 @@
      "sector": "コミュニケーション",
      "close": 88.76,
      "change_pct": 4.02,
-     "turnover": 412000000.0,
-     "volume": 4641098.0,
+     "turnover": 413000000.0,
+     "volume": 4648400.0,
      "volume_ratio": 0.57,
      "disclosures": []
     },
@@ -4673,7 +4693,7 @@
      "close": 16.9,
      "change_pct": 3.49,
      "turnover": 158000000.0,
-     "volume": 9343317.0,
+     "volume": 9365200.0,
      "volume_ratio": 0.67,
      "disclosures": []
     },
@@ -4683,9 +4703,9 @@
      "sector": "コミュニケーション",
      "close": 58.1,
      "change_pct": 2.41,
-     "turnover": 2761000000.0,
-     "volume": 47526992.0,
-     "volume_ratio": 1.16,
+     "turnover": 2944000000.0,
+     "volume": 50671000.0,
+     "volume_ratio": 1.23,
      "disclosures": []
     },
     {
@@ -4694,8 +4714,8 @@
      "sector": "コミュニケーション",
      "close": 120.27,
      "change_pct": 1.94,
-     "turnover": 1164000000.0,
-     "volume": 9677032.0,
+     "turnover": 1166000000.0,
+     "volume": 9698900.0,
      "volume_ratio": 0.98,
      "disclosures": []
     },
@@ -4705,13 +4725,13 @@
      "sector": null,
      "close": 585.74,
      "change_pct": 1.51,
-     "turnover": 917000000.0,
-     "volume": 1565238.0,
+     "turnover": 918000000.0,
+     "volume": 1567700.0,
      "volume_ratio": 0.99,
      "disclosures": []
     }
    ],
-   "news_count": 1
+   "news_count": 0
   },
   {
    "key": "glp1",
@@ -4726,9 +4746,9 @@
      "sector": null,
      "close": 27.69,
      "change_pct": 11.79,
-     "turnover": 94000000.0,
-     "volume": 3394376.0,
-     "volume_ratio": 0.83,
+     "turnover": 98000000.0,
+     "volume": 3522900.0,
+     "volume_ratio": 0.86,
      "disclosures": []
     },
     {
@@ -4738,7 +4758,7 @@
      "close": 11.65,
      "change_pct": 5.72,
      "turnover": 6000000.0,
-     "volume": 524672.0,
+     "volume": 524700.0,
      "volume_ratio": 0.68,
      "disclosures": []
     },
@@ -4748,8 +4768,8 @@
      "sector": null,
      "close": 39.14,
      "change_pct": 3.49,
-     "turnover": 481000000.0,
-     "volume": 12276926.0,
+     "turnover": 482000000.0,
+     "volume": 12310100.0,
      "volume_ratio": 0.92,
      "disclosures": []
     },
@@ -4760,7 +4780,7 @@
      "close": 15.06,
      "change_pct": 3.15,
      "turnover": 181000000.0,
-     "volume": 12000936.0,
+     "volume": 12027500.0,
      "volume_ratio": 0.74,
      "disclosures": []
     },
@@ -4770,9 +4790,9 @@
      "sector": "ヘルスケア",
      "close": 449.04,
      "change_pct": 3.08,
-     "turnover": 1521000000.0,
-     "volume": 3388198.0,
-     "volume_ratio": 1.23,
+     "turnover": 1540000000.0,
+     "volume": 3430000.0,
+     "volume_ratio": 1.24,
      "disclosures": []
     },
     {
@@ -4781,8 +4801,8 @@
      "sector": "ヘルスケア",
      "close": 1364.6,
      "change_pct": 1.3,
-     "turnover": 3997000000.0,
-     "volume": 2929307.0,
+     "turnover": 3999000000.0,
+     "volume": 2930600.0,
      "volume_ratio": 0.92,
      "disclosures": []
     }
@@ -4802,8 +4822,8 @@
      "sector": "金融",
      "close": 67.37,
      "change_pct": 8.36,
-     "turnover": 1372000000.0,
-     "volume": 20366779.0,
+     "turnover": 1377000000.0,
+     "volume": 20440600.0,
      "volume_ratio": 0.96,
      "disclosures": []
     },
@@ -4814,7 +4834,7 @@
      "close": 58.41,
      "change_pct": 8.17,
      "turnover": 394000000.0,
-     "volume": 6741787.0,
+     "volume": 6741900.0,
      "volume_ratio": 1.47,
      "disclosures": []
     },
@@ -4824,8 +4844,8 @@
      "sector": "金融",
      "close": 108.78,
      "change_pct": 6.68,
-     "turnover": 1171000000.0,
-     "volume": 10764119.0,
+     "turnover": 1172000000.0,
+     "volume": 10775900.0,
      "volume_ratio": 1.17,
      "disclosures": []
     },
@@ -4835,8 +4855,8 @@
      "sector": "金融",
      "close": 73.24,
      "change_pct": 5.14,
-     "turnover": 657000000.0,
-     "volume": 8967293.0,
+     "turnover": 658000000.0,
+     "volume": 8987500.0,
      "volume_ratio": 1.3,
      "disclosures": []
     },
@@ -4846,8 +4866,8 @@
      "sector": null,
      "close": 13.09,
      "change_pct": 4.89,
-     "turnover": 686000000.0,
-     "volume": 52424540.0,
+     "turnover": 688000000.0,
+     "volume": 52528800.0,
      "volume_ratio": 0.88,
      "disclosures": []
     },
@@ -4857,9 +4877,9 @@
      "sector": null,
      "close": 11.8,
      "change_pct": 4.7,
-     "turnover": 649000000.0,
-     "volume": 54970633.0,
-     "volume_ratio": 0.61,
+     "turnover": 650000000.0,
+     "volume": 55068800.0,
+     "volume_ratio": 0.62,
      "disclosures": []
     },
     {
@@ -4868,9 +4888,9 @@
      "sector": "金融",
      "close": 55.24,
      "change_pct": 3.66,
-     "turnover": 546000000.0,
-     "volume": 9882143.0,
-     "volume_ratio": 0.91,
+     "turnover": 557000000.0,
+     "volume": 10078100.0,
+     "volume_ratio": 0.93,
      "disclosures": []
     },
     {
@@ -4880,7 +4900,7 @@
      "close": 32.47,
      "change_pct": 3.34,
      "turnover": 211000000.0,
-     "volume": 6488809.0,
+     "volume": 6488900.0,
      "volume_ratio": 0.66,
      "disclosures": []
     },
@@ -4891,7 +4911,7 @@
      "close": 10.45,
      "change_pct": 3.16,
      "turnover": 10000000.0,
-     "volume": 949369.0,
+     "volume": 949400.0,
      "volume_ratio": 0.62,
      "disclosures": []
     },
@@ -4902,7 +4922,7 @@
      "close": 409.4,
      "change_pct": 1.87,
      "turnover": 3552000000.0,
-     "volume": 8675249.0,
+     "volume": 8676200.0,
      "volume_ratio": 1.19,
      "disclosures": []
     },
@@ -4913,7 +4933,7 @@
      "close": 635.48,
      "change_pct": 1.58,
      "turnover": 2291000000.0,
-     "volume": 3604736.0,
+     "volume": 3605300.0,
      "volume_ratio": 1.1,
      "disclosures": []
     }
@@ -4933,9 +4953,9 @@
      "sector": "ヘルスケア",
      "close": 212.08,
      "change_pct": 8.76,
-     "turnover": 1736000000.0,
-     "volume": 8185800.0,
-     "volume_ratio": 0.76,
+     "turnover": 1738000000.0,
+     "volume": 8196800.0,
+     "volume_ratio": 0.77,
      "disclosures": []
     },
     {
@@ -4944,9 +4964,9 @@
      "sector": null,
      "close": 155.98,
      "change_pct": 8.46,
-     "turnover": 521000000.0,
-     "volume": 3338049.0,
-     "volume_ratio": 0.96,
+     "turnover": 524000000.0,
+     "volume": 3362000.0,
+     "volume_ratio": 0.97,
      "disclosures": []
     },
     {
@@ -4956,7 +4976,7 @@
      "close": 14.36,
      "change_pct": 7.73,
      "turnover": 39000000.0,
-     "volume": 2733393.0,
+     "volume": 2733400.0,
      "volume_ratio": 1.44,
      "disclosures": []
     },
@@ -4967,7 +4987,7 @@
      "close": 292.39,
      "change_pct": 6.95,
      "turnover": 484000000.0,
-     "volume": 1656917.0,
+     "volume": 1657000.0,
      "volume_ratio": 0.71,
      "disclosures": []
     },
@@ -4978,7 +4998,7 @@
      "close": 149.09,
      "change_pct": 5.49,
      "turnover": 689000000.0,
-     "volume": 4623713.0,
+     "volume": 4624500.0,
      "volume_ratio": 1.05,
      "disclosures": []
     },
@@ -4988,9 +5008,9 @@
      "sector": "ヘルスケア",
      "close": 538.54,
      "change_pct": 4.57,
-     "turnover": 851000000.0,
-     "volume": 1580761.0,
-     "volume_ratio": 1.0,
+     "turnover": 858000000.0,
+     "volume": 1592600.0,
+     "volume_ratio": 1.01,
      "disclosures": []
     },
     {
@@ -4999,9 +5019,9 @@
      "sector": null,
      "close": 62.58,
      "change_pct": 3.59,
-     "turnover": 221000000.0,
-     "volume": 3529655.0,
-     "volume_ratio": 1.28,
+     "turnover": 223000000.0,
+     "volume": 3556600.0,
+     "volume_ratio": 1.29,
      "disclosures": []
     },
     {
@@ -5011,7 +5031,7 @@
      "close": 66.82,
      "change_pct": 3.39,
      "turnover": 162000000.0,
-     "volume": 2423901.0,
+     "volume": 2423900.0,
      "volume_ratio": 0.81,
      "disclosures": []
     },
@@ -5022,7 +5042,7 @@
      "close": 256.71,
      "change_pct": 2.85,
      "turnover": 335000000.0,
-     "volume": 1304252.0,
+     "volume": 1304300.0,
      "volume_ratio": 1.12,
      "disclosures": []
     },
@@ -5033,7 +5053,7 @@
      "close": 117.35,
      "change_pct": 2.37,
      "turnover": 192000000.0,
-     "volume": 1634598.0,
+     "volume": 1635000.0,
      "volume_ratio": 0.93,
      "disclosures": []
     },
@@ -5044,7 +5064,7 @@
      "close": 942.24,
      "change_pct": 2.34,
      "turnover": 728000000.0,
-     "volume": 772149.0,
+     "volume": 772200.0,
      "volume_ratio": 0.73,
      "disclosures": []
     },
@@ -5054,9 +5074,9 @@
      "sector": null,
      "close": 943.52,
      "change_pct": 1.93,
-     "turnover": 300000000.0,
-     "volume": 318452.0,
-     "volume_ratio": 0.92,
+     "turnover": 302000000.0,
+     "volume": 319700.0,
+     "volume_ratio": 0.93,
      "disclosures": []
     },
     {
@@ -5066,12 +5086,12 @@
      "close": 559.32,
      "change_pct": 0.83,
      "turnover": 160000000.0,
-     "volume": 285606.0,
-     "volume_ratio": 0.59,
+     "volume": 285600.0,
+     "volume_ratio": 0.58,
      "disclosures": []
     }
    ],
-   "news_count": 0
+   "news_count": 1
   },
   {
    "key": "ipo",
@@ -5086,8 +5106,8 @@
      "sector": null,
      "close": 124.28,
      "change_pct": 20.0,
-     "turnover": 4394000000.0,
-     "volume": 35354756.0,
+     "turnover": 4412000000.0,
+     "volume": 35502900.0,
      "volume_ratio": 1.43,
      "disclosures": []
     },
@@ -5097,8 +5117,8 @@
      "sector": null,
      "close": 98.51,
      "change_pct": 19.16,
-     "turnover": 1484000000.0,
-     "volume": 15068641.0,
+     "turnover": 1487000000.0,
+     "volume": 15098900.0,
      "volume_ratio": 1.1,
      "disclosures": []
     },
@@ -5109,7 +5129,7 @@
      "close": 3.91,
      "change_pct": 16.72,
      "turnover": 9000000.0,
-     "volume": 2175132.0,
+     "volume": 2175400.0,
      "volume_ratio": 1.66,
      "disclosures": []
     },
@@ -5120,8 +5140,8 @@
      "close": 19.41,
      "change_pct": 15.33,
      "turnover": 84000000.0,
-     "volume": 4329057.0,
-     "volume_ratio": 1.51,
+     "volume": 4330000.0,
+     "volume_ratio": 1.52,
      "disclosures": []
     },
     {
@@ -5131,7 +5151,7 @@
      "close": 47.27,
      "change_pct": 15.15,
      "turnover": 332000000.0,
-     "volume": 7021812.0,
+     "volume": 7022900.0,
      "volume_ratio": 3.43,
      "disclosures": []
     },
@@ -5142,7 +5162,7 @@
      "close": 5.46,
      "change_pct": 15.07,
      "turnover": 12000000.0,
-     "volume": 2170755.0,
+     "volume": 2170800.0,
      "volume_ratio": 0.81,
      "disclosures": []
     },
@@ -5153,7 +5173,7 @@
      "close": 15.0,
      "change_pct": 14.42,
      "turnover": 6000000.0,
-     "volume": 388850.0,
+     "volume": 388900.0,
      "volume_ratio": 0.83,
      "disclosures": []
     },
@@ -5164,7 +5184,7 @@
      "close": 23.23,
      "change_pct": 13.93,
      "turnover": 24000000.0,
-     "volume": 1020486.0,
+     "volume": 1020500.0,
      "volume_ratio": 1.8,
      "disclosures": []
     },
@@ -5175,7 +5195,7 @@
      "close": 20.3,
      "change_pct": 12.78,
      "turnover": 273000000.0,
-     "volume": 13441465.0,
+     "volume": 13454800.0,
      "volume_ratio": 1.26,
      "disclosures": []
     },
@@ -5184,9 +5204,9 @@
      "name": "X-Energy",
      "sector": null,
      "close": 9.9,
-     "change_pct": 12.57,
+     "change_pct": 12.63,
      "turnover": 94000000.0,
-     "volume": 9482891.0,
+     "volume": 9484300.0,
      "volume_ratio": 1.64,
      "disclosures": []
     },
@@ -5197,7 +5217,7 @@
      "close": 27.02,
      "change_pct": 11.24,
      "turnover": 5000000.0,
-     "volume": 170860.0,
+     "volume": 170900.0,
      "volume_ratio": null,
      "disclosures": []
     },
@@ -5208,7 +5228,7 @@
      "close": 13.39,
      "change_pct": 10.94,
      "turnover": 4000000.0,
-     "volume": 318804.0,
+     "volume": 318800.0,
      "volume_ratio": 0.93,
      "disclosures": []
     },
@@ -5219,7 +5239,7 @@
      "close": 27.12,
      "change_pct": 9.84,
      "turnover": 59000000.0,
-     "volume": 2184055.0,
+     "volume": 2184100.0,
      "volume_ratio": 1.06,
      "disclosures": []
     },
@@ -5230,7 +5250,7 @@
      "close": 12.12,
      "change_pct": 9.78,
      "turnover": 13000000.0,
-     "volume": 1089370.0,
+     "volume": 1089500.0,
      "volume_ratio": 0.58,
      "disclosures": []
     },
@@ -5241,7 +5261,7 @@
      "close": 5.54,
      "change_pct": 8.84,
      "turnover": 1000000.0,
-     "volume": 103566.0,
+     "volume": 103600.0,
      "volume_ratio": 0.2,
      "disclosures": []
     },
@@ -5252,7 +5272,7 @@
      "close": 33.35,
      "change_pct": 8.49,
      "turnover": 92000000.0,
-     "volume": 2753346.0,
+     "volume": 2753300.0,
      "volume_ratio": 1.46,
      "disclosures": []
     },
@@ -5263,7 +5283,7 @@
      "close": 5.13,
      "change_pct": 8.23,
      "turnover": 2000000.0,
-     "volume": 359548.0,
+     "volume": 359700.0,
      "volume_ratio": 0.63,
      "disclosures": []
     },
@@ -5274,7 +5294,7 @@
      "close": 30.0,
      "change_pct": 8.15,
      "turnover": 71000000.0,
-     "volume": 2361912.0,
+     "volume": 2362500.0,
      "volume_ratio": 0.89,
      "disclosures": []
     },
@@ -5285,7 +5305,7 @@
      "close": 29.67,
      "change_pct": 8.13,
      "turnover": 14000000.0,
-     "volume": 460618.0,
+     "volume": 460600.0,
      "volume_ratio": 0.55,
      "disclosures": []
     },
@@ -5296,7 +5316,7 @@
      "close": 13.05,
      "change_pct": 8.12,
      "turnover": 83000000.0,
-     "volume": 6346540.0,
+     "volume": 6346500.0,
      "volume_ratio": 0.92,
      "disclosures": []
     },
@@ -5307,7 +5327,7 @@
      "close": 10.78,
      "change_pct": 7.91,
      "turnover": 74000000.0,
-     "volume": 6895560.0,
+     "volume": 6897500.0,
      "volume_ratio": 0.76,
      "disclosures": []
     },
@@ -5318,7 +5338,7 @@
      "close": 21.22,
      "change_pct": 7.72,
      "turnover": 89000000.0,
-     "volume": 4178059.0,
+     "volume": 4178100.0,
      "volume_ratio": 17.0,
      "disclosures": [
       {
@@ -5349,7 +5369,7 @@
      "close": 128.56,
      "change_pct": 7.56,
      "turnover": 57000000.0,
-     "volume": 446805.0,
+     "volume": 446800.0,
      "volume_ratio": 0.74,
      "disclosures": []
     },
@@ -5360,7 +5380,7 @@
      "close": 13.69,
      "change_pct": 7.04,
      "turnover": 4000000.0,
-     "volume": 318240.0,
+     "volume": 318200.0,
      "volume_ratio": 0.64,
      "disclosures": []
     },
@@ -5371,7 +5391,7 @@
      "close": 10.21,
      "change_pct": 7.02,
      "turnover": 7000000.0,
-     "volume": 637508.0,
+     "volume": 638500.0,
      "volume_ratio": 0.6,
      "disclosures": []
     },
@@ -5382,7 +5402,7 @@
      "close": 14.41,
      "change_pct": 6.74,
      "turnover": 31000000.0,
-     "volume": 2149046.0,
+     "volume": 2149100.0,
      "volume_ratio": 0.63,
      "disclosures": []
     },
@@ -5393,7 +5413,7 @@
      "close": 12.39,
      "change_pct": 6.17,
      "turnover": 9000000.0,
-     "volume": 697568.0,
+     "volume": 697600.0,
      "volume_ratio": 1.22,
      "disclosures": []
     },
@@ -5404,7 +5424,7 @@
      "close": 15.35,
      "change_pct": 5.72,
      "turnover": 33000000.0,
-     "volume": 2158752.0,
+     "volume": 2158800.0,
      "volume_ratio": 0.91,
      "disclosures": []
     },
@@ -5415,7 +5435,7 @@
      "close": 11.65,
      "change_pct": 5.72,
      "turnover": 6000000.0,
-     "volume": 524672.0,
+     "volume": 524700.0,
      "volume_ratio": 0.68,
      "disclosures": []
     },
@@ -5426,7 +5446,7 @@
      "close": 23.27,
      "change_pct": 5.72,
      "turnover": 46000000.0,
-     "volume": 1967639.0,
+     "volume": 1967600.0,
      "volume_ratio": 0.8,
      "disclosures": []
     },
@@ -5437,7 +5457,7 @@
      "close": 27.95,
      "change_pct": 5.55,
      "turnover": 13000000.0,
-     "volume": 460425.0,
+     "volume": 460400.0,
      "volume_ratio": 0.65,
      "disclosures": []
     },
@@ -5448,7 +5468,7 @@
      "close": 32.77,
      "change_pct": 4.96,
      "turnover": 25000000.0,
-     "volume": 760774.0,
+     "volume": 761100.0,
      "volume_ratio": 0.45,
      "disclosures": []
     },
@@ -5459,7 +5479,7 @@
      "close": 8.54,
      "change_pct": 4.91,
      "turnover": 4000000.0,
-     "volume": 441805.0,
+     "volume": 442000.0,
      "volume_ratio": 1.33,
      "disclosures": [
       {
@@ -5490,7 +5510,7 @@
      "close": 18.9,
      "change_pct": 4.71,
      "turnover": 8000000.0,
-     "volume": 398339.0,
+     "volume": 398300.0,
      "volume_ratio": 1.21,
      "disclosures": []
     },
@@ -5501,7 +5521,7 @@
      "close": 10.8,
      "change_pct": 4.65,
      "turnover": 2000000.0,
-     "volume": 159795.0,
+     "volume": 159800.0,
      "volume_ratio": 1.38,
      "disclosures": []
     },
@@ -5512,7 +5532,7 @@
      "close": 31.81,
      "change_pct": 4.53,
      "turnover": 4000000.0,
-     "volume": 129317.0,
+     "volume": 129300.0,
      "volume_ratio": 1.04,
      "disclosures": []
     },
@@ -5523,7 +5543,7 @@
      "close": 50.65,
      "change_pct": 4.52,
      "turnover": 29000000.0,
-     "volume": 581321.0,
+     "volume": 582100.0,
      "volume_ratio": 0.75,
      "disclosures": []
     },
@@ -5534,7 +5554,7 @@
      "close": 12.6,
      "change_pct": 4.48,
      "turnover": 5000000.0,
-     "volume": 385275.0,
+     "volume": 385300.0,
      "volume_ratio": 0.65,
      "disclosures": []
     },
@@ -5545,7 +5565,7 @@
      "close": 12.38,
      "change_pct": 4.47,
      "turnover": 2000000.0,
-     "volume": 185359.0,
+     "volume": 185400.0,
      "volume_ratio": 0.9,
      "disclosures": []
     },
@@ -5554,9 +5574,9 @@
      "name": "MiniMed Group",
      "sector": null,
      "close": 16.72,
-     "change_pct": 4.4,
-     "turnover": 94000000.0,
-     "volume": 5650772.0,
+     "change_pct": 4.43,
+     "turnover": 95000000.0,
+     "volume": 5676200.0,
      "volume_ratio": 0.82,
      "disclosures": []
     },
@@ -5566,8 +5586,8 @@
      "sector": null,
      "close": 133.35,
      "change_pct": 4.35,
-     "turnover": 12721000000.0,
-     "volume": 95396741.0,
+     "turnover": 12758000000.0,
+     "volume": 95671100.0,
      "volume_ratio": 0.92,
      "disclosures": []
     },
@@ -5578,7 +5598,7 @@
      "close": 5.77,
      "change_pct": 4.34,
      "turnover": 2000000.0,
-     "volume": 417372.0,
+     "volume": 417400.0,
      "volume_ratio": 0.53,
      "disclosures": []
     },
@@ -5589,7 +5609,7 @@
      "close": 16.77,
      "change_pct": 4.23,
      "turnover": 4000000.0,
-     "volume": 215721.0,
+     "volume": 215700.0,
      "volume_ratio": 0.54,
      "disclosures": []
     },
@@ -5600,7 +5620,7 @@
      "close": 5.68,
      "change_pct": 4.22,
      "turnover": 1000000.0,
-     "volume": 153151.0,
+     "volume": 153200.0,
      "volume_ratio": 0.47,
      "disclosures": []
     },
@@ -5611,7 +5631,7 @@
      "close": 12.02,
      "change_pct": 4.16,
      "turnover": 6000000.0,
-     "volume": 460891.0,
+     "volume": 460900.0,
      "volume_ratio": 0.95,
      "disclosures": []
     },
@@ -5622,7 +5642,7 @@
      "close": 38.53,
      "change_pct": 4.02,
      "turnover": 577000000.0,
-     "volume": 14973715.0,
+     "volume": 14974400.0,
      "volume_ratio": 1.21,
      "disclosures": []
     },
@@ -5633,7 +5653,7 @@
      "close": 27.58,
      "change_pct": 3.88,
      "turnover": 21000000.0,
-     "volume": 745479.0,
+     "volume": 745500.0,
      "volume_ratio": 1.84,
      "disclosures": []
     },
@@ -5644,7 +5664,7 @@
      "close": 5.21,
      "change_pct": 3.78,
      "turnover": 4000000.0,
-     "volume": 784747.0,
+     "volume": 785000.0,
      "volume_ratio": 0.62,
      "disclosures": []
     },
@@ -5655,8 +5675,8 @@
      "close": 13.58,
      "change_pct": 3.43,
      "turnover": 3000000.0,
-     "volume": 204093.0,
-     "volume_ratio": 1.18,
+     "volume": 218000.0,
+     "volume_ratio": 1.27,
      "disclosures": []
     },
     {
@@ -5666,7 +5686,7 @@
      "close": 16.68,
      "change_pct": 3.35,
      "turnover": 24000000.0,
-     "volume": 1451037.0,
+     "volume": 1451100.0,
      "volume_ratio": 0.66,
      "disclosures": []
     },
@@ -5677,7 +5697,7 @@
      "close": 15.29,
      "change_pct": 3.17,
      "turnover": 23000000.0,
-     "volume": 1529004.0,
+     "volume": 1529000.0,
      "volume_ratio": 1.2,
      "disclosures": []
     },
@@ -5688,7 +5708,7 @@
      "close": 10.45,
      "change_pct": 3.16,
      "turnover": 10000000.0,
-     "volume": 949369.0,
+     "volume": 949400.0,
      "volume_ratio": 0.62,
      "disclosures": []
     },
@@ -5699,7 +5719,7 @@
      "close": 6.61,
      "change_pct": 3.12,
      "turnover": 11000000.0,
-     "volume": 1693460.0,
+     "volume": 1693800.0,
      "volume_ratio": 0.73,
      "disclosures": []
     },
@@ -5710,7 +5730,7 @@
      "close": 20.39,
      "change_pct": 2.88,
      "turnover": 16000000.0,
-     "volume": 797730.0,
+     "volume": 797800.0,
      "volume_ratio": 0.62,
      "disclosures": []
     },
@@ -5720,9 +5740,9 @@
      "sector": null,
      "close": 15.84,
      "change_pct": 2.79,
-     "turnover": 88000000.0,
-     "volume": 5579947.0,
-     "volume_ratio": 2.18,
+     "turnover": 89000000.0,
+     "volume": 5631400.0,
+     "volume_ratio": 2.2,
      "disclosures": []
     },
     {
@@ -5732,7 +5752,7 @@
      "close": 17.41,
      "change_pct": 2.59,
      "turnover": 45000000.0,
-     "volume": 2591347.0,
+     "volume": 2591400.0,
      "volume_ratio": 0.79,
      "disclosures": []
     },
@@ -5743,7 +5763,7 @@
      "close": 13.3,
      "change_pct": 2.31,
      "turnover": 2000000.0,
-     "volume": 127204.0,
+     "volume": 127200.0,
      "volume_ratio": 0.41,
      "disclosures": []
     },
@@ -5754,8 +5774,8 @@
      "close": 6.26,
      "change_pct": 2.29,
      "turnover": 25000000.0,
-     "volume": 4001380.0,
-     "volume_ratio": 1.36,
+     "volume": 4007400.0,
+     "volume_ratio": 1.37,
      "disclosures": []
     },
     {
@@ -5765,7 +5785,7 @@
      "close": 32.34,
      "change_pct": 2.18,
      "turnover": 42000000.0,
-     "volume": 1313490.0,
+     "volume": 1313500.0,
      "volume_ratio": 0.34,
      "disclosures": []
     },
@@ -5776,7 +5796,7 @@
      "close": 16.47,
      "change_pct": 1.98,
      "turnover": 5000000.0,
-     "volume": 280398.0,
+     "volume": 280400.0,
      "volume_ratio": 0.74,
      "disclosures": []
     },
@@ -5787,7 +5807,7 @@
      "close": 14.54,
      "change_pct": 1.96,
      "turnover": 3000000.0,
-     "volume": 226140.0,
+     "volume": 226100.0,
      "volume_ratio": 0.57,
      "disclosures": []
     },
@@ -5798,7 +5818,7 @@
      "close": 10.31,
      "change_pct": 1.88,
      "turnover": 4000000.0,
-     "volume": 386167.0,
+     "volume": 386200.0,
      "volume_ratio": 0.32,
      "disclosures": []
     },
@@ -5809,7 +5829,7 @@
      "close": 18.24,
      "change_pct": 1.79,
      "turnover": 6000000.0,
-     "volume": 327977.0,
+     "volume": 328200.0,
      "volume_ratio": 0.65,
      "disclosures": []
     },
@@ -5820,7 +5840,7 @@
      "close": 58.88,
      "change_pct": 1.78,
      "turnover": 24000000.0,
-     "volume": 414783.0,
+     "volume": 414800.0,
      "volume_ratio": 0.71,
      "disclosures": []
     },
@@ -5831,7 +5851,7 @@
      "close": 11.17,
      "change_pct": 1.73,
      "turnover": 4000000.0,
-     "volume": 360064.0,
+     "volume": 360100.0,
      "volume_ratio": 1.0,
      "disclosures": []
     },
@@ -5842,7 +5862,7 @@
      "close": 16.98,
      "change_pct": 1.68,
      "turnover": 2000000.0,
-     "volume": 120172.0,
+     "volume": 120200.0,
      "volume_ratio": 1.2,
      "disclosures": []
     },
@@ -5853,7 +5873,7 @@
      "close": 19.69,
      "change_pct": 1.65,
      "turnover": 6000000.0,
-     "volume": 318072.0,
+     "volume": 318100.0,
      "volume_ratio": 0.54,
      "disclosures": []
     },
@@ -5864,7 +5884,7 @@
      "close": 28.63,
      "change_pct": 0.81,
      "turnover": 9000000.0,
-     "volume": 304341.0,
+     "volume": 304300.0,
      "volume_ratio": 0.58,
      "disclosures": []
     },
@@ -5875,7 +5895,7 @@
      "close": 15.21,
      "change_pct": 0.73,
      "turnover": 4000000.0,
-     "volume": 256053.0,
+     "volume": 256200.0,
      "volume_ratio": 0.99,
      "disclosures": []
     },
@@ -5886,7 +5906,7 @@
      "close": 39.55,
      "change_pct": 0.66,
      "turnover": 7000000.0,
-     "volume": 179010.0,
+     "volume": 179000.0,
      "volume_ratio": 0.35,
      "disclosures": []
     },
@@ -5897,7 +5917,7 @@
      "close": 20.23,
      "change_pct": 0.6,
      "turnover": 10000000.0,
-     "volume": 518839.0,
+     "volume": 518800.0,
      "volume_ratio": 0.93,
      "disclosures": []
     },
@@ -5908,7 +5928,7 @@
      "close": 3.66,
      "change_pct": 0.27,
      "turnover": 9000000.0,
-     "volume": 2505095.0,
+     "volume": 2506000.0,
      "volume_ratio": 1.21,
      "disclosures": []
     },
@@ -5919,7 +5939,7 @@
      "close": 17.0,
      "change_pct": 0.24,
      "turnover": 8000000.0,
-     "volume": 484632.0,
+     "volume": 484600.0,
      "volume_ratio": 1.32,
      "disclosures": []
     },
@@ -5930,7 +5950,7 @@
      "close": 22.77,
      "change_pct": -0.39,
      "turnover": 20000000.0,
-     "volume": 871048.0,
+     "volume": 871400.0,
      "volume_ratio": 0.57,
      "disclosures": []
     },
@@ -5941,7 +5961,7 @@
      "close": 10.03,
      "change_pct": -0.5,
      "turnover": 2000000.0,
-     "volume": 181619.0,
+     "volume": 181700.0,
      "volume_ratio": 1.01,
      "disclosures": []
     },
@@ -5952,7 +5972,7 @@
      "close": 8.04,
      "change_pct": -0.86,
      "turnover": 3000000.0,
-     "volume": 403903.0,
+     "volume": 404000.0,
      "volume_ratio": 1.1,
      "disclosures": []
     },
@@ -5963,7 +5983,7 @@
      "close": 32.66,
      "change_pct": -1.24,
      "turnover": 12000000.0,
-     "volume": 366807.0,
+     "volume": 366800.0,
      "volume_ratio": 1.08,
      "disclosures": []
     },
@@ -5974,7 +5994,7 @@
      "close": 14.31,
      "change_pct": -1.38,
      "turnover": 3000000.0,
-     "volume": 233248.0,
+     "volume": 233200.0,
      "volume_ratio": 1.15,
      "disclosures": []
     },
@@ -5984,8 +6004,8 @@
      "sector": null,
      "close": 87.64,
      "change_pct": -1.43,
-     "turnover": 22202000000.0,
-     "volume": 253330731.0,
+     "turnover": 22228000000.0,
+     "volume": 253624200.0,
      "volume_ratio": null,
      "disclosures": []
     },
@@ -5996,7 +6016,7 @@
      "close": 18.21,
      "change_pct": -1.62,
      "turnover": 7000000.0,
-     "volume": 410684.0,
+     "volume": 410700.0,
      "volume_ratio": 0.73,
      "disclosures": []
     },
@@ -6007,7 +6027,7 @@
      "close": 23.35,
      "change_pct": -2.22,
      "turnover": 4000000.0,
-     "volume": 192190.0,
+     "volume": 192200.0,
      "volume_ratio": 1.24,
      "disclosures": []
     },
@@ -6018,7 +6038,7 @@
      "close": 32.63,
      "change_pct": -2.92,
      "turnover": 47000000.0,
-     "volume": 1453921.0,
+     "volume": 1454500.0,
      "volume_ratio": 2.46,
      "disclosures": []
     },
@@ -6029,7 +6049,7 @@
      "close": 11.75,
      "change_pct": -3.45,
      "turnover": 6000000.0,
-     "volume": 507523.0,
+     "volume": 507500.0,
      "volume_ratio": 0.36,
      "disclosures": [
       {
@@ -6059,8 +6079,8 @@
      "close": 18.5,
      "change_pct": -4.24,
      "turnover": 8000000.0,
-     "volume": 432263.0,
-     "volume_ratio": 1.58,
+     "volume": 432300.0,
+     "volume_ratio": 1.59,
      "disclosures": [
       {
        "code": "CTY",
@@ -6090,7 +6110,7 @@
      "close": 5.56,
      "change_pct": -4.79,
      "turnover": 1000000.0,
-     "volume": 166075.0,
+     "volume": 166100.0,
      "volume_ratio": 0.78,
      "disclosures": []
     },
@@ -6101,7 +6121,7 @@
      "close": 13.85,
      "change_pct": -4.81,
      "turnover": 6000000.0,
-     "volume": 424608.0,
+     "volume": 424600.0,
      "volume_ratio": null,
      "disclosures": []
     },
@@ -6112,7 +6132,7 @@
      "close": 9.74,
      "change_pct": -6.79,
      "turnover": 16000000.0,
-     "volume": 1612056.0,
+     "volume": 1612300.0,
      "volume_ratio": 1.12,
      "disclosures": []
     },
@@ -6123,12 +6143,12 @@
      "close": 7.58,
      "change_pct": -16.61,
      "turnover": 5000000.0,
-     "volume": 680705.0,
+     "volume": 680800.0,
      "volume_ratio": 1.62,
      "disclosures": []
     }
    ],
-   "news_count": 8
+   "news_count": 4
   },
   {
    "key": "china_adr",
@@ -6144,7 +6164,7 @@
      "close": 8.68,
      "change_pct": 7.43,
      "turnover": 83000000.0,
-     "volume": 9581867.0,
+     "volume": 9588900.0,
      "volume_ratio": 1.16,
      "disclosures": []
     },
@@ -6154,9 +6174,9 @@
      "sector": null,
      "close": 86.04,
      "change_pct": 6.12,
-     "turnover": 1433000000.0,
-     "volume": 16652871.0,
-     "volume_ratio": 1.32,
+     "turnover": 1451000000.0,
+     "volume": 16862300.0,
+     "volume_ratio": 1.33,
      "disclosures": []
     },
     {
@@ -6165,9 +6185,9 @@
      "sector": null,
      "close": 65.33,
      "change_pct": 5.54,
-     "turnover": 208000000.0,
-     "volume": 3177456.0,
-     "volume_ratio": 1.1,
+     "turnover": 229000000.0,
+     "volume": 3501600.0,
+     "volume_ratio": 1.21,
      "disclosures": []
     },
     {
@@ -6177,7 +6197,7 @@
      "close": 2.57,
      "change_pct": 4.9,
      "turnover": 163000000.0,
-     "volume": 63445216.0,
+     "volume": 63593100.0,
      "volume_ratio": 1.48,
      "disclosures": []
     },
@@ -6187,9 +6207,9 @@
      "sector": null,
      "close": 87.14,
      "change_pct": 4.13,
-     "turnover": 1079000000.0,
-     "volume": 12379339.0,
-     "volume_ratio": 1.7,
+     "turnover": 1112000000.0,
+     "volume": 12764500.0,
+     "volume_ratio": 1.75,
      "disclosures": []
     },
     {
@@ -6199,7 +6219,7 @@
      "close": 103.2,
      "change_pct": 3.36,
      "turnover": 126000000.0,
-     "volume": 1219324.0,
+     "volume": 1219400.0,
      "volume_ratio": 1.11,
      "disclosures": []
     },
@@ -6210,7 +6230,7 @@
      "close": 10.7,
      "change_pct": 2.98,
      "turnover": 43000000.0,
-     "volume": 3987455.0,
+     "volume": 3988100.0,
      "volume_ratio": 1.44,
      "disclosures": []
     },
@@ -6221,7 +6241,7 @@
      "close": 10.89,
      "change_pct": 2.74,
      "turnover": 53000000.0,
-     "volume": 4899966.0,
+     "volume": 4906400.0,
      "volume_ratio": 1.34,
      "disclosures": []
     },
@@ -6231,9 +6251,9 @@
      "sector": null,
      "close": 25.31,
      "change_pct": 1.65,
-     "turnover": 236000000.0,
-     "volume": 9325798.0,
-     "volume_ratio": 0.94,
+     "turnover": 239000000.0,
+     "volume": 9455800.0,
+     "volume_ratio": 0.96,
      "disclosures": []
     },
     {
@@ -6253,9 +6273,9 @@
      "sector": null,
      "close": 41.1,
      "change_pct": 1.43,
-     "turnover": 117000000.0,
-     "volume": 2855180.0,
-     "volume_ratio": 0.96,
+     "turnover": 122000000.0,
+     "volume": 2964800.0,
+     "volume_ratio": 1.0,
      "disclosures": []
     }
    ],
@@ -6274,8 +6294,8 @@
      "sector": "資本財",
      "close": 108.71,
      "change_pct": 7.6,
-     "turnover": 563000000.0,
-     "volume": 5175449.0,
+     "turnover": 565000000.0,
+     "volume": 5195500.0,
      "volume_ratio": 0.96,
      "disclosures": []
     },
@@ -6285,8 +6305,8 @@
      "sector": null,
      "close": 12.72,
      "change_pct": 6.89,
-     "turnover": 855000000.0,
-     "volume": 67246289.0,
+     "turnover": 856000000.0,
+     "volume": 67311800.0,
      "volume_ratio": 1.1,
      "disclosures": []
     },
@@ -6296,9 +6316,9 @@
      "sector": "資本財",
      "close": 84.34,
      "change_pct": 5.41,
-     "turnover": 476000000.0,
-     "volume": 5648240.0,
-     "volume_ratio": 0.93,
+     "turnover": 483000000.0,
+     "volume": 5728400.0,
+     "volume_ratio": 0.94,
      "disclosures": []
     },
     {
@@ -6307,9 +6327,9 @@
      "sector": "一般消費財",
      "close": 27.91,
      "change_pct": 4.96,
-     "turnover": 432000000.0,
-     "volume": 15488427.0,
-     "volume_ratio": 0.83,
+     "turnover": 434000000.0,
+     "volume": 15534900.0,
+     "volume_ratio": 0.84,
      "disclosures": []
     },
     {
@@ -6318,8 +6338,8 @@
      "sector": "資本財",
      "close": 162.39,
      "change_pct": 4.17,
-     "turnover": 1239000000.0,
-     "volume": 7628138.0,
+     "turnover": 1240000000.0,
+     "volume": 7637600.0,
      "volume_ratio": 0.71,
      "disclosures": []
     },
@@ -6330,7 +6350,7 @@
      "close": 307.14,
      "change_pct": 3.6,
      "turnover": 390000000.0,
-     "volume": 1270078.0,
+     "volume": 1270300.0,
      "volume_ratio": 0.58,
      "disclosures": []
     },
@@ -6340,9 +6360,9 @@
      "sector": "一般消費財",
      "close": 364.94,
      "change_pct": 2.44,
-     "turnover": 624000000.0,
-     "volume": 1711213.0,
-     "volume_ratio": 0.89,
+     "turnover": 632000000.0,
+     "volume": 1730600.0,
+     "volume_ratio": 0.9,
      "disclosures": []
     },
     {
@@ -6351,9 +6371,9 @@
      "sector": "一般消費財",
      "close": 415.63,
      "change_pct": 2.21,
-     "turnover": 560000000.0,
-     "volume": 1348004.0,
-     "volume_ratio": 0.8,
+     "turnover": 607000000.0,
+     "volume": 1459700.0,
+     "volume_ratio": 0.87,
      "disclosures": []
     },
     {
@@ -6363,7 +6383,7 @@
      "close": 173.96,
      "change_pct": 2.11,
      "turnover": 665000000.0,
-     "volume": 3824062.0,
+     "volume": 3824600.0,
      "volume_ratio": 0.74,
      "disclosures": []
     },
@@ -6374,7 +6394,7 @@
      "close": 239.46,
      "change_pct": 1.92,
      "turnover": 320000000.0,
-     "volume": 1335497.0,
+     "volume": 1335700.0,
      "volume_ratio": 0.62,
      "disclosures": []
     },
@@ -6384,13 +6404,13 @@
      "sector": "一般消費財",
      "close": 144.94,
      "change_pct": 0.02,
-     "turnover": 1420000000.0,
-     "volume": 9796461.0,
+     "turnover": 1421000000.0,
+     "volume": 9801900.0,
      "volume_ratio": 1.29,
      "disclosures": []
     }
    ],
-   "news_count": 0
+   "news_count": 1
   },
   {
    "key": "defense",
@@ -6405,8 +6425,8 @@
      "sector": "情報技術",
      "close": 159.36,
      "change_pct": 11.06,
-     "turnover": 5097000000.0,
-     "volume": 31984581.0,
+     "turnover": 5101000000.0,
+     "volume": 32010800.0,
      "volume_ratio": 1.28,
      "disclosures": []
     },
@@ -6417,7 +6437,7 @@
      "close": 28.5,
      "change_pct": 5.99,
      "turnover": 129000000.0,
-     "volume": 4535533.0,
+     "volume": 4541300.0,
      "volume_ratio": 0.87,
      "disclosures": []
     },
@@ -6428,7 +6448,7 @@
      "close": 307.6,
      "change_pct": 5.65,
      "turnover": 386000000.0,
-     "volume": 1256201.0,
+     "volume": 1256400.0,
      "volume_ratio": 0.73,
      "disclosures": []
     },
@@ -6439,8 +6459,8 @@
      "close": 90.67,
      "change_pct": 4.47,
      "turnover": 108000000.0,
-     "volume": 1187977.0,
-     "volume_ratio": 0.86,
+     "volume": 1189700.0,
+     "volume_ratio": 0.87,
      "disclosures": []
     },
     {
@@ -6450,7 +6470,7 @@
      "close": 194.77,
      "change_pct": 2.42,
      "turnover": 886000000.0,
-     "volume": 4548936.0,
+     "volume": 4550000.0,
      "volume_ratio": 0.86,
      "disclosures": []
     },
@@ -6461,7 +6481,7 @@
      "close": 286.57,
      "change_pct": 2.22,
      "turnover": 87000000.0,
-     "volume": 304969.0,
+     "volume": 305000.0,
      "volume_ratio": 0.55,
      "disclosures": []
     },
@@ -6472,7 +6492,7 @@
      "close": 254.83,
      "change_pct": 1.98,
      "turnover": 246000000.0,
-     "volume": 964807.0,
+     "volume": 965000.0,
      "volume_ratio": 0.52,
      "disclosures": []
     },
@@ -6483,7 +6503,7 @@
      "close": 347.84,
      "change_pct": 1.86,
      "turnover": 330000000.0,
-     "volume": 949866.0,
+     "volume": 949900.0,
      "volume_ratio": 0.75,
      "disclosures": []
     },
@@ -6493,9 +6513,9 @@
      "sector": null,
      "close": 82.35,
      "change_pct": 1.64,
-     "turnover": 105000000.0,
-     "volume": 1276856.0,
-     "volume_ratio": 0.61,
+     "turnover": 112000000.0,
+     "volume": 1361400.0,
+     "volume_ratio": 0.65,
      "disclosures": []
     },
     {
@@ -6504,9 +6524,9 @@
      "sector": "資本財",
      "close": 542.14,
      "change_pct": 1.47,
-     "turnover": 341000000.0,
-     "volume": 629368.0,
-     "volume_ratio": 0.7,
+     "turnover": 384000000.0,
+     "volume": 708800.0,
+     "volume_ratio": 0.79,
      "disclosures": []
     },
     {
@@ -6516,7 +6536,7 @@
      "close": 571.67,
      "change_pct": 1.09,
      "turnover": 495000000.0,
-     "volume": 865520.0,
+     "volume": 865600.0,
      "volume_ratio": 0.58,
      "disclosures": []
     },
@@ -6527,12 +6547,12 @@
      "close": 123.47,
      "change_pct": 1.03,
      "turnover": 99000000.0,
-     "volume": 804251.0,
+     "volume": 804300.0,
      "volume_ratio": 0.71,
      "disclosures": []
     }
    ],
-   "news_count": 0
+   "news_count": 1
   },
   {
    "key": "megabanks",
@@ -6547,9 +6567,9 @@
      "sector": "金融",
      "close": 172.6,
      "change_pct": 4.18,
-     "turnover": 1368000000.0,
-     "volume": 7925277.0,
-     "volume_ratio": 1.24,
+     "turnover": 1394000000.0,
+     "volume": 8075100.0,
+     "volume_ratio": 1.26,
      "disclosures": [
       {
        "code": "MS",
@@ -6578,9 +6598,9 @@
      "sector": "金融",
      "close": 823.62,
      "change_pct": 4.16,
-     "turnover": 3125000000.0,
-     "volume": 3794422.0,
-     "volume_ratio": 1.67,
+     "turnover": 3227000000.0,
+     "volume": 3917800.0,
+     "volume_ratio": 1.72,
      "disclosures": []
     },
     {
@@ -6589,8 +6609,8 @@
      "sector": "金融",
      "close": 114.35,
      "change_pct": 3.37,
-     "turnover": 1334000000.0,
-     "volume": 11668904.0,
+     "turnover": 1335000000.0,
+     "volume": 11676600.0,
      "volume_ratio": 1.16,
      "disclosures": []
     },
@@ -6600,8 +6620,8 @@
      "sector": "金融",
      "close": 92.37,
      "change_pct": 2.45,
-     "turnover": 939000000.0,
-     "volume": 10164829.0,
+     "turnover": 940000000.0,
+     "volume": 10180200.0,
      "volume_ratio": 1.1,
      "disclosures": []
     },
@@ -6611,8 +6631,8 @@
      "sector": "金融",
      "close": 48.14,
      "change_pct": 2.34,
-     "turnover": 1622000000.0,
-     "volume": 33683432.0,
+     "turnover": 1623000000.0,
+     "volume": 33715900.0,
      "volume_ratio": 0.95,
      "disclosures": []
     },
@@ -6623,7 +6643,7 @@
      "close": 316.66,
      "change_pct": 1.97,
      "turnover": 2758000000.0,
-     "volume": 8709107.0,
+     "volume": 8710800.0,
      "volume_ratio": 1.24,
      "disclosures": []
     },
@@ -6633,13 +6653,13 @@
      "sector": "金融",
      "close": 80.0,
      "change_pct": 1.76,
-     "turnover": 935000000.0,
-     "volume": 11692890.0,
-     "volume_ratio": 0.95,
+     "turnover": 938000000.0,
+     "volume": 11729600.0,
+     "volume_ratio": 0.96,
      "disclosures": []
     }
    ],
-   "news_count": 4
+   "news_count": 3
   },
   {
    "key": "regional_banks",
@@ -6655,7 +6675,7 @@
      "close": 60.82,
      "change_pct": 3.59,
      "turnover": 300000000.0,
-     "volume": 4926311.0,
+     "volume": 4926300.0,
      "volume_ratio": 1.31,
      "disclosures": []
     },
@@ -6666,7 +6686,7 @@
      "close": 14.72,
      "change_pct": 3.08,
      "turnover": 357000000.0,
-     "volume": 24224769.0,
+     "volume": 24225400.0,
      "volume_ratio": 1.29,
      "disclosures": []
     },
@@ -6677,7 +6697,7 @@
      "close": 50.75,
      "change_pct": 2.75,
      "turnover": 319000000.0,
-     "volume": 6278844.0,
+     "volume": 6279700.0,
      "volume_ratio": 1.07,
      "disclosures": []
     },
@@ -6688,7 +6708,7 @@
      "close": 69.63,
      "change_pct": 2.55,
      "turnover": 65000000.0,
-     "volume": 935875.0,
+     "volume": 935900.0,
      "volume_ratio": 1.04,
      "disclosures": []
     },
@@ -6699,7 +6719,7 @@
      "close": 27.25,
      "change_pct": 2.44,
      "turnover": 355000000.0,
-     "volume": 13028804.0,
+     "volume": 13028800.0,
      "volume_ratio": 1.28,
      "disclosures": []
     },
@@ -6709,9 +6729,9 @@
      "sector": "金融",
      "close": 57.41,
      "change_pct": 2.43,
-     "turnover": 391000000.0,
-     "volume": 6818456.0,
-     "volume_ratio": 1.08,
+     "turnover": 394000000.0,
+     "volume": 6868200.0,
+     "volume_ratio": 1.09,
      "disclosures": []
     },
     {
@@ -6720,9 +6740,9 @@
      "sector": "金融",
      "close": 46.89,
      "change_pct": 2.36,
-     "turnover": 363000000.0,
-     "volume": 7732998.0,
-     "volume_ratio": 1.03,
+     "turnover": 368000000.0,
+     "volume": 7844100.0,
+     "volume_ratio": 1.04,
      "disclosures": []
     },
     {
@@ -6732,7 +6752,7 @@
      "close": 62.32,
      "change_pct": 2.16,
      "turnover": 79000000.0,
-     "volume": 1261965.0,
+     "volume": 1262000.0,
      "volume_ratio": 0.84,
      "disclosures": []
     },
@@ -6742,9 +6762,9 @@
      "sector": null,
      "close": 123.87,
      "change_pct": 1.92,
-     "turnover": 81000000.0,
-     "volume": 652551.0,
-     "volume_ratio": 0.86,
+     "turnover": 82000000.0,
+     "volume": 661200.0,
+     "volume_ratio": 0.87,
      "disclosures": []
     },
     {
@@ -6754,7 +6774,7 @@
      "close": 19.82,
      "change_pct": 1.9,
      "turnover": 376000000.0,
-     "volume": 18993796.0,
+     "volume": 18994700.0,
      "volume_ratio": 1.35,
      "disclosures": []
     },
@@ -6765,7 +6785,7 @@
      "close": 217.13,
      "change_pct": 1.88,
      "turnover": 256000000.0,
-     "volume": 1181172.0,
+     "volume": 1181200.0,
      "volume_ratio": 0.7,
      "disclosures": [
       {
@@ -6798,7 +6818,7 @@
      "close": 22.14,
      "change_pct": 1.75,
      "turnover": 112000000.0,
-     "volume": 5064924.0,
+     "volume": 5064900.0,
      "volume_ratio": 0.89,
      "disclosures": []
     },
@@ -6808,9 +6828,9 @@
      "sector": "金融",
      "close": 211.6,
      "change_pct": 1.58,
-     "turnover": 173000000.0,
-     "volume": 817479.0,
-     "volume_ratio": 1.02,
+     "turnover": 177000000.0,
+     "volume": 837000.0,
+     "volume_ratio": 1.05,
      "disclosures": []
     }
    ],
@@ -6830,7 +6850,7 @@
      "close": 105.98,
      "change_pct": 4.83,
      "turnover": 311000000.0,
-     "volume": 2930319.0,
+     "volume": 2930500.0,
      "volume_ratio": 1.09,
      "disclosures": []
     },
@@ -6841,7 +6861,7 @@
      "close": 416.23,
      "change_pct": 4.31,
      "turnover": 940000000.0,
-     "volume": 2258725.0,
+     "volume": 2259000.0,
      "volume_ratio": 0.91,
      "disclosures": []
     },
@@ -6852,7 +6872,7 @@
      "close": 82.42,
      "change_pct": 3.91,
      "turnover": 289000000.0,
-     "volume": 3504126.0,
+     "volume": 3504500.0,
      "volume_ratio": 0.75,
      "disclosures": []
     },
@@ -6863,7 +6883,7 @@
      "close": 105.06,
      "change_pct": 3.15,
      "turnover": 346000000.0,
-     "volume": 3293255.0,
+     "volume": 3293300.0,
      "volume_ratio": 0.64,
      "disclosures": []
     },
@@ -6873,8 +6893,8 @@
      "sector": "ヘルスケア",
      "close": 316.15,
      "change_pct": 1.98,
-     "turnover": 670000000.0,
-     "volume": 2120207.0,
+     "turnover": 672000000.0,
+     "volume": 2124200.0,
      "volume_ratio": 0.64,
      "disclosures": []
     },
@@ -6884,9 +6904,9 @@
      "sector": "ヘルスケア",
      "close": 42.33,
      "change_pct": 0.83,
-     "turnover": 569000000.0,
-     "volume": 13449587.0,
-     "volume_ratio": 0.66,
+     "turnover": 572000000.0,
+     "volume": 13509800.0,
+     "volume_ratio": 0.67,
      "disclosures": [
       {
        "code": "BSX",
@@ -6919,7 +6939,7 @@
      "close": 81.31,
      "change_pct": 0.83,
      "turnover": 284000000.0,
-     "volume": 3497800.0,
+     "volume": 3497900.0,
      "volume_ratio": 0.79,
      "disclosures": []
     },
@@ -6930,7 +6950,7 @@
      "close": 100.72,
      "change_pct": 0.78,
      "turnover": 949000000.0,
-     "volume": 9422677.0,
+     "volume": 9423000.0,
      "volume_ratio": 1.27,
      "disclosures": []
     },
@@ -6941,7 +6961,7 @@
      "close": 133.79,
      "change_pct": 0.47,
      "turnover": 262000000.0,
-     "volume": 1956478.0,
+     "volume": 1956500.0,
      "volume_ratio": 1.33,
      "disclosures": [
       {
@@ -6970,9 +6990,9 @@
      "sector": "ヘルスケア",
      "close": 103.32,
      "change_pct": 0.31,
-     "turnover": 719000000.0,
-     "volume": 6957371.0,
-     "volume_ratio": 0.87,
+     "turnover": 733000000.0,
+     "volume": 7093800.0,
+     "volume_ratio": 0.88,
      "disclosures": []
     }
    ],
@@ -6992,7 +7012,7 @@
      "close": 56.92,
      "change_pct": 3.43,
      "turnover": 84000000.0,
-     "volume": 1467579.0,
+     "volume": 1467700.0,
      "volume_ratio": 0.57,
      "disclosures": []
     },
@@ -7003,7 +7023,7 @@
      "close": 146.47,
      "change_pct": 3.12,
      "turnover": 119000000.0,
-     "volume": 809104.0,
+     "volume": 809100.0,
      "volume_ratio": 0.8,
      "disclosures": []
     },
@@ -7013,9 +7033,9 @@
      "sector": "一般消費財",
      "close": 226.14,
      "change_pct": 2.4,
-     "turnover": 711000000.0,
-     "volume": 3145800.0,
-     "volume_ratio": 0.85,
+     "turnover": 715000000.0,
+     "volume": 3163300.0,
+     "volume_ratio": 0.86,
      "disclosures": []
     },
     {
@@ -7024,8 +7044,8 @@
      "sector": "一般消費財",
      "close": 346.06,
      "change_pct": 2.07,
-     "turnover": 1988000000.0,
-     "volume": 5745429.0,
+     "turnover": 1989000000.0,
+     "volume": 5747100.0,
      "volume_ratio": 1.15,
      "disclosures": []
     },
@@ -7036,7 +7056,7 @@
      "close": 46.35,
      "change_pct": 1.94,
      "turnover": 44000000.0,
-     "volume": 942181.0,
+     "volume": 942200.0,
      "volume_ratio": 0.85,
      "disclosures": []
     },
@@ -7046,9 +7066,9 @@
      "sector": "一般消費財",
      "close": 5562.89,
      "change_pct": 1.73,
-     "turnover": 250000000.0,
-     "volume": 44879.0,
-     "volume_ratio": 1.06,
+     "turnover": 252000000.0,
+     "volume": 45300.0,
+     "volume_ratio": 1.07,
      "disclosures": []
     },
     {
@@ -7058,7 +7078,7 @@
      "close": 126.39,
      "change_pct": 1.38,
      "turnover": 180000000.0,
-     "volume": 1427949.0,
+     "volume": 1428000.0,
      "volume_ratio": 0.71,
      "disclosures": []
     },
@@ -7069,7 +7089,7 @@
      "close": 81.8,
      "change_pct": 1.31,
      "turnover": 269000000.0,
-     "volume": 3292238.0,
+     "volume": 3292600.0,
      "volume_ratio": 0.98,
      "disclosures": []
     },
@@ -7079,8 +7099,8 @@
      "sector": "一般消費財",
      "close": 147.06,
      "change_pct": 1.11,
-     "turnover": 312000000.0,
-     "volume": 2118760.0,
+     "turnover": 313000000.0,
+     "volume": 2130600.0,
      "volume_ratio": 0.63,
      "disclosures": []
     }
@@ -7100,8 +7120,8 @@
      "sector": null,
      "close": 39.14,
      "change_pct": 3.49,
-     "turnover": 481000000.0,
-     "volume": 12276926.0,
+     "turnover": 482000000.0,
+     "volume": 12310100.0,
      "volume_ratio": 0.92,
      "disclosures": []
     },
@@ -7111,9 +7131,9 @@
      "sector": "ヘルスケア",
      "close": 449.04,
      "change_pct": 3.08,
-     "turnover": 1521000000.0,
-     "volume": 3388198.0,
-     "volume_ratio": 1.23,
+     "turnover": 1540000000.0,
+     "volume": 3430000.0,
+     "volume_ratio": 1.24,
      "disclosures": []
     },
     {
@@ -7123,7 +7143,7 @@
      "close": 170.59,
      "change_pct": 2.5,
      "turnover": 1133000000.0,
-     "volume": 6643438.0,
+     "volume": 6643900.0,
      "volume_ratio": 1.03,
      "disclosures": []
     },
@@ -7133,8 +7153,8 @@
      "sector": "ヘルスケア",
      "close": 59.84,
      "change_pct": 1.77,
-     "turnover": 630000000.0,
-     "volume": 10534732.0,
+     "turnover": 631000000.0,
+     "volume": 10538000.0,
      "volume_ratio": 1.02,
      "disclosures": []
     },
@@ -7144,9 +7164,9 @@
      "sector": null,
      "close": 177.02,
      "change_pct": 1.53,
-     "turnover": 215000000.0,
-     "volume": 1217313.0,
-     "volume_ratio": 0.43,
+     "turnover": 246000000.0,
+     "volume": 1392400.0,
+     "volume_ratio": 0.49,
      "disclosures": []
     },
     {
@@ -7156,7 +7176,7 @@
      "close": 135.47,
      "change_pct": 1.31,
      "turnover": 1282000000.0,
-     "volume": 9461881.0,
+     "volume": 9462200.0,
      "volume_ratio": 0.99,
      "disclosures": []
     },
@@ -7166,8 +7186,8 @@
      "sector": "ヘルスケア",
      "close": 1364.6,
      "change_pct": 1.3,
-     "turnover": 3997000000.0,
-     "volume": 2929307.0,
+     "turnover": 3999000000.0,
+     "volume": 2930600.0,
      "volume_ratio": 0.92,
      "disclosures": []
     },
@@ -7178,7 +7198,7 @@
      "close": 151.94,
      "change_pct": 0.98,
      "turnover": 238000000.0,
-     "volume": 1564224.0,
+     "volume": 1564200.0,
      "volume_ratio": 0.7,
      "disclosures": []
     },
@@ -7188,9 +7208,9 @@
      "sector": "ヘルスケア",
      "close": 288.45,
      "change_pct": 0.79,
-     "turnover": 1921000000.0,
-     "volume": 6659777.0,
-     "volume_ratio": 1.25,
+     "turnover": 1944000000.0,
+     "volume": 6740600.0,
+     "volume_ratio": 1.26,
      "disclosures": []
     },
     {
@@ -7199,8 +7219,8 @@
      "sector": "ヘルスケア",
      "close": 27.4,
      "change_pct": 0.0,
-     "turnover": 787000000.0,
-     "volume": 28723818.0,
+     "turnover": 790000000.0,
+     "volume": 28835000.0,
      "volume_ratio": 0.76,
      "disclosures": []
     },
@@ -7211,7 +7231,7 @@
      "close": 270.05,
      "change_pct": -0.16,
      "turnover": 2677000000.0,
-     "volume": 9912272.0,
+     "volume": 9914600.0,
      "volume_ratio": 1.26,
      "disclosures": []
     }
@@ -7231,8 +7251,8 @@
      "sector": "一般消費財",
      "close": 255.39,
      "change_pct": 3.47,
-     "turnover": 13500000000.0,
-     "volume": 52860784.0,
+     "turnover": 13578000000.0,
+     "volume": 53166700.0,
      "volume_ratio": 1.0,
      "disclosures": []
     },
@@ -7243,7 +7263,7 @@
      "close": 134.18,
      "change_pct": 2.8,
      "turnover": 320000000.0,
-     "volume": 2382163.0,
+     "volume": 2385100.0,
      "volume_ratio": 1.09,
      "disclosures": []
     },
@@ -7254,7 +7274,7 @@
      "close": 33.76,
      "change_pct": 2.55,
      "turnover": 1051000000.0,
-     "volume": 31120843.0,
+     "volume": 31131900.0,
      "volume_ratio": 1.28,
      "disclosures": []
     },
@@ -7265,7 +7285,7 @@
      "close": 104.63,
      "change_pct": 1.96,
      "turnover": 268000000.0,
-     "volume": 2565240.0,
+     "volume": 2565400.0,
      "volume_ratio": 0.85,
      "disclosures": []
     },
@@ -7275,9 +7295,9 @@
      "sector": "一般消費財",
      "close": 217.04,
      "change_pct": 1.68,
-     "turnover": 714000000.0,
-     "volume": 3287806.0,
-     "volume_ratio": 1.32,
+     "turnover": 720000000.0,
+     "volume": 3316400.0,
+     "volume_ratio": 1.33,
      "disclosures": []
     },
     {
@@ -7287,7 +7307,7 @@
      "close": 168.19,
      "change_pct": 1.42,
      "turnover": 741000000.0,
-     "volume": 4406769.0,
+     "volume": 4407300.0,
      "volume_ratio": 0.95,
      "disclosures": []
     },
@@ -7297,9 +7317,9 @@
      "sector": "生活必需品",
      "close": 129.58,
      "change_pct": 1.27,
-     "turnover": 3189000000.0,
-     "volume": 24612213.0,
-     "volume_ratio": 1.04,
+     "turnover": 3253000000.0,
+     "volume": 25105000.0,
+     "volume_ratio": 1.06,
      "disclosures": []
     },
     {
@@ -7308,8 +7328,8 @@
      "sector": "生活必需品",
      "close": 139.1,
      "change_pct": 0.83,
-     "turnover": 519000000.0,
-     "volume": 3734430.0,
+     "turnover": 520000000.0,
+     "volume": 3737100.0,
      "volume_ratio": 1.69,
      "disclosures": []
     },
@@ -7319,9 +7339,9 @@
      "sector": "一般消費財",
      "close": 139.25,
      "change_pct": -0.27,
-     "turnover": 1090000000.0,
-     "volume": 7826596.0,
-     "volume_ratio": 1.02,
+     "turnover": 1116000000.0,
+     "volume": 8017900.0,
+     "volume_ratio": 1.04,
      "disclosures": []
     },
     {
@@ -7330,8 +7350,8 @@
      "sector": "生活必需品",
      "close": 1097.91,
      "change_pct": -0.38,
-     "turnover": 3465000000.0,
-     "volume": 3156117.0,
+     "turnover": 3471000000.0,
+     "volume": 3161100.0,
      "volume_ratio": 1.24,
      "disclosures": []
     },
@@ -7342,12 +7362,12 @@
      "close": 97.0,
      "change_pct": -0.97,
      "turnover": 733000000.0,
-     "volume": 7555377.0,
-     "volume_ratio": 2.74,
+     "volume": 7558700.0,
+     "volume_ratio": 2.75,
      "disclosures": []
     }
    ],
-   "news_count": 2
+   "news_count": 0
   },
   {
    "key": "oil_gas",
@@ -7363,7 +7383,7 @@
      "close": 46.04,
      "change_pct": 2.74,
      "turnover": 375000000.0,
-     "volume": 8150610.0,
+     "volume": 8151700.0,
      "volume_ratio": 0.75,
      "disclosures": [
       {
@@ -7394,7 +7414,7 @@
      "close": 46.16,
      "change_pct": 0.59,
      "turnover": 613000000.0,
-     "volume": 13270280.0,
+     "volume": 13270800.0,
      "volume_ratio": 1.16,
      "disclosures": []
     },
@@ -7404,8 +7424,8 @@
      "sector": null,
      "close": 295.46,
      "change_pct": 0.21,
-     "turnover": 595000000.0,
-     "volume": 2015369.0,
+     "turnover": 596000000.0,
+     "volume": 2017900.0,
      "volume_ratio": 0.85,
      "disclosures": []
     },
@@ -7416,7 +7436,7 @@
      "close": 30.57,
      "change_pct": 0.13,
      "turnover": 358000000.0,
-     "volume": 11700330.0,
+     "volume": 11700400.0,
      "volume_ratio": 1.26,
      "disclosures": []
     },
@@ -7427,7 +7447,7 @@
      "close": 48.42,
      "change_pct": -0.96,
      "turnover": 384000000.0,
-     "volume": 7933380.0,
+     "volume": 7933600.0,
      "volume_ratio": 0.83,
      "disclosures": []
     },
@@ -7437,8 +7457,8 @@
      "sector": "エネルギー",
      "close": 206.17,
      "change_pct": -1.06,
-     "turnover": 1823000000.0,
-     "volume": 8842670.0,
+     "turnover": 1827000000.0,
+     "volume": 8861100.0,
      "volume_ratio": 1.04,
      "disclosures": []
     },
@@ -7449,7 +7469,7 @@
      "close": 40.95,
      "change_pct": -1.42,
      "turnover": 580000000.0,
-     "volume": 14164195.0,
+     "volume": 14165700.0,
      "volume_ratio": 1.15,
      "disclosures": []
     },
@@ -7459,9 +7479,9 @@
      "sector": "エネルギー",
      "close": 173.2,
      "change_pct": -1.45,
-     "turnover": 468000000.0,
-     "volume": 2703283.0,
-     "volume_ratio": 1.2,
+     "turnover": 471000000.0,
+     "volume": 2719800.0,
+     "volume_ratio": 1.21,
      "disclosures": []
     },
     {
@@ -7470,8 +7490,8 @@
      "sector": "エネルギー",
      "close": 156.9,
      "change_pct": -1.93,
-     "turnover": 2302000000.0,
-     "volume": 14669952.0,
+     "turnover": 2303000000.0,
+     "volume": 14676200.0,
      "volume_ratio": 0.98,
      "disclosures": []
     },
@@ -7482,7 +7502,7 @@
      "close": 145.34,
      "change_pct": -2.19,
      "turnover": 685000000.0,
-     "volume": 4713876.0,
+     "volume": 4713900.0,
      "volume_ratio": 1.38,
      "disclosures": []
     },
@@ -7492,9 +7512,9 @@
      "sector": "エネルギー",
      "close": 52.7,
      "change_pct": -2.23,
-     "turnover": 639000000.0,
-     "volume": 12133150.0,
-     "volume_ratio": 1.11,
+     "turnover": 673000000.0,
+     "volume": 12767300.0,
+     "volume_ratio": 1.17,
      "disclosures": []
     },
     {
@@ -7503,13 +7523,13 @@
      "sector": "エネルギー",
      "close": 132.19,
      "change_pct": -2.89,
-     "turnover": 979000000.0,
-     "volume": 7406778.0,
-     "volume_ratio": 0.99,
+     "turnover": 1000000000.0,
+     "volume": 7563500.0,
+     "volume_ratio": 1.02,
      "disclosures": []
     }
    ],
-   "news_count": 1
+   "news_count": 2
   }
  ],
  "breadth": {
@@ -7531,9 +7551,9 @@
     "sector": "情報技術",
     "close": 165.05,
     "change_pct": 31.48,
-    "turnover": 128116000000.0,
-    "volume": 776225888.0,
-    "volume_ratio": 2.7,
+    "turnover": 128604000000.0,
+    "volume": 779184200.0,
+    "volume_ratio": 2.71,
     "disclosures": [
      {
       "code": "NVDA",
@@ -7562,9 +7582,9 @@
     "sector": "情報技術",
     "close": 334.91,
     "change_pct": 20.46,
-    "turnover": 5370000000.0,
-    "volume": 16032854.0,
-    "volume_ratio": 2.04,
+    "turnover": 5393000000.0,
+    "volume": 16103000.0,
+    "volume_ratio": 2.05,
     "disclosures": []
    },
    {
@@ -7573,9 +7593,9 @@
     "sector": "情報技術",
     "close": 707.7,
     "change_pct": 19.04,
-    "turnover": 34962000000.0,
-    "volume": 49402564.0,
-    "volume_ratio": 1.46,
+    "turnover": 35112000000.0,
+    "volume": 49614800.0,
+    "volume_ratio": 1.47,
     "disclosures": []
    },
    {
@@ -7584,8 +7604,8 @@
     "sector": "情報技術",
     "close": 144.74,
     "change_pct": 18.37,
-    "turnover": 5310000000.0,
-    "volume": 36686576.0,
+    "turnover": 5323000000.0,
+    "volume": 36775000.0,
     "volume_ratio": 1.12,
     "disclosures": []
    },
@@ -7595,9 +7615,9 @@
     "sector": "情報技術",
     "close": 544.38,
     "change_pct": 18.2,
-    "turnover": 3257000000.0,
-    "volume": 5982802.0,
-    "volume_ratio": 0.93,
+    "turnover": 3292000000.0,
+    "volume": 6047800.0,
+    "volume_ratio": 0.94,
     "disclosures": []
    },
    {
@@ -7606,9 +7626,9 @@
     "sector": "資本財",
     "close": 168.15,
     "change_pct": 18.09,
-    "turnover": 3780000000.0,
-    "volume": 22481081.0,
-    "volume_ratio": 1.26,
+    "turnover": 3788000000.0,
+    "volume": 22526600.0,
+    "volume_ratio": 1.27,
     "disclosures": []
    },
    {
@@ -7617,9 +7637,9 @@
     "sector": "情報技術",
     "close": 48.02,
     "change_pct": 17.38,
-    "turnover": 2083000000.0,
-    "volume": 43378538.0,
-    "volume_ratio": 2.95,
+    "turnover": 2133000000.0,
+    "volume": 44420100.0,
+    "volume_ratio": 3.03,
     "disclosures": []
    },
    {
@@ -7629,7 +7649,7 @@
     "close": 1333.88,
     "change_pct": 16.8,
     "turnover": 1861000000.0,
-    "volume": 1395081.0,
+    "volume": 1395200.0,
     "volume_ratio": 1.19,
     "disclosures": []
    },
@@ -7639,8 +7659,8 @@
     "sector": "情報技術",
     "close": 59.66,
     "change_pct": 16.34,
-    "turnover": 9785000000.0,
-    "volume": 164011608.0,
+    "turnover": 9816000000.0,
+    "volume": 164525500.0,
     "volume_ratio": 1.07,
     "disclosures": []
    },
@@ -7650,8 +7670,8 @@
     "sector": "情報技術",
     "close": 215.81,
     "change_pct": 15.27,
-    "turnover": 2487000000.0,
-    "volume": 11523830.0,
+    "turnover": 2501000000.0,
+    "volume": 11588300.0,
     "volume_ratio": 1.11,
     "disclosures": []
    }
@@ -7663,9 +7683,9 @@
     "sector": "情報技術",
     "close": 208.97,
     "change_pct": -8.92,
-    "turnover": 8803000000.0,
-    "volume": 42124135.0,
-    "volume_ratio": 4.57,
+    "turnover": 8842000000.0,
+    "volume": 42313300.0,
+    "volume_ratio": 4.59,
     "disclosures": [
      {
       "code": "CRWD",
@@ -7727,7 +7747,7 @@
     "close": 28.98,
     "change_pct": -4.55,
     "turnover": 359000000.0,
-    "volume": 12375152.0,
+    "volume": 12376700.0,
     "volume_ratio": 2.09,
     "disclosures": [
      {
@@ -7757,9 +7777,9 @@
     "sector": "ヘルスケア",
     "close": 379.55,
     "change_pct": -3.78,
-    "turnover": 982000000.0,
-    "volume": 2588333.0,
-    "volume_ratio": 1.74,
+    "turnover": 985000000.0,
+    "volume": 2594600.0,
+    "volume_ratio": 1.75,
     "disclosures": []
    },
    {
@@ -7769,7 +7789,7 @@
     "close": 258.07,
     "change_pct": -3.5,
     "turnover": 450000000.0,
-    "volume": 1742220.0,
+    "volume": 1742300.0,
     "volume_ratio": 3.7,
     "disclosures": []
    },
@@ -7779,9 +7799,9 @@
     "sector": "生活必需品",
     "close": 62.95,
     "change_pct": -3.33,
-    "turnover": 342000000.0,
-    "volume": 5438546.0,
-    "volume_ratio": 1.24,
+    "turnover": 348000000.0,
+    "volume": 5533400.0,
+    "volume_ratio": 1.26,
     "disclosures": [
      {
       "code": "TSN",
@@ -7812,9 +7832,9 @@
     "sector": "エネルギー",
     "close": 132.19,
     "change_pct": -2.89,
-    "turnover": 979000000.0,
-    "volume": 7406778.0,
-    "volume_ratio": 0.99,
+    "turnover": 1000000000.0,
+    "volume": 7563500.0,
+    "volume_ratio": 1.02,
     "disclosures": []
    },
    {
@@ -7824,7 +7844,7 @@
     "close": 42.43,
     "change_pct": -2.88,
     "turnover": 852000000.0,
-    "volume": 20070929.0,
+    "volume": 20084000.0,
     "volume_ratio": 1.88,
     "disclosures": []
    },
@@ -7834,9 +7854,9 @@
     "sector": "生活必需品",
     "close": 137.82,
     "change_pct": -2.85,
-    "turnover": 390000000.0,
-    "volume": 2827314.0,
-    "volume_ratio": 1.25,
+    "turnover": 393000000.0,
+    "volume": 2851700.0,
+    "volume_ratio": 1.26,
     "disclosures": []
    },
    {
@@ -7846,7 +7866,7 @@
     "close": 179.31,
     "change_pct": -2.66,
     "turnover": 486000000.0,
-    "volume": 2712139.0,
+    "volume": 2712200.0,
     "volume_ratio": 0.96,
     "disclosures": [
      {
@@ -7878,9 +7898,9 @@
     "sector": "情報技術",
     "close": 165.05,
     "change_pct": 31.48,
-    "turnover": 128116000000.0,
-    "volume": 776225888.0,
-    "volume_ratio": 2.7,
+    "turnover": 128604000000.0,
+    "volume": 779184200.0,
+    "volume_ratio": 2.71,
     "disclosures": [
      {
       "code": "NVDA",
@@ -7909,9 +7929,9 @@
     "sector": "情報技術",
     "close": 707.7,
     "change_pct": 19.04,
-    "turnover": 34962000000.0,
-    "volume": 49402564.0,
-    "volume_ratio": 1.46,
+    "turnover": 35112000000.0,
+    "volume": 49614800.0,
+    "volume_ratio": 1.47,
     "disclosures": []
    },
    {
@@ -7920,8 +7940,8 @@
     "sector": "情報技術",
     "close": 453.46,
     "change_pct": 6.85,
-    "turnover": 24348000000.0,
-    "volume": 53693661.0,
+    "turnover": 24413000000.0,
+    "volume": 53837500.0,
     "volume_ratio": 1.27,
     "disclosures": []
    },
@@ -7931,9 +7951,9 @@
     "sector": "情報技術",
     "close": 349.08,
     "change_pct": 1.9,
-    "turnover": 19897000000.0,
-    "volume": 56997299.0,
-    "volume_ratio": 1.15,
+    "turnover": 20435000000.0,
+    "volume": 58538400.0,
+    "volume_ratio": 1.18,
     "disclosures": []
    },
    {
@@ -7942,9 +7962,9 @@
     "sector": "一般消費財",
     "close": 385.46,
     "change_pct": 11.46,
-    "turnover": 17743000000.0,
-    "volume": 46030333.0,
-    "volume_ratio": 1.25,
+    "turnover": 18105000000.0,
+    "volume": 46970000.0,
+    "volume_ratio": 1.28,
     "disclosures": []
    },
    {
@@ -7953,9 +7973,9 @@
     "sector": "情報技術",
     "close": 492.5,
     "change_pct": 1.65,
-    "turnover": 14819000000.0,
-    "volume": 30090263.0,
-    "volume_ratio": 1.0,
+    "turnover": 14946000000.0,
+    "volume": 30347400.0,
+    "volume_ratio": 1.01,
     "disclosures": []
    },
    {
@@ -7964,8 +7984,8 @@
     "sector": "一般消費財",
     "close": 255.39,
     "change_pct": 3.47,
-    "turnover": 13500000000.0,
-    "volume": 52860784.0,
+    "turnover": 13578000000.0,
+    "volume": 53166700.0,
     "volume_ratio": 1.0,
     "disclosures": []
    },
@@ -7975,8 +7995,8 @@
     "sector": "情報技術",
     "close": 313.55,
     "change_pct": 3.0,
-    "turnover": 12831000000.0,
-    "volume": 40921621.0,
+    "turnover": 12858000000.0,
+    "volume": 41009300.0,
     "volume_ratio": 1.35,
     "disclosures": []
    },
@@ -7986,9 +8006,9 @@
     "sector": "コミュニケーション",
     "close": 282.1,
     "change_pct": 6.34,
-    "turnover": 12435000000.0,
-    "volume": 44078624.0,
-    "volume_ratio": 0.97,
+    "turnover": 12484000000.0,
+    "volume": 44255200.0,
+    "volume_ratio": 0.98,
     "disclosures": []
    },
    {
@@ -7997,8 +8017,8 @@
     "sector": "コミュニケーション",
     "close": 597.6,
     "change_pct": 6.55,
-    "turnover": 11361000000.0,
-    "volume": 19011217.0,
+    "turnover": 11385000000.0,
+    "volume": 19051700.0,
     "volume_ratio": 0.88,
     "disclosures": []
    }
@@ -8010,9 +8030,9 @@
     "sector": "情報技術",
     "close": 208.97,
     "change_pct": -8.92,
-    "turnover": 8803000000.0,
-    "volume": 42124135.0,
-    "volume_ratio": 4.57,
+    "turnover": 8842000000.0,
+    "volume": 42313300.0,
+    "volume_ratio": 4.59,
     "disclosures": [
      {
       "code": "CRWD",
@@ -8063,7 +8083,7 @@
     "close": 258.07,
     "change_pct": -3.5,
     "turnover": 450000000.0,
-    "volume": 1742220.0,
+    "volume": 1742300.0,
     "volume_ratio": 3.7,
     "disclosures": []
    },
@@ -8073,9 +8093,9 @@
     "sector": "情報技術",
     "close": 48.02,
     "change_pct": 17.38,
-    "turnover": 2083000000.0,
-    "volume": 43378538.0,
-    "volume_ratio": 2.95,
+    "turnover": 2133000000.0,
+    "volume": 44420100.0,
+    "volume_ratio": 3.03,
     "disclosures": []
    },
    {
@@ -8085,8 +8105,8 @@
     "close": 97.0,
     "change_pct": -0.97,
     "turnover": 733000000.0,
-    "volume": 7555377.0,
-    "volume_ratio": 2.74,
+    "volume": 7558700.0,
+    "volume_ratio": 2.75,
     "disclosures": []
    },
    {
@@ -8095,9 +8115,9 @@
     "sector": "情報技術",
     "close": 165.05,
     "change_pct": 31.48,
-    "turnover": 128116000000.0,
-    "volume": 776225888.0,
-    "volume_ratio": 2.7,
+    "turnover": 128604000000.0,
+    "volume": 779184200.0,
+    "volume_ratio": 2.71,
     "disclosures": [
      {
       "code": "NVDA",
@@ -8138,7 +8158,7 @@
     "close": 28.98,
     "change_pct": -4.55,
     "turnover": 359000000.0,
-    "volume": 12375152.0,
+    "volume": 12376700.0,
     "volume_ratio": 2.09,
     "disclosures": [
      {
@@ -8163,25 +8183,45 @@
     ]
    },
    {
-    "code": "DELL",
-    "name": "Dell Technologies",
-    "sector": "情報技術",
-    "close": 334.91,
-    "change_pct": 20.46,
-    "turnover": 5370000000.0,
-    "volume": 16032854.0,
-    "volume_ratio": 2.04,
-    "disclosures": []
-   },
-   {
     "code": "LYB",
     "name": "LyondellBasell",
     "sector": "素材",
     "close": 54.74,
     "change_pct": -1.97,
-    "turnover": 448000000.0,
-    "volume": 8180858.0,
-    "volume_ratio": 1.98,
+    "turnover": 466000000.0,
+    "volume": 8514000.0,
+    "volume_ratio": 2.06,
+    "disclosures": [
+     {
+      "code": "LYB",
+      "name": "LyondellBasell",
+      "time": "2026-11-20T16:18:41-05:00",
+      "title": "5.02 Departure of Directors or Certain Officers; Election of Directors; Appointment of Certain Officers: Compensatory Arrangements of Certain Officers",
+      "url": "https://www.sec.gov/Archives/edgar/data/1489393/000148939326000072/0001489393-26-000072-index.htm",
+      "items": [
+       "5.02",
+       "9.01"
+      ],
+      "tags": [
+       "役員の異動"
+      ],
+      "tone": "neutral",
+      "move_pct": null,
+      "move_basis": null,
+      "ah_price": null,
+      "ah_time": null
+     }
+    ]
+   },
+   {
+    "code": "DELL",
+    "name": "Dell Technologies",
+    "sector": "情報技術",
+    "close": 334.91,
+    "change_pct": 20.46,
+    "turnover": 5393000000.0,
+    "volume": 16103000.0,
+    "volume_ratio": 2.05,
     "disclosures": []
    },
    {
@@ -8190,97 +8230,68 @@
     "sector": "生活必需品",
     "close": 132.78,
     "change_pct": -0.67,
-    "turnover": 322000000.0,
-    "volume": 2422060.0,
-    "volume_ratio": 1.98,
+    "turnover": 329000000.0,
+    "volume": 2479100.0,
+    "volume_ratio": 2.03,
     "disclosures": []
    }
   ]
  },
  "news": [
   {
-   "title": "Stock Market Today: Nvidia Probe Tips Wall Street Into a Correction, CrowdStrike Bets $44 Billion on Zscaler",
-   "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNSHJrUmpIM0R1em0tVnc0bWI4d25tdnNMZTdvTEM0cUFLUFh0TGZEZVBRNV9RZTVtbDBIQXN3UTU5bnQzZEYzYVA5ZEdwMk92dVJjQk5lLUJSWElmZmpCU2h5WjJmNHVhTXFDR1hSSm92NXVJVlRFVU9BYkhObDN1eW00bTMzSVN3aXk4Sm5WQkhicWRvV1laelNvNVdQSmNqV3RDY2VaVmxwZ2U4MzJ1QmxVWnc3bkpJZEhjMlZfZkpUYThFdTQ3U0owSUdDbTNoTkc2YW5VN2xzX3pPOFE?oc=5",
-   "source": "ChartMill",
-   "published_at": "2026-11-23T14:30:37Z",
+   "title": "Dow Jones Futures: Tech Stocks, Nvidia Snap Back On Jensen Huang's Return; Elon Musk-Led SpaceX, Tesla Rally",
+   "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOd1IzaXRYZ1Zmel9FV1BGMUVhdlVxcHhJZTR1aVZNSEFjMXUyUDdZMlhKME5qRHRYdjRmWlE2Rm1WR2s2N0RzcWpVQUdaNVREQlBzTWxCWHRha2FqZUZMYk5GcklEcE84MmlXNUwyb3pQSGVoSlB5QVNEbUFXMWZyVkVZNGRCbF8wYVM5cUZBbDBYcTNNTi1OLUEzQ0VIN3VYak02Nk14Qmx0M3J6aF85YWlQZHpEWU5uUkV1MTQ2d3o1R01nMWdwQWktQTA?oc=5",
+   "source": "Investor's Business Daily",
+   "published_at": "2026-11-24T03:27:00Z",
    "tags": [
     "semiconductor",
-    "cyber_security",
-    "megabanks"
-   ]
-  },
-  {
-   "title": "Derive Lists Options on Anthropic, Oil, and the S&P 500",
-   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNeUlWYU1SMHpoRUlISFpMNk44WmlqVnAwUnlHR2tkZER1bmFEZ3FUYk5WTElYNGI5M3NlLWF5Q3owc2NBMEo2dWhCRnRaeHBaU1YtLUMxeGgyOXJRUm1GNWpkOE9DdVZnb0U4Y19PZXVWbTdXeUxISDVpaE9SMDA2QlNfdl9Fa3FNc0NCa2RPTnFxb3dfWV9UV0w4WlFZMWtHbUE?oc=5",
-   "source": "Yahoo Finance",
-   "published_at": "2026-11-23T21:06:28Z",
-   "tags": [
-    "ai_software",
-    "oil_gas"
-   ]
-  },
-  {
-   "title": "2 Reasons Anthropic’s IPO Is a Bigger Risk to the Stock Market Than SpaceX’s",
-   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNdUh2VmlXMTZGcFBwYWlVc3BxaUttUEl6Mm1ocVhYanV4UnBoR0l6MVBUbk9oVG1PalYycHVnUWFuYnc1aWNPenhEX2xBeG80dUwzRXdkZkMtOTdYcUZycU8zb3RjTHJqN2tweXEzMDd3Y2dQYnJVaXV0Y1NMSXNHaUxUcmFoSU5mekMwWFI1dW4ydll0TElfZGJPRQ?oc=5",
-   "source": "Yahoo Finance",
-   "published_at": "2026-11-23T16:35:02Z",
-   "tags": [
-    "ai_software",
     "space",
-    "ipo"
+    "ev_autonomy"
    ]
   },
   {
-   "title": "Nvidia leads Wall Street rebound as stocks recover from steep losses",
-   "url": "https://news.google.com/rss/articles/CBMixAJBVV95cUxPVlNFU2xNRmpYakFFMWNhcERyTF9lM2Y4U1RQa05NR21kWVVmSGF3NXVBaTZiVm44TTFuZERTWXhvTUs2bzFKLWpyT3dLY0FlYmZiUE1VdDZVdWVQZXhwMVBiQmVQR0lZWjVfNEFwUHFnS1JmRms4N1FNeXYzSklfeFBpN0FJaE9fM1k0bnJWSnRIWjZVUkQ0TmdwcXFfejVCYWZabG84a2k4NUNMMFczWElsa0RpR3ppc3BKV0dieXk2eEMyVnFSWUpadGd5YnB0OF9jTzBydENhaHBKeVc2OC1HNHpmYkdydGxuTWpjemx4UlRROG1sMC1JM2R2VlBvSWF6Wm9lWnZ2R3BtYXFIR3ptTkFCMHJuUTRCUTE2VW8xYmxieGwzcTAyYVN1VU05MlJsUkQ0VGZZSXNyRVEwU0xFTEU?oc=5",
-   "source": "National News Desk",
-   "published_at": "2026-11-23T15:45:37Z",
+   "title": "Signal joins United Airlines, banks in limiting AI agents over customer risks",
+   "url": "https://www.cnbc.com/2026/11/24/signal-airlines-banks-ai-limit.html",
+   "source": "CNBC Top News",
+   "published_at": "2026-11-24T07:25:41Z",
    "tags": [
-    "semiconductor",
-    "megabanks"
+    "ai_software",
+    "megabanks",
+    "travel"
+   ]
+  },
+  {
+   "title": "Nasdaq, Dow, S&P 500 Futures Gain As Jensen Huang’s Return To Nvidia Sparks $3T Market Rally: SOXS, IBRX, HPE, TSM In Focus",
+   "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPSTRMM0dfQUlWZ3pRMFhtNUJsV1k0RE9UV1dTQ2RhWUZ3SUtIOUhtbGQxa1VidG05ZEszdXRJTFZHTTFXTExSMW1uV05KVEdzb0NBcWtnVDBVa2dQbDdYc0NQaTJlWWxfbVdmQV9JUHZFbmRHcTB3elRkWUt0aUxCOFZVX3hIYnBfTHlqOU5IMGx1T3c?oc=5",
+   "source": "Yahoo Finance",
+   "published_at": "2026-11-24T02:13:00Z",
+   "tags": [
+    "semiconductor"
    ]
   },
   {
    "title": "Stock Market Today: Dow, S&P 500, and Nasdaq Surge as Nvidia Leads a Major AI Rebound",
-   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOQ3RqNWFVcFdnMkhKYUp6NWlwR2MzQTZfSG9xb0NKZlhHY2xGVFFpOS1SS2Q0WVM1U0swSkluQmtEakZFRmdwYkV0RnR2VjVpMktWR0MxY1ZxRFY3akhicGRINUdkVzl6Vm5YOU80bW51d3owc0VQazMzX3dNekRWekV6VFJWMGR0RjVSY1hEenhsVXNtZEVfU0V5YXZaaktka1IyenpFbTBabXZqRGtmaWpXbXFmU1VQbGtKYUx0enlXbjQ?oc=5",
-   "source": "24/7 Wall St.",
-   "published_at": "2026-11-23T14:15:00Z",
+   "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNZk9McTJmR0tMZjJ0ZjY3M2o4ZmFBZTlHWGhoMDJTLTRQdVA2VTVlNlRoWURVWUprNVR4Y2F1Y1UzbWNQV29OSzd4cFA2WEhjc0xXUlRnYmhIaFk1dVNnXzhtS2Q0Q1JhWEFJTURMTVFLMElEV1JYRmExNHNfQ1UwZjZPLTdrRk5zN1RtbHhrbzdWYlU?oc=5",
+   "source": "Yahoo Finance",
+   "published_at": "2026-11-23T14:15:17Z",
+   "tags": [
+    "semiconductor"
+   ]
+  },
+  {
+   "title": "NYダウ取引開始直後に1300ドル超上昇 エヌビディア・フアン氏CEO復帰受け ナスダック総合も6％超急騰",
+   "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBiZWxBQXU5ZEwyNTlCaEtBT0oxTjg3WkprQmJIQ1RDQVk4Qjg1cDMxbVdHSGhRV01XWG5iQnVVYzBWMDRyRDlBbERqYmF3M3FrSDNmR0Z0ZG9UcW0yQnVxdXl2QS1hbXcxRkZUQm04OF9pS0pkWklMN01sWGs?oc=5",
+   "source": "TBS NEWS DIG",
+   "published_at": "2026-11-24T01:54:16Z",
    "tags": [
     "semiconductor"
    ]
   },
   {
    "title": "ダウ、ナスダックとも急伸 慎重な声は根強い エヌビディアのフアン氏がＣＥＯ復帰＝米国株概況",
-   "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5MNUlMVE5lS1cyV1dVTFh6Y3liWGFRcFE5VWY2cDdMRDJIQnRzNlVEMTNXZHNHQnhQMHZBQ2VHbjdDSWRwWUc1di1hblJzVVNENFE?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE50cXRMcjFGUWFhREhjMnB4U1hrNlBMY2ZGMklhUkhjRDhVRXBoUmR1R2tqNHBjeEtuclNXWVduaTF3cjlEazd2QmV2UmJpOUQzRkZKQTE0bnY2aE9vQ0dVMA?oc=5",
    "source": "株探",
    "published_at": "2026-11-23T21:34:00Z",
-   "tags": [
-    "semiconductor"
-   ]
-  },
-  {
-   "title": "Stocks Roar as the S&P 500 Jumps About 4.5% on News Jensen Huang Is Returning as NVIDIA CEO",
-   "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFAzTnJHT1FQOUdZcTZFWmsxckRROGZRQXJzT1RmelZQYnN5QlBES1ZUYjVyTDYzckE5V2RFX25fZldXNmxSeWdwOVktb1RTQ2tNdHluUTd2VjNFUmloSldSRE55Nk9ZOTAxRzNjV04zNUFOUnUyYVJSWWh3?oc=5",
-   "source": "Yahoo Finance",
-   "published_at": "2026-11-23T19:49:50Z",
-   "tags": [
-    "semiconductor"
-   ]
-  },
-  {
-   "title": "相場展望 11月23日号 米国株：アンソロピック上場も期待外れ、AI株冷え込み、NYダウ大幅下落 日本株：日経平均は「弱気相場」入り、年初来安値銘柄が続々",
-   "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE4zeFQtbEM0TUNlSDhpdEFQMW1vOTJkUENSaUN5UW5tcFJvNjZQbkxHRm95MUJpZXJMeE1vVHUyUWdqdkxpRmtFVEFoVHhHdE1QV3RMb3g2MnpSY0lyeWVnQV9GRFNBaHQy0gFoQVVfeXFMTjN4VC1sQzRNQ2VIOGl0QVAxbW85MmRQQ1JpQ3lRbm1wUm82NlBuTEdGb3kxQmllckx4TW9UdTJRZ2p2TGlGa0VUQWhUeEd0TVBXdExveDYyelJjSXJ5ZWdBX0ZEU0FodDI?oc=5",
-   "source": "財経新聞",
-   "published_at": "2026-11-23T19:03:00Z",
-   "tags": [
-    "ipo"
-   ]
-  },
-  {
-   "title": "NYダウ取引開始直後に1300ドル超上昇 エヌビディア・フアン氏CEO復帰受け ナスダック総合も6％超急騰",
-   "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBseUx3M1VTaER6MzBBSU5nRTdvM0g3bWNFdWZQamc4OUJTVTVLWVlBbU5PX0duZTVqMkVXR0VzZU9CSC1uQ3ViMDAyNGRJY0JhV0RmazUwenVRODlS?oc=5",
-   "source": "Google News 米国株",
-   "published_at": "2026-11-23T17:03:56Z",
    "tags": [
     "semiconductor"
    ]
@@ -8295,39 +8306,131 @@
    ]
   },
   {
-   "title": "ダウ、ナスダック、S&P500展望：AIショック後、個人消費に注目 - Investing.com",
-   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1BUnNfV0tXUVVRZ051LVlJWWJVaVJnbllHd09oUEFKSTQwaTl5Y1FhOHpmUHRLeUZZdVk0VzJxUjVDcnB1azVBNEl5b0E3cjFlZXpISjhKazZfcHZtWDRabzVqVjJTdEFaMWhmQXFta1g?oc=5",
-   "source": "FX",
-   "published_at": "2026-11-23T13:25:00Z",
+   "title": "Nvidia Lost $2.75 Trillion in 45 Days -- More Than the Market Cap of 496 S&P 500 Companies -- and Investors Wagering on a Quick Bounce to New Highs May Be Disappointed",
+   "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOTnNSd3c3T1pab3FYZ1NKSTdGVVVCbExpNDNNdk1jNmI2cTlFTF9rajhKTmxuMFk3Mnh2V1RUaE5HSEFPN2ZuRVR1U2FXaFFUWTFhc1o1ay10aGdYRndtUW5zN2tsd19mTVZuWko3QWNrRUcxMkVnWHJsTnpEUFc3RE5kQ3NTUDFvczFuNHl3VmtGVHdIZU1iRHRvR0JRUm1HVjdhRVpwNUpVeXFsNU5LZGtCODkzYV9JZlB2T044RWxzck9WaTdzaXMxRjlHMTFmOVh0T205d2x5UUx5?oc=5",
+   "source": "The Motley Fool",
+   "published_at": "2026-11-24T10:06:02Z",
    "tags": [
-    "retail"
+    "semiconductor"
    ]
   },
   {
-   "title": "Anthropicがナスダック上場、ハリウッド俳優クーチャー氏の4.35億ドル投資が約400億元の含み益に",
-   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFA1RGRnMWtUS1B5OGlnMWc4REk4WXRfWkZQVnR1VERwQlV2QmFYMk9BZFMzRnB1eTlseUtoczlnSDBGdF9fMWYybVJPQVZ0NEJhcjBkUV9mZWhDQ0NBVUtPUTkwQnRkYlVrR19RZmNUWUxPUFI3?oc=5",
-   "source": "BigGo ファイナンス",
-   "published_at": "2026-11-23T10:55:00Z",
+   "title": "ANT Stock Drops Further Despite Tech Rally — Why This Analyst Thinks Jensen Huang’s Return As Nvidia CEO Is A ‘Threat To Anthropic’",
+   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNTnRfTVMxUEdzbVRIa2Vya0NuTFlHWUlpZDRqamliV2pMalR1bkRWQ1hJMzdBOVpRU3FxN1pZQkg2aGxQLUFRY2Q3RmpkQzN3QlcyaUwtZEl0OS1BUEhNaWxJNTNKN2JXTWNmSjdXTllWb2hVNDdkQTN0TkoyUW43cUo2RFRMUkgyTHJvc1dKcERlMUt0YXFEejdKclU?oc=5",
+   "source": "Yahoo Finance",
+   "published_at": "2026-11-24T09:03:05Z",
    "tags": [
-    "ai_software",
+    "semiconductor",
+    "ai_software"
+   ]
+  },
+  {
+   "title": "Tesla Stock Is on Track for Only Its 3rd Losing Year Since Its 2010 IPO. Here's What Happened After the Other 2.",
+   "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxONFdCeFJnZmtaem14SXFsNVFrZHNJSHM4dGFzWXhWelF1NC1pQ0xqVXNiUHRpMks3RW5ieERDVy1sVnFfRFNSeWhXQXpHUERzYVRzQ2V6UWtEZVJQd2hqQjd4X1JnWEp0MDJnLTNYRkxrNTZRM1NwZmJQbTZzY05QWEZwN3ZfRTZLTnlhOEVjTFBod05LaS1xbU1SVzZsTUduTUFaZlh3Qy14MGZzbks4MEl6aXRYd2tHd3JCcGI4SlV1X2NPR3hiaDBlcFRTeTF2ZnQ0WFctTDJYaTVaQTZKT25xLUZJR19v?oc=5",
+   "source": "The Motley Fool",
+   "published_at": "2026-11-24T08:34:02Z",
+   "tags": [
+    "ev_autonomy",
     "ipo"
    ]
   },
   {
-   "title": "Wall Street jumps back as Jensen Huang returns as Nvidia CEO",
-   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNNEVIVnBMbFk4UVlXOGlieWlkeWhldU5HWnFSdWNVU3BIU2YycVJnV3NWZGxGNXFMTjlKU3VuUTBnWGxZUjBtV3JCVlZjNU11MXZOT0s4V3QyRTNPNDlBRzAzX095cHphSWNSYnBTZmprLTVmdUVKd0RHc1FCbHdITU9Mb3BZMWlZM3pLQkF5MElMakFJME1WVWZOY0xJVWJnbTQ4dnpsQlNEZw?oc=5",
-   "source": "Reuters",
-   "published_at": "2026-11-23T07:55:00Z",
+   "title": "MAXIS 米国株式(S&P500)上場投信【2558】：株価・株式情報（夜間PTS含む）",
+   "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9TVGJvT1lKczNhYmJ5TmRKTmlhTUdEMFRMOXhkOU81SC1ERkY1dGtHSGJ0QzdLTEl1Z082YW1iVkd3T2t1ejBnb3FDWDlBbzh4cWc?oc=5",
+   "source": "Yahoo!ファイナンス",
+   "published_at": "2026-11-24T07:38:01Z",
+   "tags": [
+    "ipo"
+   ]
+  },
+  {
+   "title": "Nvidia Powers the S&P 500 and the Stock Market Higher",
+   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOc2VXaDRlZG9TTzdBOU4wMV9IWXFKSk9PT290TkduaEdpNkFsbGtsdWU0bHh2OUF1UTZtYjRPd1hUa09RUXVFcWN0N0RxWTFFcWNZNXRvajBfMVdWazhwTmRhb0lwaHFKWUVXTFZPSWI5dDRxSkE3ajZiZWR6aWZtWjdLcmdvMzMwWkNBU2NKVkh6eGl2aXhqRDJjUi0zUQ?oc=5",
+   "source": "Investing.com",
+   "published_at": "2026-11-24T07:27:14Z",
+   "tags": [
+    "semiconductor"
+   ]
+  },
+  {
+   "title": "日経ヴェリタストーク アンソロピックIPO、日本にタッチダウン 進撃の米国株",
+   "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5tSEJIS1NuQzhoWkRfSlVHQ3NQTEctQ0RsYnloRzlEb2NFNUFhNFhkeDFvVUIxeENjRkZwNHJCUWR6RDRmaGlpMDF4ZHZBaEgzdENUaHhHVlkzakxMQUo3Qk1yZzNobWs4dUpaYlFHNlBkd1NuVVRLdU1fSHUyUQ?oc=5",
+   "source": "日本経済新聞",
+   "published_at": "2026-11-24T04:47:40Z",
+   "tags": [
+    "ipo"
+   ]
+  },
+  {
+   "title": "上場インデックスファンド米国株式(S&P500)【1547】：株価・株式情報（夜間PTS含む）",
+   "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9HekxwX1ctNnY1Wi11ZzBnV3N6UWtGRm41OVkybzBMN3M2bDJhbEJmczFLYmdlVUdtZm4tRmN4Z0VWaEROTXVYWGc1a1JxS1dBdUE?oc=5",
+   "source": "Yahoo!ファイナンス",
+   "published_at": "2026-11-24T03:41:22Z",
+   "tags": [
+    "ipo"
+   ]
+  },
+  {
+   "title": "【アメリカNOW！】AIインフラ・半導体株の下落が続く中で、株価が堅調な「ブルーチップ」銘柄",
+   "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE52cHYzQ01PcjB0aXo2OThRR2pLVW8ySXN5Y0NWaUdRNTBsX0lOQkJmYWtVSFVtcUdpcUMwSWxpNjVzLVUtVks0ODZqT05udzViY25kcnV0WFBJM3JwLU91WTRZUExraU1KUWw2S1F3VVduUUIyVmVXOGpR?oc=5",
+   "source": "SBI証券",
+   "published_at": "2026-11-24T01:30:12Z",
    "tags": [
     "semiconductor",
-    "megabanks"
+    "ai_infra"
+   ]
+  },
+  {
+   "title": "Amazon faces FAA probe after delivery drone strikes Michigan fiber cable, garage",
+   "url": "https://www.cnbc.com/2026/11/23/amazon-drone-crash-michigan-faa-investigation.html",
+   "source": "CNBC Top News",
+   "published_at": "2026-11-24T00:56:10Z",
+   "tags": [
+    "optical",
+    "defense"
+   ]
+  },
+  {
+   "title": "NYダウ急反発 エヌビディアの時価総額、1日で151兆円増（毎日新聞）",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE45aEpaM19sRjBreUNETmRiZ2lveHBUTzRDakgzTWRzdTFJeUFvUVp6TW9iT2I0cjh1UDRjTDhxLWl1YjR0LU5oQVB6THQ0UnZ2QUhRd1VXdDAyMnVOZVNtNFJuMDRjcUZlaEhzdWNmdG1TN1FtZGpZZFhBSWlvWnc?oc=5",
+   "source": "Yahoo!ニュース",
+   "published_at": "2026-11-24T00:29:46Z",
+   "tags": [
+    "semiconductor"
+   ]
+  },
+  {
+   "title": "NYダウ急反発、1447ドル高 AI相場再始動 エヌビディアCEO復帰が起爆剤",
+   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE12d3dtZW9ETEc3RUMtSFViaHROTmRyY2RrVlIxdmpoalhud2tpWk5GV2xWZUdVMmt3UXNhWFpMV0tQcnRlVmd1OFd2cGdiUE9XTmJYNUk5VElRVDJMeTZzNEpoR3JHNFZZQUIzR2hYM0kwelVr?oc=5",
+   "source": "BigGo ファイナンス",
+   "published_at": "2026-11-23T22:35:00Z",
+   "tags": [
+    "semiconductor"
    ]
   },
   {
    "title": "米国株式市場＝急反発、ナスダック6.5％高 エヌビディアＣＥＯ復帰を好感",
    "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPUnJaQWtfNVBXc2tpSGQwS1VScm1nWTdWeGM3UzNvaloxaTBZUDBwbkxtQlZsbE1QbkN5cGpJbGhOR2NlNXZjLWY0MEZHOTBTN0hxX0ZTV3RzVjh5alJuX3laay1vamx2a0czQWd0bUJzd09xamVzLUJNQzNxamVDdEJ5LUV3MUtMVS1QYjR6czU?oc=5",
    "source": "Reuters",
-   "published_at": "2026-11-23T21:41:11Z",
+   "published_at": "2026-11-23T22:25:45Z",
+   "tags": [
+    "semiconductor"
+   ]
+  },
+  {
+   "title": "NYダウ終値1400ドル超上昇 エヌビディアCEO復帰で大幅反発（TBS NEWS DIG Powered by JNN）",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBaMWpjU2tGZkVmR3hkdnFUSi1tYmdSYmpSN2ZUZWNIbUgxUmNRdFp2S2FjZ3FUbTFRTTJQTmxRaGxTV0pBc3l4cUNEVFJzaFNJN2w4Tkdod3ozLTJIVU1OUU1SR09xTkdLSFlPSl8ySTRQUU5aMnY1V0dTLXVLNGM?oc=5",
+   "source": "Yahoo!ニュース",
+   "published_at": "2026-11-23T22:14:31Z",
+   "tags": [
+    "semiconductor"
+   ]
+  },
+  {
+   "title": "NYダウ終値1400ドル超上昇 エヌビディアCEO復帰で大幅反発",
+   "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE01VjB1VzhkOEJPRWg4SGlEUDVfMS1YcDB5R3NUTGZ3MEhDX3ZTa2Nxa3lVdmhvWG5xa1ZvMW9pVzdXSWNESmJoVlZGQTJ4Sy1fUmlGUGNtaw?oc=5",
+   "source": "TBS NEWS DIG",
+   "published_at": "2026-11-23T22:03:26Z",
    "tags": [
     "semiconductor"
    ]
@@ -8337,33 +8440,6 @@
    "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9peDZKR1o0X1lJZ1Y4N2JmcDVrcEsyVTdzT2NZTFp1bXIzSmJDQk1HRlF4cmtrbGZqTjhpREh2ZkFQZGQ3MndlSjNzR2hOcXZmRFlQdHB1U25Id3JuQ3VRSER4NkxDdm0yMVNzdldkd0hCa2pTRHN3NDBiT014TEE?oc=5",
    "source": "Yahoo!ニュース",
    "published_at": "2026-11-23T21:40:43Z",
-   "tags": [
-    "semiconductor"
-   ]
-  },
-  {
-   "title": "米国株15時、ダウ反発し一時1600ドル高 エヌビディア急伸や自律反発狙いの買いで",
-   "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5hVjIxejAxdGxlay1DZ2NCclZYeUdNVWVETUpNTGlLTUhvWW15bkh5LTBoUzZqSGUtQ2tKRk1qaU9lcVFVNDZ6bUNtM1VYSW1Za09DRmpYSlVoekdnd1hiNUdVb2ZXdldld2QtaDQyZ0NRc3dtdy1VczdvRQ?oc=5",
-   "source": "日本経済新聞",
-   "published_at": "2026-11-23T20:06:00Z",
-   "tags": [
-    "semiconductor"
-   ]
-  },
-  {
-   "title": "Nvidia Powers The S&P 500 And The Stock Market Higher - TalkMarkets",
-   "url": "https://news.google.com/rss/articles/CBMiO0FVX3lxTE9mZG9SMVV2ZmhnRGJVb0VpX202VFFvaEYtWF9yWHBQU1JxeXNOTjNsb0kzMi10NkNXOE1F?oc=5",
-   "source": "Howl.Link",
-   "published_at": "2026-11-23T20:04:00Z",
-   "tags": [
-    "semiconductor"
-   ]
-  },
-  {
-   "title": "Stock Market Today, November 23, 2026: Nvidia Surges on Jensen Huang’s Return, Nasdaq Jumps Nearly 7%, Dow Soars",
-   "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOVnQycUtpVGkxa0dZbl83Ykdvc3QwUzBSbkJScFdlS2R2V0o3VWI1eGlEM01sQXlJdmtXQzN4Rl84MGt5RDdEbzZkcmdqNEEtZy1PSVlrRkJPZ29mNTRrdXREcUtoVnByakJtNmx4NGVSejFMYXQzcndzWUxfYk5ZcElKWXN6LW1RT3JSUDNMcG9oRkxLX0ZBNl9xT2Jfa3Zqdmc3N0pOZ3dnVlVDUWtPVWg0RG5DSlZ1ekx6RGFfR0lUaDZLc01Ub1gxSXRKY0N6QklCQlBTdlp3elVET1p2bDMyVQ?oc=5",
-   "source": "Eurasia Business News",
-   "published_at": "2026-11-23T19:47:24Z",
    "tags": [
     "semiconductor"
    ]
@@ -8379,71 +8455,6 @@
    ]
   },
   {
-   "title": "Tech stocks surge as Nvidia rally adds $2 trillion to Nasdaq 100",
-   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNekR3Z3ZzOWpmNk0xdUYzMVczU25pSGdnUi1teC1IbVZyX256RkJvQU4xcXdjU3ZtRzdDTG5NRDZDWFRFX25HUTBHbjJYRTZyaGFJT2tpNEItMTVXNXdFejliWGZKSmN0c2tJa2N6NmhOeTFBMzd4OWxZUjdBMmljT1VJalduc01UckdJRGJkeXRfNWVBcHJiaWNoVQ?oc=5",
-   "source": "Yahoo Finance",
-   "published_at": "2026-11-23T19:20:00Z",
-   "tags": [
-    "semiconductor"
-   ]
-  },
-  {
-   "title": "MAXIS 米国株式(S&P500)上場投信【2558】：株価・株式情報（夜間PTS含む）",
-   "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9TVGJvT1lKczNhYmJ5TmRKTmlhTUdEMFRMOXhkOU81SC1ERkY1dGtHSGJ0QzdLTEl1Z082YW1iVkd3T2t1ejBnb3FDWDlBbzh4cWc?oc=5",
-   "source": "Yahoo!ファイナンス",
-   "published_at": "2026-11-23T18:10:09Z",
-   "tags": [
-    "ipo"
-   ]
-  },
-  {
-   "title": "上場インデックスファンド米国株式(S&P500)【1547】：株価・株式情報（夜間PTS含む）",
-   "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9HekxwX1ctNnY1Wi11ZzBnV3N6UWtGRm41OVkybzBMN3M2bDJhbEJmczFLYmdlVUdtZm4tRmN4Z0VWaEROTXVYWGc1a1JxS1dBdUE?oc=5",
-   "source": "Yahoo!ファイナンス",
-   "published_at": "2026-11-23T17:54:20Z",
-   "tags": [
-    "ipo"
-   ]
-  },
-  {
-   "title": "インデックスファンドSOX指数(米国上場半導体株式)【02313239】：基準価格・投資信託情報",
-   "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1mbGNfS25qREhCNWgzWFBXai1IWXlGaTdjaTdWakRPUWdRTG04SlQyR2JwRXlPZ205bFJDbFFFV2lZamxDRml3NDctckJkVHdzQXhRNw?oc=5",
-   "source": "Yahoo!ファイナンス",
-   "published_at": "2026-11-23T17:24:34Z",
-   "tags": [
-    "semiconductor",
-    "ipo"
-   ]
-  },
-  {
-   "title": "NVIDIA創業者のフアン氏復帰で米国株急伸、S&P500が5%超高",
-   "url": "https://news.google.com/rss/articles/CBMiO0FVX3lxTE5QOWtERXlkZGJSU1BrTUFiak52cnI3SEhoR1lmcUdsU1RhZ2VLcktKSFF2VDZETlI2RTNN?oc=5",
-   "source": "Howl.Link",
-   "published_at": "2026-11-23T16:06:00Z",
-   "tags": [
-    "semiconductor"
-   ]
-  },
-  {
-   "title": "Netflix’s ‘The Altruists’ sparks FTX portrayal debate among crypto bigwigs from CZ to Star Xu",
-   "url": "https://www.cnbc.com/2026/11/23/netflix-the-altruists-crypto-ftx-collapse.html",
-   "source": "CNBC Top News",
-   "published_at": "2026-11-23T15:18:51Z",
-   "tags": [
-    "crypto",
-    "internet_media"
-   ]
-  },
-  {
-   "title": "【速報】ナスダック100先物、上昇率が7％近くに拡大 エヌビディアは時間外で約30％高、SOXXは15％高 S&P500種株価指数先物は日中高値を更新し、約4.6%上昇",
-   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBEeTh6azFsa1RBSW9hUDBxNzhTdG83SzJic3o4OVRVenloOTFkRUFyME5vUkRLdG8yY19QRGFLOFJTY05qc1duZHN5ZU4wUWU0VnB6MTdJZ1dMUQ?oc=5",
-   "source": "Moomoo",
-   "published_at": "2026-11-23T14:31:52Z",
-   "tags": [
-    "semiconductor"
-   ]
-  },
-  {
    "title": "Top Wall Street analysts favor these 3 dividend stocks for strong returns",
    "url": "https://www.cnbc.com/2026/11/22/top-wall-street-analysts-favor-these-stocks-for-strong-returns.html",
    "source": "CNBC Markets",
@@ -8453,116 +8464,143 @@
    ]
   },
   {
-   "title": "LibertyStream、ナスダック上場に向けSECにS-1を提出 - Investing.com",
-   "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1EU1dybUJXM2ZGWGhfcDd0dHA4eTI3Z3dkWS1nQVFIWjU3M0FwU2QtTFhSOENMcXV3dGpOV0J3ZEJaRkg3RThMWDZtN3Y3aURSUmFWN1R3NVI0R09QMWJiYzRMZ3VYTU1wOExwQkYxNGNIR29yQ1pxUw?oc=5",
-   "source": "FX",
-   "published_at": "2026-11-23T21:52:00Z",
-   "tags": [
-    "ipo"
-   ]
-  },
-  {
-   "title": "Consumer stocks, seen as safe bet amid cracks in AI trade, were among the S&P 500’s biggest losers Monday",
-   "url": "https://www.marketwatch.com/story/consumer-stocks-seen-as-safe-bet-amid-cracks-in-ai-trade-are-among-the-s-p-500s-biggest-losers-monday-80cf8f81?mod=mw_rss_topstories",
-   "source": "MarketWatch",
-   "published_at": "2026-11-23T21:45:00Z",
+   "title": "Stock Market Today: Dow, S&P 500 Futures Fall After Scott Bessent Unveils Fresh Iran Sanctions, Hormuz Wa",
+   "url": "https://news.google.com/rss/articles/CBMilgJBVV95cUxQeTI2NXZONWZrdFg0M2tMeVNDMzZXM05MS0FMVUZKWERhUkVqalBUVklCN19hYzVGMXMtOUlibWpJajRwa2FNYkhhekN2XzY0YnhjMk05NmpfN2dSOXp2RE1qQnA0VGI4eWttcWVqT3kwMGlYMTRuVnkxcmlEaG5HRDhrUFU1RDlsdDl4TTlhX3dHVUN4dkhzUzZHWEZhbXp2bFl4ZVNZdERld2tzR1pISzE2WGZUYTNMNGk5QzFOc1J1SmJZRVFoRmpuUFBzYlREODRKemg0eDNtTURkSzBLc09fXzdQY2VHeEJhaUlQYm8zLWNKQzVnbmIxaFpjUlVsdVA2WXFkN0VvRHhmXy1iWkdVdVQ2dw?oc=5",
+   "source": "Benzinga",
+   "published_at": "2026-11-24T10:18:39Z",
    "tags": []
   },
   {
-   "title": "ＮＹダウ終値、１４４７ドル高の４万９５９５ドル…米エヌビディアのフアンＣＥＯ復帰でＡＩ関連銘柄を中心に買い広がる",
-   "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE00Y2JBdkJBeHB5V0JNZHBZdTFxaUkxQ3Fkb0RBeUtXS05IUEttV1o3SXdydFF6aW1TaTc2ajlpdG5uSXNKNENveHE1TkRSeHJidFRfZU1LOHNkY0Q4T055TThSWGw?oc=5",
-   "source": "読売新聞",
-   "published_at": "2026-11-23T21:36:00Z",
+   "title": "エヌビディア、フアン氏がCEOに復帰｜株価31%高で米国株が急反発、日経平均も大幅高 今後の注目点",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE0xWHJOdThlOGU3WFBYM2xTNGFIa1FrbE11OGNHVzk4YThUV2FNVWpPV0MwUWlaMkVxRFJ1dlZSVEFidTU1cVdDTGhvWnRsR0lieWxtSVBxRnlVeEE4TlVDeklZZWlVQkRoTVBFd09Sd0pCdW9QU2t6VC1kaUV3Z3c?oc=5",
+   "source": "OANDA証券",
+   "published_at": "2026-11-24T07:21:30Z",
    "tags": [
     "semiconductor"
    ]
   },
   {
-   "title": "These stocks are the biggest gainers after Jensen Huang’s return to Nvidia",
-   "url": "https://www.marketwatch.com/story/these-stocks-are-the-biggest-gainers-after-jensen-huangs-return-to-nvidia-bb886140?mod=mw_rss_topstories",
-   "source": "MarketWatch",
-   "published_at": "2026-11-23T21:36:00Z",
+   "title": "Biotech Loses Ground In November’s Market Slide — These 5 Stocks Bucked The Selloff As Lilly, AbbVie And Amgen Fell",
+   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPYXRqU1RMZHF6ZDdIRGh2UVA3WjYwblRQLVg4TzNPOW1tcUZpVGdQZkZwOFpzU3ZmSGFHVmRsQnRLWDhfdkpfNm9zaTJSR2t6RWduZTdMcEJ5aEFMNS1SQjA4dnd0emF6eFlfTWtZY0dadFhsRDczQW9wd0I2TEZicU4yak12UlRJbzlydlFMWjA3WlFBWFp3U2RKU3JHQQ?oc=5",
+   "source": "Yahoo Finance",
+   "published_at": "2026-11-24T06:41:00Z",
    "tags": [
-    "semiconductor"
+    "biotech"
    ]
   },
   {
-   "title": "【最も動いた米国株ETF】TRex 2倍 ロング NVDA Daily Target ETFは63.13%高",
-   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOeTVQbWt1amZrOUFaZVREYlR3SjNSWnlZV3BMWFRDdm5PTmY4blU5UnpMNHEzQU8yTWwzNmhLeDBKVkpwN251ZDJsU1VFSWRqWVVweXNhTl83RFprdjFINk9NLVFRQk1hMWJnZTRzSVZRczUxVmRYRUhzX3RESm9aTTN2QkxTQkF3ZzNCY1I1R09uZGhBbzBrc1pVUQ?oc=5",
-   "source": "Moomoo",
-   "published_at": "2026-11-23T21:34:44Z",
-   "tags": [
-    "retail"
-   ]
-  },
-  {
-   "title": "Stocks surge in best day since 2025, adding trillions in value after Jensen Huang returns to Nvidia",
-   "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQTWR5WHAwZmExU2UyZkd2d0w4UWxCcXh0X1hJajU4alplUUVUdGM5bk52dDRoazNfamJfbWdQRGhEVExVeFAtZldhcmxYOTlaMmJKTkNQN2Yza1dNS0dfZkhQZTRTTGZudGI1d0JNbWR3SWJzN1hRYWxxWktYS2hNaFR3ajgzQ3FRUlJLVjE5d0cwVnc?oc=5",
-   "source": "NBC News",
-   "published_at": "2026-11-23T21:25:54Z",
-   "tags": [
-    "semiconductor"
-   ]
-  },
-  {
-   "title": "Nvidia value climbs by almost $1tn and tech stocks rally after Jensen Huang returns",
-   "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBudm5KUURwcnIwWFpwSzdnZy05Mm1jVjNUN2ZxazU4aE9ISkZwWExIRXl0djJsekZnNDNIbmVlSWdQOE1udVMzel9rWWJaS3JyYWZ6dlJhZ1E2Wkk?oc=5",
-   "source": "BBC",
-   "published_at": "2026-11-23T21:23:42Z",
-   "tags": [
-    "semiconductor"
-   ]
+   "title": "Stock Market: Will S&P 500 Open Up or Down Today?",
+   "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQdEo2WjRxWHotLTh0aUtwWDBuTmpxYk1yNlVkSDExYnpSRHl0cTNLMzUwWXMzUDY3cTBZSUNCZk5PcTQ1b1NJY3ZNU1BsczBpZTI4VXh3XzZZWjlBVFo2dHRYNUVxSjB5cThCRnk2am1kYV9fbWFIQTNlUU9LbmZVTHFkb3J6VXJCYWlkdVNxaTh4YS1jS2xUVF9nMXpUOGVOazhIYUpHMGt3MnBRMmVCV3dJeWt3TjQ?oc=5",
+   "source": "Benzinga",
+   "published_at": "2026-11-24T06:10:37Z",
+   "tags": []
   },
   {
    "title": "Stocks Surge After Jensen Huang Is Reinstated as Nvidia CEO",
    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPNXRXMlFUQkJfcnJPMGVlaWZRejZzSnVuRWJiV1E3TUM3c3pkWkxSSGZJaGtCcEc0Uzdja0xzbFFNcWRIZEtZNlFHMHNDclAzVzJqUHU2Z2lFRE51V3AwSWV1cnRoamFsbDVleTdVUFVhSElYMEhXTlhiNkhQNWtSZlRGT1FYQURPeE9RTA?oc=5",
    "source": "The New York Times",
-   "published_at": "2026-11-23T21:23:00Z",
+   "published_at": "2026-11-24T05:31:15Z",
    "tags": [
     "semiconductor"
    ]
   },
   {
-   "title": "Tech stocks see monster rally after Jensen Huang returns as Nvidia CEO",
-   "url": "https://www.cnbc.com/2026/11/23/anthropic-nvidia-shares.html",
-   "source": "CNBC Top News",
-   "published_at": "2026-11-23T21:22:13Z",
+   "title": "米国株の半導体セクターが反発、00412Aは寄り付きから急騰、一時プレミアム20%超え",
+   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5hOExHMmhhU1JUU0V3N2QtV1lIbjZHbk51aTd1YWJPX3o4YndadUNsckdyRThBckZ2eVdGYkhHZXRtNnVuUFRsRnBGZ2R6WXFCcE9UcWhTRkJIRmY0b0tSaDdzUVpuWDJmRUlTUEZPWlJQdTR2?oc=5",
+   "source": "BigGo ファイナンス",
+   "published_at": "2026-11-24T03:05:00Z",
    "tags": [
     "semiconductor"
    ]
   },
   {
-   "title": "US stocks surge and recover half of last week’s plunge after Jensen Huang returns as Nvidia’s CEO",
-   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNNF9ZLU84V2VPZHBHcGx0V3p5TVVoV21zbUYyQWFOWU96ZjBmcExvQ1lpVmtFRzl5RVpXdFg3TGhUM3ZHM282MkdnMVgxZ2lwUTRkcm9KaWlHMEcyZ3R6amZIM25vMFRRM0l1OXNxMFFSQVVnR3hzY3BNb1NyUWwxa2hLMndRMkpVZ2l2X0N2Z3JFcmRVMzRMZldCbzlEZkpGZjNmTVJZdw?oc=5",
-   "source": "AP News",
-   "published_at": "2026-11-23T21:20:00Z",
+   "title": "東証、一時5万9000円回復 米国株高、原油下落が追い風",
+   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE83QW1ycFBldW9mTjhzdzllSjVyLW5pSjlkeFlsTF9VZVRmUm5Ha25kcElkYndjZXFYTUd6cThnZTNleDQ2ZTZJS3FVbUpfeGdXNXllRkRkZ1dJUQ?oc=5",
+   "source": "北海道新聞デジタル",
+   "published_at": "2026-11-24T02:57:40Z",
+   "tags": [
+    "oil_gas"
+   ]
+  },
+  {
+   "title": "“「オールカントリー」「S&P500」以外”も躍進！ 三井住友銀行で売れているインデックスファンドとは？（Finasee）",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5CS19tVjVNbnpjZ3BTUy1ISEN6QjhITGtLSkNneHU3aEwzYUo5cjV6U3NGVFV1M2ptb2RjTWFZNFU0VnYwMnNFeGtROGg1TzdNSTVRbUE4OHpyU0Z4VGd4Q3ppczRaajMyQU94NFg1dlVsaE5hanhMNFF6el85Umc?oc=5",
+   "source": "Yahoo!ニュース",
+   "published_at": "2026-11-24T02:50:53Z",
+   "tags": [
+    "megabanks"
+   ]
+  },
+  {
+   "title": "東証、一時５万９０００円回復 米国株高、原油下落が追い風",
+   "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9hanVqb2dDOTU0TXh1M29HeU9EbVZFYXpWNTFSN2F1WVYxYUUwOGw2VmZpX2ZaN3RWdnduQjE1TjNJMXQwNU9RWXVmQ0RHY1RZVExPRTVoa3NLYkhlbWc?oc=5",
+   "source": "Google News 米国株",
+   "published_at": "2026-11-24T02:49:24Z",
+   "tags": [
+    "oil_gas"
+   ]
+  },
+  {
+   "title": "Asian stocks rally as Huang's return to Nvidia revives the AI trade",
+   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPVGQ3cVhHXzJBLXEybDVWX21xeWcxbUVEOHA1ZV9IU0lacEM2a3dKbmFLSGk2Y1MwLXk0OVFzWV8yT1JNQ3FnX3hWNGxidEZvbDZwTl8tdjNoUDV6MU45ZnJSa3lSMnZJNXdwWk5VRUFOYzJlTk11TmZaS1hocXhPVUE4bw?oc=5",
+   "source": "Reuters",
+   "published_at": "2026-11-24T01:29:00Z",
    "tags": [
     "semiconductor"
    ]
   },
   {
-   "title": "The Last Time the Fed Kept Raising Rates, the S&P 500 Fell 25%. History Says Long-Term Investors Still Came Out Ahead.",
-   "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNRUZCbjZNS2NMWjhiM3ZGdmxTYkQyWEZVMnEza1kyQWFhVGMyT25RWGlkV1lJUDI4UE4tbGZwb1BrYWhRd1JCTWpaNkVQVWlWY3U0eEd2Q1R0OUhIZ1RTLTl5bDVrSm1WRk5zVGp4VE1jYi1IUHY2MzhpWGlNZ2JxTnFVV3hnalJSaGFONmdWVERxZEl4WFFGMWZNV1ZnWEhMcV9TV0NMYWdsZTAta2FFYmxRd09iUk5oMlRKYllVaVg1YVUzRTNDYzVqUktHRF9GQ0p3eEZXeDFNMlpS?oc=5",
-   "source": "The Motley Fool",
-   "published_at": "2026-11-23T21:18:10Z",
-   "tags": []
+   "title": "フアン氏エヌビディアCEO復帰で米国株が急反発、S＆P500の2026年末8,000ポイントへの道は開けるか",
+   "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFA5NS1kZDlqV0JGS3ctYi1uellzTFRlTzdWMGFpd2VUYTFBN25jLUhCSnRjQ2s3Zk1lWW1nQVppc3lBdGF1LXFTaVQtM2JMa0RWVVNYczYzONIBV0FVX3lxTFA5NS1kZDlqV0JGS3ctYi1uellzTFRlTzdWMGFpd2VUYTFBN25jLUhCSnRjQ2s3Zk1lWW1nQVppc3lBdGF1LXFTaVQtM2JMa0RWVVNYczYzOA?oc=5",
+   "source": "マネクリ",
+   "published_at": "2026-11-24T01:25:00Z",
+   "tags": [
+    "semiconductor"
+   ]
   },
   {
-   "title": "Nvidia soars 31% as board reinstates Jensen Huang as CEO, chip stocks jump",
-   "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPQXQxeWtYZkw0VGdES0pzRTNhc1h5aW9VNWNkRU0zeVE0QzBBYk12VmM1cjFkWEJSUmwzQndzZHVJaGF3bGdvSGI1UEtwWXBzZ1NuZExiejR2bkFsVl9ZWl9hS1FEekV3TS1ZV1hnZnNSVU9ybGRJTkF5b193dXVPLUs1ZDRJMWY3X25UYV8wNEU0RTliTXk4NFNDUElmWjZhSFJXVy1MSmlsbXZEajY5MEJoVmpBWEt1a3g0SFRFalpZSmdXWjVZYw?oc=5",
+   "title": "東証、一時5万8000円回復 米国株高が追い風、AIや半導体関連銘柄に買い注文優勢",
+   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE55VWEtaWVqc19VWWpxbmdvLXI5ZGlEaG9LRFJHcFMtNjVaVFFWa0V4dUo1ekNZSEJQeWluS1pFaVRTVlFNWXB0a0I2cVcwV1NaZC1yT05yRERHV0NIRXd0Z05CMG9wOVYzeFFVd2YxUnZPWjdhT3c?oc=5",
+   "source": "産経ニュース",
+   "published_at": "2026-11-24T01:13:27Z",
+   "tags": [
+    "semiconductor"
+   ]
+  },
+  {
+   "title": "エヌビディア31%急騰が映す米国株の「わな」、巨大テックとAI企業への集中鮮明",
+   "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5HTHZ2QWd6M1k2cnkwYWs0LUp0R1lXUV9OX19HOV9Xd0hndVl4aXRsVUVsQkV2aV9JeDUyVlQ4eE9BM3o2RlFKVUUzQzZ6SzVnMVV6bHk3clhnWkEzb09Bc0puZ3h5ODdVZmJ0V0VVd3RScXRiUzE4?oc=5",
+   "source": "Bloomberg.com",
+   "published_at": "2026-11-24T00:42:00Z",
+   "tags": [
+    "semiconductor"
+   ]
+  },
+  {
+   "title": "The Nasdaq Just Had Its Best Day Since April 2025. Anthropic Stock Fell Anyway.",
+   "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPZUFzbkQ4Mmt5eE00eWF6QU5wX3Iya21xUkRNU3JHSW81SFlIQjR6OGxrei1Wd3lVTWt4a0Vvdzk1YkY2TlVxdkpqdUV3WS1vS3FidE5zTUZQelZNSjNsZmNzRndzVXRXc0ItVTlSUkQ1bmUzMHlTSjk5cDMyUUpKNm4tdHhzbEJHcUlPbmVqaHJzTDg?oc=5",
    "source": "Yahoo Finance",
-   "published_at": "2026-11-23T21:14:26Z",
+   "published_at": "2026-11-24T00:42:00Z",
+   "tags": [
+    "ai_software"
+   ]
+  },
+  {
+   "title": "ニューヨーク証券市場、ナスダック指数6％台急騰…エヌビディアは31．5％上昇（中央日報日本語版）",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5TWXh5ZHB5bU1LWHlFNWVtU1phSTc3eDdEOUdPNW9Rc1VTeUxyVmYtdVRYdkFTaXFIS2s0Zm5CaUVvQUNmYjVDcGhRUWs4eE9qVDItTV93S2h6QWZFdzhfUmVSaUxtaXpDeVVlampJUVgzdDFQM3EzMlBFVk1HRmM?oc=5",
+   "source": "Yahoo!ニュース",
+   "published_at": "2026-11-24T00:26:13Z",
    "tags": [
     "semiconductor"
    ]
   },
   {
-   "title": "ICZOOMがナスダックから2度目の上場廃止警告を受ける - Investing.com",
-   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBFTTRzOVF0MDFLWjNTVUxseGpWWGRZUVRWb09VUThucF9wNzF5aUgybm1KV2s3LWF4VEp2LURLWkFzZzZlQTAzcUp5U2t1OGl3ZW1tY0RyMkdDU0h0dF9kTlg2MHdwVldxcFA0azhuVXA?oc=5",
-   "source": "FX",
-   "published_at": "2026-11-23T21:05:00Z",
+   "title": "米国株式市場、エヌビディア・フアン氏ＣＥＯ復帰を好感し大幅高(ウエルスアドバイザー)",
+   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPdkZLWjlDVU42ZWFPRmU3Ynh4LXdzWDFSMVo4dlJQUGZMTWVrXzl4ZzFHSFMxaGpNNTdRVEFHZEFMMENjcG9DTjlUaEpFd0VNQThHaWhrN1QyRFptZWNaWlEtUnVtS3RXVWFVUXhHM3dKbUpNNFVhVEs4U3FRRXFNb2ZEMkVrUzQ?oc=5",
+   "source": "Yahoo!ファイナンス",
+   "published_at": "2026-11-23T22:46:26Z",
    "tags": [
-    "ipo"
+    "semiconductor"
    ]
   }
  ],
@@ -8846,6 +8884,25 @@
    "ah_time": null
   },
   {
+   "code": "EVRG",
+   "name": "Evergy",
+   "time": "2026-11-20T16:18:53-05:00",
+   "title": "8.01 Other Events",
+   "url": "https://www.sec.gov/Archives/edgar/data/1711269/000119312526470295/0001193125-26-470295-index.htm",
+   "items": [
+    "8.01",
+    "9.01"
+   ],
+   "tags": [
+    "その他の重要事項"
+   ],
+   "tone": "neutral",
+   "move_pct": 1.25,
+   "move_basis": "day",
+   "ah_price": null,
+   "ah_time": null
+  },
+  {
    "code": "EXE",
    "name": "Expand Energy",
    "time": "2026-11-20T16:01:25-05:00",
@@ -8879,6 +8936,25 @@
    ],
    "tone": "neutral",
    "move_pct": -4.55,
+   "move_basis": "day",
+   "ah_price": null,
+   "ah_time": null
+  },
+  {
+   "code": "LYB",
+   "name": "LyondellBasell",
+   "time": "2026-11-20T16:18:41-05:00",
+   "title": "5.02 Departure of Directors or Certain Officers; Election of Directors; Appointment of Certain Officers: Compensatory Arrangements of Certain Officers",
+   "url": "https://www.sec.gov/Archives/edgar/data/1489393/000148939326000072/0001489393-26-000072-index.htm",
+   "items": [
+    "5.02",
+    "9.01"
+   ],
+   "tags": [
+    "役員の異動"
+   ],
+   "tone": "neutral",
+   "move_pct": -1.97,
    "move_basis": "day",
    "ah_price": null,
    "ah_time": null
@@ -9111,10 +9187,10 @@
     "その他の重要事項"
    ],
    "tone": "neutral",
-   "move_pct": 0.31,
+   "move_pct": 0.33,
    "move_basis": "ah",
-   "ah_price": 599.47,
-   "ah_time": "2026-11-23T17:00:00-05:00"
+   "ah_price": 599.58,
+   "ah_time": "2026-11-23T19:55:00-05:00"
   },
   {
    "code": "V",
@@ -9132,7 +9208,7 @@
    "move_pct": 0.0,
    "move_basis": "ah",
    "ah_price": 409.4,
-   "ah_time": "2026-11-23T16:40:44-05:00"
+   "ah_time": "2026-11-23T19:00:00-05:00"
   },
   {
    "code": "KO",
@@ -9148,10 +9224,10 @@
     "役員の異動"
    ],
    "tone": "neutral",
-   "move_pct": 0.03,
+   "move_pct": 0.15,
    "move_basis": "ah",
-   "ah_price": 95.91,
-   "ah_time": "2026-11-23T16:45:00-05:00"
+   "ah_price": 96.02,
+   "ah_time": "2026-11-23T19:55:00-05:00"
   },
   {
    "code": "DIS",
@@ -9167,10 +9243,10 @@
     "役員の異動"
    ],
    "tone": "neutral",
-   "move_pct": -0.17,
+   "move_pct": 0.07,
    "move_basis": "ah",
-   "ah_price": 120.07,
-   "ah_time": "2026-11-23T16:58:42-05:00"
+   "ah_price": 120.35,
+   "ah_time": "2026-11-23T18:35:00-05:00"
   },
   {
    "code": "BMY",
@@ -9186,10 +9262,10 @@
     "役員の異動"
    ],
    "tone": "neutral",
-   "move_pct": -0.57,
+   "move_pct": -0.75,
    "move_basis": "ah",
-   "ah_price": 59.5,
-   "ah_time": "2026-11-23T16:30:00-05:00"
+   "ah_price": 59.39,
+   "ah_time": "2026-11-23T18:35:00-05:00"
   },
   {
    "code": "HPE",
@@ -9207,10 +9283,10 @@
     "Reg FD開示"
    ],
    "tone": "neutral",
-   "move_pct": -5.55,
+   "move_pct": -6.91,
    "move_basis": "ah",
-   "ah_price": 45.36,
-   "ah_time": "2026-11-23T17:00:00-05:00"
+   "ah_price": 44.7,
+   "ah_time": "2026-11-23T19:55:00-05:00"
   },
   {
    "code": "KEYS",
@@ -9225,10 +9301,10 @@
     "役員の異動"
    ],
    "tone": "neutral",
-   "move_pct": 0.4,
+   "move_pct": 0.45,
    "move_basis": "ah",
-   "ah_price": 290.78,
-   "ah_time": "2026-11-23T17:00:00-05:00"
+   "ah_price": 290.93,
+   "ah_time": "2026-11-23T17:35:00-05:00"
   },
   {
    "code": "LHX",
@@ -9262,10 +9338,10 @@
     "決算"
    ],
    "tone": "neutral",
-   "move_pct": 7.86,
+   "move_pct": 6.79,
    "move_basis": "ah",
-   "ah_price": 189.88,
-   "ah_time": "2026-11-23T17:00:23-05:00"
+   "ah_price": 188.0,
+   "ah_time": "2026-11-23T19:50:00-05:00"
   },
   {
    "code": "ED",
@@ -9283,7 +9359,7 @@
    "move_pct": -0.0,
    "move_basis": "ah",
    "ah_price": 118.48,
-   "ah_time": "2026-11-23T16:35:00-05:00"
+   "ah_time": "2026-11-23T17:05:00-05:00"
   },
   {
    "code": "J",
@@ -9299,10 +9375,10 @@
     "決算"
    ],
    "tone": "neutral",
-   "move_pct": 0.23,
+   "move_pct": -2.04,
    "move_basis": "ah",
-   "ah_price": 157.9,
-   "ah_time": "2026-11-23T16:40:00-05:00"
+   "ah_price": 154.32,
+   "ah_time": "2026-11-23T19:30:00-05:00"
   },
   {
    "code": "TPL",
@@ -9322,10 +9398,10 @@
     "その他の重要事項"
    ],
    "tone": "neutral",
-   "move_pct": null,
+   "move_pct": 1.37,
    "move_basis": "ah",
-   "ah_price": null,
-   "ah_time": null
+   "ah_price": 261.62,
+   "ah_time": "2026-11-23T19:55:00-05:00"
   },
   {
    "code": "ROL",
@@ -9347,7 +9423,28 @@
    "move_pct": -0.27,
    "move_basis": "ah",
    "ah_price": 38.07,
-   "ah_time": "2026-11-23T16:27:58-05:00"
+   "ah_time": "2026-11-23T16:25:00-05:00"
+  },
+  {
+   "code": "EROK",
+   "name": "EagleRock Land",
+   "time": "2026-11-23T17:10:57-05:00",
+   "title": "1.01 Entry into a Material Definitive Agreement; 7.01 Regulation FD Disclosure",
+   "url": "https://www.sec.gov/Archives/edgar/data/2104882/000119312526472614/0001193125-26-472614-index.htm",
+   "items": [
+    "1.01",
+    "7.01",
+    "9.01"
+   ],
+   "tags": [
+    "重要な契約",
+    "Reg FD開示"
+   ],
+   "tone": "neutral",
+   "move_pct": null,
+   "move_basis": "ah",
+   "ah_price": null,
+   "ah_time": null
   },
   {
    "code": "PINS",
@@ -9362,10 +9459,10 @@
     "役員の異動"
    ],
    "tone": "neutral",
-   "move_pct": 0.48,
+   "move_pct": -0.97,
    "move_basis": "ah",
-   "ah_price": 16.98,
-   "ah_time": "2026-11-23T17:02:08-05:00"
+   "ah_price": 16.74,
+   "ah_time": "2026-11-23T18:55:00-05:00"
   },
   {
    "code": "APMD",
@@ -9401,10 +9498,10 @@
     "決算"
    ],
    "tone": "neutral",
-   "move_pct": 14.21,
+   "move_pct": 17.37,
    "move_basis": "ah",
-   "ah_price": 4.34,
-   "ah_time": "2026-11-23T17:00:00-05:00"
+   "ah_price": 4.46,
+   "ah_time": "2026-11-23T19:55:00-05:00"
   },
   {
    "code": "SYM",
@@ -9421,15 +9518,15 @@
     "Reg FD開示"
    ],
    "tone": "neutral",
-   "move_pct": -1.51,
+   "move_pct": -0.63,
    "move_basis": "ah",
-   "ah_price": 34.44,
-   "ah_time": "2026-11-23T16:45:00-05:00"
+   "ah_price": 34.75,
+   "ah_time": "2026-11-23T19:50:00-05:00"
   }
  ],
  "disclosure_counts": {
-  "session": 33,
-  "after": 18,
+  "session": 36,
+  "after": 19,
   "edgar": 1,
   "ah_unavailable": 0
  },
@@ -10031,7 +10128,7 @@
     -1.65,
     -2.75,
     -7.65,
-    7.06
+    7.07
    ],
    "clean_energy": [
     3.84,
@@ -10053,7 +10150,7 @@
     -1.03,
     -2.38,
     -9.1,
-    5.64
+    5.6
    ],
    "ev_autonomy": [
     1.61,
@@ -10075,7 +10172,7 @@
     -0.55,
     -2.97,
     -7.37,
-    5.39
+    5.4
    ],
    "robotics": [
     3.34,
